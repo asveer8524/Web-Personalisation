@@ -1,0 +1,228 @@
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head id="Head1"><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><title>
+	AtLAS Fall 2015/Winter 2016
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="geo.region" content="US-IL" /><meta name="geo.placename" content="Chicago" /><meta name="geo.position" content="41.874428;-87.651787" /><meta name="ICBM" content="41.874428, -87.651787" /><meta property="og:title" content="AtLAS newsletter" /><meta property="og:image" content="http://atlas.las.uic.edu/template/images/og-icon.png" /><meta property="og:site_name" content="AtLAS" /><link rel="shortcut icon" href="//static.las.uic.edu/favicon.ico" />
+
+<meta name="Generator" content="Sitefinity 10.1.6525.0 PU" /><link rel="canonical" href="https://atlas.las.uic.edu" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><script type="text/javascript">
+	(function() {var _rdDeviceWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;var _rdDeviceHeight = (window.innerHeight > 0) ? window.innerHeight : screen.height;var _rdOrientation = (window.width > window.height) ? 'landscape' : 'portrait';})();
+</script><link href="/Sitefinity/WebsiteTemplates/LAS/App_Themes/AtLASWinter2015/global/styles.css?v=635956262990899353" type="text/css" rel="stylesheet" /><meta name="description" content="This is the homepage for AtLAS Winter 2015-2016" /><meta name="keywords" content="AtLAS, UIC, Home, LAS " /></head>
+<body>
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="ctl12_TSSM" id="ctl12_TSSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="WgRzPAcB+TsBYk6iBxGDoGmk8sQifBkUq4in0393SF0wBiq8mGp6RiVbXim6WPI29TyAkXDJaU9YmP3XymOBRciA8NfB3COeJe0HZH8XE+Wni85ZOAXzjlv2AHRGl7VNv5S670eiXpU5O3ud7Fhclg+B+VMd2G6sVvulImtbJq1yWk+mJv/hKArt/FO/HEWcuYcd70a0t0zijWcRuB9vUA==" />
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/4.6/1/MicrosoftAjax.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys._Application && Sys.Observer)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yL72ujXjzwbrmFnOCWVoIz-kP2o5S7W07qPPMMK7Z38xZO3pOIo03ZFzxcHTbC1pxBXePiUt5FZ6Flfjhk3fI1HXXEL3WjFFbgV8NYfs8A56QZ2uheowLXEuR_WituTl2aLa2p9qHfxo7Mtluent4sY1&t=545ba255"><\/script>');//]]>
+</script>
+
+<script src="//www.google.com/jsapi" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-1.12.1.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E15A80EA" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="qxVbbXO1LeYFCygnocsP5yYmRTzTCYx3gk4vlg6GAFGl+Q6k9dLuOTuPPkEz09hv9A1CWjSjMSall8qBXcJybta6fG3meqOBwipGxv/pjxaa4FE5NQlDCBVP6peGO+m43pXli+XyqAZNgD+QvywnPQ==" />
+    
+    
+    <div id="content">
+        <div id="header">
+            
+
+<div id="search" role="search">
+    <label id="lblSearchBox" for="searchTextBox">
+        Search</label>
+    <input name="ctl00$cphSearchBox$T71E3735C011$searchTextBox" type="text" id="searchTextBox" />
+    <input type="image" name="ctl00$cphSearchBox$T71E3735C011$searchButton" id="cphSearchBox_T71E3735C011_searchButton" title="submit this search" class="btnGo" src="//static.las.uic.edu/images/las-ui/btn-go.png" alt="Go" />
+</div>
+
+
+            <div id="edition">
+                
+
+            </div>
+            <a id="HyperLink1" title="go to AtLAS home" href="./"><img id="Image1" class="logo" src="//static.las.uic.edu/images/trans.gif" alt="Logo" /></a>
+        </div>
+        <!-- /header / masthead-->
+        
+<div class='sfContentBlock'><img alt="people featured in articles" src="/images/librariesprovider4/atlas-layout/atlas_fall_winter_2015-16.jpg?sfvrsn=fab1c5aa_2" displaymode="Original" />
+
+
+</div>
+        <div id="stage">
+            <div id="leftcolumn">
+                
+<div class='sfContentBlock'><div class="full">
+<div class="entry"><img src="/images/librariesprovider4/2013winteratlasthumbs/dean-thumb.jpg?sfvrsn=9d2dfaaa_2" />
+<div class="entryText">
+<h2><a href="/atlas/2015/12/message-from-the-dean">Message from the Dean</a></h2>
+<p>by Astrida Orle Tantillo</p>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="entry"><img title="katherine veach" alt="katherine veach" src="/images/librariesprovider4/2015Winter-THUMB/katherine-veach.jpg?sfvrsn=d9a6c5aa_0" displaymode="Original" />
+<div class="entryText">
+<h2><a href="/atlas/2015/12/message-from-the-assistant-dean-for-advancement">Message from the Assistant Dean for Advancement</a></h2>
+<p>by Katherine Veach</p>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="entry"><img title="The Dave Foundation Scholars" alt="The Dave Foundation Scholars" src="/images/librariesprovider4/2015Winter-THUMB/the-dave-foundation-scholars.jpg?sfvrsn=cea6c5aa_0" displaymode="Original" />
+<div class="entryText">
+<h2><a href="/atlas/2015/12/the-power-of-las-scholarships">The Power of LAS Scholarships</a></h2>
+<p>Scholarship donors and recipients inspire one another at the first LAS Scholarship Recognition Luncheon.</p>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="entry"><img title="Wise Women" alt="Wise Women" src="/images/librariesprovider4/2015Winter-THUMB/wise-women.jpg?sfvrsn=33a7c5aa_0" displaymode="Original" />
+<div class="entryText">
+<h2><a href="/atlas/2015/12/wise-women">WISE Women</a></h2>
+<p>Department heads Janet Richmond (Biological Sciences), Kathryn Nagy (Earth and Environmental Sciences), and Brooke Shipley (Mathematics, Statistics, and Computer Science) lead their departments into the future.</p>
+</div>
+</div>
+<div class="entry">
+<h2><a href="/atlas/2015/12/finish-line-fund-targets-student-success">Finish Line Fund Targets Student Success</a></h2>
+<p style="text-align: left;">Helping LAS students cross the finish line to graduation.</p>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="entry"><img title="Jane Rhodes" alt="Jane Rhodes" src="/images/librariesprovider4/2015Winter-THUMB/jane-rhodes.jpg?sfvrsn=20a7c5aa_0" displaymode="Original" />
+<div class="entryText">
+<h2><a href="/atlas/2015/12/leading-and-innovating">Leading and Innovating</a></h2>
+<p>African American Studies head Jane Rhodes is committed to ensuring the department is a space for public discussion and interdisciplinary connections.</p>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="entry"><img title="Nicholas Huggett" alt="Nicholas Huggett" src="/images/librariesprovider4/2012winter-humnslides/nicholas-huggett.jpg?sfvrsn=15a7c5aa_0" displaymode="Original" />
+<div class="entryText">
+<h2><a href="/atlas/2015/12/the-philosophy-of-time-and-space">The Philosophy of Time and Space</a></h2>
+<p>LAS Distinguished Professor of Philosophy Nicholas Huggett&rsquo;s work on the philosophical nature of time and space is recognized with a prestigious John Templeton Foundation grant.</p>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="entry"><img title="Randa Touquan Parents" alt="Randa Touquan Parents" src="/images/librariesprovider4/2015Winter-THUMB/randa-touquan-parents.jpg?sfvrsn=4a7c5aa_0" displaymode="Original" />
+<div class="entryText">
+<h2><a href="/atlas/2015/12/you-can-get-there-from-here">You Can Get There from Here</a></h2>
+<p>Biological Sciences alumna and student athlete Randa Touquan used her parents&rsquo; model of inquiry and innovation to evolve from science undergrad to business systems expert and philanthropist.</p>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="entry"><img title="Michal Wilczewski" alt="Michal Wilczewski" src="/images/librariesprovider4/2015Winter-THUMB/michal-wilczewski.jpg?sfvrsn=7ea7c5aa_0" displaymode="Original" />
+<div class="entryText">
+<h2><a href="/atlas/2015/12/my-fulbright-studies-in-polish-history">My Fulbright Studies in Polish History</a></h2>
+<p>In his own words, LAS PhD student Michal Wilczewski explains how a Fulbright Fellowship brought him back to Poland.</p>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="entry"><img title="Dean's Welcome Reception" alt="Dean's Welcome Reception" src="/images/librariesprovider4/2015Winter-THUMB/dean's-welcome-reception.jpg?sfvrsn=63a7c5aa_0" displaymode="Original" />
+<div class="entryText">
+<h2><a href="/atlas/2015/12/celebrating-las">Celebrating LAS</a></h2>
+<p>Recent events.</p>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="entry"><img title="thumb" alt="thumb" src="/images/librariesprovider4/2015Winter-THUMB/thumb.jpg?sfvrsn=4796c5aa_2" displaymode="Original" />
+<div class="entryText">
+<h2><a href="/atlas/2015/12/voices-of-the-college-faculty-notes">Voices of the College: Faculty Notes</a></h2>
+<p>Briefs on the achievements of LAS faculty.</p>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="entry"><img title="connect-with-us" alt="connect-with-us" src="/images/librariesprovider4/2015Winter-THUMB/connect-with-us.jpg?sfvrsn=119bc5aa_2" displaymode="Original" />
+<div class="entryText">
+<h2><a href="/atlas/2015/12/connect-with-us!">Connect with Us!</a></h2>
+<p>Want to be part of building the LAS community? Here's how.</p>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+</div>
+
+
+</div>
+            </div>
+            <div id="rightcolumn">
+                
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+    <a class="addthis_button_email"></a><a class="addthis_button_facebook"></a><a class="addthis_button_twitter">
+    </a><a class="addthis_button_linkedin"></a><a class="addthis_button_google"></a>
+    <a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style">
+    </a>
+</div>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e57c0fd614291bd"></script>
+<!-- AddThis Button END -->
+
+<div class='sfContentBlock'><div id="thisissue">
+<h3>This Issue</h3>
+<ul>
+    <li><a target="_blank" href="/atlas/2015/12/message-from-the-dean">Message from the Dean</a></li>
+    <li><a href="/atlas/2015/12/message-from-the-assistant-dean-for-advancement">Message from the Assistant Dean<br />
+    for Advancement</a> </li>
+    <li><a href="/atlas/2015/12/the-power-of-las-scholarships">The Power of LAS Scholarships</a> </li>
+    <li><a href="/atlas/2015/12/wise-women">WISE Women</a> </li>
+    <li><a href="/atlas/2015/12/finish-line-fund-targets-student-success">Finish Line Fund Targets Student Success</a> </li>
+    <li><a href="/atlas/2015/12/leading-and-innovating">Leading and Innovating</a> </li>
+    <li><a href="/atlas/2015/12/the-philosophy-of-time-and-space">The Philosophy of Time and Space</a> </li>
+    <li><a href="/atlas/2015/12/you-can-get-there-from-here">You Can Get There from Here</a> </li>
+    <li><a href="/atlas/2015/12/my-fulbright-studies-in-polish-history">My Fulbright Studies in Polish History</a> </li>
+    <li><a href="/atlas/2015/12/celebrating-las">Celebrating LAS</a> </li>
+    <li><a href="/atlas/2015/12/voices-of-the-college-faculty-notes">Voices of the College: Faculty Notes</a></li>
+    <li><a href="/atlas/2015/12/connect-with-us!">Connect With Us!</a></li>
+    <li><a href="/atlas/2015/12/complete-credits-winter-2015">Complete Credits</a> </li>
+</ul>
+<p><a href="/atlas/2014/12/opening-minds-opening-doors"> </a><br />
+<a href="/atlas/2014/7/opening-minds-opening-doors"></a></p>
+<!-- /thisissue --> </div>
+
+
+</div><div class='sfContentBlock'><a target="_blank" href="http://www.las.uic.edu/giving" title="go to LAS giving webpage"> <img src="//static.las.uic.edu/images/giving/give-button-las.png" alt="Give to LAS button" style="margin-left:10px" /></a>
+
+
+</div>
+            </div>
+        </div>
+        <div id="footer">
+            
+<div class='sfContentBlock'><div id="logofooter"><a title="go to LAS homepage" href="http://www.las.uic.edu"><img alt="UIC College of Liberal Arts and Sciences logo" src="/images/librariesprovider4/atlas-layout/footer-logo.png?sfvrsn=e49eb5c6_4" /></a></div>
+<ul class="menu">
+    <li><a title="go to LAS calendar" href="https://www.las.uic.edu/events" target="_blank">LAS Calendar</a></li>
+    <li><a title="go to LAS advancement webpage" href="https://www.las.uic.edu/alumni-friends/office-of-advancement" target="_blank">LAS Advancement</a></li>
+    <li><a title="go to AtLAS archives" href="/atlas/archive">AtLAS Archives</a></li>
+    <li><a title="send email to AtLAS" href="mailto:atlas@uic.edu">Tell us your news</a></li>
+</ul>
+<ul class="global">
+    <li><a title="go to UIC homepage" href="http://www.uic.edu" target="_blank">UIC</a></li>
+    <li><a title="go to AtLAS homepage" href="/">HOME</a></li>
+    <li><a title="go to LAS homepage" href="http://www.las.uic.edu" target="_blank">LAS HOME</a></li>
+    <li><a title="send email to webmaster" href="mailto:laswebstaff@uic.edu">WEBMASTER</a></li>
+    <li><a title="go to web policy website" href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm" target="_blank">POLICIES AND DISCLAIMERS</a></li>
+</ul>
+<p class="credits">College of Liberal Arts and Sciences 601 South Morgan Street (MC 228) Chicago, Illinois 60607<br />
+Tel: (312) 413-2500 | Fax: (312) 413-2511 Copyright &copy; 2015 The Board of Trustees of the University of Illinois.<br />
+All rights reserved. <a href="/atlas/2015/12/complete-credits-winter-2015">Complete credits</a>.</p>
+
+
+</div>
+        </div>
+    </div>
+    
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-24550204-3");
+pageTracker._trackPageview();
+} catch(err) {} 
+</script>
+</form>
+</body>
+</html>

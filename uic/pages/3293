@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>CS 450: Introduction to Networking</title>
+
+  <meta name="author" content="Balajee Vamanan" />
+  
+  
+  <meta name="description" content="Fall 2018">
+  
+
+  <link rel="alternate" type="application/rss+xml" title=" - Homepage of Balajee Vamanan @ UIC" href="/~balajee/feed.xml" />
+
+  
+    
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    
+      
+  
+  
+    
+      <link rel="stylesheet" href="/~balajee/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/~balajee/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/~balajee/css/main.css" />
+    
+    
+  
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+    
+  
+  
+    
+      <link rel="stylesheet" href="/~balajee/css/course.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Gentium Basic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair Display" />
+    
+  
+
+  <!-- Facebook OpenGraph tags -->
+  <meta property="og:title" content="CS 450: Introduction to Networking" />
+  <meta property="og:type" content="website" />
+  
+  <meta property="og:url" content="http://cs.uic.edu/~balajee/cs450-f18/" />
+  
+  
+  <meta property="og:image" content="http://cs.uic.edu/~balajee/img/uic/CAMP.CIRC.LG.RED.PNG" />
+  
+  
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+  <meta name="twitter:title" content="CS 450: Introduction to Networking" />
+  <meta name="twitter:description" content="Lecture hours: MW 4:30-5:45 PM at TBH 180F TA: Hamidreza Almasi (halmas3@uic.edu) Office hours: MW 1-2 PM at SEO 1310 (Balajee), TR 12-1 PM at SEO tbd (TA) ### About the course This is an introductory course on computer networks. The course covers some of the *key* protocols in each..." />
+  
+  <meta name="twitter:image" content="http://cs.uic.edu/~balajee/img/uic/CAMP.CIRC.LG.RED.PNG" />
+  
+
+  <!-- favicon shit -->
+  <link rel="shortcut icon" href="/~balajee/img/favicon.ico">
+  
+</head>
+
+
+  <body>
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://cs.uic.edu/~balajee"></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/~balajee/index.html">Home</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/~balajee/research">Research</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/~balajee/publications">Publications</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://cs.uic.edu/~balajee ">
+	      <img class="avatar-img" src="/~balajee/img/uic/CAMP.CIRC.LG.RED.PNG" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>CS 450: Introduction to Networking</h1>
+		  
+		    
+            <hr class="small">
+            <span class="page-subheading">Fall 2018</span>
+			
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="message">
+<b>Lecture hours</b>: MW 4:30-5:45 PM at <a href="https://maps.uic.edu/?bl=663">TBH</a> 180F 
+<br />
+<b>TA</b>: Hamidreza Almasi (<a href="mailto:halmas3@uic.edu">halmas3@uic.edu</a>)
+<br />
+<b>Office hours</b>: MW 1-2 PM at <a href="https://maps.uic.edu/?bl=631">SEO</a> 1310 (Balajee), TR 12-1 PM at  <a href="https://maps.uic.edu/?bl=631">SEO</a> tbd (TA)
+</div>
+
+<h3 id="about-the-course">About the course</h3>
+<p>This is an introductory course on computer networks. The course covers some of the <em>key</em> protocols in each layer of the protocol stack in a top-down fashion. This is a hands-on, programming-heavy course. The course is structured with a series of programming assignments, a mid-term exam, and a final exam. Please look at the <a href="/~balajee/files/CS450_Syllabus.pdf">complete</a> syllabus.</p>
+
+<ul>
+  <li><strong>Discussion forum, programming assignments, slides, videos</strong>: <a href="https://piazza.com/uic/fall2018/cs450/home">Piazza</a></li>
+  <li><strong>Syllabus, schedule, readings</strong>: <a href="#course-schedule">this page</a></li>
+  <li><strong>Graded exams</strong>: <a href="https://www.gradescope.com">Gradescope</a></li>
+  <li><strong>Grades</strong>: <a href="https://uic.blackboard.com">Blackboard</a></li>
+</ul>
+
+<h3 id="textbook">Textbook</h3>
+<p>Computer Networking: A Top-Down Approach by Kurose and Ross (6th or <a href="https://www.pearson.com/us/higher-education/program/Kurose-Computer-Networking-A-Top-Down-Approach-7th-Edition/PGM1101673.html">7th edition</a>)</p>
+
+<h3 id="exam-schedule">Exam schedule</h3>
+<p><strong>Midterm exam</strong>: October 15 (Monday)<br />
+<strong>Final exam</strong>: See the general schedule <a href="https://registrar.uic.edu/current_students/calendars/final-exams">here</a></p>
+
+<h3 id="course-schedule">Course schedule</h3>
+
+<p>Section numbers for the 6th edition, if different, are enclosed in parenthesis</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Week</strong></td>
+      <td><strong>Date</strong></td>
+      <td><strong>Topic</strong></td>
+      <td><strong>Readings</strong> (<span>§</span>)</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>8/27</td>
+      <td>Network layers</td>
+      <td>1.1, 1.5, 1.6, 2.1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>8/29</td>
+      <td><em>End-to-end</em> argument</td>
+      <td><a href="http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf">paper</a></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>9/5</td>
+      <td>The Web and HTTP</td>
+      <td>2.2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>9/10</td>
+      <td>Email</td>
+      <td>2.3 (2.4)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>9/12</td>
+      <td>DNS</td>
+      <td>2.4 (2.5)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>9/17</td>
+      <td>Peer-to-peer systems, distributed hash tables</td>
+      <td>2.5 (2.6), <a href="/~balajee/notes/chord.pdf">paper</a></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>9/19</td>
+      <td>UDP</td>
+      <td>3.3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>9/24</td>
+      <td>UDP, principles of reliable transport</td>
+      <td>3.3, 3.4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>9/26</td>
+      <td>Reliable Transport</td>
+      <td>3.4</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>10/1</td>
+      <td>TCP</td>
+      <td>3.5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>10/3</td>
+      <td>TCP Congestion Control</td>
+      <td>3.6, 3.7</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>10/8</td>
+      <td>Routing vs. Forwarding, Circuit vs. Packet Switching</td>
+      <td>4.1, (4.1, 4.2), 4.2 (4.3)</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>10/10</td>
+      <td>IP protocol</td>
+      <td>2.3 (4.4)</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>10/15</td>
+      <td><strong>Midterm Exam</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>10/17</td>
+      <td>Routing algorithms</td>
+      <td>5.2 (4.5)</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>10/22</td>
+      <td>Inter domain routing (BGP)</td>
+      <td>5.4 (4.6) <a href="https://www.cs.princeton.edu/~jrex/papers/policies.pdf">paper</a></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>10/24</td>
+      <td>Software-defined networking</td>
+      <td>5.5 ()</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>10/29</td>
+      <td>Introduction to link layer</td>
+      <td>6.1, 6.2 (5.1, 5.2)</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>10/31</td>
+      <td>Multiple access links and protocols</td>
+      <td>6.3 (5.3)</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>11/5</td>
+      <td>Local Area Networks</td>
+      <td>6.4 (5.4)</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>11/7</td>
+      <td>Link Virtualization</td>
+      <td>6.5 (5.5)</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>11/12</td>
+      <td>Datacenter Networking</td>
+      <td>6.6 (5.6)</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>11/14</td>
+      <td>Introduction to wireless</td>
+      <td>7.1, 7.2 (6.1, 6.2)</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>11/19</td>
+      <td>WiFi: 802.11 Wireless LANs</td>
+      <td>7.3 (6.3)</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>11/21</td>
+      <td>WiFi: 802.11 Wireless LANs</td>
+      <td>7.3 (6.3)</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>11/26</td>
+      <td>Cellular networks</td>
+      <td>7.4 (6.4)</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>11/28</td>
+      <td>Mobility</td>
+      <td>7.5 - 7.7 (6.5 - 6.7)</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>12/3</td>
+      <td>Internet security</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>12/5</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="references">References</h3>
+
+<ul>
+  <li><a href="http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html">Socket programming primer</a></li>
+  <li><a href="https://danielmiessler.com/study/git">Git primer</a></li>
+</ul>
+
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+		  
+	  
+	  
+	  
+	  
+          
+          
+		  
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/~balajee/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/~balajee/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/~balajee/js/main.js"></script>
+    
+  
+
+
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-124182550-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+
+  
+  </body>
+</html>

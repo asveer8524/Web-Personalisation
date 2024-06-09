@@ -1,0 +1,684 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> WebChanges &lt; CS101 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS101/WebChanges?_T=2018-11-25" type="application/x-wiki" title="edit WebChanges" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS101/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS101/WebChanges"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS101/WebHome">CS101 Web</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS101/WebChanges" title='Topic revision: 1 (2006-11-15 - 19:43:52)'>WebChanges</a> <span class='patternRevInfo'>(2006-11-15, <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiContributor?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiContributor (this topic does not yet exist; you can create it)">TWikiContributor</a></span>)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS101/WebChanges?t=1543180112' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS101/WebChanges' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h1><a name="Recent_Changes_in_CS101_Web_retr"></a> Recent Changes in CS101 Web <span style="font-size: 50%">retrieved at 21:08 (GMT)</span> </h1>
+<p />
+<div id="searchTopNavWebChanges" style="margin-bottom: 1em; "></div>
+<!-- remove the format parameter to show absolute date instead if topic age -->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebStatistics"><b>WebStatistics</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiGuest?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiGuest (this topic does not yet exist; you can create it)">TWikiGuest</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebStatistics" title="2017-03-23 - 17:21" rel="nofollow">1 year ago</a> - r480 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Statistics for CS101 Web Month: Topic views: Topic saves: File uploads: Most popular topic views: Top contributors for topic save...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Proj2ResultsS12"><b>Proj2ResultsS12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Proj2ResultsS12" title="2017-02-20 - 21:11" rel="nofollow">1 year ago</a> - r2 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">The following results are gotten using a colorDistance value of 10 or less to determine if two pixels are the same. Note: if the two pixels are the same, the color...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/SoundSample"><b>SoundSample</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Cdahal2?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="cdahal2 (this topic does not yet exist; you can create it)">cdahal2</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/SoundSample" title="2014-05-21 - 03:48" rel="nofollow">4 years ago</a> - r3 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">hello</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/SoundFiles"><b>SoundFiles</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/SoundFiles" title="2014-04-15 - 18:03" rel="nofollow">4 years ago</a> - r4 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Sample Sound Files Here are some sample sound file that your can use to test your programs BabyElephantWalk60.wav CantinaBand3.wav A 3 second version...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lectures"><b>Lectures</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lectures" title="2012-04-27 - 13:55" rel="nofollow">6 years ago</a> - r25 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Spring 2012 Notes from Lecture IntroductionToCS.1.ppt: Notes from 1/10/12 notes0110.txt: Notes from 1/10/12 notes0117.txt: Notes from 1/...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Code"><b>Code</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Code" title="2012-04-24 - 16:49" rel="nofollow">6 years ago</a> - r24 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">101 Spring 2012 Sample Code Page Main.troy 2012 01 19 Template.java: Template for Java programs Lect0119a.java: Simple Java Program with variables and...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab14s12"><b>Lab14s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab14s12" title="2012-04-20 - 12:31" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Introduction to Computing Lab 14 In this lab, you will take the Sound File preamble.wav and create a new sentence from those words. The sentence you are...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/AssignmentsS12"><b>AssignmentsS12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/AssignmentsS12" title="2012-04-20 - 12:16" rel="nofollow">6 years ago</a> - r20 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Assignments Spring 2012 Programming Projects Project 1 Due Tuesday 2/14/2012: Turtle Drawing Project 2 Due Thursday 3/8/2012: Picture Verification...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/S12Exam2Solutions"><b>S12Exam2Solutions</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/S12Exam2Solutions" title="2012-04-16 - 22:27" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Exam 2 Solutions 1 D 1 D 1 D 1 A 1 A 1 E 1 A 1 C 1 B 1 A 1 C 1 C 1 A 1 B 1 B 1 A 1 C 1 D 1 A 1 C...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/CS101Spring2012"><b>CS101Spring2012</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/CS101Spring2012" title="2012-04-16 - 21:56" rel="nofollow">6 years ago</a> - r12 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Introduction to Computing Spring 2012 syl101s12.pdf: Syllabus for Spring Semester 2012 Meeting Times Day(s) Time Location Call...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Proj4s12"><b>Proj4s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Proj4s12" title="2012-04-12 - 18:54" rel="nofollow">6 years ago</a> - r2 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Introduction to Computing Project 4 Hiding a Text Message in a Sound Due Date: Thursday April 26, 2012 at 11:59 pm This project will use a technique called...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab13s12"><b>Lab13s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab13s12" title="2012-04-12 - 17:29" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Introduction to Computing Lab 13 This lab will have you combine two sound files to add a `background` soundtrack to a foreground sound. The following files...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/SoundSamples"><b>SoundSamples</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Dtocil2?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="dtocil2 (this topic does not yet exist; you can create it)">dtocil2</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/SoundSamples" title="2012-04-12 - 02:33" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Main.dtocil2 2012 04 12</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/SimpleInput"><b>SimpleInput</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Yaochen2?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="yaochen2 (this topic does not yet exist; you can create it)">yaochen2</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/SimpleInput" title="2012-04-11 - 16:08" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Main.yaochen2 2012 04 11 getIntNumber();</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab12s12"><b>Lab12s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab12s12" title="2012-04-05 - 18:23" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Introduction to Computing Lab 12 This lab will have you prompt the user for an amount to change the volume of a sound file. You are to prompt the user for...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab11s12"><b>Lab11s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab11s12" title="2012-03-27 - 18:34" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Lab 11 This lab assignment will have you write at least two methods in java that will create a new image that will show a portion from another image. This technique...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab10s12"><b>Lab10s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab10s12" title="2012-03-15 - 18:53" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Lab 10 Note the formatting used with this lab Doesn`t seem to work with the CS 101 Wiki. The write up for this lab can be found at: http://www.cs.uic.edu/~i101/labs...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Proj3s12"><b>Proj3s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Proj3s12" title="2012-03-13 - 18:33" rel="nofollow">6 years ago</a> - r2 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Introduction to Computing Spring 2012 Project 3 `Do It Yourself Andy Warhol` Due: April 3, 2012 at 11:59 pm Andy Warhol is famous for creating silkscreen...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab9s12"><b>Lab9s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab9s12" title="2012-03-08 - 19:00" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Introduction to Computing, Spring 2012 Lab 9 Due: Wednesday 3/14/2012 by 11:59 pm For this lab assignment, you are to take an image and create a new image...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Proj2s12"><b>Proj2s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Proj2s12" title="2012-03-01 - 19:41" rel="nofollow">6 years ago</a> - r2 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">101 Introduction to Computing Project 2 Image Authentication Due Date: Thursday 3/8/2012 at 11:59 pm For this assignment, we will be doing image authentication...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab8s12"><b>Lab8s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab8s12" title="2012-03-01 - 18:14" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Lab 8 Note the formatting used with this lab Doesn`t seem to work with the CS 101 Wiki. The write up for this lab can be found at: Main.troy 2012 03 01</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/S12Exam1Solutions"><b>S12Exam1Solutions</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/S12Exam1Solutions" title="2012-02-28 - 19:37" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Solutions to the First Exam for CS 101 Spring 2012 1 C 1 A 1 D 1 D 1 C 1 E 1 A 1 B 1 B 1 C 1 A 1 B 1 A 1 D 1 C 1 D...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab7s12"><b>Lab7s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab7s12" title="2012-02-23 - 17:28" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Lab 7 Note the formatting used with this lab Doesn`t seem to work with the CS 101 Wiki. The write up for this lab can be found at:</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/LectureNotes"><b>LectureNotes</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/LectureNotes" title="2012-02-21 - 19:48" rel="nofollow">6 years ago</a> - r2 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Notes and Slides from Lectures Sample Code from Lectures Main.dtsaka2 2012 01 13</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab6s12"><b>Lab6s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab6s12" title="2012-02-16 - 19:35" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Lab 6 Lab Assignment Due: Wednesday 2/22/2012 by 11:59 pm For this lab assignment, complete the following: 1 Prompt the user for an picture and open that picture...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/IntroductionToComputing"><b>IntroductionToComputing</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Rhayhu2?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="rhayhu2 (this topic does not yet exist; you can create it)">rhayhu2</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/IntroductionToComputing" title="2012-02-10 - 20:47" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Main.rhayhu2 2012 02 10</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab5s12"><b>Lab5s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab5s12" title="2012-02-09 - 19:16" rel="nofollow">6 years ago</a> - r2 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">101 Intro to Computing, Spring 2012 Lab 5 Lab Assignment Due: Wednesday 2/15/2012 by 11:59 pm For this lab assignment, complete the following: 1 Using the turtle...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/FileChooser"><b>FileChooser</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Nspear4?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="nspear4 (this topic does not yet exist; you can create it)">nspear4</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/FileChooser" title="2012-02-03 - 17:12" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Main.nspear4 2012 02 03 cp ~i101/images/flower1.jpg .</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab4s12"><b>Lab4s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab4s12" title="2012-02-02 - 19:27" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">101 Introduction to Computing, Spring 2011 Lab 4 Accessing Images with the bookClasses The book has a number of images that are included on the disk. Those files...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Proj1s12"><b>Proj1s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Proj1s12" title="2012-01-30 - 18:39" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">101 Introduction to Computing, Spring 2011 Project 1 A Turtle Drawing Due Date: Tuesday 2/14/2012 at 11:59 pm For this project, we will want to use the Turtle...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab3s12"><b>Lab3s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab3s12" title="2012-01-26 - 22:42" rel="nofollow">6 years ago</a> - r2 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">101 Introduction to Computing, Fall 2012 Lab 3 Running DrJava in the CS Labs To run DrJava in the CS Labs, you will first need to copy the bookClasses directory...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/DrJava"><b>DrJava</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/DrJava" title="2012-01-26 - 19:00" rel="nofollow">6 years ago</a> - r3 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">DrJava is a Development Environment that can be down load from: In order to use DrJava you must first download the Java Development Kit or JDK from: http://www...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/AdditionalMaterial"><b>AdditionalMaterial</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Azemly2?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="azemly2 (this topic does not yet exist; you can create it)">azemly2</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/AdditionalMaterial" title="2012-01-25 - 21:19" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Main.azemly2 2012 01 25</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab2s12"><b>Lab2s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab2s12" title="2012-01-19 - 19:45" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Introduction to Computing, Spring 2012 Lab 2 For this assignment, we will write a simple Java program in the DrJava environment. You should look at the example...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Lab1s12"><b>Lab1s12</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Lab1s12" title="2012-01-12 - 19:01" rel="nofollow">6 years ago</a> - r2 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Lab 1 For this assignment, we will combine a few different tasks. 1 Search the Internet for answers to various questions. 1 Submit a file for grading to Blackboard...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Homeworks"><b>Homeworks</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Homeworks" title="2012-01-12 - 17:39" rel="nofollow">6 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Assignments Assignments for Spring 2012 Main.troy 2012 01 12</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebHome"><b>WebHome</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebHome" title="2012-01-06 - 20:31" rel="nofollow">6 years ago</a> - r7 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS 101 Introduction to Computing 3 Credit Hours. 3 hours of lecture, 1 hour of lab. Introduction to computing resources and tools. Computer access, security, and...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/Syllabus"><b>Syllabus</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Troy?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="troy (this topic does not yet exist; you can create it)">troy</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/Syllabus" title="2012-01-06 - 20:30" rel="nofollow">6 years ago</a> - r2 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Syllabus syl101s12.pdf: Syllabus for Spring Semester 2012</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebPreferences"><b>WebPreferences</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Jakob?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="jakob (this topic does not yet exist; you can create it)">jakob</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebPreferences" title="2011-12-02 - 19:14" rel="nofollow">6 years ago</a> - r11 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">CS101 Web Preferences The following settings are web preferences of the CS101 web. These preferences overwrite the site level preferences in . and...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebLeftBar"><b>WebLeftBar</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/Jakob?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="jakob (this topic does not yet exist; you can create it)">jakob</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebLeftBar" title="2011-01-06 - 00:47" rel="nofollow">7 years ago</a> - r4 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">Syllabus Lecture Notes Homeworks Additional Material edit this menu 1 Web Create New Topic Index Search Changes...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebNotify"><b>WebNotify</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiAdminUser?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiAdminUser (this topic does not yet exist; you can create it)">TWikiAdminUser</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebNotify" title="2009-05-14 - 12:19" rel="nofollow">9 years ago</a> - r2 &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">This is a subscription service to be automatically notified by e mail when topics change in this 1 web. This is a convenient service, so you do not have to come...</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebTopicList"><b>WebTopicList</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiContributor?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiContributor (this topic does not yet exist; you can create it)">TWikiContributor</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebTopicList" title="2006-11-15 - 19:43" rel="nofollow">12 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText"></div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebSearchAdvanced"><b>WebSearchAdvanced</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiContributor?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiContributor (this topic does not yet exist; you can create it)">TWikiContributor</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebSearchAdvanced" title="2006-11-15 - 19:43" rel="nofollow">12 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText"></div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebSearch"><b>WebSearch</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiContributor?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiContributor (this topic does not yet exist; you can create it)">TWikiContributor</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebSearch" title="2006-11-15 - 19:43" rel="nofollow">12 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText"></div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebIndex"><b>WebIndex</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiContributor?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiContributor (this topic does not yet exist; you can create it)">TWikiContributor</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebIndex" title="2006-11-15 - 19:43" rel="nofollow">12 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText"></div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebChanges"><b>WebChanges</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiContributor?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiContributor (this topic does not yet exist; you can create it)">TWikiContributor</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebChanges" title="2006-11-15 - 19:43" rel="nofollow">12 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText"></div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebAtom"><b>WebAtom</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiContributor?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiContributor (this topic does not yet exist; you can create it)">TWikiContributor</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebAtom" title="2006-01-24 - 06:07" rel="nofollow">12 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">TWiki`s CS101 web The 1 web of TWiki. TWiki is a Web Based Collaboration Platform for the Enterprise.</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebCreateNewTopic"><b>WebCreateNewTopic</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiContributor?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiContributor (this topic does not yet exist; you can create it)">TWikiContributor</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebCreateNewTopic" title="2005-11-08 - 06:37" rel="nofollow">13 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText"></div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<div class="patternSearchResult">
+<div class="twikiTopRow">
+<div class="twikiLeft"><a href="/bin/view/CS101/WebRss"><b>WebRss</b></a></div>
+<div class="twikiRight twikiSRAuthor"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiContributor?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiContributor (this topic does not yet exist; you can create it)">TWikiContributor</a></span> </div>
+<div class="twikiRight twikiSRRev" style="white-space:nowrap">
+<a href="/bin/rdiff/CS101/WebRss" title="2005-03-28 - 09:40" rel="nofollow">13 years ago</a> - <span class="twikiNew">NEW</span> &nbsp;</div><br class="twikiClear" /></div>
+<!--/twikiTopRow-->
+<div class="twikiBottomRow"><div class="twikiSummary twikiGrayText">/CS101 The 1 web of TWiki. TWiki is a Web Based Collaboration Platform for the Enterprise.</div><!--/twikiSummary--></div><!--/twikiBottomRow-->
+</div><!--/patternSearchResult-->
+<p />
+<div id="searchBottomNavWebChanges" style="">
+<p />
+ &nbsp;
+<p />
+</div>
+<script type="text/javascript">
+  $('#searchTopNavWebChanges').hide(); $('#searchBottomNavWebChanges').hide();
+  $('#searchTopNavWebChanges').html("&nbsp; ");
+</script>
+<p />
+Show <a href='/bin/view/CS101/WebChanges?limit=10' rel='nofollow'>10</a>&#44; <a href='/bin/view/CS101/WebChanges?limit=20' rel='nofollow'>20</a>&#44; <b>50</b>&#44; <a href='/bin/view/CS101/WebChanges?limit=100' rel='nofollow'>100</a>&#44; <a href='/bin/view/CS101/WebChanges?limit=500' rel='nofollow'>500</a>&#44; <a href='/bin/view/CS101/WebChanges?limit=1000' rel='nofollow'>1000</a> results per page, or <a href='/bin/view/CS101/WebChanges?limit=all' rel='nofollow'>show all</a>.
+<p />
+<strong><em>Related topics:</em></strong> <img src="/pub/TWiki/TWikiDocGraphics/feed.gif" width="16" height="16" alt="RSS feed, rounded corners" title="RSS feed, rounded corners" border="0" /> <a href="/bin/view/CS101/WebRss" class="twikiLink">RSS feed</a>, <a href="/bin/view/CS101/WebAtom" class="twikiLink">ATOM feed</a>, <a href="/bin/view/CS101/WebNotify" class="twikiLink">WebNotify</a>, <a href="/bin/view/TWiki/SiteChanges" class="twikiLink">site changes</a>, <a href="/bin/view/TWiki/SiteMap" class="twikiLink">site map</a> </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS101/WebChanges?t=1543180113' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS101/WebChanges' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS101/WebChanges?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS101/WebChanges?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r1</span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS101/WebChanges?template=backlinksweb' rel='nofollow' title='Search the CS101 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS101/WebChanges?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS101/WebChanges?t=1543180113;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS101/WebChanges?template=oopsmore&amp;param1=1&amp;param2=1' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r1 - 2006-11-15 - 19:43:52 - <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiContributor?topicparent=CS101.WebChanges;nowysiwyg=0" rel="nofollow" title="TWikiContributor (this topic does not yet exist; you can create it)">TWikiContributor</a></span></div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS101/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS101</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/CS101/Syllabus" class="twikiLink">Syllabus</a>
+</li> <li> <a href="/bin/view/CS101/LectureNotes" class="twikiLink">Lecture Notes</a>
+</li> <li> <a href="/bin/view/CS101/Homeworks" class="twikiLink">Homeworks</a>
+</li> <li> <a href="/bin/view/CS101/AdditionalMaterial" class="twikiLink">Additional Material</a>
+</li></ul> 
+<a href="/bin/edit/CS101.WebLeftBar" target="_top">[edit this menu</a>]
+<p />
+<hr />
+<div class="patternLeftBarPersonal">
+<ul><li class="patternLogIn"><a href="/bin/logon/CS101/WebChanges">Log In</a> </li></ul>
+</div><!--/patternLeftBarPersonal-->
+<p /> <ul>
+<li> <strong><a href="/bin/view/CS101/WebHome" class="twikiCurrentWebHomeLink twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/home.gif" width="16" height="16" alt="Home" title="Home" border="0" /> CS101 Web</a></strong>
+</li> <li> <a href="/bin/view/CS101/WebCreateNewTopic?topicparent=WebChanges" target="_top"> <img src="/pub/TWiki/TWikiDocGraphics/newtopic.gif" width="16" height="16" alt="New topic" title="New topic" border="0" /> Create New Topic</a>
+</li> <li> <a href="/bin/view/CS101/WebTopicList" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/index.gif" width="16" height="16" alt="Index" title="Index" border="0" /> Index</a>
+</li> <li> <a href="/bin/view/CS101/WebSearch" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/searchtopic.gif" width="16" height="16" alt="Search topic" title="Search topic" border="0" /> Search</a>
+</li> <li> <a href="/bin/view/CS101/WebChanges" class="twikiCurrentTopicLink twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/changes.gif" width="16" height="16" alt="Changes" title="Changes" border="0" /> Changes</a>
+</li> <li> <a href="/bin/view/CS101/WebNotify" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/notify.gif" width="16" height="16" alt="Notify" title="Notify" border="0" /> Notifications</a>
+</li> <li> <a href="/bin/view/CS101/WebRss" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/feed.gif" width="16" height="16" alt="RSS feed, rounded corners" title="RSS feed, rounded corners" border="0" /> RSS Feed</a>
+</li> <li> <a href="/bin/view/CS101/WebStatistics" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/statistics.gif" width="16" height="16" alt="Statistics" title="Statistics" border="0" /> Statistics</a>
+</li> <li> <a href="/bin/view/CS101/WebPreferences" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/wrench.gif" width="16" height="16" alt="Wrench, tools" title="Wrench, tools" border="0" /> Preferences</a>
+</li></ul> 
+<p />
+<hr />
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

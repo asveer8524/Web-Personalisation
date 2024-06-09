@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>     <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>     <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>About | GAP Advocates</title>
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="pingback" href="https://gapadvocates.webhost.uic.edu/xmlrpc.php">
+		
+		<!--wordpress head-->
+		<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="GAP Advocates &raquo; Feed" href="https://gapadvocates.webhost.uic.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="GAP Advocates &raquo; Comments Feed" href="https://gapadvocates.webhost.uic.edu/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/gapadvocates.webhost.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://gapadvocates.webhost.uic.edu/wp-content/themes/bootstrap-basic/css/bootstrap.min.css?ver=4.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-theme-style-css'  href='https://gapadvocates.webhost.uic.edu/wp-content/themes/bootstrap-basic/css/bootstrap-theme.min.css?ver=4.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-style-css'  href='https://gapadvocates.webhost.uic.edu/wp-content/themes/bootstrap-basic/css/font-awesome.min.css?ver=4.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='main-style-css'  href='https://gapadvocates.webhost.uic.edu/wp-content/themes/bootstrap-basic/css/main.css?ver=4.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-basic-style-css'  href='https://gapadvocates.webhost.uic.edu/wp-content/themes/bootstrap-basic-child/style.css?ver=4.9.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://gapadvocates.webhost.uic.edu/wp-content/themes/bootstrap-basic/js/vendor/modernizr.min.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://gapadvocates.webhost.uic.edu/wp-content/themes/bootstrap-basic/js/vendor/respond.min.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://gapadvocates.webhost.uic.edu/wp-content/themes/bootstrap-basic/js/vendor/html5shiv.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://gapadvocates.webhost.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://gapadvocates.webhost.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://gapadvocates.webhost.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://gapadvocates.webhost.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://gapadvocates.webhost.uic.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.3" />
+<link rel="canonical" href="https://gapadvocates.webhost.uic.edu/about/" />
+<link rel='shortlink' href='https://gapadvocates.webhost.uic.edu/?p=108' />
+<link rel="alternate" type="application/json+oembed" href="https://gapadvocates.webhost.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgapadvocates.webhost.uic.edu%2Fabout%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://gapadvocates.webhost.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgapadvocates.webhost.uic.edu%2Fabout%2F&#038;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+			</head>
+	<body class="page-template-default page page-id-108">
+		<!--[if lt IE 8]>
+			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+		<![endif]--><div class="container page-container">
+	 
+	<header role="banner">
+		<div class="row site-branding">
+			<div class="col-md-12 site-title center">
+				<h1 class="site-title-heading">
+					<a href="https://gapadvocates.webhost.uic.edu/" title="GAP Advocates" rel="home">GAP Advocates @<img src="https://gapadvocates.webhost.uic.edu/wp-content/uploads/2015/10/UICwhite.png" /></a>
+				</h1>
+			</div>
+		</div><!--.site-branding-->
+	</div>
+<div class="container page-container">
+	<div class="row main-navigation">
+			<div class="col-md-12 center">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+					<div class="collapse navbar-collapse navbar-primary-collapse">
+						<ul id="menu-menu-1" class="nav navbar-nav"><li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-108 current_page_item menu-item-120 active active"><a href="https://gapadvocates.webhost.uic.edu/about/">About</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-115 dropdown" data-dropdown="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span> </a>
+<ul class="sub-menu dropdown-menu">
+	<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="https://gapadvocates.webhost.uic.edu/hormones-process/">Hormones Process</a></li>
+	<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="https://gapadvocates.webhost.uic.edu/surgery-process/">Surgery Process</a></li>
+	<li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="https://gapadvocates.webhost.uic.edu/other-resources/">Other Resources</a></li>
+</ul>
+</li>
+<li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="https://gapadvocates.webhost.uic.edu/advocates/">Advocates</a></li>
+<li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="https://gapadvocates.webhost.uic.edu/news/">News</a></li>
+<li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="https://gapadvocates.webhost.uic.edu/contact-us/">Contact Us</a></li>
+</ul> 
+					</div><!--.navbar-collapse-->
+				</nav>
+			</div>
+		</div><!--.main-navigation-->
+	</header>
+
+
+	<div id="content" class="row row-with-vspace site-content"> 
+  
+				<div class="col-md-12 content-area white extra-space" id="main-column">
+					<main id="main" class="site-main" role="main">
+						<article id="post-108" class="post-108 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title comfort-text">About</h1>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content comfort-text">
+		<div id="magicdomid21" class="ace-line" data-node-type="line"><span class="author-183476397">In the spring of 2015, a student wrote up and presented the idea of GAP Advocates to the Gender Umbrella Society (GUS), the UIC transgender and gender non-conforming student organization. Since then they worked on developing outreach and marketing materials, Advocates application, and applications for students wanting an advocate. The GAP Advocates initiative had the assistance, collaboration, and creativity of a number of people and groups. It has taken all of our hard work and volunteer time to get GAP where it is today. </span></div>
+<div id="magicdomid22" class="ace-line" data-node-type="line"><span class="author-183476397"> </span></div>
+<div id="magicdomid23" class="ace-line" data-node-type="line"><span class="author-183476397">In the summer of 2015, we brainstormed, and then finalized the Chicago community organizations for our Advocates training. We selected the Broadway Youth Center under the Howard Brown Health Center and the Illinois Caucus for Adolescent Health (ICAH) to facilitate our first two trainings. We applied for and received funding for this training by the Chancellor’s Committee on the Status of LGBTQ People and Allies (CCSLGBTQPA).</span></div>
+<div id="magicdomid24" class="ace-line" data-node-type="line"><span class="author-183476397"> </span></div>
+<div id="magicdomid25" class="ace-line" data-node-type="line"><span class="author-183476397">In the fall of 2015, we did our first recruitment outreach for GAP Advocates, which resulted in 10 applicants. We appreciated the diverse personal, academic, and community organizing backgrounds. In January 2016, we held the first two trainings with BYC and ICAH. We also received our first few students wanting an Advocate and support.</span></div>
+<h2>Acknowledgements</h2>
+<div id="magicdomid29" class="ace-line" data-node-type="line"><span class="author-183476397">We would like to acknowledge some of the individuals who were instrumental in GAP: Gender Umbrella Society students, Michelle Manno (GUS advisor; Office of Diversity staff member), liz thomson (PhD student, Disability Studies), Boyd Bellinger (M.Ed student), and Shay Philips (M.Ed student, Youth Development). </span></div>
+<div id="magicdomid30" class="ace-line" data-node-type="line"><span class="author-183476397"> </span></div>
+<div id="magicdomid31" class="ace-line" data-node-type="line"><span class="author-183476397">We also want to recognize the UIC Gender and Sexuality Center (GSC) and the UIC Chancellor’s Committee on the Status of Lesbian, Gay, Bisexual, and Transgender People and Allies (CCSLGBTQPA). The affiliation with Director Megan Carney at the GSC, and the continued financial support by the CCSLGBTQPA are tremendous.</span></div>
+<h3>Additional Brief History of Transgender and Gender Affirming Healthcare at UIC</h3>
+<p>The GAP Advocates initiative is only the latest part of a longer continuum of transgender and gender affirming healthcare advocacy at UIC. We would like give a general overview and history of the past events and people.</p>
+<p>2010-2011: Jae Truesedell, a Master&#8217;s student in the School of Public Health, writes his capstone project on the inequities of UIC&#8217;s CampusCare as well as a general survey of other higher education institutions with transgender inclusive student health insurance. Additionally, Jae&#8217;s capstone called for increased education for all healthcare providers and students in healthcare professions.</p>
+<p>2011-2012: Mari Medellin and Mariah, two undergraduate students and leaders in the Gender Umbrella Society, visit the various forms of student government councils and gain support for gender inclusive healthcare with CampusCare. They took these resolutions to the administration. Additionally, Ken Thomas, the UIC Student Trustee, was an important ally during this process. OVSCA Michael Ginsburg also was an important administrator and liaison.</p>
+<p>2012-2013: Continued advocacy for gender inclusive health insurance with CampusCare</p>
+<p>2013-2014: This was the first academic year for the gender inclusive CampusCare policy to be official.</p>
+<p>2014-2015: Interested students found the CampusCare bureaucracy to be extremely difficult; many of us realized still existing barriers for the new policy to actually be realized</p>
+<p>2015-2016: GAP Advocates initiative began and worked with three students to support their varied level of support needed</p>
+<p>2016: This fall, GAP Advocates return and did outreach at the GSC&#8217;s annual Rainbow Social. We wanted to let students know we&#8217;re a resource and to recruit other advocates. We&#8217;ve organized to online Google Hangout Info Sessions for September 12 and September 20, from 7-8 p.m.</p>
+<h4></h4>
+ 
+		<div class="clearfix"></div>
+			</div><!-- .entry-content -->
+	
+</article><!-- #post-## -->
+
+
+
+ 
+					</main>
+				</div>
+  
+
+			</div><!--.site-content-->
+</div>
+<div class="container">
+				<div id="footer-row" class="row site-footer">
+						<footer id="site-footer" role="contentinfo" class="col-md-12">
+							<div class="col-md-3 hidden-sm hidden-xs">
+								<img class="footer-img-left" src="https://gapadvocates.webhost.uic.edu/wp-content/uploads/2015/10/life_preserver-e1446135148839.png" />
+							</div>
+							<div class="col-md-6 center">
+								<h1 class="site-title-heading orange">
+								<a href="https://gapadvocates.webhost.uic.edu/" title="GAP Advocates" rel="home">GAP Advocates @<img src="https://gapadvocates.webhost.uic.edu/wp-content/uploads/2015/11/UICorange.png" /></a>
+								</h1>
+								<p>In collaboration with the UIC Chancellor's Committee on the Status of LGBTQ People and Allies and the UIC Gender & Sexuality Center</p>
+							</div>
+							<div class="col-md-3 hidden-sm hidden-xs">
+								<img class="footer-img-right" src="https://gapadvocates.webhost.uic.edu/wp-content/uploads/2015/10/life_preserver-e1446135148839.png" />
+							</div>
+						</footer>
+			</div>
+			
+</div>
+		<!--wordpress footer-->
+		<script type='text/javascript' src='https://gapadvocates.webhost.uic.edu/wp-content/themes/bootstrap-basic/js/vendor/bootstrap.min.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://gapadvocates.webhost.uic.edu/wp-content/themes/bootstrap-basic/js/main.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://gapadvocates.webhost.uic.edu/wp-includes/js/wp-embed.min.js?ver=4.9.3'></script>
+ 
+	</body>
+</html> 

@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<!-- ####################################################
+     WARNING!!!  WARNING!!!  Make no changes to this file!!
+     This file was converted from:
+         heoa.src
+     Be sure to change the source, or your changes 
+     will be lost without further warning.
+     #################################################### -->
+
+
+<head>
+    
+<title>HEOA Compliance</title>
+<meta name="date" content="2012-2-27" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27751174-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+    <body bgcolor="#F4F5F3" >
+<div style="background: #fff; margin: -8px -8px 5px; padding: 5em 1em 2em 8px; text-align: right; font-family: helvetica, sans-serif;
+ border-bottom: 5px solid #b7b7af;">
+
+<a href="http://accc.uic.edu">
+   <img src="/depts/accc/images/logo/logo.png" /></a>
+<p>This content is no longer maintained. Please visit our <a style="color: #c00;" href="http://accc.uic.edu">new website</a>.</p>
+</div>
+    <table border="0" cellspacing="0" cellpadding="0" width="600"> 
+    <tr>
+	<td height="42" bgcolor="#666699" rowspan="2" style="padding: 0;"><a target="_top" href="http://www.uic.edu/depts/accc/home/"><img border="0" vspace="0" hspace="0" height="42" width="100" src="http://www.uic.edu/depts/accc/logos/ACCC-button.png" alt="ACCC Home Page" /></a></td>
+	<td nowrap="nowrap" height="24" bgcolor="#F4F5F3" align="center" colspan="8" 
+	    style="font-weight: bold; color: #666699; font-variant: small-caps; font-family: arial,helvetica,sans-serif; font-size: 1.2em;">
+	    
+	    Academic
+	    Computing <span style="font-variant: normal; font-size: smaller;">and</span>
+	    Communications
+	    Center
+	</td>
+	<td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+
+	<td align="center" bgcolor="#666699" >
+	    <a target="_top" href="http://www.uic.edu/depts/accc/home/ACCTS.html"><img border="0" hspace="0" vspace="0" width="67" height="18" src="http://www.uic.edu/depts/accc/logos/acct.png" alt="Accounts / Passwords" /></a>
+	</td> 
+
+	<td align="center" bgcolor="#666699" >
+	    <a target="_top" href="http://www.uic.edu/depts/accc/home/EMAIL.html"><img border="0" hspace="0" vspace="0" width="49" height="18" src="http://www.uic.edu/depts/accc/logos/email.png" alt="Email" /></a>
+	</td> 
+
+	<td align="center" bgcolor="#666699" >
+	    <a target="_top" href="http://www.uic.edu/depts/accc/home/FACIL.html"><img border="0" hspace="0" vspace="0" width="79" height="18" src="http://www.uic.edu/depts/accc/logos/facil.png" alt="Labs / Classrooms" /></a>
+	</td> 
+
+	<td align="center" bgcolor="#666699" >
+	    <a target="_top" href="http://www.uic.edu/depts/accc/home/TELECOM.html"><img border="0" hspace="0" vspace="0" width="61" height="18" src="http://www.uic.edu/depts/accc/logos/telecom.png" alt="Telecom" /></a>
+	</td> 
+
+	<td align="center" bgcolor="#666699" >
+	    <a target="_top" href="http://www.uic.edu/depts/accc/home/NETWORK.html"><img border="0" hspace="0" vspace="0" width="61" height="18" src="http://www.uic.edu/depts/accc/logos/network.png" alt="Network" /></a>
+	</td> 
+
+	<td align="center" bgcolor="#666699" >
+	    <a target="_top" href="http://www.uic.edu/depts/accc/home/SECURITY.html"><img border="0" hspace="0" vspace="0" width="61" height="18" src="http://www.uic.edu/depts/accc/logos/security.png" alt="Security" /></a>
+	</td> 
+
+	<td align="center" bgcolor="#666699" >
+	    <a target="_top" href="http://www.uic.edu/depts/accc/home/SOFTWARE.html"><img border="0" hspace="0" vspace="0" width="67" height="18" src="http://www.uic.edu/depts/accc/logos/software.png" alt="Software" /></a>
+	</td> 
+
+	<td align="center" bgcolor="#666699" >
+	    <a target="_top" href="http://www.uic.edu/depts/accc/home/SERVICES.html"><img border="0" hspace="0" vspace="0" width="67" height="18" src="http://www.uic.edu/depts/accc/logos/services.png" alt="Computing and Network Services" /></a> 
+	</td>
+
+	<td align="center" bgcolor="#666699" >
+	    <a target="_top" href="http://www.uic.edu/depts/accc/home/EDUCATION.html"> <img border="0" hspace="0" vspace="0" width="73" height="18" src="http://www.uic.edu/depts/accc/logos/ed.png" alt="Education / Teaching" /></a>
+	</td>
+
+	<td align="center" bgcolor="#666699" >
+	    <a target="_top" href="http://www.uic.edu/depts/accc/home/HELP.html"><img border="0" hspace="0" vspace="0" width="43" height="18" src="http://www.uic.edu/depts/accc/logos/help.png" alt="Getting Help" /></a>
+	</td>
+
+    </tr>
+
+    <tr>
+	<td colspan="11">&nbsp;</td>
+    </tr>
+
+</table>
+
+
+<table border="0">
+    <tr>
+	<td colspan="3">
+	    <h1 style="margin: 0;">
+		<font face="verdana,arial,helvetica,sans-serif">HEOA Compliance </font>
+	    </h1>
+	</td>
+    </tr>
+
+	<tr>
+	    <td width="100">&nbsp;</td>
+	    <td width="80%">&nbsp;</td>
+	    <td width="40">&nbsp;</td>
+	</tr>
+	<tr>
+	    <td>&nbsp;</td>
+	    <td align="left" valign="top" bgcolor="#FFFFCC" width="80%">
+		<ul>
+		    <li><a href="././heoa.html#0">The University of Illinois at Chicago Plan for Combating Unauthorized Distribution of Copyrighted Materials</a>
+</li>
+		    <li><a href="././heoa.html#1">The plan to effectively combat copyright infringement</a>
+</li>
+		</ul>
+	    </td>
+	</tr>
+	<tr>
+	    <td width="100">&nbsp;</td>
+	    <td width="80%">&nbsp;</td>
+	    <td width="40">&nbsp;</td>
+	</tr>
+
+	<tr>
+	    <td colspan="3" style="font: larger verdana,arial,helvetica,sans-serif;">
+	      <strong><a name="0">The University of Illinois at Chicago Plan for Combating Unauthorized Distribution of Copyrighted Materials</a>
+</strong>
+	    </td>
+	</tr>
+	<tr>
+	    <td valign="top" align="left">&nbsp;</td>
+	    <td align="left" valign="top">
+
+<p>The University of Illinois is committed to respecting U.S. copyright law. In accordance with campus policy, the University does not inspect the contents of digital media traversing the campus network. However the campus has articulated a rigorous program designed to discourage illegal peer-to-peer file sharing (such as movies and music), to respond to copyright infringement notices when these are sent to the campus, and to educate the campus community about their rights and responsibilities when it comes to copyright. This website documents the elements of this program as described by the Higher Education Opportunity Act (HEOA). </p>
+</td>
+	    <td>&nbsp;</td>
+	</tr>
+	<tr>
+	    <td width="100">&nbsp;</td>
+	    <td width="80%">&nbsp;</td>
+	    <td width="40">&nbsp;</td>
+	</tr>
+
+	<tr>
+	    <td colspan="3" style="font: larger verdana,arial,helvetica,sans-serif;">
+	      <strong><a name="1">The plan to effectively combat copyright infringement</a>
+</strong>
+	    </td>
+	</tr>
+	<tr>
+	    <td valign="top" align="left">&nbsp;</td>
+	    <td align="left" valign="top">
+<h3>Technology Based Deterrents</h3>
+
+<p>The Department of Education has identified four acceptable "technology-based" deterrents. The University of Illinois uses two of these reduce the amount copyright infringement over Peer-To-Peer (P2P) networks.
+</p>
+<ol>
+  <li>  The University of Illinois at Chicago accepts and vigorously responds to DMCA notices in a timely fashion.
+    
+    A copyright infringement notice is sent to the registered copyright address on record. The notice is examined  and the alleged infringing activity is verified. Once the activity is verified, ACCC follows our standard procedure, <a href=http://www.uic.edu/depts/accc/security/abuse/p2p.html>Security Policy on Copyright Infringement and Peer-to-Peer Abuse.</a>
+    <br>
+    <br>
+  </li>
+  <li>Because a large percentage of the copyright infringement notices received are directed at users of our wireless and Res-Net network services, the University of Illinois at Chicago has put bandwidth limitations in place on these networks. The bandwidth monitors look at the amount of information coming to and leaving the given computer in a 24-hour period, and suspend the Internet privileges of those who transfer more than 4GB in 24 hours. </li>
+</ol>
+<h3>Community Education and Annual Disclosure to Students</h3>
+
+<p>The University of Illinois uses a variety of techniques to educate the campus community about copyright and their responsibilities to respect copyright. These education components are created and presented by a variety of units on campus, including, but not limited to, the Lbrary, the Dean of Students office, and campus information technology organizations. 
+  Some of the specific programs used by the University of Illinois to educate the campus community about copyright are: </p>
+<ul>
+<li>An email notification is sent to students at the beginning of every school year, by September 15. This email points to the University's web presence on copyright. It also provides basic information about the University's copyright policies.
+</li><li>Computer security orientations for faculty and staff talk about campus copyright policies and responsibilities.
+</li>
+<li>University of Illinois Library Copyright Resource, <a href="http://library.uic.edu/home/services/copyright-and-permissions">http://library.uic.edu/home/services/copyright-and-permissions</a>
+</li></ul>
+
+<h3>Alternatives to Illegal File Sharing</h3>
+
+<p>The University of Illinois does not have any agreements with outside content providers to provide legal downloads to students. Copyright education web sites at the University of Illinois do provide information about legal download resources, including <a href="http://www.educause.edu/legalcontent">a link to EduCause's updated list of legal download sites.</a> </p>
+
+<h3>Periodic Review of Copyright Education at the University</h3>
+
+<p>The University will periodically review the copyright education efforts on campus. Reviews of these coordinated education efforts will also take place when considerable changes to the law, regulations or other events require.
+
+<p>In the beginning, the University will primarily gauge the effectiveness of the copyright education efforts on campus by examining the number of repeat offenders. Over time, as resources allow, student surveys and other evidence may be taken into account to determine effectiveness. </td>
+	    <td>&nbsp;</td>
+	</tr>
+</table>
+<br clear="left" />
+
+<hr width="600" align="center" />
+
+<table width="100%">
+    <tr>
+	<td align="left" width="20%"><span style="font-size: smaller;">2012-2-27&nbsp;&nbsp;<a href="mailto:security@uic.edu">Copyright Abuse</a></span></td>
+	<td width="50%" align="left">
+
+	    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	    <script type="text/javascript">
+	      google.load('search', '1');
+	      google.setOnLoadCallback(function() {
+		google.search.CustomSearchControl.attachAutoCompletion(
+		  '007190388697399463499:eigwfufmztm',
+		  document.getElementById('q'),
+		  'cse-search-box');
+	      });
+	    </script>
+	    <form action="http://www.uic.edu/depts/accc/search/" id="cse-search-box">
+	      <div>
+		<input type="hidden" name="cx" value="007190388697399463499:eigwfufmztm" />
+		<input type="hidden" name="cof" value="FORID:10" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" id="q" size="31" />
+		<input type="submit" name="sa" value="Search" />
+	      </div>
+	    </form>
+	    <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+	</td>
+
+
+	<td align="right">
+	    <table align="left" border="0" cellspacing="0" cellpadding="0" >
+		<tr bgcolor="#cccccc">
+
+		    <td align="center">
+			<a target="_top" href="http://www.uic.edu/"><img width="73" height="18" border="0" vspace="0" hspace="0" src="http://www.uic.edu/depts/accc/logos/uic.gif" alt="UIC Home Page" /></a>
+		    </td>
+
+		    <td align="center">
+			<a target="_top" href="http://www.uic.edu/searchUIC.html"><img width="85" height="18" border="0" vspace="0" hspace="0" src="http://www.uic.edu/depts/accc/logos/uicsearch.gif" alt="Search UIC Pages" /></a>
+		    </td>
+
+		    <td align="center">
+			<a target="_top" href="http://www.uic.edu/index.html/contactus.shtml"><img width="91" height="18" border="0" vspace="0" hspace="0" src="http://www.uic.edu/depts/accc/logos/uiccontact.gif" alt="Contact UIC" /></a>
+		    </td>
+
+		</tr>
+	    </table>
+
+	</td>
+    </tr>
+</table>
+
+</body></html>

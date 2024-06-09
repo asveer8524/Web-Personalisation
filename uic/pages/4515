@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> Homework2 &lt; CS385spring14 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS385spring14/Homework2?_T=2018-11-25" type="application/x-wiki" title="edit Homework2" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS385spring14/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS385spring14/Homework2"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS385spring14/WebHome">CS385spring14 Web</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS385spring14/Homeworks" class="twikiLink">Homeworks</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS385spring14/Homework2" title='Topic revision: 4 (2014-01-30 - 21:15:01)'>Homework2</a> <span class='patternRevInfo'>(2014-01-30, Main.driesk)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS385spring14/Homework2?t=1543179257' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS385spring14/Homework2' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h2><a name="Homework_2"></a> Homework 2 </h2>
+<p />
+<h3><a name="How_the_Operating_System_gets_co"></a> How the Operating System gets control of the machine </h3>
+<p />
+<strong>NOTE</strong>: This will be discussed further in class on Thursday. Reviewing some of the resources at the bottom of this page <strong>before</strong> the class on Thursday will help greatly.
+<p />
+<table cellspacing="0" id="table1" cellpadding="0" class="twikiTable" rules="all" border="1">
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> Issued </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> 1/21/14 </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> Due Date </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol twikiLast"> 2/4/14 <strong>before class</strong> </td>
+		</tr></table>
+<p />
+The goal of this homework is to get a better understanding of what happens when a computer starts and how the operating system itself is loaded and activated. Your task is to write a floppy disk bootsector (in 8086 assembly code) which will be placed on a 1.44MB virtual floppy and attached to your virtual machine from homework 1.
+<p />
+Your bootsector needs to perform a number of tasks:
+<p /> <ol>
+<li> Properly initialize screen, by outputting your name, indicating that the bootsector was loaded and executed.
+</li> <li> Show information about the system: how much low memory is available. What is the current time according to the machine.
+</li> <li> Perform 'chain loading'. Load the bootsector from the hard drive (which was installed there earlier when installing ubuntu) and execute it. This should result in loading Ubuntu as normal.
+</li></ol> 
+<strong>Optional</strong>:
+<p /> <ul>
+<li> Show the current time on the screen (and update!)
+</li></ul> 
+<p />
+<h3><a name="Some_more_detail"></a> Some more detail </h3>
+<p /> <ul>
+<li> To create an empty floppy disk image, use the following command
+</li></ul> 
+<table cellspacing="0" id="table2" cellpadding="0" class="twikiTable" rules="all" border="1">
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> linux </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> head -c 1474560 /dev/zero &gt; myimage.vfd </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> windows </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol twikiLast"> fsutil file createnew myimage.vfd 1474560 </td>
+		</tr></table>
+<p />
+<h3><a name="Evaluation"></a> Evaluation </h3>
+<p />
+The homework will be evaluated using the following factors:
+<p /> <ul>
+<li> Correctness of assembler syntax -- The code should compile without error using <strong>nasm</strong>.
+</li> <li> Documentation of the code -- The code is clearly documented, explaining what the intent is and how it is accomplished.
+</li> <li> Correctness of execution -- The code performs the functions requested.
+</li> <li> Creativity -- Your solution is different. Make sure to <strong>document</strong> your code or we might miss your special trick!
+</li> <li> Optional tasks -- You implemented some or all of the optional requests, or went beyond what was requested in some other way.
+</li></ul> 
+You will be required to check in your assembly code in subversion. The state of the repository at the beginning of class on the due date will be used for evaluation.
+<p />
+<h3><a name="What_to_hand_in"></a> What to hand in </h3>
+<p />
+As for all the other homework assignments, you will need to commit your homework to your assigned subversion repository, under the correct directory (<code>homework/homework2</code>).
+<p />
+Please commit the following files: <ul>
+<li> The assembly source file (or files) (<code>.asm</code>)
+</li> <li> The floppy disk image (<code>.vfd</code>)
+</li> <li> Makefile used to build your floppy disk image
+</li> <li> A text file <code>DESCRIPTION</code> containing a description of what your code does, how you achieved it,     clearly listing which tasks (see above) you completed.
+</li></ul> 
+<p />
+<h3><a name="How_to_create_the_bootsector"></a> How to create the bootsector </h3>
+<p />
+The end product of your efforts should be a floppy image, capable of booting an operating system installed on a harddrive.
+So, you don't actually need to do your development work <strong>inside</strong> the VM you created in homework 1. However, you will use the VM created earlier to <strong>test</strong> your homework.
+<p />
+You only need 3 things to create this floppy image: <ol>
+<li> An editor to edit your source code (assembly).
+</li> <li> A compiler which will compile the assembly source into binary code. We will use the 'nasm' assembler.
+</li> <li> A way of putting your compiled binary code in the correct location in your virtual floppy image.       (Your virtual floppy image is a flat file, so the first 512 bytes of the image file will be the first 512  bytes of the 'virtual'       floppy as well).
+</li></ol> 
+<p />
+Any operating system that can perform these steps can be used to complete this homework. Nasm can be installed on Windows, Linux &amp; OSX, so if you want, you can do all three steps on your host machine (i.e. not in the VM).
+However, using linux might simplify things a bit since it tends to have better development tools and more (pre-installed) tools to help automate steps 2 and 3 (such as make).
+<p />
+Of course, we will need to use a virtual machine to evaluate and test the bootsector.
+For this, you can use VirtualBox or other virtualisation software. Make sure to test your final bootsector on VirtualBox,
+as we will only test using VirtualBox.
+<p />
+If your host OS is linux, then you can do steps 1-3 using your host OS and VirtualBox to test the end result.
+However, if your host OS is different, you can actually use VirtualBox to provide you with the development environment,
+and use a second virtualbox instance to evaluate the bootsector. Note that there is a 'clone' option in VirtualBox which you can use to create the second virtualbox instance. There is no need to reinstall Ubuntu a second time.
+<p />
+<h3><a name="An_alternative_VM_Qemu"></a> An alternative VM: Qemu </h3>
+<p />
+One advantage of VirtualBox is that it is easy to use: there is a GUI which simplifies working with the virtual machines. However, this is also a disadvantage: it is harder to automate (for example, automatically booting a virtual machine to test your boot sector). VirtualBox also does not support debugging the guest.
+<p />
+For these reasons, another option is to use qemu (<a href="http://www.qemu.org" target="_top">http://www.qemu.org</a>). Qemu supports both virtualization and emulation (i.e. emulating a different architecture, including CPU). Qemu also supports connecting a debugger, allowing the <strong>guest</strong> (running inside qemu) to be debugged.
+<p />
+Qemu is freely available and can be easily installed on Ubuntu. (Use apt-get to install)
+<p />
+Also install gdb (if not already installed).
+<p />
+Using qemu, we can easily test the homework: <ul>
+<li> We can specify the floppy image to use on the command line.
+</li> <li> Qemu understands the VirtualBox disk image (so we can use this as well)
+</li> <li> We can connect gdb to the guest running in Qemu, and debug our bootsector.
+</li></ul> 
+<p />
+Note: the command you need to invoke is called 'qemu-system-i386' (since that is the architecture we want to emulate).
+Using --help will show a list of command line options. There is also a manpage (man qemu).
+<p />
+The '-S' and '-s' options re particularly useful for debugging: these tell qemu to expect an external debugger, and make qemu wait until a debugger attaches and instructs it to start execution.
+<p />
+The following gdb commands will be useful (please lookup more information in the gdb manual or google): <ul>
+<li>  target remote :1234       (tells gdb what we will be debugging)
+</li> <li> set history save on   (helps gdb remember our earlier commands)
+</li> <li> set disassembly-flavor intel (tell gdb to show us nasm compatible assembler)
+</li> <li> set arch i8086 (tell gdb that the architecture being debugged is 8086)
+</li> <li> display/4i $pc  (make gdb show next few instructions)
+</li> <li> nexti and stepi 
+</li> <li> break *0x7c00   (make the guest stop at the beginning of the boot sector)
+</li> <li> continue
+</li> <li> info registers
+</li></ul> 
+<p />
+<p />
+<p />
+<h3><a name="Resources"></a> Resources </h3>
+<p />
+The following links contain useful information:
+<p /> <ul>
+<li> <a href="http://www.slideshare.net/Puskar/8086-architecture" target="_top">Good overview of the 8086 architecture</a>
+</li> <li> <a href="http://matthieu.benoit.free.fr/cross/data_sheets/8086_family_Users_Manual.pdf" target="_top">8086 Manual</a>
+</li> <li> <a href="http://stanislavs.org/helppc/idx_interrupt.html" target="_top">Description of BIOS interrupt services</a>
+</li> <li> <a href="http://www.nasm.us/doc/" target="_top">NASM documentation</a>
+</li></ul> 
+<p />
+<h3><a name="Hints_and_advice"></a> Hints and advice </h3> <ul>
+<li> Pay attention to the number representation (in assembler and documentation): hexadecimal, octal, decimal?
+</li> <li> nasm needs to know what mode the CPU will be in. Look for the 'BITS' directive. Likewise, a bootsector is self-contained (does not depend on external libraries). Pick the proper output format for nasm.
+</li> <li> BIOS interrupt 0x12, function ax=0x00 can be useful in determining how much memory is available.
+</li> <li> Do not alter memory under 0x500. This region is reserved for the interrupt table and bios data.
+</li> <li> The BIOS loads your bootsector at address 0x7c00 and executes it. For the rest, you're on your own. This means you are responsible for setting correct values for the segment registers and setting up a stack.
+</li> <li> Make sure that nasm and you (through segment registers) agree on what the origin of your code is (see 'org' directive)
+</li> <li> For chain loading: since your bootsector code (currently executing) is located where the new bootsector needs to go (0x7c00), you <strong>might</strong> have to move your code out of the way...
+</li> <li> Don't assume register values are preserved when invoking a service interrupt.
+</li> <li> The 'ndisasm' command can be very helpful to verify the final layout and code of your bootsector.
+</li> <li> Using a makefile can simplify compiling and testing your code.
+</li> <li> Make sure to take backups; Even better would be to often check in your code using subversion.
+</li> <li> In order to output a numeric value (such as a register value) to the screen, you will need to convert it to string representation. The 'div' instruction (<a href="http://asm.inightmare.org/opcodelst/index.php?op=DIV" target="_top">http://asm.inightmare.org/opcodelst/index.php?op=DIV</a>) should be very useful for this.
+</li> <li> The BIOS recognizes a valid bootsector by a signature (0xAA55) located at the end of the bootsector (offset 510 &amp; 511). The following code is helpful to put the signature there:
+</li></ul> 
+<pre>; Convention: boot sector must have 0xAA55 in last 2 bytes
+; See http://www.nasm.us/doc/nasmdoc3.html#section-3.5 for an
+; explanation of $ and $$
+
+   times 510-($-$$) db 0
+   dw 0xAA55
+</pre>
+<p />
+<h3><a name="Questions_and_Answers"></a> Questions and Answers </h3>
+<p /> <ul>
+<li> How are we supposed to compile our assembly code?<br /><span style="background-color: transparent"><br />Use the nasm command. (See links above). You can download nasm from the page linked in the resource section. Even easier, under ubuntu, you can use the 'apt-get' command to install the nasm package if it is not already installed.<br /><br />However, keep in mind that the output of the compilation is not designed to run under an OS. It is intended to be executed by the BIOS. This means you will not be able to simply execute it as you would with typical C program.</span>
+</li></ul>  </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS385spring14/Homework2?t=1543179257' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS385spring14/Homework2' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS385spring14/Homework2?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS385spring14/Homework2?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r4&nbsp;<a rel="nofollow" href="/bin/rdiff/CS385spring14/Homework2?rev1=4;rev2=3">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS385spring14/Homework2?rev=3">r3</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS385spring14/Homework2?rev1=3;rev2=2">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS385spring14/Homework2?rev=2">r2</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS385spring14/Homework2?rev1=2;rev2=1">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS385spring14/Homework2?rev=1">r1</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS385spring14/Homework2?template=backlinksweb' rel='nofollow' title='Search the CS385spring14 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS385spring14/Homework2?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS385spring14/Homework2?t=1543179257;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS385spring14/Homework2?template=oopsmore&amp;param1=4&amp;param2=4' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r4 - 2014-01-30 - 21:15:01 - Main.driesk</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS385spring14/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS385spring14</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/CS385spring14/Syllabus" class="twikiLink">Syllabus</a>
+</li> <li> <a href="/bin/view/CS385spring14/LectureNotes" class="twikiLink">Lecture Notes</a>
+</li> <li> <a href="/bin/view/CS385spring14/Homeworks" class="twikiLink">Homeworks</a>
+</li> <li> <a href="/bin/view/CS385spring14/GroupProjects" class="twikiLink">Group Projects</a>
+</li></ul> 
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

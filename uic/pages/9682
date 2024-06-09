@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Homework 4 &middot; CS450: Introduction to Networking
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/poole.css">
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/syntax.css">
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/~balajee/cs450-f16/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/~balajee/cs450-f16/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-08">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>This is the webpage for the course "CS450: Introduction to Networking" at the University of Illinois at Chicago (UIC).</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/~balajee/cs450-f16/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw1/">Homework 1</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw2/">Homework 2</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw3/">Homework 3</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item active" href="/~balajee/cs450-f16/hw4/">Homework 4</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw5/">Homework 5</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw6/">Homework 6</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/schedule/">Schedule</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/syllabus/">Syllabus</a>
+        
+      
+    
+    
+    <!--
+    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+    -->
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2018. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/~balajee/cs450-f16/" title="Home">CS450: Introduction to Networking</a>
+            <small>Fall 2016</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">Homework 4</h1>
+  <h2 id="homework-4-dns-resolution">Homework 4: DNS resolution</h2>
+
+<p>In this homework, we talk to the global domain name system to resolve domain names into IP addresses and reverse. 
+Some good domain names to try, which you definitely will be tested on. Additional domains may be added if we find something interesting in the week.</p>
+
+<ul>
+  <li>nibbles.cs.uic.edu</li>
+  <li>www.cs.uic.edu</li>
+  <li>www.yahoo.com.tw</li>
+  <li>128.30.76.78</li>
+</ul>
+
+<p>To get started, check out the hw4 template from</p>
+
+<p><code class="highlighter-rouge">public/hw4</code></p>
+
+<p>this code already does most of the DNS querying and parsing for you. Your responsibility is to modify the hw4 to work as follows:<br />
+The file root-servers.txt contains a list of DNS root servers. Your application must use this file to find a working root server to use. You can assume it will always be called root-servers.txt, and exist in the current working directory. If a server does not respond, it must move on to the next server. The parameters and output of the program are illustrated below.</p>
+
+<p>You are obviously not allowed to use gethostbyname or getaddrinfo for this homework, nor are you allowed to run any executables such as “host” or “nslookup” from inside your program.</p>
+
+<h3 id="hints">Hints</h3>
+
+<p>Relevant DNS records you need to check are A, NS, CNAME and PTR. You need to find out how to recursively follow these DNS records to get your answer. PTR records help with reverse lookups.</p>
+
+<p>To time out on a recv() call (in case you get no answer), use setsockopt() with the SO_RECVTIMEO option: http://linux.die.net/man/7/socket<br />
+Alternatively, you can use alarm(), and set up a handler for SIGALRM. “man alarm()” and “man signal” will help you set that up. Or try the newer sigitimer().</p>
+
+<p>Either way, look for errno==EINTR (for alarm) or errno=EAGAIN (for timeout) when recv() returns -1 when using these techniques to see if you actually timed out. If you want to jump off the deep end of the pool, use a select() call (which takes a timeout parameter) instead of the blocking recv().<br />
+You can try out the template version like this:</p>
+
+<p><code class="highlighter-rouge">./hw4 -d -n nameserver -i domain</code></p>
+
+<p>to find your local DNS server, check your network settings, or run “<code class="highlighter-rouge">cat /etc/resolv.conf</code>” on a non-windows machine.</p>
+
+<p><em>** MASSIVE HINT: RECURSION IS YOUR FRIEND **</em></p>
+
+<p><strong><span style="color: rgb(128, 0, 0);"><span style="font-weight: bold;"></span></span></strong></p>
+
+<h3 id="example-use-sessions">Example use sessions</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>Usage: hw5 [-d] -n nameserver -i domain/ip_address  
+	-d: debug  
+./hw5 -i a.root-servers.net  
+a.root-servers.net resolves to 198.41.0.4  
+
+./hw5 -i nibbles.cs.uic.edu  
+nibbles.cs.uic.edu resolves to 131.193.34.150  
+
+./hw5 -d -n 192.228.79.201 -i www.cs.uic.edu  
+Resolving www.cs.uic.edu using server 192.228.79.201  
+The name edu can be resolved by NS: l.edu-servers.net  
+The name edu can be resolved by NS: g.edu-servers.net  
+The name edu can be resolved by NS: a.edu-servers.net  
+The name edu can be resolved by NS: d.edu-servers.net  
+The name edu can be resolved by NS: f.edu-servers.net  
+The name edu can be resolved by NS: c.edu-servers.net  
+The name a.edu-servers.net resolves to IP addr: 192.5.6.30  
+The name c.edu-servers.net resolves to IP addr: 192.26.92.30  
+The name d.edu-servers.net resolves to IP addr: 192.31.80.30  
+The name f.edu-servers.net resolves to IP addr: 192.35.51.30  
+The name g.edu-servers.net resolves to IP addr: 192.42.93.30  
+The name l.edu-servers.net resolves to IP addr: 192.41.162.30  
+Ignoring IPv6 record  
+
+Resolving www.cs.uic.edu using server 192.41.162.30  
+The name uic.edu can be resolved by NS: uic-dns2.uic.edu  
+The name uic.edu can be resolved by NS: uic-dns3.uic.edu  
+The name uic.edu can be resolved by NS: uic-dns1.uic.edu  
+The name uic-dns2.uic.edu resolves to IP addr: 128.248.7.50  
+The name uic-dns3.uic.edu resolves to IP addr: 128.248.171.50  
+The name uic-dns1.uic.edu resolves to IP addr: 128.248.2.50  
+
+Resolving www.cs.uic.edu using server 128.248.2.50  
+The name cs.uic.edu can be resolved by NS: garcon.eecs.uic.edu  
+The name cs.uic.edu can be resolved by NS: fred.eecs.uic.edu  
+The name fred.eecs.uic.edu resolves to IP addr: 131.193.40.254  
+The name garcon.eecs.uic.edu resolves to IP addr: 131.193.32.254  
+
+Resolving www.cs.uic.edu using server 131.193.40.254  
+The name www.cs.uic.edu resolves to IP addr: 131.193.32.29  
+www.cs.uic.edu resolves to 131.193.32.29  
+
+./hw5 -d -i www.yahoo.com.tw  
+Resolving www.yahoo.com.tw using server 192.112.36.4  
+The name tw can be resolved by NS: c.dns.tw  
+The name tw can be resolved by NS: d.dns.tw  
+The name tw can be resolved by NS: i.dns.tw  
+The name tw can be resolved by NS: h.dns.tw  
+The name tw can be resolved by NS: a.dns.tw  
+The name tw can be resolved by NS: f.dns.tw  
+The name tw can be resolved by NS: sec4.apnic.net  
+The name tw can be resolved by NS: g.dns.tw  
+The name tw can be resolved by NS: e.dns.tw  
+The name tw can be resolved by NS: ns.twnic.net  
+The name tw can be resolved by NS: b.dns.tw  
+The name a.dns.tw resolves to IP addr: 203.73.24.8  
+The name b.dns.tw resolves to IP addr: 210.201.138.58  
+The name c.dns.tw resolves to IP addr: 61.220.48.1  
+The name d.dns.tw resolves to IP addr: 210.17.9.230  
+The name e.dns.tw resolves to IP addr: 211.20.231.11  
+The name f.dns.tw resolves to IP addr: 163.28.1.10  
+The name g.dns.tw resolves to IP addr: 220.229.225.195  
+The name h.dns.tw resolves to IP addr: 203.119.3.1  
+The name i.dns.tw resolves to IP addr: 194.0.11.105  
+The name ns.twnic.net resolves to IP addr: 192.83.166.11  
+The name sec4.apnic.net resolves to IP addr: 202.12.31.141  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+
+Resolving www.yahoo.com.tw using server 202.12.31.141  
+The name yahoo.com.tw can be resolved by NS: ns1.yahoo.com  
+The name yahoo.com.tw can be resolved by NS: ns4.yahoo.com  
+The name yahoo.com.tw can be resolved by NS: ns2.yahoo.com  
+The name yahoo.com.tw can be resolved by NS: ns5.yahoo.com  
+The name yahoo.com.tw can be resolved by NS: ns3.yahoo.com  
+No A record for server ns1.yahoo.com, asking root servers.  
+
+Resolving ns1.yahoo.com using server 192.5.5.241  
+The name com can be resolved by NS: f.gtld-servers.net  
+The name com can be resolved by NS: j.gtld-servers.net  
+The name com can be resolved by NS: h.gtld-servers.net  
+The name com can be resolved by NS: m.gtld-servers.net  
+The name com can be resolved by NS: k.gtld-servers.net  
+The name com can be resolved by NS: d.gtld-servers.net  
+The name com can be resolved by NS: b.gtld-servers.net  
+The name com can be resolved by NS: i.gtld-servers.net  
+The name com can be resolved by NS: c.gtld-servers.net  
+The name com can be resolved by NS: g.gtld-servers.net  
+The name com can be resolved by NS: e.gtld-servers.net  
+The name com can be resolved by NS: a.gtld-servers.net  
+The name com can be resolved by NS: l.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+Ignoring IPv6 record  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+Ignoring IPv6 record  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+
+Resolving ns1.yahoo.com using server 192.41.162.30  
+The name yahoo.com can be resolved by NS: ns1.yahoo.com  
+The name yahoo.com can be resolved by NS: ns5.yahoo.com  
+The name yahoo.com can be resolved by NS: ns2.yahoo.com  
+The name yahoo.com can be resolved by NS: ns3.yahoo.com  
+The name yahoo.com can be resolved by NS: ns4.yahoo.com  
+Ignoring IPv6 record  
+The name ns1.yahoo.com resolves to IP addr: 68.180.131.16  
+The name ns5.yahoo.com resolves to IP addr: 119.160.247.124  
+Ignoring IPv6 record  
+The name ns2.yahoo.com resolves to IP addr: 68.142.255.16  
+The name ns3.yahoo.com resolves to IP addr: 203.84.221.53  
+Ignoring IPv6 record  
+The name ns4.yahoo.com resolves to IP addr: 98.138.11.157  
+
+Resolving ns1.yahoo.com using server 98.138.11.157  
+The name ns1.yahoo.com resolves to IP addr: 68.180.131.16  
+No A record for server ns4.yahoo.com, asking root servers.  
+
+Resolving ns4.yahoo.com using server 128.63.2.53  
+The name com can be resolved by NS: a.gtld-servers.net  
+The name com can be resolved by NS: b.gtld-servers.net  
+The name com can be resolved by NS: c.gtld-servers.net  
+The name com can be resolved by NS: d.gtld-servers.net  
+The name com can be resolved by NS: e.gtld-servers.net  
+The name com can be resolved by NS: f.gtld-servers.net  
+The name com can be resolved by NS: g.gtld-servers.net  
+The name com can be resolved by NS: h.gtld-servers.net  
+The name com can be resolved by NS: i.gtld-servers.net  
+The name com can be resolved by NS: j.gtld-servers.net  
+The name com can be resolved by NS: k.gtld-servers.net  
+The name com can be resolved by NS: l.gtld-servers.net  
+The name com can be resolved by NS: m.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+The name m.gtld-servers.net resolves to IP addr: 192.55.83.30  
+Ignoring IPv6 record  
+
+Resolving ns4.yahoo.com using server 192.55.83.30  
+The name yahoo.com can be resolved by NS: ns1.yahoo.com  
+The name yahoo.com can be resolved by NS: ns5.yahoo.com  
+The name yahoo.com can be resolved by NS: ns2.yahoo.com  
+The name yahoo.com can be resolved by NS: ns3.yahoo.com  
+The name yahoo.com can be resolved by NS: ns4.yahoo.com  
+Ignoring IPv6 record  
+The name ns1.yahoo.com resolves to IP addr: 68.180.131.16  
+The name ns5.yahoo.com resolves to IP addr: 119.160.247.124  
+Ignoring IPv6 record  
+The name ns2.yahoo.com resolves to IP addr: 68.142.255.16  
+The name ns3.yahoo.com resolves to IP addr: 203.84.221.53  
+Ignoring IPv6 record  
+The name ns4.yahoo.com resolves to IP addr: 98.138.11.157  
+
+Resolving ns4.yahoo.com using server 98.138.11.157  
+The name ns4.yahoo.com resolves to IP addr: 98.138.11.157  
+No A record for server ns2.yahoo.com, asking root servers.  
+
+Resolving ns2.yahoo.com using server 192.112.36.4  
+The name com can be resolved by NS: g.gtld-servers.net  
+The name com can be resolved by NS: k.gtld-servers.net  
+The name com can be resolved by NS: j.gtld-servers.net  
+The name com can be resolved by NS: f.gtld-servers.net  
+The name com can be resolved by NS: a.gtld-servers.net  
+The name com can be resolved by NS: l.gtld-servers.net  
+The name com can be resolved by NS: i.gtld-servers.net  
+The name com can be resolved by NS: h.gtld-servers.net  
+The name com can be resolved by NS: b.gtld-servers.net  
+The name com can be resolved by NS: e.gtld-servers.net  
+The name com can be resolved by NS: c.gtld-servers.net  
+The name com can be resolved by NS: m.gtld-servers.net  
+The name com can be resolved by NS: d.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+The name m.gtld-servers.net resolves to IP addr: 192.55.83.30  
+Ignoring IPv6 record  
+
+Resolving ns2.yahoo.com using server 192.41.162.30  
+The name yahoo.com can be resolved by NS: ns1.yahoo.com  
+The name yahoo.com can be resolved by NS: ns5.yahoo.com  
+The name yahoo.com can be resolved by NS: ns2.yahoo.com  
+The name yahoo.com can be resolved by NS: ns3.yahoo.com  
+The name yahoo.com can be resolved by NS: ns4.yahoo.com  
+Ignoring IPv6 record  
+The name ns1.yahoo.com resolves to IP addr: 68.180.131.16  
+The name ns5.yahoo.com resolves to IP addr: 119.160.247.124  
+Ignoring IPv6 record  
+The name ns2.yahoo.com resolves to IP addr: 68.142.255.16  
+The name ns3.yahoo.com resolves to IP addr: 203.84.221.53  
+Ignoring IPv6 record  
+The name ns4.yahoo.com resolves to IP addr: 98.138.11.157  
+
+Resolving ns2.yahoo.com using server 98.138.11.157  
+The name ns2.yahoo.com resolves to IP addr: 68.142.255.16  
+No A record for server ns5.yahoo.com, asking root servers.  
+
+Resolving ns5.yahoo.com using server 192.58.128.30  
+The name com can be resolved by NS: a.gtld-servers.net  
+The name com can be resolved by NS: b.gtld-servers.net  
+The name com can be resolved by NS: c.gtld-servers.net  
+The name com can be resolved by NS: d.gtld-servers.net  
+The name com can be resolved by NS: e.gtld-servers.net  
+The name com can be resolved by NS: f.gtld-servers.net  
+The name com can be resolved by NS: g.gtld-servers.net  
+The name com can be resolved by NS: h.gtld-servers.net  
+The name com can be resolved by NS: i.gtld-servers.net  
+The name com can be resolved by NS: j.gtld-servers.net  
+The name com can be resolved by NS: k.gtld-servers.net  
+The name com can be resolved by NS: l.gtld-servers.net  
+The name com can be resolved by NS: m.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+The name m.gtld-servers.net resolves to IP addr: 192.55.83.30  
+Ignoring IPv6 record  
+
+Resolving ns5.yahoo.com using server 192.55.83.30  
+The name yahoo.com can be resolved by NS: ns1.yahoo.com  
+The name yahoo.com can be resolved by NS: ns5.yahoo.com  
+The name yahoo.com can be resolved by NS: ns2.yahoo.com  
+The name yahoo.com can be resolved by NS: ns3.yahoo.com  
+The name yahoo.com can be resolved by NS: ns4.yahoo.com  
+Ignoring IPv6 record  
+The name ns1.yahoo.com resolves to IP addr: 68.180.131.16  
+The name ns5.yahoo.com resolves to IP addr: 119.160.247.124  
+Ignoring IPv6 record  
+The name ns2.yahoo.com resolves to IP addr: 68.142.255.16  
+The name ns3.yahoo.com resolves to IP addr: 203.84.221.53  
+Ignoring IPv6 record  
+The name ns4.yahoo.com resolves to IP addr: 98.138.11.157  
+
+Resolving ns5.yahoo.com using server 98.138.11.157  
+The name ns5.yahoo.com resolves to IP addr: 119.160.247.124  
+No A record for server ns3.yahoo.com, asking root servers.  
+
+Resolving ns3.yahoo.com using server 192.5.5.241  
+The name com can be resolved by NS: m.gtld-servers.net  
+The name com can be resolved by NS: g.gtld-servers.net  
+The name com can be resolved by NS: d.gtld-servers.net  
+The name com can be resolved by NS: f.gtld-servers.net  
+The name com can be resolved by NS: l.gtld-servers.net  
+The name com can be resolved by NS: b.gtld-servers.net  
+The name com can be resolved by NS: h.gtld-servers.net  
+The name com can be resolved by NS: e.gtld-servers.net  
+The name com can be resolved by NS: a.gtld-servers.net  
+The name com can be resolved by NS: k.gtld-servers.net  
+The name com can be resolved by NS: i.gtld-servers.net  
+The name com can be resolved by NS: j.gtld-servers.net  
+The name com can be resolved by NS: c.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+Ignoring IPv6 record  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+Ignoring IPv6 record  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+
+Resolving ns3.yahoo.com using server 192.41.162.30  
+The name yahoo.com can be resolved by NS: ns1.yahoo.com  
+The name yahoo.com can be resolved by NS: ns5.yahoo.com  
+The name yahoo.com can be resolved by NS: ns2.yahoo.com  
+The name yahoo.com can be resolved by NS: ns3.yahoo.com  
+The name yahoo.com can be resolved by NS: ns4.yahoo.com  
+Ignoring IPv6 record  
+The name ns1.yahoo.com resolves to IP addr: 68.180.131.16  
+The name ns5.yahoo.com resolves to IP addr: 119.160.247.124  
+Ignoring IPv6 record  
+The name ns2.yahoo.com resolves to IP addr: 68.142.255.16  
+The name ns3.yahoo.com resolves to IP addr: 203.84.221.53  
+Ignoring IPv6 record  
+The name ns4.yahoo.com resolves to IP addr: 98.138.11.157  
+
+Resolving ns3.yahoo.com using server 98.138.11.157  
+The name ns3.yahoo.com resolves to IP addr: 203.84.221.53  
+
+Resolving www.yahoo.com.tw using server 68.142.255.16  
+The name www.yahoo.com.tw is also known as rc.yahoo.com.  
+
+Resolving rc.yahoo.com using server 192.112.36.4  
+The name com can be resolved by NS: m.gtld-servers.net  
+The name com can be resolved by NS: k.gtld-servers.net  
+The name com can be resolved by NS: i.gtld-servers.net  
+The name com can be resolved by NS: a.gtld-servers.net  
+The name com can be resolved by NS: g.gtld-servers.net  
+The name com can be resolved by NS: j.gtld-servers.net  
+The name com can be resolved by NS: f.gtld-servers.net  
+The name com can be resolved by NS: c.gtld-servers.net  
+The name com can be resolved by NS: h.gtld-servers.net  
+The name com can be resolved by NS: l.gtld-servers.net  
+The name com can be resolved by NS: b.gtld-servers.net  
+The name com can be resolved by NS: e.gtld-servers.net  
+The name com can be resolved by NS: d.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+The name m.gtld-servers.net resolves to IP addr: 192.55.83.30  
+Ignoring IPv6 record  
+
+Resolving rc.yahoo.com using server 192.55.83.30  
+The name yahoo.com can be resolved by NS: ns1.yahoo.com  
+The name yahoo.com can be resolved by NS: ns5.yahoo.com  
+The name yahoo.com can be resolved by NS: ns2.yahoo.com  
+The name yahoo.com can be resolved by NS: ns3.yahoo.com  
+The name yahoo.com can be resolved by NS: ns4.yahoo.com  
+Ignoring IPv6 record  
+The name ns1.yahoo.com resolves to IP addr: 68.180.131.16  
+The name ns5.yahoo.com resolves to IP addr: 119.160.247.124  
+Ignoring IPv6 record  
+The name ns2.yahoo.com resolves to IP addr: 68.142.255.16  
+The name ns3.yahoo.com resolves to IP addr: 203.84.221.53  
+Ignoring IPv6 record  
+The name ns4.yahoo.com resolves to IP addr: 98.138.11.157  
+
+Resolving rc.yahoo.com using server 98.138.11.157  
+The name rc.yahoo.com is also known as src.g03.yahoodns.net.  
+
+Resolving src.g03.yahoodns.net using server 192.58.128.30  
+The name net can be resolved by NS: a.gtld-servers.net  
+The name net can be resolved by NS: b.gtld-servers.net  
+The name net can be resolved by NS: c.gtld-servers.net  
+The name net can be resolved by NS: d.gtld-servers.net  
+The name net can be resolved by NS: e.gtld-servers.net  
+The name net can be resolved by NS: f.gtld-servers.net  
+The name net can be resolved by NS: g.gtld-servers.net  
+The name net can be resolved by NS: h.gtld-servers.net  
+The name net can be resolved by NS: i.gtld-servers.net  
+The name net can be resolved by NS: j.gtld-servers.net  
+The name net can be resolved by NS: k.gtld-servers.net  
+The name net can be resolved by NS: l.gtld-servers.net  
+The name net can be resolved by NS: m.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+The name m.gtld-servers.net resolves to IP addr: 192.55.83.30  
+Ignoring IPv6 record  
+
+Resolving src.g03.yahoodns.net using server 192.55.83.30  
+The name yahoodns.net can be resolved by NS: ns1.yahoo.com  
+The name yahoodns.net can be resolved by NS: ns5.yahoo.com  
+The name yahoodns.net can be resolved by NS: ns2.yahoo.com  
+The name yahoodns.net can be resolved by NS: ns3.yahoo.com  
+The name yahoodns.net can be resolved by NS: ns4.yahoo.com  
+Ignoring IPv6 record  
+The name ns1.yahoo.com resolves to IP addr: 68.180.131.16  
+The name ns5.yahoo.com resolves to IP addr: 119.160.247.124  
+Ignoring IPv6 record  
+The name ns2.yahoo.com resolves to IP addr: 68.142.255.16  
+The name ns3.yahoo.com resolves to IP addr: 203.84.221.53  
+Ignoring IPv6 record  
+The name ns4.yahoo.com resolves to IP addr: 98.138.11.157  
+
+Resolving src.g03.yahoodns.net using server 203.84.221.53  
+The name g03.yahoodns.net can be resolved by NS: yf1.yahoo.com  
+The name g03.yahoodns.net can be resolved by NS: yf2.yahoo.com  
+The name g03.yahoodns.net can be resolved by NS: yf3.a1.b.yahoo.net  
+The name g03.yahoodns.net can be resolved by NS: yf4.a1.b.yahoo.net  
+The name yf1.yahoo.com resolves to IP addr: 68.142.254.15  
+The name yf2.yahoo.com resolves to IP addr: 68.180.130.15  
+
+Resolving src.g03.yahoodns.net using server 68.180.130.15  
+The name src.g03.yahoodns.net resolves to IP addr: 74.6.50.150  
+www.yahoo.com.tw resolves to 74.6.50.150  
+
+./hw5 -d -i 128.30.76.78  
+Resolving 128.30.76.78 using server 192.112.36.4  
+The name in-addr.arpa can be resolved by NS: e.in-addr-servers.arpa  
+The name in-addr.arpa can be resolved by NS: d.in-addr-servers.arpa  
+The name in-addr.arpa can be resolved by NS: c.in-addr-servers.arpa  
+The name in-addr.arpa can be resolved by NS: f.in-addr-servers.arpa  
+The name in-addr.arpa can be resolved by NS: b.in-addr-servers.arpa  
+The name in-addr.arpa can be resolved by NS: a.in-addr-servers.arpa  
+The name a.in-addr-servers.arpa resolves to IP addr: 199.212.0.73  
+The name b.in-addr-servers.arpa resolves to IP addr: 199.253.183.183  
+The name c.in-addr-servers.arpa resolves to IP addr: 196.216.169.10  
+The name d.in-addr-servers.arpa resolves to IP addr: 200.10.60.53  
+The name e.in-addr-servers.arpa resolves to IP addr: 203.119.86.101  
+The name f.in-addr-servers.arpa resolves to IP addr: 193.0.9.1  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+
+Resolving 128.30.76.78 using server 193.0.9.1  
+The name 128.in-addr.arpa can be resolved by NS: r.arin.net  
+The name 128.in-addr.arpa can be resolved by NS: u.arin.net  
+The name 128.in-addr.arpa can be resolved by NS: x.arin.net  
+The name 128.in-addr.arpa can be resolved by NS: y.arin.net  
+The name 128.in-addr.arpa can be resolved by NS: z.arin.net  
+The name 128.in-addr.arpa can be resolved by NS: arin.authdns.ripe.net  
+No A record for server r.arin.net, asking root servers.  
+
+Resolving r.arin.net using server 192.5.5.241  
+The name net can be resolved by NS: j.gtld-servers.net  
+The name net can be resolved by NS: a.gtld-servers.net  
+The name net can be resolved by NS: g.gtld-servers.net  
+The name net can be resolved by NS: e.gtld-servers.net  
+The name net can be resolved by NS: d.gtld-servers.net  
+The name net can be resolved by NS: b.gtld-servers.net  
+The name net can be resolved by NS: k.gtld-servers.net  
+The name net can be resolved by NS: l.gtld-servers.net  
+The name net can be resolved by NS: m.gtld-servers.net  
+The name net can be resolved by NS: h.gtld-servers.net  
+The name net can be resolved by NS: c.gtld-servers.net  
+The name net can be resolved by NS: f.gtld-servers.net  
+The name net can be resolved by NS: i.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+Ignoring IPv6 record  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+Ignoring IPv6 record  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+
+Resolving r.arin.net using server 192.41.162.30  
+The name arin.net can be resolved by NS: ns1.arin.net  
+The name arin.net can be resolved by NS: ns2.arin.net  
+The name arin.net can be resolved by NS: v.arin.net  
+The name arin.net can be resolved by NS: u.arin.net  
+The name arin.net can be resolved by NS: ns3.arin.net  
+The name ns1.arin.net resolves to IP addr: 199.212.0.108  
+Ignoring IPv6 record  
+The name ns2.arin.net resolves to IP addr: 199.71.0.108  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+The name v.arin.net resolves to IP addr: 63.243.194.2  
+Ignoring IPv6 record  
+The name u.arin.net resolves to IP addr: 204.61.216.50  
+The name ns3.arin.net resolves to IP addr: 199.5.26.108  
+Ignoring IPv6 record  
+
+Resolving r.arin.net using server 199.5.26.108  
+The name r.arin.net resolves to IP addr: 199.180.180.63  
+No A record for server u.arin.net, asking root servers.  
+
+Resolving u.arin.net using server 128.63.2.53  
+The name net can be resolved by NS: a.gtld-servers.net  
+The name net can be resolved by NS: b.gtld-servers.net  
+The name net can be resolved by NS: c.gtld-servers.net  
+The name net can be resolved by NS: d.gtld-servers.net  
+The name net can be resolved by NS: e.gtld-servers.net  
+The name net can be resolved by NS: f.gtld-servers.net  
+The name net can be resolved by NS: g.gtld-servers.net  
+The name net can be resolved by NS: h.gtld-servers.net  
+The name net can be resolved by NS: i.gtld-servers.net  
+The name net can be resolved by NS: j.gtld-servers.net  
+The name net can be resolved by NS: k.gtld-servers.net  
+The name net can be resolved by NS: l.gtld-servers.net  
+The name net can be resolved by NS: m.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+The name m.gtld-servers.net resolves to IP addr: 192.55.83.30  
+Ignoring IPv6 record  
+
+Resolving u.arin.net using server 192.55.83.30  
+The name arin.net can be resolved by NS: ns1.arin.net  
+The name arin.net can be resolved by NS: ns2.arin.net  
+The name arin.net can be resolved by NS: v.arin.net  
+The name arin.net can be resolved by NS: u.arin.net  
+The name arin.net can be resolved by NS: ns3.arin.net  
+The name ns1.arin.net resolves to IP addr: 199.212.0.108  
+Ignoring IPv6 record  
+The name ns2.arin.net resolves to IP addr: 199.71.0.108  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+The name v.arin.net resolves to IP addr: 63.243.194.2  
+Ignoring IPv6 record  
+The name u.arin.net resolves to IP addr: 204.61.216.50  
+The name ns3.arin.net resolves to IP addr: 199.5.26.108  
+Ignoring IPv6 record  
+
+Resolving u.arin.net using server 199.5.26.108  
+The name u.arin.net resolves to IP addr: 204.61.216.50  
+No A record for server x.arin.net, asking root servers.  
+
+Resolving x.arin.net using server 192.112.36.4  
+The name net can be resolved by NS: h.gtld-servers.net  
+The name net can be resolved by NS: b.gtld-servers.net  
+The name net can be resolved by NS: a.gtld-servers.net  
+The name net can be resolved by NS: c.gtld-servers.net  
+The name net can be resolved by NS: f.gtld-servers.net  
+The name net can be resolved by NS: l.gtld-servers.net  
+The name net can be resolved by NS: i.gtld-servers.net  
+The name net can be resolved by NS: m.gtld-servers.net  
+The name net can be resolved by NS: j.gtld-servers.net  
+The name net can be resolved by NS: e.gtld-servers.net  
+The name net can be resolved by NS: d.gtld-servers.net  
+The name net can be resolved by NS: k.gtld-servers.net  
+The name net can be resolved by NS: g.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+The name m.gtld-servers.net resolves to IP addr: 192.55.83.30  
+Ignoring IPv6 record  
+
+Resolving x.arin.net using server 192.55.83.30  
+The name arin.net can be resolved by NS: ns1.arin.net  
+The name arin.net can be resolved by NS: ns2.arin.net  
+The name arin.net can be resolved by NS: v.arin.net  
+The name arin.net can be resolved by NS: u.arin.net  
+The name arin.net can be resolved by NS: ns3.arin.net  
+The name ns1.arin.net resolves to IP addr: 199.212.0.108  
+Ignoring IPv6 record  
+The name ns2.arin.net resolves to IP addr: 199.71.0.108  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+The name v.arin.net resolves to IP addr: 63.243.194.2  
+Ignoring IPv6 record  
+The name u.arin.net resolves to IP addr: 204.61.216.50  
+The name ns3.arin.net resolves to IP addr: 199.5.26.108  
+Ignoring IPv6 record  
+
+Resolving x.arin.net using server 199.5.26.108  
+The name x.arin.net resolves to IP addr: 199.71.0.63  
+No A record for server y.arin.net, asking root servers.  
+
+Resolving y.arin.net using server 192.58.128.30  
+The name net can be resolved by NS: a.gtld-servers.net  
+The name net can be resolved by NS: b.gtld-servers.net  
+The name net can be resolved by NS: c.gtld-servers.net  
+The name net can be resolved by NS: d.gtld-servers.net  
+The name net can be resolved by NS: e.gtld-servers.net  
+The name net can be resolved by NS: f.gtld-servers.net  
+The name net can be resolved by NS: g.gtld-servers.net  
+The name net can be resolved by NS: h.gtld-servers.net  
+The name net can be resolved by NS: i.gtld-servers.net  
+The name net can be resolved by NS: j.gtld-servers.net  
+The name net can be resolved by NS: k.gtld-servers.net  
+The name net can be resolved by NS: l.gtld-servers.net  
+The name net can be resolved by NS: m.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+The name m.gtld-servers.net resolves to IP addr: 192.55.83.30  
+Ignoring IPv6 record  
+
+Resolving y.arin.net using server 192.55.83.30  
+The name arin.net can be resolved by NS: ns1.arin.net  
+The name arin.net can be resolved by NS: ns2.arin.net  
+The name arin.net can be resolved by NS: v.arin.net  
+The name arin.net can be resolved by NS: u.arin.net  
+The name arin.net can be resolved by NS: ns3.arin.net  
+The name ns1.arin.net resolves to IP addr: 199.212.0.108  
+Ignoring IPv6 record  
+The name ns2.arin.net resolves to IP addr: 199.71.0.108  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+The name v.arin.net resolves to IP addr: 63.243.194.2  
+Ignoring IPv6 record  
+The name u.arin.net resolves to IP addr: 204.61.216.50  
+The name ns3.arin.net resolves to IP addr: 199.5.26.108  
+Ignoring IPv6 record  
+
+Resolving y.arin.net using server 199.5.26.108  
+The name y.arin.net resolves to IP addr: 192.82.134.30  
+No A record for server z.arin.net, asking root servers.  
+
+Resolving z.arin.net using server 192.5.5.241  
+The name net can be resolved by NS: h.gtld-servers.net  
+The name net can be resolved by NS: f.gtld-servers.net  
+The name net can be resolved by NS: d.gtld-servers.net  
+The name net can be resolved by NS: i.gtld-servers.net  
+The name net can be resolved by NS: j.gtld-servers.net  
+The name net can be resolved by NS: l.gtld-servers.net  
+The name net can be resolved by NS: c.gtld-servers.net  
+The name net can be resolved by NS: k.gtld-servers.net  
+The name net can be resolved by NS: b.gtld-servers.net  
+The name net can be resolved by NS: e.gtld-servers.net  
+The name net can be resolved by NS: g.gtld-servers.net  
+The name net can be resolved by NS: a.gtld-servers.net  
+The name net can be resolved by NS: m.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+Ignoring IPv6 record  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+Ignoring IPv6 record  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+
+Resolving z.arin.net using server 192.41.162.30  
+The name arin.net can be resolved by NS: ns1.arin.net  
+The name arin.net can be resolved by NS: ns2.arin.net  
+The name arin.net can be resolved by NS: v.arin.net  
+The name arin.net can be resolved by NS: u.arin.net  
+The name arin.net can be resolved by NS: ns3.arin.net  
+The name ns1.arin.net resolves to IP addr: 199.212.0.108  
+Ignoring IPv6 record  
+The name ns2.arin.net resolves to IP addr: 199.71.0.108  
+Ignoring IPv6 record  
+Ignoring IPv6 record  
+The name v.arin.net resolves to IP addr: 63.243.194.2  
+Ignoring IPv6 record  
+The name u.arin.net resolves to IP addr: 204.61.216.50  
+The name ns3.arin.net resolves to IP addr: 199.5.26.108  
+Ignoring IPv6 record  
+
+Resolving z.arin.net using server 199.5.26.108  
+The name z.arin.net resolves to IP addr: 199.212.0.63  
+No A record for server arin.authdns.ripe.net, asking root servers.  
+
+Resolving arin.authdns.ripe.net using server 128.63.2.53  
+The name net can be resolved by NS: a.gtld-servers.net  
+The name net can be resolved by NS: b.gtld-servers.net  
+The name net can be resolved by NS: c.gtld-servers.net  
+The name net can be resolved by NS: d.gtld-servers.net  
+The name net can be resolved by NS: e.gtld-servers.net  
+The name net can be resolved by NS: f.gtld-servers.net  
+The name net can be resolved by NS: g.gtld-servers.net  
+The name net can be resolved by NS: h.gtld-servers.net  
+The name net can be resolved by NS: i.gtld-servers.net  
+The name net can be resolved by NS: j.gtld-servers.net  
+The name net can be resolved by NS: k.gtld-servers.net  
+The name net can be resolved by NS: l.gtld-servers.net  
+The name net can be resolved by NS: m.gtld-servers.net  
+The name a.gtld-servers.net resolves to IP addr: 192.5.6.30  
+The name b.gtld-servers.net resolves to IP addr: 192.33.14.30  
+The name c.gtld-servers.net resolves to IP addr: 192.26.92.30  
+The name d.gtld-servers.net resolves to IP addr: 192.31.80.30  
+The name e.gtld-servers.net resolves to IP addr: 192.12.94.30  
+The name f.gtld-servers.net resolves to IP addr: 192.35.51.30  
+The name g.gtld-servers.net resolves to IP addr: 192.42.93.30  
+The name h.gtld-servers.net resolves to IP addr: 192.54.112.30  
+The name i.gtld-servers.net resolves to IP addr: 192.43.172.30  
+The name j.gtld-servers.net resolves to IP addr: 192.48.79.30  
+The name k.gtld-servers.net resolves to IP addr: 192.52.178.30  
+The name l.gtld-servers.net resolves to IP addr: 192.41.162.30  
+The name m.gtld-servers.net resolves to IP addr: 192.55.83.30  
+Ignoring IPv6 record  
+
+Resolving arin.authdns.ripe.net using server 192.55.83.30  
+The name ripe.net can be resolved by NS: ns3.nic.fr  
+The name ripe.net can be resolved by NS: sec1.apnic.net  
+The name ripe.net can be resolved by NS: sec3.apnic.net  
+The name ripe.net can be resolved by NS: tinnie.arin.net  
+The name ripe.net can be resolved by NS: sns-pb.isc.org  
+The name ripe.net can be resolved by NS: pri.authdns.ripe.net  
+Ignoring IPv6 record  
+The name sec1.apnic.net resolves to IP addr: 202.12.29.59  
+Ignoring IPv6 record  
+The name sec3.apnic.net resolves to IP addr: 202.12.28.140  
+The name tinnie.arin.net resolves to IP addr: 199.212.0.53  
+Ignoring IPv6 record  
+The name pri.authdns.ripe.net resolves to IP addr: 193.0.9.5  
+Ignoring IPv6 record  
+
+Resolving arin.authdns.ripe.net using server 193.0.9.5  
+The name arin.authdns.ripe.net resolves to IP addr: 193.0.9.10  
+
+Resolving 128.30.76.78 using server 192.82.134.30  
+The name 30.128.in-addr.arpa can be resolved by NS: auth-ns1.csail.mit.edu  
+The name 30.128.in-addr.arpa can be resolved by NS: auth-ns2.csail.mit.edu  
+The name 30.128.in-addr.arpa can be resolved by NS: auth-ns0.csail.mit.edu  
+The name 30.128.in-addr.arpa can be resolved by NS: auth-ns3.csail.mit.edu  
+No A record for server auth-ns1.csail.mit.edu, asking root servers.  
+
+Resolving auth-ns1.csail.mit.edu using server 192.58.128.30  
+The name edu can be resolved by NS: a.edu-servers.net  
+The name edu can be resolved by NS: c.edu-servers.net  
+The name edu can be resolved by NS: d.edu-servers.net  
+The name edu can be resolved by NS: f.edu-servers.net  
+The name edu can be resolved by NS: g.edu-servers.net  
+The name edu can be resolved by NS: l.edu-servers.net  
+The name a.edu-servers.net resolves to IP addr: 192.5.6.30  
+The name c.edu-servers.net resolves to IP addr: 192.26.92.30  
+The name d.edu-servers.net resolves to IP addr: 192.31.80.30  
+The name f.edu-servers.net resolves to IP addr: 192.35.51.30  
+The name g.edu-servers.net resolves to IP addr: 192.42.93.30  
+The name l.edu-servers.net resolves to IP addr: 192.41.162.30  
+Ignoring IPv6 record  
+
+Resolving auth-ns1.csail.mit.edu using server 192.41.162.30  
+The name mit.edu can be resolved by NS: usw2.akam.net  
+The name mit.edu can be resolved by NS: asia1.akam.net  
+The name mit.edu can be resolved by NS: asia2.akam.net  
+The name mit.edu can be resolved by NS: use2.akam.net  
+The name mit.edu can be resolved by NS: ns1-37.akam.net  
+The name mit.edu can be resolved by NS: ns1-173.akam.net  
+The name mit.edu can be resolved by NS: eur5.akam.net  
+The name mit.edu can be resolved by NS: use5.akam.net  
+The name usw2.akam.net resolves to IP addr: 184.26.161.64  
+The name asia1.akam.net resolves to IP addr: 95.100.175.64  
+The name asia2.akam.net resolves to IP addr: 95.101.36.64  
+The name use2.akam.net resolves to IP addr: 96.7.49.64  
+The name ns1-37.akam.net resolves to IP addr: 193.108.91.37  
+Ignoring IPv6 record  
+The name ns1-173.akam.net resolves to IP addr: 193.108.91.173  
+Ignoring IPv6 record  
+The name eur5.akam.net resolves to IP addr: 23.74.25.64  
+The name use5.akam.net resolves to IP addr: 2.16.40.64  
+Ignoring IPv6 record  
+
+Resolving auth-ns1.csail.mit.edu using server 2.16.40.64  
+The name csail.mit.edu can be resolved by NS: auth-ns3.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns0.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns1.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns2.csail.mit.edu  
+The name auth-ns0.csail.mit.edu resolves to IP addr: 128.30.2.123  
+The name auth-ns1.csail.mit.edu resolves to IP addr: 18.24.0.120  
+The name auth-ns2.csail.mit.edu resolves to IP addr: 128.52.32.80  
+The name auth-ns3.csail.mit.edu resolves to IP addr: 128.52.32.80  
+
+Resolving auth-ns1.csail.mit.edu using server 128.52.32.80  
+The name auth-ns1.csail.mit.edu resolves to IP addr: 18.24.0.120  
+No A record for server auth-ns2.csail.mit.edu, asking root servers.  
+
+Resolving auth-ns2.csail.mit.edu using server 192.112.36.4  
+The name edu can be resolved by NS: g.edu-servers.net  
+The name edu can be resolved by NS: c.edu-servers.net  
+The name edu can be resolved by NS: f.edu-servers.net  
+The name edu can be resolved by NS: d.edu-servers.net  
+The name edu can be resolved by NS: a.edu-servers.net  
+The name edu can be resolved by NS: l.edu-servers.net  
+The name a.edu-servers.net resolves to IP addr: 192.5.6.30  
+The name c.edu-servers.net resolves to IP addr: 192.26.92.30  
+The name d.edu-servers.net resolves to IP addr: 192.31.80.30  
+The name f.edu-servers.net resolves to IP addr: 192.35.51.30  
+The name g.edu-servers.net resolves to IP addr: 192.42.93.30  
+The name l.edu-servers.net resolves to IP addr: 192.41.162.30  
+Ignoring IPv6 record  
+
+Resolving auth-ns2.csail.mit.edu using server 192.41.162.30  
+The name mit.edu can be resolved by NS: usw2.akam.net  
+The name mit.edu can be resolved by NS: asia1.akam.net  
+The name mit.edu can be resolved by NS: asia2.akam.net  
+The name mit.edu can be resolved by NS: use2.akam.net  
+The name mit.edu can be resolved by NS: ns1-37.akam.net  
+The name mit.edu can be resolved by NS: ns1-173.akam.net  
+The name mit.edu can be resolved by NS: eur5.akam.net  
+The name mit.edu can be resolved by NS: use5.akam.net  
+The name usw2.akam.net resolves to IP addr: 184.26.161.64  
+The name asia1.akam.net resolves to IP addr: 95.100.175.64  
+The name asia2.akam.net resolves to IP addr: 95.101.36.64  
+The name use2.akam.net resolves to IP addr: 96.7.49.64  
+The name ns1-37.akam.net resolves to IP addr: 193.108.91.37  
+Ignoring IPv6 record  
+The name ns1-173.akam.net resolves to IP addr: 193.108.91.173  
+Ignoring IPv6 record  
+The name eur5.akam.net resolves to IP addr: 23.74.25.64  
+The name use5.akam.net resolves to IP addr: 2.16.40.64  
+Ignoring IPv6 record  
+
+Resolving auth-ns2.csail.mit.edu using server 2.16.40.64  
+The name csail.mit.edu can be resolved by NS: auth-ns2.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns3.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns0.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns1.csail.mit.edu  
+The name auth-ns0.csail.mit.edu resolves to IP addr: 128.30.2.123  
+The name auth-ns1.csail.mit.edu resolves to IP addr: 18.24.0.120  
+The name auth-ns2.csail.mit.edu resolves to IP addr: 128.52.32.80  
+The name auth-ns3.csail.mit.edu resolves to IP addr: 128.52.32.80  
+
+Resolving auth-ns2.csail.mit.edu using server 128.52.32.80  
+The name auth-ns2.csail.mit.edu resolves to IP addr: 128.52.32.80  
+No A record for server auth-ns0.csail.mit.edu, asking root servers.  
+
+Resolving auth-ns0.csail.mit.edu using server 192.228.79.201  
+The name edu can be resolved by NS: g.edu-servers.net  
+The name edu can be resolved by NS: d.edu-servers.net  
+The name edu can be resolved by NS: a.edu-servers.net  
+The name edu can be resolved by NS: l.edu-servers.net  
+The name edu can be resolved by NS: f.edu-servers.net  
+The name edu can be resolved by NS: c.edu-servers.net  
+The name a.edu-servers.net resolves to IP addr: 192.5.6.30  
+The name c.edu-servers.net resolves to IP addr: 192.26.92.30  
+The name d.edu-servers.net resolves to IP addr: 192.31.80.30  
+The name f.edu-servers.net resolves to IP addr: 192.35.51.30  
+The name g.edu-servers.net resolves to IP addr: 192.42.93.30  
+The name l.edu-servers.net resolves to IP addr: 192.41.162.30  
+Ignoring IPv6 record  
+
+Resolving auth-ns0.csail.mit.edu using server 192.42.93.30  
+The name mit.edu can be resolved by NS: usw2.akam.net  
+The name mit.edu can be resolved by NS: asia1.akam.net  
+The name mit.edu can be resolved by NS: asia2.akam.net  
+The name mit.edu can be resolved by NS: use2.akam.net  
+The name mit.edu can be resolved by NS: ns1-37.akam.net  
+The name mit.edu can be resolved by NS: ns1-173.akam.net  
+The name mit.edu can be resolved by NS: eur5.akam.net  
+The name mit.edu can be resolved by NS: use5.akam.net  
+The name usw2.akam.net resolves to IP addr: 184.26.161.64  
+The name asia1.akam.net resolves to IP addr: 95.100.175.64  
+The name asia2.akam.net resolves to IP addr: 95.101.36.64  
+The name use2.akam.net resolves to IP addr: 96.7.49.64  
+The name ns1-37.akam.net resolves to IP addr: 193.108.91.37  
+Ignoring IPv6 record  
+The name ns1-173.akam.net resolves to IP addr: 193.108.91.173  
+Ignoring IPv6 record  
+The name eur5.akam.net resolves to IP addr: 23.74.25.64  
+The name use5.akam.net resolves to IP addr: 2.16.40.64  
+Ignoring IPv6 record  
+
+Resolving auth-ns0.csail.mit.edu using server 23.74.25.64  
+The name csail.mit.edu can be resolved by NS: auth-ns1.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns2.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns0.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns3.csail.mit.edu  
+The name auth-ns0.csail.mit.edu resolves to IP addr: 128.30.2.123  
+The name auth-ns1.csail.mit.edu resolves to IP addr: 18.24.0.120  
+The name auth-ns2.csail.mit.edu resolves to IP addr: 128.52.32.80  
+The name auth-ns3.csail.mit.edu resolves to IP addr: 128.52.32.80  
+
+Resolving auth-ns0.csail.mit.edu using server 128.52.32.80  
+The name auth-ns0.csail.mit.edu resolves to IP addr: 128.30.2.123  
+No A record for server auth-ns3.csail.mit.edu, asking root servers.  
+
+Resolving auth-ns3.csail.mit.edu using server 192.58.128.30  
+The name edu can be resolved by NS: a.edu-servers.net  
+The name edu can be resolved by NS: c.edu-servers.net  
+The name edu can be resolved by NS: d.edu-servers.net  
+The name edu can be resolved by NS: f.edu-servers.net  
+The name edu can be resolved by NS: g.edu-servers.net  
+The name edu can be resolved by NS: l.edu-servers.net  
+The name a.edu-servers.net resolves to IP addr: 192.5.6.30  
+The name c.edu-servers.net resolves to IP addr: 192.26.92.30  
+The name d.edu-servers.net resolves to IP addr: 192.31.80.30  
+The name f.edu-servers.net resolves to IP addr: 192.35.51.30  
+The name g.edu-servers.net resolves to IP addr: 192.42.93.30  
+The name l.edu-servers.net resolves to IP addr: 192.41.162.30  
+Ignoring IPv6 record  
+
+Resolving auth-ns3.csail.mit.edu using server 192.42.93.30  
+The name mit.edu can be resolved by NS: usw2.akam.net  
+The name mit.edu can be resolved by NS: asia1.akam.net  
+The name mit.edu can be resolved by NS: asia2.akam.net  
+The name mit.edu can be resolved by NS: use2.akam.net  
+The name mit.edu can be resolved by NS: ns1-37.akam.net  
+The name mit.edu can be resolved by NS: ns1-173.akam.net  
+The name mit.edu can be resolved by NS: eur5.akam.net  
+The name mit.edu can be resolved by NS: use5.akam.net  
+The name usw2.akam.net resolves to IP addr: 184.26.161.64  
+The name asia1.akam.net resolves to IP addr: 95.100.175.64  
+The name asia2.akam.net resolves to IP addr: 95.101.36.64  
+The name use2.akam.net resolves to IP addr: 96.7.49.64  
+The name ns1-37.akam.net resolves to IP addr: 193.108.91.37  
+Ignoring IPv6 record  
+The name ns1-173.akam.net resolves to IP addr: 193.108.91.173  
+Ignoring IPv6 record  
+The name eur5.akam.net resolves to IP addr: 23.74.25.64  
+The name use5.akam.net resolves to IP addr: 2.16.40.64  
+Ignoring IPv6 record  
+
+Resolving auth-ns3.csail.mit.edu using server 23.74.25.64  
+The name csail.mit.edu can be resolved by NS: auth-ns1.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns2.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns3.csail.mit.edu  
+The name csail.mit.edu can be resolved by NS: auth-ns0.csail.mit.edu  
+The name auth-ns0.csail.mit.edu resolves to IP addr: 128.30.2.123  
+The name auth-ns1.csail.mit.edu resolves to IP addr: 18.24.0.120  
+The name auth-ns2.csail.mit.edu resolves to IP addr: 128.52.32.80  
+The name auth-ns3.csail.mit.edu resolves to IP addr: 128.52.32.80  
+
+Resolving auth-ns3.csail.mit.edu using server 128.52.32.80  
+The name auth-ns3.csail.mit.edu resolves to IP addr: 128.52.32.80  
+
+Resolving 128.30.76.78 using server 128.52.32.80  
+128.30.76.78 resolves to golf.csail.mit.edu`  
+</code></pre>
+</div>
+<h3 id="turn-in">Turn-in</h3>
+
+<p>To submit this assignment, add hw4 directory and put same files as the template, but update hw4.c with your code. We will use make to compile your code and that should produce binary file named hw4.</p>
+
+<h3 id="due-date">Due Date</h3>
+
+<p>This homework is due at <strong>October 17, Monday,  11 pm</strong>.</p>
+
+<h3 id="grading">Grading</h3>
+
+<p>Grading will be done automatically using a script. We will publish this script after grading has completed.</p>
+
+<p><strong><span style="color: rgb(255, 0, 0);">IMPORTANT</span>: We will check for <span style="color: rgb(255, 0, 0);">last word in the last line</span> of the program output during grading, as shown in the example above. Please make sure you conform to this output.</strong></p>
+
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

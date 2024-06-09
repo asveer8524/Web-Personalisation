@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> Homework1 &lt; CS385 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS385/Homework1?_T=2018-11-25" type="application/x-wiki" title="edit Homework1" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS385/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS385/Homework1"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS385/WebHome">CS385 Web</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS385/WebLeftBar" class="twikiLink">WebLeftBar</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS385/LectureRecordings" class="twikiLink">LectureRecordings</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS385/Syllabus" class="twikiLink">Syllabus</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS385/Homeworks" class="twikiLink">Homeworks</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS385/Homework1" title='Topic revision: 11 (2017-01-12 - 21:48:25)'>Homework1</a> <span class='patternRevInfo'>(2017-01-12, Main.jakob)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS385/Homework1?t=1543179974' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS385/Homework1' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h2><a name="Homework_1_lots_of_tools_and_a_s"></a> Homework 1: lots of tools, and a simple program </h2>
+<p />
+In this homework, we primarily familiarize ourselves with a number of tools we'll be using throughout the semester. Partial credit is hard to get in this homework - in order to get something running, and manage to submit the homework on time, you probably have to get it all right, so please get started early as there are many stumbling blocks along the way.
+<p />
+The instructions below are very minimal. Expect to have to do some googling along the way to figure out how to get things to work on your end. For a great manual of <code>git</code>, see <code>http://git-scm.com/book</code>. Make sure to read sections 1-3 to get a good understanding of its operation.
+<p />
+<h3><a name="Set_up_a_Linux_environment"></a> Set up a Linux environment </h3>
+<p />
+For this class, you need access to a Linux machine. It is convenient if your laptop is running Linux natively, but many other solutions will work as well. The recommended setup is to use VMWare to run the latest Ubuntu distribution.
+<p />
+To get a free copy of VMWare for your machine, follow these instructions:
+<p /> <ul>
+<li> Go to <a href="http://go.uic.edu/csvmware" target="_top">http://go.uic.edu/csvmware</a>
+</li> <li> Click on the "sign in" link at the top
+</li> <li> click on "register"
+</li> <li> select "An account has been created..." and continue with the registration.
+</li></ul> 
+<p />
+You do not need a linux GUI for this class, so you can use a remote Linux server if you cannot use VMWare or another virtual machine emulator. You do need to run xv6 in a VM on your local machine, however. If you do not own a suitable computer, you may use the CS computer labs in SEL. Let me (Jakob) know, as this may take a little extra doing.
+<p />
+<h3><a name="Install_qemu_on_your_machine"></a> Install qemu on your machine </h3>
+<p />
+Qemu is a PC emulator we'll be using to run xv6 under. In linux (Ubuntu), <code>apt-get install qemu</code> should do it. On a mac, install Macports, then <code>port install qemu</code>.
+<p />
+<h3><a name="Get_the_xv6_sources_build_under"></a> Get the xv6 sources, build (under Linux) and run (under Linux or elsewhere) </h3>
+<p />
+On your Linux machine, first install git: <code>apt-get install git</code>. Then fetch the version of the xv6 source tree that is hosted at UIC:
+<pre>
+git clone http://bits.cs.uic.edu/git/xv6.git</pre>
+<p />
+This creates a directory <code>xv6</code> which contains all the sources. To build xv6, you need a toolchain: compiler, linker, and such. To get the basics, <code>apt-get install build-essential</code>. Now, you should be ready to build and run xv6 under qemu: <code>make qemu</code>.
+<p />
+<strong>note:</strong> If you are using a Linux machine to build xv6, and a Windows or OS X machine to run xv6 within qemu, there is an extra step involved. First build xv6 <code>make xv6.img</code>, then run it on your machine. On OS X, say <code>qemu-system-i386 -m 512 -hdb fs.img xv6.img</code>. Not sure how it goes on Windows, but should be quite similar.
+<p />
+<h3><a name="Check_out_git_branch_for_hw1"></a> Check out git branch for hw1 </h3>
+<p />
+In the xv6 folder, create and check out the branch <code>git checkout hw1</code>.
+<p />
+<h3><a name="Write_a_divide_program_for_xv6"></a> Write a 'divide' program for xv6 </h3>
+<p />
+xv6 comes with a number of small programs, like <code>ls</code> and <code>cat</code>. You are to create a new program, <code>divide</code>, which takes two integer arguments on the command line, and prints out the value of the first argument divided by the second argument. 
+<p />
+Name the program <code>divide.c</code>, and make sure that typing <code>make qemu</code>  automatically builds the <code>divide</code> binary just like it builds the other binaries. For a correct implementation, running <code>divide</code> in qemu should produce an output like:
+<p />
+<code>100 / 5 is 20</code>
+<p />
+<code>4 / 5 is 0.8</code>
+<p />
+<code>2 / 3 is 0.66</code>
+<p />
+As shown, output up to two decimals, but no trailing zeroes.
+<p />
+If you install the package <code>expect</code>, you can test your solution by running <code>make test</code>. 
+<p />
+<h3><a name="Commit_your_work_to_the_local_re"></a> Commit your work to the local repository </h3>
+<p />
+Stage your modified and added files <code>git add Makefile divide.c</code>, and commit your staged files <code>git commit -m "Homework 1, first attempt"</code>.
+<p />
+<h3><a name="Submit_Homework_Using_Git"></a> Submit Homework Using Git </h3>
+<p />
+Follow the instructions here to get your personal turn-in repository working: <a href="/bin/view/CS385/AddStudentRepo" class="twikiLink">AddStudentRepo</a>. Once that is set up and you've followed the instructions, you'll run
+<p />
+<code>git push turn-in hw1:hw1</code>
+<p />
+to push your local hw1 branch up to the turn-in repository.
+<p />
+<strong>alternative push methods</strong>
+<p />
+If you used a different name for your local branch, or forgot to use a branch altogether, you could also do:
+<p />
+<code>git push turn-in anotherbranch:hw1</code>
+<p />
+or
+<p />
+<code>git push turn-in HEAD:hw1</code>
+<p />
+to push whatever local branch you currently have checked out.
+<p />
+<h3><a name="Check_your_submission"></a> Check your submission </h3>
+<p />
+To see that your submission was successfully pushed to your turn-in repository, try this in a new, empty directory:
+<p /> <ul>
+<li> git clone cs385:/cs385s17/youruseridhere
+</li> <li> git checkout hw1
+</li> <li> see that the file you added and committed shows up
+</li></ul> 
+<p />
+optional: <ul>
+<li> <code>make test</code> to check that your divide program works correctly. 
+</li></ul>  </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS385/Homework1?t=1543179974' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS385/Homework1' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS385/Homework1?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS385/Homework1?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r11&nbsp;<a rel="nofollow" href="/bin/rdiff/CS385/Homework1?rev1=11;rev2=10">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS385/Homework1?rev=10">r10</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS385/Homework1?rev1=10;rev2=9">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS385/Homework1?rev=9">r9</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS385/Homework1?rev1=9;rev2=8">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS385/Homework1?rev=8">r8</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS385/Homework1?rev1=8;rev2=7">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS385/Homework1?rev=7">r7</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS385/Homework1?template=backlinksweb' rel='nofollow' title='Search the CS385 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS385/Homework1?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS385/Homework1?t=1543179974;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS385/Homework1?template=oopsmore&amp;param1=11&amp;param2=11' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r11 - 2017-01-12 - 21:48:25 - Main.jakob</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS385/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS385</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/CS385/Syllabus" class="twikiLink">Syllabus</a>
+</li> <li> <a href="/bin/view/CS385/LectureRecordings" class="twikiLink">Lecture Recordings</a>
+</li> <li> <a href="https://piazza.com/class/is7nrhxyoa037x" target="_top">Piazza</a>
+</li> <li> <a href="/bin/view/CS385/Homeworks" class="twikiLink">Homeworks</a>
+</li></ul> 
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

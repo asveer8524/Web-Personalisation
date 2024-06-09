@@ -1,0 +1,356 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> AndroidExample &lt; CS422 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS422/AndroidExample?_T=2018-11-25" type="application/x-wiki" title="edit AndroidExample" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS422/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS422/AndroidExample"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+<!--GENERATED_HEADERS--><!-- TWISTYPLUGIN_TWISTY --> <style type="text/css" media="all">
+@import url("https://www.cs.uic.edu/pub/TWiki/TwistyContrib/twist.css");
+</style>
+<script type='text/javascript' src='https://www.cs.uic.edu/pub/TWiki/BehaviourContrib/behaviour.compressed.js'></script>
+<script type="text/javascript" src="https://www.cs.uic.edu/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="https://www.cs.uic.edu/pub/TWiki/TWikiJavascripts/twikiPref.js"></script>
+<script type="text/javascript" src="https://www.cs.uic.edu/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="https://www.cs.uic.edu/pub/TWiki/TwistyContrib/twist.compressed.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+var styleText = '<style type="text/css" media="all">.twikiMakeVisible{display:inline;}.twikiMakeVisibleInline{display:inline;}.twikiMakeVisibleBlock{display:block;}.twikiMakeHidden{display:none;}</style>';
+document.write(styleText);
+// ]]>
+</script>
+
+<!-- TABLEPLUGIN_twikiAttachmentsTable --> <style type="text/css" media="all">
+.tableSortIcon img {padding-left:.3em; vertical-align:text-bottom;}
+.twikiTable#twikiAttachmentsTable td {border-style:solid none;}
+.twikiTable#twikiAttachmentsTable th {border-style:solid none;}
+.twikiTable#twikiAttachmentsTable td {vertical-align:middle;}
+.twikiTable#twikiAttachmentsTable th {vertical-align:middle;}
+.twikiTable#twikiAttachmentsTable td {vertical-align:top;}
+.twikiTable#twikiAttachmentsTable th {background-color:#ffffff;}
+.twikiTable#twikiAttachmentsTable th.twikiSortedCol {background-color:#eeeeee;}
+.twikiTable#twikiAttachmentsTable th {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:link {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:visited {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:link font {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:visited font {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:hover {color:#ffffff;background-color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:hover font {color:#ffffff;background-color:#0066cc;}
+.twikiTable#twikiAttachmentsTable tr.twikiTableRowdataBg0 td {background-color:#ffffff;}
+.twikiTable#twikiAttachmentsTable tr.twikiTableRowdataBg0 td.twikiSortedCol {background-color:#f5f5f5;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol0 {text-align:center;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol1 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol2 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol3 {text-align:right;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol4 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol5 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol6 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol7 {text-align:center;}
+</style></head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS422/WebHome">CS422 Web</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS422/AndroidCoding" class="twikiLink">AndroidCoding</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS422/AndroidExample" title='Topic revision: 4 (2010-03-24 - 17:03:19)'>AndroidExample</a> <span class='patternRevInfo'>(2010-03-24, Main.cpable2)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS422/AndroidExample?t=1543179355' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS422/AndroidExample' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h1><a name="Android_Example"></a> Android Example </h1>
+<p />
+This example will guide you through using a basic Android framework, how activities interact with each other and demonstrating map capabilities.
+<p />
+To begin, please watch this video on how android manages applications people develop:
+<p />
+<a href="http://www.youtube.com/watch?v=fL6gSd4ugSI" target="_top">http://www.youtube.com/watch?v=fL6gSd4ugSI</a>
+<p />
+Next lets download the test application that was thrown together for you!
+<p />
+Sample Application: <a href="https://www.cs.uic.edu/pub/CS422/AndroidExample/testapp.zip" target="_top">testapp.zip</a>
+<p />
+Extract this zip archive somewhere you will remember.
+<p />
+Lets load up eclipse and import the project. Click on the File menu and select new project. We want an android project with the name test. We want to create the project from existing source. Browse to the location that you extracted the zip file to. We want to use the Google APIs for platform 2.1 (Though it will work on other versions of the platform too.)
+<p />
+The application's name should be test and the min sdk version should be 2. <br />Once you fill out that information, click on finish.
+<p />
+Note in order to run the example, you must create an AVD in the AVD manager that utilizes the google APIs, preferably in android 2.1.
+<p />
+Once the program is imported, we need to fix it's permissions since zip files do not preserve them. Right click on the test folder, select Android Tools from the drop down menu and select to fix project properties (This may not be nessecary if you are developing this on windows).
+<p />
+Now that the program is open, lets try running it. Remember, you must have already created an AVD with google APIs. You can do this in the AVD manager (Just click the button that looks like a cell phone in Eclipse).
+<p />
+You will be presented with a screen with 3 UIC buildings and the option to enter your own Longitude and Latitude pair. Select a building and a pop up of the option you selected (called a Toast) will echo your selection. Map view will then load and the building will be marked by an android. Pressing the back button will return you to the selection screen. If you enter your own co-ordinate pair, it must be in 1e6, 1e6 format. You will be taken to a screen where you can enter this information as well with a button entitled "Map it!".
+<p />
+<h2><a name="Examining_the_code"></a> Examining the code </h2>
+<p />
+So how do we code something like this? Well, as you saw from the video, each screen is generally noted as an activity. Every time you prepare to switch screens, its called creating an intent. This intent lets you pass information in a bundle to be passed on to the next screen while the current screens state is saved on the activity stack.
+<h3><a name="AndroidManifest_xml"></a> AndroidManifest.xml </h3>
+ This file is important because it tells Android which files and classes are in the project. We must mark each activity in this file as well as mark which permissions we would like to have, such as internet access (so we can download the map tiles in map view). This is the file in which you can set the application name and version number as well.
+<p />
+<h3><a name="Test_java"></a> Test.java </h3>
+ Test.java is the first file executed in project, so lets look at it. First thing that catches our eye is the list of locations in a String array followed by their longitude and latitude co-ordinates. We also note that the test class extends the list activity instead of a regular activity. This is important since the list activity has an view we want to link into that allows us to track item selections.
+<p />
+We set the ListAdapter (The thing that lets us use list view) to use the xml layout of list_item.xml. We can find this file under test\res\layout in the file tree and is available freely from the android dev resources. We then create a list view object and set it to being a regular old list view. After that we turn on the text filter, and create an item selection listener and it creates an anonymous inner class we can flush out.
+<p />
+In here, the only thing we really care about is the id. List index's start from 0 to the total size of locations. There are 3 things happening here, first, we create the toast pop-up.
+<p />
+Next we begin making an alert dialog. This dialog is never shown because these dialogs do not behave how one would expect on android. When you create a dialog, and display it, it is exclusive to the activity that starts it, so when we start the map activity, for example, the alert dialog is hidden behind the map activity. For this reason, we commented out the actual displaying of the alert dialog, but left it for you to see how to create a context free alert dialog.
+<p />
+Finally, we have an if statement that checks which ID was selected. If a building was selected, we pull its co-ordinates from the co-ordinates array and place them in a bundle. This bundle lets us place objects inside of an intent we create so that we can send information to the next screen. We create an intent and note that it is called map.class. When map.java is compiled, it becomes map.class, so remember this small detail. We then attach our bundle to the intent, and start the activity. Activities can return results, like sub programs, however, that is beyond the scope of this sample application.
+<p />
+<h3><a name="Map_java"></a> Map.java </h3>
+ Map.java is our next focus now, however, in order to use it, we need to create a small, almost useless helper class that lets us manage points called <strong>itemizedOverlay.java</strong>. We will not get into how it works as the code is trivial but it allows us to store multiple map points so we can display multiple points at once if we so choose.
+<p />
+Now that we have seen our helper class, lets look at the primary class. Notice how it extends MapActivity instead of ListActivity. As class variables to the activity, we create zoom controls and the variables needed to keep track of the overlays. isRouteDisplayed() is a stub from implementing MapActivity. It lets android know if you are displaying a route. In this case, we never will be.
+<p />
+Finally, we have the guts of map view. The first thing we do is create a bundle and extract the data we sent this activity inside of savedInstanceState and set the view to main.xml. We will take a look at main.xml after we finish the description of this class.
+<p />
+The next thing we do is attach the zoom controls (we defined these in the xml file and as class variables) and then attach our map overlays (the markers for the buildings) to the map as well. Note that our marker is an android icon, we saved it in test\res\drawable in the file tree. After that, its fairly simple to take the co-ordinates we passed to the activity and place them in the overlay list. After we do that, we tell the map to update our display of overlays. It's pretty simple and straight forward :).
+<p />
+<h3><a name="main_xml"></a> main.xml </h3>
+ main.xml is a major player to the map view. While generally, it is available on the android resources, theres 2 very important things to note. First of all, we added zoom controls, as you can see by the last segment in the file called linear layout. However, the critical thing is to notice in the middle segment of the file is android:apikey. You see this is my Google Maps API key. It does you no good. Why is that? This API key is generated from your installation of the SDK. To generate your own API key, you need to follow google's instructions here:<br /><a href="http://code.google.com/android/maps-api-signup.html " title="Get a Google Maps API Key!">http://code.google.com/android/maps-api-signup.html </a>
+<p />
+<strong>NOTE:</strong> When asked for a "keystore password", enter the default password of <strong>android</strong>.
+<p />
+<h3><a name="input_java"></a> input.java </h3>
+ Out next stop is input.java. This file allows the user to enter a co-ordinate pair in 1e6, 1e6 style to be passed on to the map activity. Here our class extends regular old activity. However, we set the layout to <strong>textinput.xml</strong>. The textbox is called an editText widget, and the the button is called a Button. After you take a good look at this schema, head back to the input.java file.
+<p />
+The first thing we do is add a click listener to the button. When its clicked, it instantiates an anonymous inner class that gets the text from the text box then parses it to make sure it is properly formatted. I allowed the user to be quite liberal in how they delimited the co-ordinates so the code is a little large. The user can separate values by a space, a comma, or a comma and a space. If I detect the user did not enter valid values for the co-ordinates correctly, I alert them with a toast pop up and the user can alter their input and try again, or use the back button to return to the previous activity. Once the values are entered correctly, I create a bundle just as before. I package the 2 values given to me by the user and send them to the map activity to be processed by creating an intent, attaching my bundle to it and then starting my intent.
+<p />
+Note that if I press back while I am in map view if I came from the co-ordinate entry screen, I return to the co-ordinate entry screen, not the building list as I did before since that was the previous activity I was in. I can press back again to return to the building selection screen.
+<p />
+<h2><a name="The_End"></a> The End? </h2>
+<p />
+That's the test program in a nutshell! Its pretty easy to follow, and the xml templates can be generated using the built in GUI generator if you so choose or you can type it out yourself. Good luck in making Android Applications! </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div><div class="twikiAttachments">
+<div class="twistyPlugin twikiMakeVisibleInline">  <span id="topicattachmentslistshow" class="twistyRememberSetting twistyTrigger twikiUnvisited twistyHidden twistyInited"><a href="#"><img src="/pub/TWiki/TWikiDocGraphics/toggleopen.gif" border="0" alt="" /><span class="twikiLinkLabel twikiUnvisited">Attachments</span></a> </span> <span id="topicattachmentslisthide" class="twistyRememberSetting twistyTrigger twikiUnvisited twistyHidden twistyInited"><a href="#"><img src="/pub/TWiki/TWikiDocGraphics/toggleclose.gif" border="0" alt="" /><span class="twikiLinkLabel twikiUnvisited">Attachments</span></a> </span>  </div><!--/twistyPlugin twikiMakeVisibleInline--> <div class="twistyPlugin"><div id="topicattachmentslisttoggle" class="twistyRememberSetting twistyContent twikiMakeHidden twistyInited">
+<table summary="Topic attachments" cellspacing="0" id="twikiAttachmentsTable" cellpadding="0" class="twikiTable" rules="rows" border="1"><caption>Topic attachments</caption>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol0 twikiFirstCol"> <a rel="nofollow" href="/bin/view/CS422/AndroidExample?sortcol=0;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">I</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol1"> <a rel="nofollow" href="/bin/view/CS422/AndroidExample?sortcol=1;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Attachment</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol2"> <a rel="nofollow" href="/bin/view/CS422/AndroidExample?sortcol=2;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Action</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol3"> <a rel="nofollow" href="/bin/view/CS422/AndroidExample?sortcol=3;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Size</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol4"> <a rel="nofollow" href="/bin/view/CS422/AndroidExample?sortcol=4;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Date</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol5"> <a rel="nofollow" href="/bin/view/CS422/AndroidExample?sortcol=5;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Who</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol6 twikiLastCol"> <a rel="nofollow" href="/bin/view/CS422/AndroidExample?sortcol=6;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Comment</font></a> </th>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> <img src="/pub/TWiki/TWikiDocGraphics/zip.gif" width="16" height="16" alt="Compressed Zip archive" title="Compressed Zip archive" border="0" /><span class="twikiHidden">zip</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1 twikiLast"> <a href="/pub/CS422/AndroidExample/testapp.zip">testapp.zip</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2 twikiLast"> <a href="/bin/attach/CS422/AndroidExample?filename=testapp.zip;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3 twikiLast"> 43.6&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4 twikiLast"> <span class="twikiNoBreak">2010-03-11 - 01:24</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5 twikiLast"> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/UnknownUser?topicparent=CS422.AndroidExample;nowysiwyg=0" rel="nofollow" title="UnknownUser (this topic does not yet exist; you can create it)">UnknownUser</a></span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol twikiLast"> CS422 Android Test Application </td>
+		</tr></table>
+</div></div> <!--/twistyPlugin--></div><!--//twikiAttachments--></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS422/AndroidExample?t=1543179356' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS422/AndroidExample' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS422/AndroidExample?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS422/AndroidExample?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r4&nbsp;<a rel="nofollow" href="/bin/rdiff/CS422/AndroidExample?rev1=4;rev2=3">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS422/AndroidExample?rev=3">r3</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS422/AndroidExample?rev1=3;rev2=2">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS422/AndroidExample?rev=2">r2</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS422/AndroidExample?rev1=2;rev2=1">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS422/AndroidExample?rev=1">r1</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS422/AndroidExample?template=backlinksweb' rel='nofollow' title='Search the CS422 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS422/AndroidExample?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS422/AndroidExample?t=1543179356;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS422/AndroidExample?template=oopsmore&amp;param1=4&amp;param2=4' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r4 - 2010-03-24 - 17:03:19 - Main.cpable2</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS422/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS422</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/CS422/Syllabus" class="twikiLink">Syllabus</a>
+</li> <li> <span style="color: #0000ff; text-decoration: underline" class="Apple-style-span"><a href="/bin/view/CS422/LectureNotes" class="twikiLink">Lecture Notes</a></span>
+</li> <li> <span style="color: #0000ff; text-decoration: underline" class="Apple-style-span"><a href="/bin/view/CS422/Homeworks" class="twikiLink">Homeworks</a></span>
+</li> <li> <span style="color: #0000ff"><u><a href="http://www.cs.uic.edu/bin/edit/Android" title="Android Wiki Page"><a href="/bin/view/CS422/Android" class="twikiLink">Android</a></a></u></span>
+</li> <li> <span style="color: #0000ff; text-decoration: underline" class="Apple-style-span"><a href="/bin/view/CS422/AdditionalMaterial" class="twikiLink">Additional Material</a></span>
+</li></ul> 
+<p />
+<a href="/bin/edit/CS422.WebLeftBar" target="_top">[edit this</a>]
+<p />
+<hr />
+<div class="patternLeftBarPersonal">
+<ul><li class="patternLogIn"><a href="/bin/logon/CS422/AndroidExample">Log In</a> </li></ul>
+</div><!--/patternLeftBarPersonal-->
+<p /> <ul>
+<li> <strong><a href="/bin/view/CS422/WebHome" class="twikiCurrentWebHomeLink twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/home.gif" width="16" height="16" alt="Home" title="Home" border="0" /> CS422 Web</a></strong>
+</li> <li> <a href="/bin/view/CS422/WebCreateNewTopic?topicparent=AndroidExample" target="_top"> <img src="/pub/TWiki/TWikiDocGraphics/newtopic.gif" width="16" height="16" alt="New topic" title="New topic" border="0" /> Create New Topic</a>
+</li> <li> <a href="/bin/view/CS422/WebTopicList" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/index.gif" width="16" height="16" alt="Index" title="Index" border="0" /> Index</a>
+</li> <li> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/CS422/WebSearch?topicparent=CS422.AndroidExample;nowysiwyg=0" rel="nofollow" title="Search (this topic does not yet exist; you can create it)"> <img src="/pub/TWiki/TWikiDocGraphics/searchtopic.gif" width="16" height="16" alt="Search topic" title="Search topic" border="0" /> Search</a></span>
+</li> <li> <a href="/bin/view/CS422/WebChanges" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/changes.gif" width="16" height="16" alt="Changes" title="Changes" border="0" /> Changes</a>
+</li> <li> <a href="/bin/view/CS422/WebNotify" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/notify.gif" width="16" height="16" alt="Notify" title="Notify" border="0" /> Notifications</a>
+</li> <li> <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/CS422/WebRss?topicparent=CS422.AndroidExample;nowysiwyg=0" rel="nofollow" title="RSS&#32;Feed (this topic does not yet exist; you can create it)"> <img src="/pub/TWiki/TWikiDocGraphics/feed.gif" width="16" height="16" alt="RSS feed, rounded corners" title="RSS feed, rounded corners" border="0" /> RSS Feed</a></span>
+</li> <li> <a href="/bin/view/CS422/WebStatistics" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/statistics.gif" width="16" height="16" alt="Statistics" title="Statistics" border="0" /> Statistics</a>
+</li> <li> <a href="/bin/view/CS422/WebPreferences" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/wrench.gif" width="16" height="16" alt="Wrench, tools" title="Wrench, tools" border="0" /> Preferences</a>
+</li></ul> 
+<p />
+<hr />
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

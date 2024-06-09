@@ -1,0 +1,146 @@
+<HTML>
+<HEAD>
+  <META NAME="GENERATOR" CONTENT="Adobe PageMill 3.0 Win">
+  <TITLE>CPlus Course Notes - Main Page</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffff80">
+
+<H1><CENTER>
+  Introduction to C / C++ Programming<BR>
+Course Notes Main Page</CENTER></H1>
+
+<H3>Description:</H3>
+<blockquote>
+  <p>This web site contains course notes for the &quot;C+&quot; programming language - A limited subset of C++ consisting primarily of those topics that are common to both C and C++, with just a few features of C++ included. Specifically the use of cin,  cout, and cerr are included, as well as the use of the String class and some use of the iostream classes. This site does NOT cover exceptions, templates, pointers, function or operator overloading, or the writing of any classes or other object-oriented programming concepts. Inheritance is very briefly discussed, only so far as is necessary to understand the iostream hierarchy.</p>
+</blockquote>
+<H3>Accreditation:</H3>
+
+<OL>
+  <LI>This version of these course notes was assembled Fall 2009
+  by <A HREF="http://www.cs.uic.edu/~jbell">John Bell</A>, for
+  CS 109 at the University of Illinois Chicago.
+</OL>
+
+<h4><font color="#ff0000" size="+2">Note: </font><font color="#ff0000">Any topic which does not have
+  a page linked to it, or for which the linked page is unavailable,
+  is under consideration and/or under development, and is subject
+  to change. </font></h4>
+<h4><strong><font color="#FF0000" size="+2">Disclaimer:</font><font color="#FF0000" size="+2"></font><font color="#FF0000"> The following note pages are just that - notes. They serve as reminders to myself of what I want to talk about, but not much more. They do not replace the need for students to take their own notes during class, and they certainly do not replace reading and studying the material in the required textbook. </font></strong></h4>
+<H3>Course Notes, by Topic</H3>
+<ol type=I>
+  <li>Introduction <strong><font color="#ff0000">( Historical - Not covered in the current semester. ) </font> </strong></li>
+  <ul>
+    <li><a href="NumberSystems.html">Computer Data Storage and Number Systems</a></li>
+    <li>An algorithmic approach to solving problems</li>
+  </ul>
+  <li><a href="BasicFormat.html">The General Format of a C/C++ Program</a></li>
+  <li><a href="ProgramDevelopment.html">Program Development Approach</a></li>
+  <li><a href="DataTypes.html">Basic Data Types</a>  </li>
+  <ul>
+    <li>Data Types</li>
+    <li>Constants</li>
+    <li>Variables</li>
+    <li>Type Conversions</li>
+    <li>Related Topics</li>
+  </ul>
+  <li><a href="Operators.html">Operators</a>
+  <ul>
+    <li>Input and Output       Operators      </li>
+    <li>The Simple Assignment Operator</li>
+    <li>Mathematical Operators - +, -, *, /, %</li>
+    <li>Precedence and Associativity    </li>
+    <li>Auto Increment and Auto Decrement</li>
+    <li>Abbreviated Assignment Operators</li>
+    </ul>
+  </li>
+
+  <li><a href="Libraries.html">Libraries</a></li>
+  <ul>
+    <li>&lt;iostream&gt;</li>
+    <li>&lt;cstdlib&gt;</li>
+    <li>&lt;cmath&gt;</li>
+    <li>&lt;cctype&gt;</li>
+    <li>&lt;cstring&gt;</li>
+    <li>&lt;climits&gt;</li>
+    <li>&lt;ctime&gt;</li>
+  </ul>
+  <li><a href="IO.html">Input and Output</a></li>
+  <ul>
+    <li>Basic Input and Output</li>
+    <li>The three standard I/O Streams - cin, cout, and cerr</li>
+    <li>Formatting output</li>
+    <li>File I/O</li>
+  </ul>
+  <li><a href="Decisions.html">Decision and Branching Constructs</a>
+    <ul>
+      <li>Boolean variables and data type</li>
+      <li>Relational operators</li>
+      <li>Logical operators</li>
+      <li>if-else</li>
+      <li>switch</li>
+      <li>The conditional operator</li>
+    </ul>
+  </li>
+  <li><a href="Looping.html">Looping Constructs</a>
+    <ul>
+      <li>while loops</li>
+      <li>do-while Loops</li>
+      <li>for Loops</li>
+      <li>break and continue</li>
+      <li>Infinite Loops</li>
+      <li>Empty Loops</li>
+      <li>Nested Loops</li>
+      <li>Floating point increments within loops</li>
+    </ul>
+  </li>
+  <li><a href="FileIO.html">File I/O</a></li>
+  <li><a href="Functions.html">Functions</a> </li>
+  <ul>
+    <li>Motivation and Benefits</li>
+    <li>Syntax and Components
+      <ul>
+        <li>Return Type</li>
+        <li>Function Name</li>
+        <li>Formal Parameter List</li>
+        <li>Function Body</li>
+        <li>The Return Statement</li>
+      </ul>
+    </li>
+    <li>Function Prototypes</li>
+    <li>Operation</li>
+    <li>Data Passing Mechanisms
+      <ul>
+        <li>Pass by Value</li>
+        <li>Pass by Reference</li>
+        <li>( Pass by Pointer / Address )</li>
+      </ul>
+    </li>
+    <li>Storage Class and Scope</li>
+  </ul>
+  <li><a href="Arrays.html">Arrays</a></li>
+  <ul>
+    <li>Overview</li>
+    <li>Declaring Arrays</li>
+    <li>Initializing Arrays</li>
+    <li>Using Arrays</li>
+    <li>Sample Programs Using 1-D Arrays</li>
+    <li>Multidimensional Arrays</li>
+    <li>Sample Program Using 2-D Arrays</li>
+    <li>Exercises</li>
+    <li>Passing Arrays to Functions</li>
+    <li>Character Strings as Arrays of Characters</li>
+  </ul>
+  <li>Beyond the Scope of These Notes:
+  </li>
+  <ul>
+    <li>Structs</li>
+    <li>Pointers / Addresses</li>
+    <li>Object-Oriented Programming ( writing classes, etc. )</li>
+    <li>Templates</li>
+    <li>Exceptions</li>
+    <li>Call-Back Functions</li>
+    <li>Recursion</li>
+  </ul>
+</ol>
+</BODY>
+</HTML>

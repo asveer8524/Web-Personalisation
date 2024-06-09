@@ -1,0 +1,330 @@
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head id="Head1"><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><title>
+	Chinese Program
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="geo.region" content="US-IL" /><meta name="geo.placename" content="Chicago" /><meta name="geo.position" content="41.874428;-87.651787" /><meta name="ICBM" content="41.874428, -87.651787" /><link rel="shortcut icon" href="//static.las.uic.edu/favicon.ico" />
+
+
+
+<link href="https://d35islomi5rx1v.cloudfront.net/ajax/2017.2.621/TreeView.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="https://d35islomi5rx1v.cloudfront.net/ajax/2017.2.621/Silk/TreeView.Silk.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><meta name="Generator" content="Sitefinity 10.1.6525.0 PU" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><script type="text/javascript">
+	(function() {var _rdDeviceWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;var _rdDeviceHeight = (window.innerHeight > 0) ? window.innerHeight : screen.height;var _rdOrientation = (window.width > window.height) ? 'landscape' : 'portrait';})();
+</script><link href="/Telerik.Web.UI.WebResource.axd?d=PMrIT5dOWaVYIcpFWUE4nB4dQoR__2njNrbeMltVMUTSIe4SMet0fwQ2K8e65tuuUhrbcLGCEBYuea5ZRuOTHXDaVUnSc811SN7t2U4DynmRnRp1WH6OQwJ6tYqA0_350&amp;t=636692118962391687&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%2c+Version%3d10.1.6525.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aen%3aeb177f10-254a-47f5-be2f-2f1c3f40d5ff%3a7a90d6a" type="text/css" rel="stylesheet" /><link href="/Sitefinity/Public/ResponsiveDesign/layout_transformations.css?pageDataId=5c715246-665f-41c2-ae77-0226b201f802&amp;pageSiteNode=447F9865-0834-4B06-A2ED-A8F923086535/74efec49-2811-46a7-bd0f-4f77dfd6fd0c/SitefinitySiteMap" type="text/css" rel="stylesheet" /><link href="/Sitefinity/WebsiteTemplates/LAS/App_Themes/Linguistics/global/linguistics.css?v=636440279035936717" type="text/css" rel="stylesheet" /></head>
+<body>
+    <form method="post" action="./chinese-program" id="form1">
+<input type="hidden" name="ctl11_TSSM" id="ctl11_TSSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="gOCEukEzL3WlORqzMIYWciPbDJxdHheDnP+QEVHVQH2i2++pMLTWtmiq4B3m3m0eDUF3zOqFCIzw9Njmr5pWJXleRlPR2WO2zPxt81kE8snghv2cPvEyVnmYbNUPLjozapkROv4S0UyFvp5TH8s6zvFblJNAW3IvZozAqpHyEKjnlEjVGvhgbWsDKul+tmaxvv7ubAQeI44aXoV3K2YgESl5vKaMy0PqrYid4iHDz2eFPke2yWeTPiQ60xSbPp1Kfuf/yDQTqu8uq/XXHz/qCcUymDeRqOh7dpTAbczl89E=" />
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/4.6/1/MicrosoftAjax.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys._Application && Sys.Observer)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yBXneVBjtRKLWo3GMnZfrt3NMUBTVQe6V0OznSvMkOdcClaQnd0Hpb9syAT68mt9ra2mDCEI8MISr8Q-tt0zWEg1ZcOcMdYEmTVGTVslBRa92TLPM9SX7FVRpQ3ttSvOcTGNX5-zc5si8epot7xscsQ1&t=545ba255"><\/script>');//]]>
+</script>
+
+<script src="//www.google.com/jsapi" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-1.12.1.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=lAcNKCSBPRb9dHiP3rTbPwyIu9BD-KR5ZMr4fWc4OH9p3EP28YpNrVTnho5ie3811Oj3jyq71-_DOWtmJx0dzH6fu-Mgk22kpZ_-7zqex0IlPYWiAOvobkmHsNnjBTwN-CPWpk14yI8UFV2cgOCBT2GwBkDGrRqShMex_Nqcsmz_8SWg6CV47GYsc2hvldQBc9RXSo3BCD88VD7tOaky_g2&amp;t=fffffffff0f3ba09" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=8u3ngCqoRB16IXgFyG-fdg4wrpB_dUApQxtLmeuwapyzARtsOsznqb62CYG1UtAyzcGHsEppM7rAXQQQDm6D35adaeRbXUnHqXOand5KPITHOro7J5M7TR3475pB5J2x0&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=pL5wgiwL1GpmyqMwhkDjFwlZD7m2ZkypoNLOeiNvydTR66Av6vEKAMifOeGXNUTYTlXqjLuGDKkHxOW-smbOCz9Np8a5s-2vKgW8sTY-rAOfboIMTENRawGDPtiLSXjZYZR-YpIikLuARW55J4lNhw2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=r5UL-hsNriOxS7UV4wWMiPKI0cVtjeer4LfK5osBhYoQzwguo1xmZnMoBNRKoEB3tNZ6CP-13TrvR-KIrNgFF8n4v1Kb5EcunRz-VhRQV_wvOYylgQYfymUmSvfzHV7fx9CeWPSZB3cdhP308cjpRFS8cC0-n1a4xEq57WRAG-k1&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dnHi0nMgDDe1Bo6v1KTdpAX6ZlGnDu3jfQMic7Shee10lJdce7V8YOfD8bEi-nl-Ez4jJfkXdc4jafUVsGlRLxGBS9SNBu_x9POlkGe4hmcQPX-DrAwIDDf5yzgAI2l5cxPM_O8ggPIHcIuNzcGkaA2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=KlfC4ae2T77svfC92c_tAVNTlQX_2MXUQzuFoKqP73RucpdyjLNCnrsWSv8mVXjrxOK9l2RxlMARO_mGK6nh35TfPjqgiJsw0rjWLRbp7l80qmNd63A8gLuU4wBgS8uBau_EYCIvVEYeaIQ3C7TNOA2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=oTWEP7ThC1yo24ooSsBTo1IgRWPVIkTwIGxyaV4L3tWXZticjz_9z_S8tTrRCoeQUw-4N2HDaogvadu5Bapc6KbHAdpvxWyub4Kmt73prYSHSlIC7F-51t4uCPYLW4_fqQT5fHeXny2K7yYp_Jid2Bl_KCd1K2AgiuzOKWieqq81&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=fXuWcQwzGDZIk7t9UCjetYHEy08RL9eZy2D97k_xI8FW3sqtNQkjbRZSoFrY5J8tyAlJ8CkoTTieb2RSeChos7kRYd7_P_4MAF3k35wO4-cgzokCiDsDMubLX4dWKu66rvn2jM6glpAvq0ivelT4R3lBr-j6F_51bIANZCOmg_o1&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=v_I7_Ww9YDbzP79DTo1lX0PvFMmHMDQ7p2RmKxR-OaDPj83usn2JXt7pHRfLuvKFIefXiOb-1XdBj8LF571rJnPId8K_xuUj35OsPWJ1r2nuTLcw0gCnuRi1qheHLrbxbvl2G_V3QixikcJzlyoYBti9aQS9Wjg2XoDnc5kuH7E1&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=b4-yKWFT9xWbIHhZk6DyH-bqhtOsacBVYjjKY1RdLe-Dx05CZPxz0gddemTdC8VF6SicVyErA1kUAQnNdj8Ee-3XGqT9EySouy3Ct33PQpJzP6zBp9wf95Eq8CECdYIRlGfl27KiYSnmO4R2j3Wb7A2&amp;t=154d5dcf" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A6700D95" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="RevLjEL3Cy+JUSsE0SWjIfrPNVp1vANaGXDlgtFKOkzctsKVfZb7risJ2I0O2cjO2HkwZhbvEXeGLqhQoyxmZ4DTk1bZCqFmDRj0VhoIxGDugfSmmIW3iQwRz55AgXE9vugVavazeahWcme0mpJiDg==" />
+    
+	
+    <div id="wrapper">
+        <div class="container">
+            <div id="topNav" class="row">
+                <div id="topNavMenu" role="navigation">
+                    <ul role="menu">
+                        <li role="menuitem">
+                            <a title="go to UIC website" href="http://www.uic.edu" target="_blank">UIC</a></li>
+                        <li role="menuitem">
+                            <a title="go to LAS website" href="http://www.las.uic.edu" target="_blank">LAS</a></li>
+                    </ul>
+                    <span class="breadCrumbs">
+                        
+<div id="cphBreadCrumbs_T6BB3A4FA008">
+	<span id="cphBreadCrumbs_T6BB3A4FA008_ctl00_ctl00_BreadcrumbTrail"><span><a title="This is the homepage for the School of Literatures, Cultural Studies and Lingustics (LCSL), University of Illinois at Chicago (UIC)." href="/lcsl">LCSL</a></span><span> &gt; </span><span><a href="/linguistics">Linguistics</a></span><span> &gt; </span><span>Chinese Program</span></span>
+</div>
+                    </span>
+                </div>
+                
+
+<div id="search" role="search">
+    <label id="lblSearchBox" for="searchTextBox">
+        Search</label>
+    <input name="ctl00$cphSearchBox$T6BB3A4FA001$searchTextBox" type="text" id="searchTextBox" />
+    <input type="image" name="ctl00$cphSearchBox$T6BB3A4FA001$searchButton" id="cphSearchBox_T6BB3A4FA001_searchButton" title="submit this search" class="btnGo" src="//static.las.uic.edu/images/las-ui/btn-go.png" alt="Go" />
+</div>
+
+
+            </div>
+        </div>
+        <!-- end #topNav -->
+        <div class="container">
+            <header class="row bannerWrapper" role="banner">
+                <div class="fullwidth last banner">
+                    
+<div class='logo'><h1><a href="/linguistics" title="go to home page"><img src="/images/layout/logo4B2445155380.png?sfvrsn=7b45001c_4" alt="UIC Department of Linguistics" /></a></h1>
+
+
+</div>
+                    <div id="bannerText">
+                        
+<div class='sfContentBlock'><br /> <p><strong>We apply linguistic and educational insights to the
+teaching of English as a Second or Foreign Language. We also offer
+instruction in the major world languages of Mandarin, Japanese, and
+Korean.</strong></p>
+
+
+</div>
+                    </div>
+                </div>
+                <div class="fullwidth last headerPhoto">
+                    
+
+                </div>
+            </header>
+        </div>
+        <!-- end #header -->
+        <div class="container">
+            <div id="pageBody" class="row">
+                <div class="fullwidth last">
+                    <div class="row sideBG">
+                        <nav class="navw side_img" role="navigation">
+                            
+<div class='sfContentBlock'><a href="http://lcsl.uic.edu/"><img width="180" height="40" alt="lcsl home button" style="border-radius: 10px; box-shadow: #333333 0px 0px 6px -2px; margin: 20px;" src="/images/default-source/layout/lcsl_home_button.tmb-thumbnail.jpg?sfvrsn=511f33a5_5" /></a>
+
+
+</div><div id="cphLeftNav_T6BB3A4FA004">
+	<div id="ctl00_cphLeftNav_T6BB3A4FA004_ctl00_ctl00_siteMapControl_verticaltree" class="RadTreeView RadTreeView_Silk">
+		<!-- 2017.2.621.40 --><ul class="rtUL rtLines">
+			<li class="rtLI rtFirst"><div class="rtTop">
+				<span class="rtSp"></span><a class="rtIn" href="home">Home</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="people">People</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI"><div class="rtTop">
+					<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="people/faculty">Faculty</a>
+				</div><ul class="rtUL" style="display:none;">
+					<li class="rtLI"><div class="rtTop">
+						<span class="rtSp"></span><a class="rtIn" href="people/faculty/richard-cameron">Richard Cameron</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="people/faculty/maja-grgurovic">Maja Grgurovic</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="people/faculty/duosi-meng">Duosi Meng</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="people/faculty/yinghua-moore">Yinghua Moore</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="people/faculty/susanne-rott">Susanne Rott</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="people/faculty/jessica-williams">Jessica Williams</a>
+					</div></li><li class="rtLI rtLast"><div class="rtBot">
+						<span class="rtSp"></span><a class="rtIn" href="people/faculty/xuehua-xiang">Xuehua Xiang</a>
+					</div></li>
+				</ul></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><a class="rtIn" href="people/administration">Administration</a>
+				</div></li><li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><a class="rtIn" href="people/contact-information">Contact Information</a>
+				</div></li>
+			</ul></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="ma-in-linguistics-tesol">MA in Linguistics/TESOL</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI"><div class="rtTop">
+					<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="ma-in-linguistics-tesol/applying-to-the-ma-tesol-program">Applying to the MA/TESOL Program</a>
+				</div><ul class="rtUL" style="display:none;">
+					<li class="rtLI"><div class="rtTop">
+						<span class="rtSp"></span><a class="rtIn" href="ma-in-linguistics-tesol/applying-to-the-ma-tesol-program/application-procedure">Application Procedure</a>
+					</div></li><li class="rtLI rtLast"><div class="rtBot">
+						<span class="rtSp"></span><a class="rtIn" href="ma-in-linguistics-tesol/applying-to-the-ma-tesol-program/international-students">International Students</a>
+					</div></li>
+				</ul></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><a class="rtIn" href="ma-in-linguistics-tesol/non-degree-options">Non-degree options</a>
+				</div></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><a class="rtIn" href="ma-in-linguistics-tesol/courses">Courses</a>
+				</div></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><a class="rtIn" href="ma-in-linguistics-tesol/faqs">FAQs</a>
+				</div></li><li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><a class="rtIn" href="ma-in-linguistics-tesol/visiting-uic-tesol">Visiting UIC TESOL</a>
+				</div></li>
+			</ul></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="minor-in-linguistics">Minor in Linguistics</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="chinese-program">Chinese Program</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI"><div class="rtTop">
+					<span class="rtSp"></span><a class="rtIn" href="chinese-program/minor-in-chinese">Minor in Chinese</a>
+				</div></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><a class="rtIn" href="chinese-program/chinese-for-the-general-audience">Chinese for the General Audience</a>
+				</div></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><a class="rtIn" href="chinese-program/chinese-for-heritage-speakers">Chinese for Heritage Speakers</a>
+				</div></li><li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><a class="rtIn" href="chinese-program/advanced-chinese-courses">Advanced Chinese Courses</a>
+				</div></li>
+			</ul></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="japanese-language">Japanese Language</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="korean-language">Korean Language</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="news">News</a>
+			</div></li><li class="rtLI rtLast"><div class="rtBot">
+				<span class="rtSp"></span><a class="rtIn" href="events">Events</a>
+			</div></li>
+		</ul><input id="ctl00_cphLeftNav_T6BB3A4FA004_ctl00_ctl00_siteMapControl_verticaltree_ClientState" name="ctl00_cphLeftNav_T6BB3A4FA004_ctl00_ctl00_siteMapControl_verticaltree_ClientState" type="hidden" />
+	</div>
+
+<script type="text/javascript">
+    function pageLoad() { var tree = $find("ctl00_cphLeftNav_T6BB3A4FA004_ctl00_ctl00_siteMapControl_verticaltree"); if (tree) { var location = window.location.pathname; location = location.substring(location.lastIndexOf('/') + 1); var currentNode = tree.findNodeByUrl(location); if (currentNode) { currentNode.set_selected(true); ExpandParent(currentNode); currentNode.set_expanded(true) } } } function CollapseSiblings(node) { var parent = node.get_parent(); var siblings = parent.get_nodes(); var siblingsCount = siblings.get_count(); for (var nodeIndex = 0; nodeIndex < siblingsCount; nodeIndex++) { var siblingNode = siblings.getNode(nodeIndex); if ((siblingNode != node) && (siblingNode.get_expanded())) { siblingNode.collapse(); return } } } function OnClientNodeExpanding(sender, args) { var node = args.get_node(); if (node.get_nodes().get_count()) { CollapseSiblings(node) } } function ExpandParent(node) { node = node.get_parent(); while (node != null) { if (node.expand) { node.expand() } node = node.get_parent() } }
+</script>
+
+
+</div>
+                        </nav>
+                        <div class="bodyw last copy">
+                            
+<div class="sf_cols">
+    <div class="sf_colsOut sf_2cols_1_50">
+        <div id="cphPageBody_C002_Col00" class="sf_colsIn sf_2cols_1in_50"><div class='sfContentBlock'><iframe width="360" height="202" src="https://www.youtube.com/embed/SihFbreSnN8" frameborder="0"></iframe>
+
+
+</div>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_2cols_2_50">
+        <div id="cphPageBody_C002_Col01" class="sf_colsIn sf_2cols_2in_50"><div class='sfContentBlock'><iframe width="360" height="202" src="https://www.youtube.com/embed/7zI1idBWeHM" frameborder="0"></iframe>
+
+
+</div>            
+        </div>
+    </div>
+</div><div class='sfContentBlock'><h2> Chinese</h2>
+<p >
+We hope to expand the program with your support and enrollment. It is our goal to provide a supportive and effective learning environment; we aim to offer students a sustainable and expandable knowledge<strong> </strong>of Chinese which will help you connect to Chinese people all around the world, connect to your own heritage, and expand the horizon of possibilities.<br />
+<br />
+<strong>For more news and events visit the Chinese Program's blog&nbsp;</strong><a href="http://chinese.publish.uic.edu/home/"></a><a href="http://chinese.publish.uic.edu/home/" target="_blank"><strong>http://chinese.publish.uic.<wbr></wbr>edu/home/</strong></a><br />
+<br />
+We currently offer two tracks of the Chinese Basic Language Program, as well as several <a href="/linguistics/chinese-program/advanced-chinese-courses">advanced courses</a>. Both tracks can be used to satisfy the LAS Foreign Language Requirement: </p>
+<ul>
+    <li><strong></strong><a href="/linguistics/chinese-program/chinese-for-the-general-audience" title="Go to 'Track 1'" target="_blank"><strong>Track I</strong> : <strong>Chinese for the General Audience</strong></a><strong></strong> (<strong>CHIN 101-104</strong>)</li>
+    <li><strong></strong><a href="/linguistics/chinese-program/chinese-for-heritage-speakers" title="Go to 'Track 2'" target="_blank"><strong>Track II</strong>: <strong>Chinese for Heritage Learners from Mandarin-Speaking Background</strong></a><strong></strong> (<strong>CHIN 111-112</strong>)</li>
+</ul>
+<strong></strong>The Foreign Language Requirement may be fulfilled by <strong>passing Chinese 104 or Chinese 112</strong>, or <strong>passing the Chinese Placement Test</strong>. In the case of you passing the Placement Test, you will be provided an assessment verification which you can then show to your academic advisor.
+<p> </p>
+<h3>Placement Tests</h3>
+<p>Information about how to complete the required placement procedure can be found on the Chinese Program's Blog site (<a href="http://chinese.publish.uic.edu/placement/" target="_blank">http://chinese.publish.uic.<wbr></wbr>edu/placement/</a>).<br />
+<br />
+All students, with the exception of students who have absolutely no previous instruction or contact with Chinese, must take the <strong>Chinese Placement Test</strong>. The Chinese Placement Test is administered by the <strong>Office of Testing Services</strong>. Please contact the <a href="http://www.uic.edu/depts/counselctr/testing/OTSHome.htm"><strong>Office of Testing Services</strong></a> to schedule a placement test.</p>
+<p>The <strong>Placement Test </strong>is two hours and consists of two sections: <strong>Section I</strong> is the multiple-choice section, which focuses on grammatical structures, vocabulary knowledge, expressions and phrases communicative situations and cultural knowledge. <strong>Section II</strong> is the writing section, with two specific writing tasks. Preparation for the test is not necessary. No dictionary or other references are allowed during the test. You may request either the <strong>Traditional Character version</strong> of the test of the <strong>Simplified Character version</strong>.</p>
+<p>If you are a <strong>transfer student</strong> and have transferred UIC Chinese language credits from your previous institution, or if you have taken the Chinese <strong>Advanced Placement Test </strong>and transferred Chinese language credits, and you want to continue to study Chinese at UIC, you are required to follow the same placement procedure (completing the Chinese Placement Text and contacting the Chinese Program Coordinator to obtain course approval). Students who have taken the Chinese Advanced Placement Test may consult <a href="http://www.uic.edu/depts/oar/undergrad/advanced_placement.html#ap">UIC's AP Placement Page</a> for proper interpretations of their AP score, and for information regarding credit for Chinese at UIC and class exemption/placement.</p>
+<h3><a name="chinese-tutoring-service"></a></h3>
+
+
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end #pageBody -->
+        <div class="container">
+            <footer role="contentinfo">
+                <div id="copyright" class="row">
+                    <div class="fullwidth last">
+                        
+<div class='sfContentBlock'><span class="copyrightText">&copy;2017 The Board of Trustees of the University of Illinois.</span>
+
+
+</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="container">
+            <div id="footer" class="row">
+                <div class="footerCol">
+                    
+<div class='sfContentBlock'><a href="http://www.las.uic.edu/giving/lcsl" title="give to LCSL" target="_blank"><img src="//static.las.uic.edu/images/giving/give-button-lcsl.png" alt="Give to LCSL logo" /></a>
+
+
+</div>
+                </div>
+                <div class="footerCol">
+                    
+<div class='sfContentBlock'>Department of Linguistics<br />
+601 South Morgan Street (MC 315)<br />
+1722 University Hall <br />
+Chicago, IL 60607<br />
+Tel: (312) 996-5218 <br />
+Fax: (312) 413-1044
+
+
+</div>
+                </div>
+                <div class="footerGroup">
+                    <div class="footerCol">
+                        
+<div class='sfContentBlock'><a target="_blank" href="http://www.uic.edu" title="go to UIC website">UIC Home</a><br /> <a target="_blank" href="http://www.las.uic.edu" title="go to LAS website">LAS Home</a><br /> <a target="_blank" href="http://www.uic.edu/uic/search/" title="go to UIC directory search">Find People</a>
+
+
+</div>
+                    </div>
+                    <div class="footerCol">
+                        
+<div class='sfContentBlock'><a target="_blank" title="go to website" href="http://www.uic.edu/uic/studentlife/campus/emergency-information.shtml">Emergency Information</a><br /> <a target="_blank" title="go to website" href="http://accessweb.uic.edu">Accessibility</a><br /> <a target="_blank" title="go to website" href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Policy</a><br /> <a title="email LAS webmaster" href="mailto:laswebstaff@uic.edu">Webmaster</a>&nbsp;&nbsp;
+
+
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end #footer-->
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Telerik.Web.UI.RadTreeView._preInitialize("ctl00_cphLeftNav_T6BB3A4FA004_ctl00_ctl00_siteMapControl_verticaltree","0");//]]>
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-24550204-5");
+pageTracker._trackPageview();
+} catch(err) {} 
+</script>
+<script type="text/javascript">
+//<![CDATA[
+;(function() {
+                        function loadHandler() {
+                            var hf = $get('ctl11_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Sitefinity.Resources, Version=10.1.6525.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:en:eb177f10-254a-47f5-be2f-2f1c3f40d5ff:7a90d6a';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadTreeView, {"_skin":"Silk","_uniqueId":"ctl00$cphLeftNav$T6BB3A4FA004$ctl00$ctl00$siteMapControl_verticaltree","clientStateFieldID":"ctl00_cphLeftNav_T6BB3A4FA004_ctl00_ctl00_siteMapControl_verticaltree_ClientState","collapseAnimation":"{\"duration\":200}","expandAnimation":"{\"duration\":200}","nodeData":[{"value":"Home"},{"value":"People","items":[{"value":"Faculty","items":[{"value":"Richard Cameron"},{"value":"Maja Grgurovic"},{"value":"Duosi Meng"},{"value":"Yinghua Moore"},{"value":"Susanne Rott"},{"value":"Jessica Williams"},{"value":"Xuehua Xiang"}]},{"value":"Administration"},{"value":"Contact Information"}]},{"value":"MA in Linguistics/TESOL","items":[{"value":"Applying to the MA/TESOL Program","items":[{"value":"Application Procedure"},{"value":"International Students"}]},{"value":"Non-degree options"},{"value":"Courses"},{"value":"FAQs"},{"value":"Visiting UIC TESOL"}]},{"value":"Minor in Linguistics"},{"value":"Chinese Program","items":[{"value":"Minor in Chinese"},{"value":"Chinese for the General Audience"},{"value":"Chinese for Heritage Speakers"},{"value":"Advanced Chinese Courses"}]},{"value":"Japanese Language"},{"value":"Korean Language"},{"value":"News"},{"value":"Events"}]}, {"nodeExpanding":OnClientNodeExpanding}, null, $get("ctl00_cphLeftNav_T6BB3A4FA004_ctl00_ctl00_siteMapControl_verticaltree"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

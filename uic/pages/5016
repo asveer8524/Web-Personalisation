@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!-- InstanceBegin template="/templates/current_students_template.dwt" codeOutsideHTMLIsLocked="false" --> <!--<![endif]-->
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Online Tuition and Fees - Fall 2018 & Spring 2019 | UIC Office of the Registrar</title>
+    <style type="text/css">
+    </style>
+    <style type="text/css">
+        <!--
+        .style4 {font-size: x-small}
+        -->
+    </style>
+    <style type="text/css">
+        <!--
+        .style5 {font-size: small}
+        -->
+    </style>
+    <!-- InstanceEndEditable -->
+    <meta name="author" content="University of Illinois at Chicago">
+    <meta name="keywords" content="University of Illinois at Chicago, Chicago, UIC, Registrar, UIC Registrar">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link href="../../assets/css/layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../../assets/css/main.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../../assets/css/header_red.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../../assets/css/print.css" rel="stylesheet" type="text/css" media="print">
+    <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,700,600,800%7COpen+Sans+Condensed:300,300italic,700%7CShadows+Into+Light+Two" rel="stylesheet" type="text/css">
+    <!--[if lte IE 9]>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <![endif]-->
+    <!-- Favicons -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    <script src="/assets/js/cookielaw.js"></script>
+    <script src="../../assets/js/respond.js"></script>
+    <script src="../../assets/js/rwd-nav.js"></script>
+    <script src="../../assets/js/analytics.js"></script>
+    <script src="../../assets/js/nav-menu-slider.js" type="text/javascript"></script>
+    <script src="../../assets/js/search-bar-replace-txt.js" type="text/javascript"></script>
+    <script src="../../assets/js/breadcrumb.js" type="text/javascript"></script>
+    <script src="../../assets/js/notification.js" type="text/javascript"></script>
+    <!-- topmenu -->
+    <!-- InstanceBeginEditable name="head" -->
+    <link href="/assets/css/tuition.css" rel="stylesheet" type="text/css" media="screen">
+    <!-- InstanceEndEditable -->
+</head>
+<body onload="showMenu()">
+<div id="top" role="banner">
+    <div id="header">
+        <a href="../../index.html">
+            <img alt="UIC Office of the Registrar" src="../../assets/images/registrar-logo-white.png" class="logo">
+            <img alt="UIC Office of the Registrar" src="../../assets/images/registrar-logo-red.png" class="logo-print"></a>
+        <div id="topNav_01">
+            <div id="topLinks">
+                <a href="../../student_records/transcripts/">Transcripts</a>
+                <a href="/registration/">Registration</a>
+                <a href="../../contact/">Contact us</a>
+                <a href="http://www.uic.edu">UIC Home</a>
+            </div>
+        </div>
+        <div id="search" role="search">
+            <form action="/search/" id="cse-search-box">
+                <label for="vaquestion" class="offPage">Search:</label>
+                <input name="cx" value="013828019967465427494:hgaggi0gegq" type="hidden">
+                <input value="FORID:11" name="cof" type="hidden">
+                <input name="ie" value="UTF-8" type="hidden">
+                <input name="q" class="searchText" id="vaquestion" size="20" maxlength="200" placeholder="enter your question" onfocus="clickTextbox(this.id)" onblur="blurTextbox(this.id)" type="text" value="Search website..." />
+
+                <input name="sa" id="btnask" value="Search" type="submit">
+            </form>
+        </div>
+    </div>
+</div>
+<div id="container">
+    <div id="menu" class="menu" role="menubar">
+        <h2 class="offPage">Top Navigation</h2>
+        <ul id="topNav2" class="topNav2">
+            <li class="top-level rightMenu item-with-ul"><a href="../../current_students/" class="topLVL link-with-ul">Current Students</a>
+                <h3 class="offPage">Current Students</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="../../registration/">Registration Services</a></li>
+                    <li class="subLVL"><a href="../../current_students/calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../../financial_matters/">Financial Matters</a></li>
+                    <li class="subLVL"><a href="../../student_records/">Student Records</a></li>
+                    <li class="subLVL"><a href="../../student_records/transcripts/">Transcripts</a></li>
+                    <li class="subLVL"><a href="../../campus_policies/">Campus Policies</a></li>
+                </ul>
+            </li>
+            <li class="top-level item-with-ul"><a href="../../current_students/" class="topLVL link-with-ul">Former Students</a>
+
+                <h3 class="offPage">Former Students</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="../../current_students/calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../../student_records/">Student Records</a></li>
+                    <li class="subLVL"><a href="../../student_records/transcripts/">Transcripts</a></li>
+                    <li class="subLVL"><a href="../../campus_policies/">Campus Policies</a></li>
+                </ul>
+            </li>
+            <li class="top-level item-with-ul"><a href="/uic_faculty_staff/" class="topLVL link-with-ul">Faculty &amp; Staff</a>
+                <h3 class="offPage">Faculty &amp; Staff</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="../../uic_faculty_staff/classroom_scheduling/">Classroom Scheduling</a></li>
+                    <li  class="subLVL"><a href="../../uic_faculty_staff/faculty_self_service/">Faculty Self-Service</a></li>
+                    <li class="subLVL"><a href="../../uic_faculty_staff/calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../../uic_faculty_staff/classes.html">Classes</a></li>
+                    <li class="subLVL"><a href="../../uic_faculty_staff/grades/">Grades</a></li>
+                    <li class="subLVL"><a href="../../uic_faculty_staff/registration/">Registration</a></li>
+                    <li class="subLVL"><a href="http://uic.verbacollect.com">Textbook Adoption</a></li>
+                    <li class="subLVL"><a href="../../uic_faculty_staff/student_records_policy/">Student Records Policy</a></li>
+                </ul>
+            </li>
+            <li class="top-level item-with-ul"><a href="/uic_faculty_staff/" class="topLVL link-with-ul">Other Links...</a>
+                <h3 class="offPage">Other Links... sub-category</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="https://admissions.uic.edu/undergraduate">Prospective Students</a></li>
+                    <li class="subLVL"><a href="https://aes.uic.edu/aes-staff/">AES Staff</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> <!-- // end div menu -->
+    <div class="embed-notification"><p></p></div>
+    <div id="leftNav" role="complementary">
+        <span class="offPage">Section navigation</span>
+        <ul>
+            <li class="nav-current"><a href="#">Go to Section...</a></li>
+            <li><a href="/registration/">Registration Services</a></li>
+            <li><a href="../../current_students/calendars/">Calendars</a></li>
+            <li><a href="../../financial_matters/">Financial Matters</a></li>
+            <li><a href="../../student_records/">Student Records</a></li>
+            <li><a href="../../student_records/transcripts/">Transcripts</a></li>
+            <li><a href="../../campus_policies/">Campus Policies</a></li>
+        </ul>
+    </div><!-- // end div leftnav -->
+    <nav id="breadcrumb" role="navigation">
+        <!-- InstanceBeginEditable name="breadcrumb" --><!-- InstanceEndEditable -->
+    </nav><!-- // end div breadcrumb -->
+    <div id="content" role="main">
+        <!-- InstanceBeginEditable name="content" -->
+        <h1>Fall 2018 &amp; Spring 2019<br>
+            Online Program Tuition Guide</h1>
+        <h2>Page Sections</h2>
+        <ul id="jump-menu">
+            <li><a href="#undergrad">Undergraduate Online Programs</a></li>
+            <li><a href="#grad">Graduate Online Programs</a></li>
+            <li><a href="#assessments" title="Assessments Section">Assessments per Semester</a></li>
+        </ul>
+        <h2>Determining Tuition and Fees</h2>
+        <ol>
+            <li>Calculate tuition
+                <ul>
+                    <li>Multiply your program's per credit hour rate by the credit hours you intend to take</li>
+                </ul>
+            </li>
+            <li>Add applicable <a href="#assessments" title="Online Tuition Assessments">assessments</a></li>
+        </ol>
+        <table width="60%" border="0" align="center" cellpadding="4" cellspacing="1">
+            <caption id="undergrad">Undergraduate Online Programs</caption>
+            <thead>
+            <tr>
+                <th width="50"><strong>Online Programs</strong></th>
+                <th width="5%"><strong>per Credit Hour</strong></th>
+                <th width="20%"><strong>Academic Program Code</strong></th>
+                <th width="20%"><strong>Full cost recovery (employee tuition waiver ineligible)</strong></th>
+            </tr>
+            </thead>
+            <!-- Input Dynamic Content -->
+            <tr class="tr-1 row-data" ><th class="th-1 cell-data">BS Health Information Management entered Summer 2014 through Spring 2019</th><td class="td-2 cell-data">$500 </td><td class="td-3 cell-data">20GF1304BSU</td><td class="td-4 cell-data"></td></tr><tr class="tr-2 row-data" ><th class="th-1 cell-data">BS Health Information Management entered Summer 2013 through Spring 2014</th><td class="td-2 cell-data">$494 </td><td class="td-3 cell-data">20GF1304BSU</td><td class="td-4 cell-data"></td></tr><tr class="tr-3 row-data" ><th class="th-1 cell-data">BS Health Information Management entered Spring 2013 and prior</th><td class="td-2 cell-data">$500 </td><td class="td-3 cell-data">20GF1304BSU</td><td class="td-4 cell-data"></td></tr><tr class="tr-4 row-data" ><th class="th-1 cell-data">BSN: Nursing RN to BSN Completion</th><td class="td-2 cell-data">$650 </td><td class="td-3 cell-data">2PFW1505BSNU</td><td class="td-4 cell-data">Yes</td></tr><tr class="tr-5 row-data" ><th class="th-1 cell-data">BBA: Business Administration Completion entered Summer 2018 or later</th><td class="td-2 cell-data">$412 </td><td class="td-3 cell-data">2PFL0079BBAU</td><td class="td-4 cell-data">Yes</td></tr><tr class="tr-6 row-data" ><th class="th-1 cell-data">BBA: Business Administration Completion entered Summer 2013 through Spring 2018</th><td class="td-2 cell-data">$406 </td><td class="td-3 cell-data">2PFL0079BBAU</td><td class="td-4 cell-data">Yes</td></tr><tr class="tr-7 row-data" ><th class="th-1 cell-data">LAS Online Pathways Non-Degree</th><td class="td-2 cell-data">$318 </td><td class="td-3 cell-data">2PFT5606NDEU</td><td class="td-4 cell-data">Yes</td></tr>        </table>
+        <br/>
+        <table width="60%" border="0" align="center" cellpadding="4" cellspacing="1">
+            <caption id="grad">Graduate Online Programs</caption>
+            <thead>
+            <tr>
+                <th width="50%"><strong>Online Programs</strong></th>
+                <th width="10%"><strong>per Credit Hour</strong></th>
+                <th width="10%"><strong>Accounts Receivable Detail Code</strong></th>
+                <th width="15%"><strong>Academic Program Code</strong></th>
+                <th width="15%"><strong>Full cost recovery (employee tuition waiver ineligible)</strong></th>
+            </tr>
+            </thead>
+            <!-- Input Dynamic Content -->
+            <tr class="tr-1 row-data" ><th class="th-1 cell-data">Advanced Community Public Health Practitioner (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$806</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FY5109NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-2 row-data" ><th class="th-1 cell-data">Basic Community Public Health Practitioner (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$806</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FY5108NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-3 row-data" ><th class="th-1 cell-data">Bioinformatics (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$843</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FQ5001NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-4 row-data" ><th class="th-1 cell-data">CAS Health Informatics (Post-Master's IBHE Certificate)</th><td class="td-2 cell-data">$750</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FS1303CASU</td><td class="td-5 cell-data"></td></tr><tr class="tr-5 row-data" ><th class="th-1 cell-data">CERT Health Information Management (Post-Baccalaureate IBHE Certificate)</th><td class="td-2 cell-data">$750</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FS1304CERU</td><td class="td-5 cell-data"></td></tr><tr class="tr-6 row-data" ><th class="th-1 cell-data">Disaster Management (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$843</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FQ5557NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-7 row-data" ><th class="th-1 cell-data">DNP Nursing Practice-Online</th><td class="td-2 cell-data">$793</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FW5048DNPU</td><td class="td-5 cell-data"></td></tr><tr class="tr-8 row-data" ><th class="th-1 cell-data">Dr Public Health Online Program (Non-Degree)</th><td class="td-2 cell-data">$830</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FY1631NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-9 row-data" ><th class="th-1 cell-data">Dr Public Health Online Program tuition</th><td class="td-2 cell-data">$830</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FY1631DRPU</td><td class="td-5 cell-data"></td></tr><tr class="tr-10 row-data" ><th class="th-1 cell-data">Educational Research Methodology (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$793</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFS5208NDEU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-11 row-data" ><th class="th-1 cell-data">Electromagnetics Technology (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$843</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FQ4076NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-12 row-data" ><th class="th-1 cell-data">Emergency Management & Continuity Planning (Campus Certificate) Non-Degree </th><td class="td-2 cell-data">$580</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">2PFY5021NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-13 row-data" ><th class="th-1 cell-data">Engineering Law & Management (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$843</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FQ4077NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-14 row-data" ><th class="th-1 cell-data">Health Disparities Research-Online (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$730</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFY5447NDEU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-15 row-data" ><th class="th-1 cell-data">Health Informatics (Post-Bacc Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$793</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FS4072NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-16 row-data" ><th class="th-1 cell-data">Master of Engineering</th><td class="td-2 cell-data">$843</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FQ1211MENU</td><td class="td-5 cell-data"></td></tr><tr class="tr-17 row-data" ><th class="th-1 cell-data">Master of Engineering Non-Degree</th><td class="td-2 cell-data">$843</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FQ1211NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-18 row-data" ><th class="th-1 cell-data">Master of Healthcare Administration - Executive Healthcare Administration Online (capped at 12 hours)</th><td class="td-2 cell-data">$1,250</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFS5529MHAU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-19 row-data" ><th class="th-1 cell-data">Executive Healthcare Administration Online  Non-Degree (capped at 12 hours)</th><td class="td-2 cell-data">$1,250</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFS5394NDEU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-20 row-data" ><th class="th-1 cell-data">Master of Health Professions Education</th><td class="td-2 cell-data">$830</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FS1306MHPU</td><td class="td-5 cell-data"></td></tr><tr class="tr-21 row-data" ><th class="th-1 cell-data">Master of Health Professions Education Non-Degree</th><td class="td-2 cell-data">$830</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FS1306NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-22 row-data" ><th class="th-1 cell-data">MED Measurement, Evaluation, Statistics & Assessment (MESA) - Online</th><td class="td-2 cell-data">$793</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFS5106MEDU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-23 row-data" ><th class="th-1 cell-data">MED Measurement, Evaluation, Statistics & Assessment (MESA) - Online (Non-Degree)</th><td class="td-2 cell-data">$793</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFS5106NDEU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-24 row-data" ><th class="th-1 cell-data">Methods for Clinical Research (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$730</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFS5189NDEU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-25 row-data" ><th class="th-1 cell-data">MPH Public Health-Community Health Sciences - Online</th><td class="td-2 cell-data">$806</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FY1635MPHU</td><td class="td-5 cell-data"></td></tr><tr class="tr-26 row-data" ><th class="th-1 cell-data">MPH Public Health-Health Policy & Administration - Online</th><td class="td-2 cell-data">$730</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFY1638MPHU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-27 row-data" ><th class="th-1 cell-data">MPH Public Health-Public Health Informatics Online</th><td class="td-2 cell-data">$760</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFY4021MPHU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-28 row-data" ><th class="th-1 cell-data">MS Comparative Effectiveness Research</th><td class="td-2 cell-data">$793</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFS5519MSU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-29 row-data" ><th class="th-1 cell-data">MS Health Informatics</th><td class="td-2 cell-data">$750</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FS1303MSU</td><td class="td-5 cell-data"></td></tr><tr class="tr-30 row-data" ><th class="th-1 cell-data">MS Health Informatics Non-Degree </th><td class="td-2 cell-data">$750</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FS1303NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-31 row-data" ><th class="th-1 cell-data">MS Patient Safety Leadership</th><td class="td-2 cell-data">$770</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFS5142MSU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-32 row-data" ><th class="th-1 cell-data">MS Patient Safety Leadership Non-Degree</th><td class="td-2 cell-data">$770</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFS5142NDEU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-33 row-data" ><th class="th-1 cell-data">MS Public Health – Public Health Informatics – Online</th><td class="td-2 cell-data">$760</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFS4021MSU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-34 row-data" ><th class="th-1 cell-data">Public Health-Health Policy and Administration (Online) Non-Degree </th><td class="td-2 cell-data">$730</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FY1638NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-35 row-data" ><th class="th-1 cell-data">Public Health-Public Health Informatics (Online) Non-Degree </th><td class="td-2 cell-data">$760</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFY4021NDEU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-36 row-data" ><th class="th-1 cell-data">Patient Safety, Error Science, & Full Disclosure (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$770</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFS5141NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-37 row-data" ><th class="th-1 cell-data">Public Health Geographic Info Systems (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$500</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFY5282NDEU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-38 row-data" ><th class="th-1 cell-data">Public Health Informatics (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$760</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFY4074NDEU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-39 row-data" ><th class="th-1 cell-data">Public Health Management (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$730</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFY5212NDEU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-40 row-data" ><th class="th-1 cell-data">Public Health-Health Policy and Admin (Online) Non-Degree </th><td class="td-2 cell-data">$730</td><td class="td-3 cell-data">2UON</td><td class="td-4 cell-data">2PFY1638NDEU</td><td class="td-5 cell-data">Yes</td></tr><tr class="tr-41 row-data" ><th class="th-1 cell-data">School Nurse (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$793</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FS5025NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-42 row-data" ><th class="th-1 cell-data">Survey Research Methods (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$793</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FS5249NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-43 row-data" ><th class="th-1 cell-data">Teaching in Nursing (Campus Certificate) Non-Degree </th><td class="td-2 cell-data">$793</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FS5027NDEU</td><td class="td-5 cell-data"></td></tr><tr class="tr-44 row-data" ><th class="th-1 cell-data">Wireless Communications Technology (Campus Certificate Non-Degree)</th><td class="td-2 cell-data">$843</td><td class="td-3 cell-data">2ONL</td><td class="td-4 cell-data">20FQ4078NDEU</td><td class="td-5 cell-data"></td></tr>        </table>
+        <p>Full cost recovery programs do not permit application of employee tuition waivers. See the <a href="http://bpa.uic.edu/fullcostrecovery.html" title="Office of Budget and Program Analysis FCR Page">Office of Budget and Program Analysis's website</a> for more details.</p>
+        <br>
+
+        <table id="assessments" width="60%" border="0" align="center" cellpadding="4" cellspacing="1">
+            <caption>Assessments per Semester</caption>
+            <tr>
+                <th width="50%"><strong></strong></th>
+                <th width="50%"><strong>per Credit Hour</strong></th>
+            </tr>
+            <!-- Input Dynamic Content -->
+            <tr class="tr-1 row-data" ><th class="th-1 cell-data">Library and Information Technology Assessment</th><td class="td-2 cell-data">$18</td></tr><tr class="tr-2 row-data" ><th class="th-1 cell-data">Subtotal assessments</th><td class="td-2 cell-data">$18</td></tr>        </table>
+        <!-- Input Dynamic Content --><!-- Data Updated: 01/30/18 02:55pm --><h2>Notes</h2>
+<ol>
+    <li>In order to generate resources to improve the learning environment, a Library and Information Technology Assessment is assessed to all students.</li>
+    <li>Students registered for Zero hours in an online program will be assessed at the 1 per credit hour rate.</li>
+</ol>        <!-- Input Dynamic Content --><!-- Data Updated: 01/30/18 02:55pm --><h2>Refunds</h2>
+<ul>
+    <li>Pro Rata Refund Schedule for UIC Online Programs, see Parts of Term  A and B <a href="/financial_matters/refund_schedule.php#termsAB">https://registrar.uic.edu/financial_matters/refund_schedule#termsAB</a></li>
+    <li>Before a refund is made to you, the University must  make a refund to appropriate financial aid programs providing assistance to  you. If you are indebted to the University at the time of withdrawal, you will  have the amount owed deducted from the amount of any refund available.</li>
+</ul>        <!-- InstanceEndEditable -->
+        <p class="last">&nbsp;</p>
+    </div> <!-- // end div content -->
+</div> <!-- // end div container -->
+<div id="bottom" role="contentinfo">
+    <div id="footer">
+        <div class="bottomNav">
+            <h2>Office of the Registrar, MC 018</h2>
+            <ul>
+                <li>University of Illinois at Chicago</li>
+                <li>Suite 1200 Student Services Building</li>
+                <li>1200 West Harrison Street</li>
+                <li>Chicago, Illinois 60607-7161</li>
+                <li>312-996-4350</li>
+            </ul>
+            <h2>Hours of Operation</h2>
+            <ul>
+                <li>Monday - Friday, 8:30-5:00pm</li>
+            </ul>
+        </div>
+        <!-- end of div bottomNav -->
+        <div class="bottomNav">
+            <h2><a href="../../current_students/">UIC Office of the Registrar</a></h2>
+            <ul>
+                <li> </li>
+                <li> <a href="../../current_students/">Current &amp; Former Students</a></li>
+                <li><a href="../../uic_faculty_staff/">UIC Faculty &amp; Staff</a></li>
+            </ul>
+            <h2><a href="../../contact/">Contact us!</a></h2>
+            <ul>
+                <li><a href="../../contact/form_current_students.html">Registrar Webform</a></li>
+                <li><a href="mailto:aes_webmaster@helpdesk.uic.edu?subject=Registrar Website">Webmaster</a></li>
+                <li><a href="../../sitemap">Sitemap</a></li>
+            </ul>
+        </div>
+        <!-- end of div bottomNav -->
+        <img class="bottomImage" src="../../assets/images/uic-logo-mark-wht.png" alt="UIC Sign in front of Chicago Skyline">
+        <img class="bottomImage-print" src="../../assets/images/uic-logo-mark-red.png" alt="UIC Sign in front of Chicago Skyline">
+    </div>
+    <!--OneTrust Cookies Settings button start -->
+    <a class="optanon-show-settings">CookieSettings</a>
+    <!--OneTrust Cookies Settings button end -->
+</div>
+<!-- Classic Analytics -->
+</body>
+<!-- InstanceEnd --></html>

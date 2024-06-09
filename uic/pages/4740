@@ -1,0 +1,1207 @@
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head id="Head1"><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><title>
+	Courses
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="geo.region" content="US-IL" /><meta name="geo.placename" content="Chicago" /><meta name="geo.position" content="41.874428;-87.651787" /><meta name="ICBM" content="41.874428, -87.651787" /><link rel="shortcut icon" href="//static.las.uic.edu/favicon.ico" /><link href="https://d35islomi5rx1v.cloudfront.net/ajax/2017.2.621/TreeView.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="https://d35islomi5rx1v.cloudfront.net/ajax/2017.2.621/Silk/TreeView.Silk.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><meta name="Generator" content="Sitefinity 10.1.6525.0 PU" /><link rel="canonical" href="https://glas.uic.edu/glas/courses" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><script type="text/javascript">
+	(function() {var _rdDeviceWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;var _rdDeviceHeight = (window.innerHeight > 0) ? window.innerHeight : screen.height;var _rdOrientation = (window.width > window.height) ? 'landscape' : 'portrait';})();
+</script><link href="/Telerik.Web.UI.WebResource.axd?d=PMrIT5dOWaVYIcpFWUE4nNees4m1DF9I1vj7DjC9pqdJZbRPfeeVOuBxbxB7cB-Zbv-GknrhoI_dftGtWTgcHQ9iak4uclozdG1pcbSvcS93dI6xwh43mOdB72pD3K2M0&amp;t=636692118962391687&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%2c+Version%3d10.1.6525.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aen%3aeb177f10-254a-47f5-be2f-2f1c3f40d5ff%3a2380cb54" type="text/css" rel="stylesheet" /><link href="/Sitefinity/WebsiteTemplates/LAS/App_Themes/GLAS/global/glas.css?v=636453057658557481" type="text/css" rel="stylesheet" /><meta name="description" content="This page contains information on the courses offered in the Global Asian Studies Department in the College of Liberal Arts and Sciences at The University of Illinois at Chicago.." /><meta name="keywords" content="LAS, UIC, GLAS, ASAM, Asian, American, Studies,  courses, classes" /></head>
+<body>
+    <form method="post" action="./courses" id="form1">
+<input type="hidden" name="ctl11_TSSM" id="ctl11_TSSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="fBPAqrsx/4JwEGpTPbDh7BLVu0FZxGFksBLepaq5+FEB3+RSuw/422TOumtxVJzCwc2faiLcGxlX0mRttJfvWcF9XpAgXX1G+ufpuQq4EIZxgqyJCd5wa8BrKd6S1dAQto++sTLYOrQknE8w4RvWSWYxtLPOv4p/fTjzN1hHl2xJnoC5tR/8UrOI3XaDMkLv0jdfq5z1sg1PchtOl+yzD5a4gOyhdTuS4KOc2UD/rQBQukXxoyJY0LwKdSmO4VX/2WFT+GshZK0u7Ce6N7vW2X7/fHSgoiMrbeNMaXQ6OC4=" />
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/4.6/1/MicrosoftAjax.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys._Application && Sys.Observer)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yL72ujXjzwbrmFnOCWVoIz-kP2o5S7W07qPPMMK7Z38xZO3pOIo03ZFzxcHTbC1pxBXePiUt5FZ6Flfjhk3fI1HXXEL3WjFFbgV8NYfs8A56QZ2uheowLXEuR_WituTl2aLa2p9qHfxo7Mtluent4sY1&t=545ba255"><\/script>');//]]>
+</script>
+
+<script src="//www.google.com/jsapi" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-1.12.1.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=lAcNKCSBPRb9dHiP3rTbPx5YXw-Lz_vjTHFY0PLZtksuYDzVb9GGE8zW72Z4xA4_P34uxofExyHX90u0xyhmZALrwqLVgZfzopPWdClIVeIkj5m2fY1FzkgjmCE0Adow2bKOMza9AXkOPTKc739zy_EANeKIRALUPPa9IZlXrOCjQKjDzEMvflhb8WDj0Vj15gHOgDzcCukoW4IhBka-kg2&amp;t=fffffffff0f3ba09" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=8u3ngCqoRB16IXgFyG-fdgzLGKZ9qwnXan6rlfn-VAM9dAUC4BnIp5M6jDGr7S1WvRBUKz4BY4x5p-9H-NY4Bx-0ejXVCpHBCQdAUOjTxPaeFK7lE_dVIJLxeXhK7yAg0&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=pL5wgiwL1GpmyqMwhkDjF2UOTadqh0B0SqKENmvGBOOqU56KbUTNDLuE20rp9Cm8lyInEOgjjAREtrxvnIu-dSYip2EdYLo2Th6UmujH4h3BHrsuZ8IMthfd7AzamQr7yhxyWTCF3je7UeyvpGb60A2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=r5UL-hsNriOxS7UV4wWMiCdyxme_YuvVoMTi3aNxrDCSbWKkZa_Kbjh27vbC5Rw6_9pDUbFTa_9NTel1hbTon3gFGY-DJL5fDopeHD8uzHzk5sNsrXfHaDhWirxokWvHZRVCT9RovOdP4SxL0u5wBkRlPeu1t7ZfhdqOOkAuF6c1&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dnHi0nMgDDe1Bo6v1KTdpP-T6bvA_xKI5BbbpZyoqS98wxvEkE2-TiNYzn3Hl9cEXtBdcw1l_GNpuZIUAZLMdF7tFjJ0U7DfiDRB9-0BEM54q7SJ-n_b8ZvHvwWBGgsDA9nL2IQpDhyRKqc49LEqBg2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=KlfC4ae2T77svfC92c_tAcUpRJg56E8GcYouY3HsT9WF8RZjKZG9LoDzTEsHdQVZM5rJ5ABpwFbriWhL5d8OmPBV1LH1AJeFdUM7QAj7P1kHov64iJwvGC4f61khi_GuC5ZLl8z6ez4ASovEq1HmoA2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=oTWEP7ThC1yo24ooSsBTo9XGe4aRyK73KOG7V9RMu6za8b48Rgt8wruYjtxbP5eIrGGQgMZJXZKfjnHcLDT3G-6FQIZIEzHjufjKZg_8q7ZTS4G1NmRJWfAms7jjXNdf8qBk1cMjnRo48Or0jw5EtkPGQPl4UaBjegdmDOL_Ay81&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=fXuWcQwzGDZIk7t9UCjetSp89KCeoaNKhWrdqR3ahSwDSP6bRevt3Ak2hNAF2PSQ86mgoxZuPsM7WI0h2Vvc_ekFFjyjA-T9J9SBhyP22wqA88zEoTiLrIjjf0rq9unNibv-yKCkS0ISzs55moqolowYIS5ynmyiRaIReQGlgs41&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=v_I7_Ww9YDbzP79DTo1lX8JLeEBjYyvDngaDVlViiKqf--4KtzV4sL5neae9_AOkr_TL7-08pQB-G0PZf7vAmsIq4UH_3AJSXHv53kirrPrlWdsrQ88wKinIsi7xBOgO09idVHSg3T33QM0_cs2br3Afl-wnAYt_YBmZr21mpng1&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=b4-yKWFT9xWbIHhZk6DyH2A4A_YqETpprbETd00CTs6SxsLTW606LjSJ2uVPhrfVz1IufEwiZWReaSF8P-IP0C313CJ0QPesqWGDUbPPcnbrRIRWf52LDLvv6PdU-2Ic9oMDFfss5tvVkhoTsVgpTA2&amp;t=154d5dcf" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8A4C3EC2" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="MB4SEB3/P3YzgITmBJ0lX8UAngEBEqRkkJ6/xymONWkZTgaIbHvXghJ9drdRy7DHV+65Z9P64Mc+q7sLyICV4L44az4L33mQF2Og+E3WDRz8Y99xnlJzCvYUrguHPdmZ0t9ITz+s+8/52IwYh89tJw==" />
+    
+	
+    <div id="wrapper">
+        <div class="container">
+            <div id="topNav" class="row">
+                <div id="topNavMenu" role="navigation">
+                    <ul role="menu">
+                        <li role="menuitem">
+                            <a title="go to UIC website" href="http://www.uic.edu" target="_blank">UIC</a></li>
+                        <li role="menuitem">
+                            <a title="go to LAS website" href="http://www.las.uic.edu" target="_blank">LAS</a></li>
+                    </ul>
+                    <span class="breadCrumbs">
+                        
+<div id="cphBreadCrumbs_T98132E72010">
+	<span id="cphBreadCrumbs_T98132E72010_ctl00_ctl00_BreadcrumbTrail"><span><a href="/glas">GLAS</a></span><span> &gt; </span><span>Courses</span></span>
+</div>
+
+                    </span>
+                </div>
+                
+
+<div id="search" role="search">
+    <label id="lblSearchBox" for="searchTextBox">
+        Search</label>
+    <input name="ctl00$cphSearchBox$T8E8C410B001$searchTextBox" type="text" id="searchTextBox" />
+    <input type="image" name="ctl00$cphSearchBox$T8E8C410B001$searchButton" id="cphSearchBox_T8E8C410B001_searchButton" title="submit this search" class="btnGo" src="//static.las.uic.edu/images/las-ui/btn-go.png" alt="Go" />
+</div>
+
+
+            </div>
+        </div>
+        <!-- end #topNav -->
+        <div class="container">
+            <header class="row bannerWrapper" role="banner">
+                <div class="fullwidth last banner">
+                    
+<div class='sfContentBlock'><h1><a title="go to homepage" href="/glas"><img class="logo" alt="UIC Global Asian Studies Program" data-displaymode="Original" src="/images/librariesprovider11/layout/glas.png?sfvrsn=d310be58_4" /></a></h1>
+
+
+</div>
+                    <div id="bannerText">
+                        
+
+                    </div>
+                </div>
+                <div class="fullwidth last headerPhoto">
+                    
+
+                </div>
+            </header>
+        </div>
+        <!-- end #header -->
+        <div class="container">
+            <div id="pageBody" class="row">
+                <div class="fullwidth last">
+                    <div class="row sideBG">
+                        <nav class="navw side_img" role="navigation">
+                            
+<div id="cphLeftNav_T98132E72015">
+	<div id="ctl00_cphLeftNav_T98132E72015_ctl00_ctl00_siteMapControl_verticaltree" class="RadTreeView RadTreeView_Silk">
+		<!-- 2017.2.621.40 --><ul class="rtUL rtLines">
+			<li class="rtLI rtFirst"><div class="rtTop">
+				<span class="rtSp"></span><a class="rtIn" href="home">Home</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="about-glas">About GLAS</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="faculty-and-staff">Faculty and Staff</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="requirements-for-the-asian-american-studies-minor">Requirements for the Global Asian Studies Minor</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="courses">Courses</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><a class="rtIn" href="courses/courses-archives">Courses Archives</a>
+				</div></li>
+			</ul></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="student-advisory-board-members">Student Advisory Board</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="glas-community-advisory-board">Community Advisory Board</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="https://aarcc.uic.edu/programs/aanapisi-initiative/">The UIC AANAPISI Initiative</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="program-milestones">Program Milestones</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="news">News</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="calendar">Calendar</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="contact-us">Contact Us</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="archive-of-asam-programs">Asian American Studies Archive</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI"><div class="rtTop">
+					<span class="rtSp"></span><a class="rtIn" href="archive-of-asam-programs/the-kamal-kishore-memorial-prize">The Kamal Kishore Memorial Prize</a>
+				</div></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="archive-of-asam-programs/asam-faculty--led-study-abroad-program">ASAM Faculty - Led Study Abroad Program</a>
+				</div><ul class="rtUL" style="display:none;">
+					<li class="rtLI"><div class="rtTop">
+						<span class="rtSp"></span><a class="rtIn" href="archive-of-asam-programs/asam-faculty--led-study-abroad-program/study-abroad-program-2013">Study Abroad Program 2013</a>
+					</div></li><li class="rtLI rtLast"><div class="rtBot">
+						<span class="rtSp"></span><a class="rtIn" href="archive-of-asam-programs/asam-faculty--led-study-abroad-program/study-abroad-program-2012">Study Abroad Program 2012</a>
+					</div></li>
+				</ul></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><a class="rtIn" href="archive-of-asam-programs/asam-community-engagement">ASAM Community Engagement</a>
+				</div></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><a class="rtIn" href="archive-of-asam-programs/newsletter">Newsletter</a>
+				</div></li><li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="archive-of-asam-programs/asam-expo">ASAM Expo</a>
+				</div><ul class="rtUL" style="display:none;">
+					<li class="rtLI"><div class="rtTop">
+						<span class="rtSp"></span><a class="rtIn" href="archive-of-asam-programs/asam-expo/asam-expo-2011">ASAM Expo 2011</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="archive-of-asam-programs/asam-expo/asam-expo-2012">ASAM Expo 2012</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="archive-of-asam-programs/asam-expo/asam-expo-2013">ASAM Expo 2013</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="archive-of-asam-programs/asam-expo/asam-expo-2014">ASAM Expo 2014</a>
+					</div></li><li class="rtLI rtLast"><div class="rtBot">
+						<span class="rtSp"></span><a class="rtIn" href="archive-of-asam-programs/asam-expo/asam-expo-2015">ASAM Expo 2015</a>
+					</div></li>
+				</ul></li>
+			</ul></li><li class="rtLI rtLast"><div class="rtBot">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="asst-archive">Asian Studies Archive</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI"><div class="rtTop">
+					<span class="rtSp"></span><a class="rtIn" href="asst-archive/requirements-for-minor">Requirements for Minor</a>
+				</div></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><a class="rtIn" href="asst-archive/courses">Courses</a>
+				</div></li><li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><a class="rtIn" href="asst-archive/upcoming-grants-and-conferences">Upcoming Grants and Conferences</a>
+				</div></li>
+			</ul></li>
+		</ul><input id="ctl00_cphLeftNav_T98132E72015_ctl00_ctl00_siteMapControl_verticaltree_ClientState" name="ctl00_cphLeftNav_T98132E72015_ctl00_ctl00_siteMapControl_verticaltree_ClientState" type="hidden" />
+	</div>
+
+<script type="text/javascript">
+    function pageLoad() { var tree = $find("ctl00_cphLeftNav_T98132E72015_ctl00_ctl00_siteMapControl_verticaltree"); if (tree) { var location = window.location.pathname; location = location.substring(location.lastIndexOf('/') + 1); var currentNode = tree.findNodeByUrl(location); if (currentNode) { currentNode.set_selected(true); ExpandParent(currentNode); currentNode.set_expanded(true) } } } function CollapseSiblings(node) { var parent = node.get_parent(); var siblings = parent.get_nodes(); var siblingsCount = siblings.get_count(); for (var nodeIndex = 0; nodeIndex < siblingsCount; nodeIndex++) { var siblingNode = siblings.getNode(nodeIndex); if ((siblingNode != node) && (siblingNode.get_expanded())) { siblingNode.collapse(); return } } } function OnClientNodeExpanding(sender, args) { var node = args.get_node(); if (node.get_nodes().get_count()) { CollapseSiblings(node) } } function ExpandParent(node) { node = node.get_parent(); while (node != null) { if (node.expand) { node.expand() } node = node.get_parent() } }
+</script>
+
+
+</div>
+                        </nav>
+                        <div class="bodyw last copy">
+                            
+<div class='sfContentBlock'><h2>FALL 2018 glas COURSES</h2>
+<table class="telerik-reTable-4" style="border-width: 2px; border-color: #f79646;">
+    <tbody>
+        <tr class="telerik-reTableHeaderRow-4">
+            <td class="telerik-reTableHeaderFirstCol-4" style="background-color: #f79646;"><strong>&nbsp;Course</strong></td>
+            <td class="telerik-reTableHeaderOddCol-4" style="background-color: #f79646;"><strong>Instructor/Time/CRN</strong></td>
+            <td class="telerik-reTableHeaderLastCol-4" style="background-color: #f79646;"><strong>Course Description</strong></td>
+        </tr>
+        <tr class="telerik-reTableOddRow-4">
+            <td class="telerik-reTableFirstCol-4"><strong>GLAS 100<br />
+            Introduction to Global Asian Studies&nbsp;</strong></td>
+            <td class="telerik-reTableOddCol-4">Instructor: Mark Chiang<br />
+            <br />
+            TR 9:30-10:45 am<br />
+            CRN 40132<br />
+            <br />
+            </td>
+            <td class="telerik-reTableLastCol-4" style="text-align: justify;"><br />
+            This course examines various historical, cultural, and political representations of Asia, Asian America, and Asians in the world. Students will explore how peoples and ideas from Asia and across transoceanic and transnational diasporas have influenced a globalized world and continue to inform our contemporary understanding of Asia and Asian America. The course also examines how historical issues such as colonialism, war, global capitalism, and migration have shaped the experiences and representations of Asians, Asian Americans and Pacific Islanders, and peoples in Asian diasporas.&nbsp;<em>World Cultures course</em>.<br />
+            <br />
+            </td>
+        </tr>
+        <tr class="telerik-reTableEvenRow-4">
+            <td class="telerik-reTableFirstCol-4"><strong>GLAS 105 Asian and/or Asian American Studies Seminar</strong>&nbsp;</td>
+            <td class="telerik-reTableOddCol-4">Instructor: Karen Su&nbsp;<br />
+            <br />
+            F 11:00-11:50 am<br />
+            CRN 40127<br />
+            <br />
+            R 12:30-1:20 pm<br />
+            CRN 40128<br />
+            <br />
+            F 10:00-10:50 pm<br />
+            CRN 40130<br />
+            <br />
+            W 3:00-3:50<br />
+            CRN 40131<br />
+            </td>
+            <td class="telerik-reTableLastCol-4" style="text-align: justify;"><br />
+            Topic: Asian American Identities, Cultures &amp; Communities<br />
+            <br />
+            This 1-credit seminar is designed for incoming new first-year and transfer students. The weekly seminar is an integral part of the Asian American Mentor Program which eases the transition of new students to college and to UIC.&nbsp;To enroll in GLAS 105, first fill out the on-line application here: <a href="http://go.uic.edu/aamp" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://go.uic.edu/aamp&amp;source=gmail&amp;ust=1531501035152000&amp;usg=AFQjCNGkIhPFB7ZtzAlRBbDcAz-H8Dashg">go.uic.edu/aamp</a>.<br />
+            <br />
+            <div>The seminar focuses on:</div>
+            <ul>
+                <li>Cultural identity, community issues, Asian American history, pop culture and media stereotypes, family expectations, and more</li>
+                <li>College life, study tips, and campus resources for personal and academic success</li>
+                <li>Exclusive access to tutoring in writing, math (including statistics), and chemistry</li>
+                <li>Connecting with peer mentors and other new students to build community</li>
+            </ul>
+            </td>
+        </tr>
+        <tr class="telerik-reTableOddRow-4">
+            <td class="telerik-reTableFirstCol-4"><br />
+            <strong>GLAS 109/HIST 109 <br />
+            East Asian Civilization: Ancient China<br />
+            <br />
+            </strong></td>
+            <td class="telerik-reTableOddCol-4">Instructor: Huiying Chen<br />
+            <br />
+            MWF 9:00-9:50<br />
+            CRN 42275 &amp; 42276 <br />
+            </td>
+            <td class="telerik-reTableLastCol-4">This course is an introduction to Chinese civilization, including history, philosophy, and religions from earliest times to 1500. &nbsp;</td>
+        </tr>
+        <tr class="telerik-reTableOddRow-4">
+            <td class="telerik-reTableFirstCol-4"><strong>GLAS 120/ SOC 120 Introduction to Asian American Studies</strong><br />
+            </td>
+            <td class="telerik-reTableOddCol-4">Instructor: Lorenzo Perillo<br />
+            <br />
+            TR 11:00-12:15 pm<br />
+            CRN 40123 &amp; 40124<br />
+            <br />
+            </td>
+            <td class="telerik-reTableLastCol-4" style="text-align: justify;"><br />
+            This course provides students with a survey of major concepts, methods, and debates in the study of Asian American studies. Students will also gain an introduction to the histories, community institutions, and contemporary issues of Asian Americans and Pacific Islanders.&nbsp;<em>Individual and Society, and US Society course.<br />
+            <br />
+            </em></td>
+        </tr>
+        <tr class="telerik-reTableEvenRow-4">
+            <td class="telerik-reTableFirstCol-4"><strong>GLAS 219/ <br />
+            AH 219&nbsp; <br />
+            <strong>Art and Architecture of East Asia<br />
+            </strong></strong></td>
+            <td class="telerik-reTableOddCol-4"><br />
+            Instructor: Catherine Becker<br />
+            <br />
+            TR 12:30-1:45 pm<br />
+            CRN 42522<br />
+            CRN 42523 (Honors)<br />
+            <br />
+            </td>
+            <td class="telerik-reTableLastCol-4"><strong> </strong>
+            <p>Survey of the historic and contemporary art and architecture of China, Korea and Japan, as well as the architecture and art of Asian Diasporas. Course Information: Same as AH&nbsp;219.<em> Creative Arts course, and World Cultures course</em>.</p>
+            </td>
+        </tr>
+        <tr class="telerik-reTableEvenRow-4">
+            <td class="telerik-reTableFirstCol-4"><strong>GLAS 223<br />
+            Global Hip-Hop and Asian Diasporas</strong><br />
+            </td>
+            <td class="telerik-reTableOddCol-4">Instructor: Lorenzo Perillo<br />
+            <br />
+            TR 2:00-3:15 pm<br />
+            CRN 42361</td>
+            <td class="telerik-reTableLastCol-4" style="text-align: justify;"><br />
+            This course uses a unique hybrid format of lectures, discussions and dance workshops in order to offer students a deeper engagement with hip-hop and Asian diasporas.&nbsp; This course introduces critical thinking and critical creativity as ways of knowing hip-hop dance through written texts, recorded music and dance performances of various setting in Asia and the diaspora.&nbsp; Performances serve as principle texts for description, interpretation and analysis&mdash;approaches to dance with broader applications to studies of arts and culture.<br />
+            <br />
+            </td>
+        </tr>
+        <tr class="telerik-reTableEvenRow-4">
+            <td class="telerik-reTableFirstCol-4"><strong><br />
+            GLAS 275/ HIST 275<br />
+            History of South Asia to 1857<br />
+            <br />
+            </strong></td>
+            <td class="telerik-reTableOddCol-4">Instructor: Manamee Guha<br />
+            <br />
+            MWF 3:00-3:50 pm<br />
+            CRN 40032 &amp; 40033<br />
+            </td>
+            <td class="telerik-reTableLastCol-4">This course covers South Asian history from the earliest times to 1857, in regional and global contexts. </td>
+        </tr>
+        <tr class="telerik-reTableOddRow-4">
+            <td class="telerik-reTableFirstCol-4"><strong>GLAS 290<br />
+            <strong>Special Topics in Asian American Studies</strong></strong><br />
+            </td>
+            <td class="telerik-reTableOddCol-4">Instructor: Anna Guevarra<br />
+            <br />
+            M 3:00-5:30 pm<br />
+            CRN 42572&nbsp; <br />
+            </td>
+            <td class="telerik-reTableLastCol-4" style="text-align: justify;"><br />
+            Topic: Asian Markets, Corporations and Social Justice<br />
+            <br />
+            What do Hello Kitty, Nike and 7-11 have in common?&nbsp; Learn about the commodification of Asia, capital accumulation, and everyday forms of resistance.<br />
+            <br />
+            </td>
+        </tr>
+        <tr class="telerik-reTableEvenRow-4">
+            <td class="telerik-reTableFirstCol-4"><strong>GLAS 290 Special Topics in Asian American Studies</strong><br />
+            </td>
+            <td class="telerik-reTableOddCol-4">Instructor: Nadine Naber<br />
+            <br />
+            MW 3:00-4:15 pm<br />
+            CRN 40126</td>
+            <td class="telerik-reTableLastCol-4">
+            <p style="text-align: justify;">
+            <br />
+            Topic: Introduction to Arab American Studies<br />
+            <br />
+            This course will provide an overview of themes in the field of Arab American Studies: immigration and racism; family, gender, and sexuality; socio-economic class; religious affiliations; arts and cultures; and politics and political activism. This is an interactive thought-provoking course including groups discussions and creative projects. Students will engage with interdisciplinary materials from social media and film to anthropological, historical, sociological, cultural and literary texts.</p>
+            </td>
+        </tr>
+        <tr class="telerik-reTableEvenRow-4">
+            <td class="telerik-reTableFirstCol-4"><br />
+            <strong>GLAS 290/ GWS 294 Special Topics in Asian American Studies<br />
+            </strong></td>
+            <td class="telerik-reTableOddCol-4">Instructor: Gayatri Reddy<br />
+            <br />
+            MW 4:30-5:45 pm<br />
+            CRN 40135</td>
+            <td class="telerik-reTableLastCol-4" style="text-align: justify;"><br />
+            Topic: Afro-Asian Connections:&nbsp; A Radical History<br />
+            <br />
+            Tracing the history of the "darker nations" through a feminist lens &ndash; as a decolonial, political and utopian project &ndash; this course explores the radical possibilities of transnational alliances and long history of cross-racial solidarities between Asia and Africa.<br />
+            <br />
+            </td>
+        </tr>
+        <tr class="telerik-reTableOddRow-4">
+            <td class="telerik-reTableFirstCol-4"><strong>GLAS 471/ AH 471<br />
+            Topics in Asian Art and Architecture<br />
+            </strong></td>
+            <td class="telerik-reTableOddCol-4"><br />
+            Instructor: Catherine Becker<br />
+            <br />
+            T 6:30-9:00 pm<br />
+            CRN 40019 (Undergraduate)<br />
+            CRN 40020 (Graduate)<br />
+            <br />
+            </td>
+            <td class="telerik-reTableLastCol-4" style="text-align: justify;">
+            <p>
+            <br />
+            Topic: Monuments, Memorials, and Museums: Case Studies in Cultural Heritage Production in Modern and Contemporary South Asia</p>
+            How has cultural heritage been defined and produced in South Asia? Should we understand this concept as inherently modern and transnational or might looking at long histories of specific sites reveal the deeper roots and distinctly local manifestations of this concept? This seminar will explore general scholarship that has shaped our understanding of the concept of "cultural heritage&rdquo; alongside case studies drawn from across South Asia. Topics to be considered include the institutional agencies involved in heritage, such the formation of the Archaeological Survey of India, the founding of national and regional museums, the creation of art schools and handicraft boards, and the emergence of tourism agencies.&nbsp; We will also examine sites of heritage production, such as international communities in Bodhgaya, the creation of a &ldquo;Sacred City&rdquo; in Anuradhapura, and the on-going debates around the Taj Mahal&rsquo;s place within Indian history.&nbsp; This seminar will also analyze the creation of spectacular new imagery, such as sound and light shows at historic monuments, memorials to political leaders, and religious theme parks. Prior knowledge of South Asian art history is desirable but not required; all highly motivated students are welcome!
+            <p style="text-align: justify;"><span style="font-size: 10pt;"> </span></p>
+            </td>
+        </tr>
+        <tr class="telerik-reTableEvenRow-4">
+            <td class="telerik-reTableFirstCol-4"><strong>GLAS 479/ ANTH 479/ HIST 479<br />
+            <strong>Culture and Colonialism in South Asia<br />
+            </strong></strong></td>
+            <td class="telerik-reTableOddCol-4"><br />
+            Instructor: Mark Liechty<br />
+            <br />
+            TR 9:30-10:45 am<br />
+            CRN 42022 (Undergraduate)<br />
+            <br />
+            CRN 42023 (Graduate)<br />
+            <br />
+            </td>
+            <td class="telerik-reTableLastCol-4" style="text-align: justify;">This course examines the emergence of colonial cultures of domination and resistance on the Indian subcontinent from the 18th century to 1947.<br />
+            </td>
+        </tr>
+    </tbody>
+</table>
+<style type="text/css" id="telerik-reTable-4">
+    .telerik-reTable-4
+    {
+    border-collapse: collapse;
+    border: solid 0px;
+    font-family: Tahoma;
+    }
+    .telerik-reTable-4 tr.telerik-reTableHeaderRow-4
+    {
+    border-width: 1.0pt 1.0pt 3.0pt 1.0pt;
+    margin-top: 0in;
+    margin-right: 0in;
+    margin-bottom: 10.0pt;
+    margin-left: 0in;
+    line-height: 115%;
+    font-size: 11.0pt;
+    font-family: "Calibri" , "sans-serif";
+    width: 119.7pt;
+    background: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    color: #FFFFFF;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderFirstCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderLastCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderOddCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderEvenCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 tr.telerik-reTableOddRow-4
+    {
+    border-width: 1pt;
+    color: #666666;
+    font-size: 10pt;
+    vertical-align: top;
+    border-bottom-style: solid;
+    border-bottom-color: #4F81BD;
+    }
+    .telerik-reTable-4 tr.telerik-reTableEvenRow-4
+    {
+    color: #666666;
+    font-size: 10pt;
+    vertical-align: top;
+    }
+    .telerik-reTable-4 td.telerik-reTableFirstCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+    .telerik-reTable-4 td.telerik-reTableLastCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableOddCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    }
+    .telerik-reTable-4 td.telerik-reTableEvenCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    }
+    .telerik-reTable-4 tr.telerik-reTableFooterRow-4
+    {
+    color: #355C8C;
+    background-color: #FFFFFF;
+    font-size: 10pt;
+    vertical-align: top;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterFirstCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterLastCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterOddCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterEvenCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+</style>
+<style type="text/css" id="telerik-reTable-4">
+    .telerik-reTable-4
+    {
+    border-collapse: collapse;
+    border: solid 0px;
+    font-family: Tahoma;
+    }
+    .telerik-reTable-4 tr.telerik-reTableHeaderRow-4
+    {
+    border-width: 1.0pt 1.0pt 3.0pt 1.0pt;
+    margin-top: 0in;
+    margin-right: 0in;
+    margin-bottom: 10.0pt;
+    margin-left: 0in;
+    line-height: 115%;
+    font-size: 11.0pt;
+    font-family: "Calibri" , "sans-serif";
+    width: 119.7pt;
+    background: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    color: #FFFFFF;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderFirstCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderLastCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderOddCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderEvenCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 tr.telerik-reTableOddRow-4
+    {
+    border-width: 1pt;
+    color: #666666;
+    font-size: 10pt;
+    vertical-align: top;
+    border-bottom-style: solid;
+    border-bottom-color: #4F81BD;
+    }
+    .telerik-reTable-4 tr.telerik-reTableEvenRow-4
+    {
+    color: #666666;
+    font-size: 10pt;
+    vertical-align: top;
+    }
+    .telerik-reTable-4 td.telerik-reTableFirstCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+    .telerik-reTable-4 td.telerik-reTableLastCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableOddCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    }
+    .telerik-reTable-4 td.telerik-reTableEvenCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    }
+    .telerik-reTable-4 tr.telerik-reTableFooterRow-4
+    {
+    color: #355C8C;
+    background-color: #FFFFFF;
+    font-size: 10pt;
+    vertical-align: top;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterFirstCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterLastCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterOddCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterEvenCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+</style>
+<style type="text/css" id="telerik-reTable-4">
+    .telerik-reTable-4
+    {
+    border-collapse: collapse;
+    border: solid 0px;
+    font-family: Tahoma;
+    }
+    .telerik-reTable-4 tr.telerik-reTableHeaderRow-4
+    {
+    border-width: 1.0pt 1.0pt 3.0pt 1.0pt;
+    margin-top: 0in;
+    margin-right: 0in;
+    margin-bottom: 10.0pt;
+    margin-left: 0in;
+    line-height: 115%;
+    font-size: 11.0pt;
+    font-family: "Calibri" , "sans-serif";
+    width: 119.7pt;
+    background: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    color: #FFFFFF;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderFirstCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderLastCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderOddCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderEvenCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 tr.telerik-reTableOddRow-4
+    {
+    border-width: 1pt;
+    color: #666666;
+    font-size: 10pt;
+    vertical-align: top;
+    border-bottom-style: solid;
+    border-bottom-color: #4F81BD;
+    }
+    .telerik-reTable-4 tr.telerik-reTableEvenRow-4
+    {
+    color: #666666;
+    font-size: 10pt;
+    vertical-align: top;
+    }
+    .telerik-reTable-4 td.telerik-reTableFirstCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+    .telerik-reTable-4 td.telerik-reTableLastCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableOddCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    }
+    .telerik-reTable-4 td.telerik-reTableEvenCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    }
+    .telerik-reTable-4 tr.telerik-reTableFooterRow-4
+    {
+    color: #355C8C;
+    background-color: #FFFFFF;
+    font-size: 10pt;
+    vertical-align: top;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterFirstCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterLastCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterOddCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterEvenCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+</style>
+<style type="text/css" id="telerik-reTable-4">
+    .telerik-reTable-4
+    {
+    border-collapse: collapse;
+    border: solid 0px;
+    font-family: Tahoma;
+    }
+    .telerik-reTable-4 tr.telerik-reTableHeaderRow-4
+    {
+    border-width: 1.0pt 1.0pt 3.0pt 1.0pt;
+    margin-top: 0in;
+    margin-right: 0in;
+    margin-bottom: 10.0pt;
+    margin-left: 0in;
+    line-height: 115%;
+    font-size: 11.0pt;
+    font-family: "Calibri" , "sans-serif";
+    width: 119.7pt;
+    background: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    color: #FFFFFF;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderFirstCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderLastCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderOddCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderEvenCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 tr.telerik-reTableOddRow-4
+    {
+    border-width: 1pt;
+    color: #666666;
+    font-size: 10pt;
+    vertical-align: top;
+    border-bottom-style: solid;
+    border-bottom-color: #4F81BD;
+    }
+    .telerik-reTable-4 tr.telerik-reTableEvenRow-4
+    {
+    color: #666666;
+    font-size: 10pt;
+    vertical-align: top;
+    }
+    .telerik-reTable-4 td.telerik-reTableFirstCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+    .telerik-reTable-4 td.telerik-reTableLastCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableOddCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    }
+    .telerik-reTable-4 td.telerik-reTableEvenCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    }
+    .telerik-reTable-4 tr.telerik-reTableFooterRow-4
+    {
+    color: #355C8C;
+    background-color: #FFFFFF;
+    font-size: 10pt;
+    vertical-align: top;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterFirstCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterLastCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterOddCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterEvenCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+</style>
+<style type="text/css" id="telerik-reTable-4">
+    .telerik-reTable-4
+    {
+    border-collapse: collapse;
+    border: solid 0px;
+    font-family: Tahoma;
+    }
+    .telerik-reTable-4 tr.telerik-reTableHeaderRow-4
+    {
+    border-width: 1.0pt 1.0pt 3.0pt 1.0pt;
+    margin-top: 0in;
+    margin-right: 0in;
+    margin-bottom: 10.0pt;
+    margin-left: 0in;
+    line-height: 115%;
+    font-size: 11.0pt;
+    font-family: "Calibri" , "sans-serif";
+    width: 119.7pt;
+    background: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    color: #FFFFFF;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderFirstCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderLastCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderOddCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableHeaderEvenCol-4
+    {
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 tr.telerik-reTableOddRow-4
+    {
+    border-width: 1pt;
+    color: #666666;
+    font-size: 10pt;
+    vertical-align: top;
+    border-bottom-style: solid;
+    border-bottom-color: #4F81BD;
+    }
+    .telerik-reTable-4 tr.telerik-reTableEvenRow-4
+    {
+    color: #666666;
+    font-size: 10pt;
+    vertical-align: top;
+    }
+    .telerik-reTable-4 td.telerik-reTableFirstCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+    .telerik-reTable-4 td.telerik-reTableLastCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableOddCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    }
+    .telerik-reTable-4 td.telerik-reTableEvenCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-bottom-style: solid;
+    }
+    .telerik-reTable-4 tr.telerik-reTableFooterRow-4
+    {
+    color: #355C8C;
+    background-color: #FFFFFF;
+    font-size: 10pt;
+    vertical-align: top;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterFirstCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterLastCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterOddCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    padding: 0in 5.4pt 0in 5.4pt;
+    }
+    .telerik-reTable-4 td.telerik-reTableFooterEvenCol-4
+    {
+    border-width: 1pt;
+    border-color: #4F81BD;
+    border-bottom-style: solid;
+    padding: 0in 5.4pt 0in 5.4p
+</style>
+
+
+</div><div class="sfdownloadFileWrp">
+	
+<div id="cphPageBody_C011_ctl00_ctl00_itemsContainer" class=" sfLargeIcns">
+        
+<a id="cphPageBody_C011_ctl00_ctl00_documentLink" class="sfpdf" href="/docs/librariesprovider11/default-library/glas-minor-and-course-information4ba6d5c51fd76c5ca337ff02009e29c1.pdf?sfvrsn=a571b958_0" target="_blank">GLAS Minor and Course Information</a>
+</div>
+
+
+</div><div class="sfimageWrp">
+	        
+<img id="cphPageBody_C012_ctl00_ctl00_imageItem" title="Fall 2018 One Pager_F_2018.04.01  _Page_1" src="/images/librariesprovider11/default-album/fall-2018-one-pager_f_2018-04-01-_page_1.jpg?sfvrsn=7e71b958_0" alt="Fall 2018 One Pager_F_2018.04.01  _Page_1" />
+
+
+</div><div class="sfimageWrp">
+	        
+<img id="cphPageBody_C015_ctl00_ctl00_imageItem" title="Fall 2018 One Pager_F_2018.04.01  _Page_2" src="/images/librariesprovider11/default-album/fall-2018-one-pager_f_2018-04-01-_page_2bea6d5c51fd76c5ca337ff02009e29c1.jpg?sfvrsn=5671b958_0" alt="Fall 2018 One Pager_F_2018.04.01  _Page_2" />
+
+
+</div><div class='sfContentBlock'><h2>global Asian Studies Course Descriptions</h2>
+
+
+</div><div class='sfContentBlock'><table style="left: 20px; top: 21px; width: 595px; height: 398px;">
+    <tbody>
+        <tr>
+            <td><strong>100</strong></td>
+            <td><strong><strong> Introduction to Global Asian Studies. 3 hours.</strong> </strong>
+            <p> Introduction to the study of Asia as well as transoceanic and transnational Asian diasporas, emphasizing the study of Asian histories, languages, cultures, and politics, Asian American histories and cultures.<em> World Cultures course</em>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>105 <br />
+            </strong></td>
+            <td><strong><strong>Asian and/or Asian American Studies Seminar. 1 hour.</strong> </strong>
+            <p> A seminar on an area of current interest in the field of Asian and/or Asian American studies. Topics may vary. Course Information: May be repeated to a maximum of 3 hours. May be repeated if topics vary. Previously listed as ASAM 105.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><strong>109 <br />
+            </strong></td>
+            <td><strong>East Asian Civilization: Ancient China. 3 hours.</strong>
+            <p> An introduction to Chinese civilization, including history, philosophy, and religions from earliest times to c. 1500. Course Information: Same as HIST&nbsp;109.</p>
+            <p> Class Schedule Information: To be properly registered, students must enroll in one Discussion and one Lecture-Discussion.<em> Past course, and World Cultures course</em>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>120</strong></td>
+            <td><strong>Intro Asian American Studies</strong><br />
+            3 hours. Same as SOC 120. Previously listed as ASAM 125. Class Schedule Information: To be properly registered, students must enroll in one Discussion and one Lecture.<em>&nbsp;Individual and Society course, and US Society course</em>.<br />
+            </td>
+        </tr>
+        <tr>
+            <td><strong>219</strong></td>
+            <td><strong></strong>
+            <p><strong><strong>Art and Architecture of East Asia. 3 hours.</strong></strong><br />
+            Survey of the historic and contemporary art and architecture of China, Korea and Japan, as well as the architecture and art of Asian Diasporas. Course Information: Same as AH&nbsp;219.<em> Creative Arts course, and World Cultures course</em>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>223</strong><br />
+            </td>
+            <td><strong>Global Hip-hop and Asian Diasporas. 3 hours.</strong>
+            <p> Introduction to Hip-hop across Asian and Asian American communities through diasporic, transnational, comparative, and performance perspectives. Course Information: Prerequisite(s): Grade of C or better in GLAS&nbsp;100. <em>Creative Arts course</em>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>275</strong></td>
+            <td><strong>History of South Asia to 1857</strong><br />
+            3 hours.&nbsp;&nbsp;Same as HIST 275. Prerequisite(s): ENGL 161;&nbsp;or consent of the instructor. Class Schedule Information: To be properly registered, students must enroll in one Lecture-Discussion and one Discussion.<em>&nbsp;Past course, and World Cultures course</em>.<br />
+            <br />
+            </td>
+        </tr>
+        <tr>
+            <td><strong>290</strong></td>
+            <td><strong>Special Topics in Asian American Studies. 1-3 hours.</strong>
+            <p> Study of a specific intermediate topic in Asian American studies. May be repeated if content does not duplicate previous coursework. Course Information: May be repeated if topics vary. Previously listed as ASAM 290.</p>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>471</strong> <br />
+            </td>
+            <td><strong>Topics in Asian Art and Architecture. 3 or 4 hours.</strong>
+            <p> Selected topics in the art and architecture of Asia. Course Information: Same as AH&nbsp;471. 3 undergraduate hours. 4 graduate hours. May be repeated if topics vary. Prerequisite(s): 3 hours of Asian art and/or architecture or consent of the instructor.</p>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>479</strong><br />
+            </td>
+            <td><strong><strong>Culture and Colonialism in South Asia. 3 or 4 hours.</strong> </strong>
+            <p> Examines the emergence of colonial cultures of domination and resistance on the Indian subcontinent from the 18th century to 1947. Course Information: Same as ANTH&nbsp;479 and HIST&nbsp;479. 3 undergraduate hours. 4 graduate hours.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end #pageBody -->
+        <div class="container">
+            <footer role="contentinfo">
+                <div id="copyright" class="row">
+                    <div class="fullwidth last">
+                        
+<div class='sfContentBlock'><span class="copyrightText">&copy;2017 The Board of Trustees of the University of Illinois.</span>
+
+
+</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="container">
+            <div id="footer" class="row">
+                <div class="footerCol">
+                    
+<div class='sfContentBlock'><a href="https://www.las.uic.edu/giving/glas" title="give to Global Asian Studies" target="_blank"><img src="//static.las.uic.edu/images/giving/give-button-glas.png" alt="Give to GLAS logo" class="dark-shadow" /></a>
+
+
+</div>
+                </div>
+                <div class="footerCol">
+                    
+<div class='sfContentBlock'>Global Asian Studies Program<br />
+601 South Morgan Street<br />
+1051 University Hall (MC 231)<br />
+Chicago, IL 60607-7115
+
+
+</div>
+                </div>
+                <div class="footerGroup">
+                    <div class="footerCol">
+                        
+<div class='sfContentBlock'><a target="_blank" href="http://www.uic.edu" title="go to UIC website">UIC Home</a><br />
+<a target="_blank" href="http://www.las.uic.edu" title="go to LAS website">LAS Home</a><br />
+<a target="_blank" href="http://www.uic.edu/uic/search/" title="go to UIC directory search">Find People</a>
+
+
+</div>
+                    </div>
+                    <div class="footerCol">
+                        
+<div class='sfContentBlock'><a target="_blank" title="go to website" href="http://www.uic.edu/uic/studentlife/campus/emergency-information.shtml">Emergency Information</a><br />
+<a target="_blank" title="go to website" href="http://accessweb.uic.edu">Accessibility</a><br />
+<a target="_blank" title="go to website" href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Policy</a><br />
+<a title="email LAS webmaster" href="mailto:laswebstaff@uic.edu">Webmaster</a>
+
+
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end #footer-->
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Telerik.Web.UI.RadTreeView._preInitialize("ctl00_cphLeftNav_T98132E72015_ctl00_ctl00_siteMapControl_verticaltree","0");//]]>
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24550204-32', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+//<![CDATA[
+;(function() {
+                        function loadHandler() {
+                            var hf = $get('ctl11_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Sitefinity.Resources, Version=10.1.6525.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:en:eb177f10-254a-47f5-be2f-2f1c3f40d5ff:2380cb54';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadTreeView, {"_skin":"Silk","_uniqueId":"ctl00$cphLeftNav$T98132E72015$ctl00$ctl00$siteMapControl_verticaltree","clientStateFieldID":"ctl00_cphLeftNav_T98132E72015_ctl00_ctl00_siteMapControl_verticaltree_ClientState","collapseAnimation":"{\"duration\":200}","expandAnimation":"{\"duration\":200}","nodeData":[{"value":"Home"},{"value":"About GLAS"},{"value":"Faculty and Staff"},{"value":"Requirements for the Global Asian Studies Minor"},{"value":"Courses","items":[{"value":"Courses Archives"}]},{"value":"Student Advisory Board"},{"value":"Community Advisory Board"},{"value":"The UIC AANAPISI Initiative"},{"value":"Program Milestones"},{"value":"News"},{"value":"Calendar"},{"value":"Contact Us"},{"value":"Asian American Studies Archive","items":[{"value":"The Kamal Kishore Memorial Prize"},{"value":"ASAM Faculty - Led Study Abroad Program","items":[{"value":"Study Abroad Program 2013"},{"value":"Study Abroad Program 2012"}]},{"value":"ASAM Community Engagement"},{"value":"Newsletter"},{"value":"ASAM Expo","items":[{"value":"ASAM Expo 2011"},{"value":"ASAM Expo 2012"},{"value":"ASAM Expo 2013"},{"value":"ASAM Expo 2014"},{"value":"ASAM Expo 2015"}]}]},{"value":"Asian Studies Archive","items":[{"value":"Requirements for Minor"},{"value":"Courses"},{"value":"Upcoming Grants and Conferences"}]}]}, {"nodeExpanding":OnClientNodeExpanding}, null, $get("ctl00_cphLeftNav_T98132E72015_ctl00_ctl00_siteMapControl_verticaltree"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

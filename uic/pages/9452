@@ -1,0 +1,310 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Journals@UIC</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="generator" content="Open Journal Systems 2.4.8.3" />
+	
+		<link rel="stylesheet" href="https://journals.uic.edu/ojs/lib/pkp/styles/pkp.css" type="text/css" />
+	<link rel="stylesheet" href="https://journals.uic.edu/ojs/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://journals.uic.edu/ojs/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://journals.uic.edu/ojs/styles/compiled.css" type="text/css" />
+
+	<!-- Base Jquery -->
+	<script type="text/javascript" src="//www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			<!--
+			// Provide a local fallback if the CDN cannot be reached
+			if (typeof google == 'undefined') {
+				document.write(unescape("%3Cscript src='https://journals.uic.edu/ojs/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+				document.write(unescape("%3Cscript src='https://journals.uic.edu/ojs/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
+			} else {
+				google.load("jquery", "1.4.4");
+				google.load("jqueryui", "1.8.6");
+			}
+			// -->
+		</script>
+	
+	
+	
+	<link rel="stylesheet" href="https://journals.uic.edu/ojs/styles/sidebar.css" type="text/css" />		<link rel="stylesheet" href="https://journals.uic.edu/ojs/styles/rightSidebar.css" type="text/css" />	
+			<link rel="stylesheet" href="https://journals.uic.edu/ojs/plugins/blocks/languageToggle/styles/languageToggle.css" type="text/css" />
+	
+	<!-- Default global locale keys for JavaScript -->
+	
+<script type="text/javascript">
+	jQuery.pkp = jQuery.pkp || { };
+	jQuery.pkp.locale = { };
+			
+				jQuery.pkp.locale.form_dataHasChanged = 'The data on this form has changed. Continue anyway?';
+	</script>
+	<!-- Compiled scripts -->
+			
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/lib/jquery/plugins/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/functions/fontController.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/functions/general.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/functions/jqueryValidatorI18n.js"></script>
+
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/classes/Helper.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/classes/ObjectProxy.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/classes/Handler.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/classes/linkAction/LinkActionRequest.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/classes/features/Feature.js"></script>
+
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/controllers/SiteHandler.js"></script><!-- Included only for namespace definition -->
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/controllers/UrlInDivHandler.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/controllers/AutocompleteHandler.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/controllers/ExtrasOnDemandHandler.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/controllers/form/FormHandler.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/controllers/form/AjaxFormHandler.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/controllers/form/ClientFormHandler.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/controllers/grid/GridHandler.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/controllers/linkAction/LinkActionHandler.js"></script>
+
+<script type="text/javascript" src="https://journals.uic.edu/ojs/js/pages/search/SearchFormHandler.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/js/statistics/ReportGeneratorFormHandler.js"></script>
+<script type="text/javascript" src="https://journals.uic.edu/ojs/plugins/generic/lucene/js/LuceneAutocompleteHandler.js"></script>
+
+<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/lib/jquery/plugins/jquery.pkp.js"></script>	
+	<!-- Form validation -->
+	<script type="text/javascript" src="https://journals.uic.edu/ojs/lib/pkp/js/lib/jquery/plugins/validate/jquery.validate.js"></script>
+	<script type="text/javascript">
+		<!--
+		// initialise plugins
+		
+		$(function(){
+			jqueryValidatorI18n("https://journals.uic.edu/ojs", "en_US"); // include the appropriate validation localization
+			
+			$(".tagit").live('click', function() {
+				$(this).find('input').focus();
+			});
+		});
+		// -->
+		
+	</script>
+
+		
+</head>
+<body id="pkp-common-openJournalSystems">
+<div id="container">
+
+<div id="header">
+<div id="headerTitle">
+<h1>
+	Journals@UIC
+</h1>
+</div>
+</div>
+
+<div id="body">
+
+	<div id="sidebar">
+							<div id="rightSidebar">
+				<div class="block" id="sidebarDevelopedBy">
+	<a class="blockTitle" href="http://pkp.sfu.ca/ojs/" id="developedBy">Open Journal Systems</a>
+</div><div class="block" id="sidebarHelp">
+	<a class="blockTitle" href="javascript:openHelp('https://journals.uic.edu/ojs/index.php/index/help/view/user/topic/000001')">Journal Help</a>
+</div><div class="block" id="sidebarUser">
+			<span class="blockTitle">User</span>
+	
+												<form method="post" action="https://journals.uic.edu/ojs/index.php/index/login/signIn">
+					<table>
+						<tr>
+							<td><label for="sidebar-username">Username</label></td>
+							<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+						</tr>
+						<tr>
+							<td><label for="sidebar-password">Password</label></td>
+							<td><input type="password" id="sidebar-password" name="password" value="" size="12" class="textField" /></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Remember me</label></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" value="Login" class="button" /></td>
+						</tr>
+					</table>
+				</form>
+						</div> 
+<div class="block" id="sidebarLanguageToggle">
+	<script type="text/javascript">
+		<!--
+		function changeLanguage() {
+			var e = document.getElementById('languageSelect');
+			var new_locale = e.options[e.selectedIndex].value;
+
+			var redirect_url = 'https://journals.uic.edu/ojs/index.php/index/user/setLocale/NEW_LOCALE?source=%2Fojs%2Findex.php';
+			redirect_url = redirect_url.replace("NEW_LOCALE", new_locale);
+
+			window.location.href = redirect_url;
+		}
+		//-->
+	</script>
+	<span class="blockTitle">Language</span>
+	<form action="#">
+		<label for="languageSelect">Select Language</label>
+		<select id="languageSelect" size="1" name="locale" class="selectMenu"><option label="English" value="en_US" selected="selected">English</option>
+<option label="Español (España)" value="es_ES">Español (España)</option>
+</select>
+		<input type="submit" class="button" value="Submit" onclick="changeLanguage(); return false;" />
+	</form>
+</div>
+<div class="block" id="sidebarNavigation">
+	<span class="blockTitle">Journal Content</span>
+
+	
+	
+	<form id="simpleSearchForm" action="https://journals.uic.edu/ojs/index.php/index/search/search">
+				<table id="simpleSearchInput">
+			<tr>
+				<td>
+													<label for="simpleQuery">Search <br />
+					<input type="text" id="simpleQuery" name="simpleQuery" size="15" maxlength="255" value="" class="textField" /></label>
+								</td>
+			</tr>
+			<tr>
+				<td><label for="searchField">
+				Search Scope
+				<br />
+				<select id="searchField" name="searchField" size="1" class="selectMenu">
+					<option label="All" value="query">All</option>
+<option label="Authors" value="authors">Authors</option>
+<option label="Title" value="title">Title</option>
+<option label="Abstract" value="abstract">Abstract</option>
+<option label="Index terms" value="indexTerms">Index terms</option>
+<option label="Full Text" value="galleyFullText">Full Text</option>
+
+				</select></label>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Search" class="button" /></td>
+			</tr>
+		</table>
+	</form>
+
+	<br />
+
+	</div>
+
+<!-- Add javascript required for font sizer -->
+<script type="text/javascript">
+	<!--
+	$(function(){
+		fontSize("#sizer", "body", 9, 16, 32, "/ojs"); // Initialize the font sizer
+	});
+	// -->
+</script>
+
+<div class="block" id="sidebarFontSize" style="margin-bottom: 4px;">
+	<span class="blockTitle">Font Size</span>
+	<div id="sizer"></div>
+</div>
+<br />
+			</div>
+			</div>
+
+<div id="main">
+<div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="https://journals.uic.edu/ojs/index.php/index/index">Home</a></li>
+		<li id="about"><a href="https://journals.uic.edu/ojs/index.php/index/about">About</a></li>
+
+					<li id="login"><a href="https://journals.uic.edu/ojs/index.php/index/login">Login</a></li>
+							<li id="register"><a href="https://journals.uic.edu/ojs/index.php/index/user/register">Register</a></li>
+												<li id="search"><a href="https://journals.uic.edu/ojs/index.php/index/search">Search</a></li>
+		
+		
+				
+
+			</ul>
+</div>
+<div id="breadcrumb">
+	<a href="https://journals.uic.edu/ojs/index.php/index/index">Home</a> &gt;
+			<a href="https://journals.uic.edu/ojs/index.php" class="current">Journals@UIC</a></div>
+
+<h2>Journals@UIC</h2>
+
+
+<div id="content">
+
+
+<br />
+
+<div id="intro">Journals@UIC is a project of the UIC University Library to make journals available openly to the scholarly community worldwide. It also aims to assist UIC faculty and others with the management and editorial work associated with the journals they edit.</div>
+<a name="journals"></a>
+
+
+					<div style="clear:left;">
+				</div>
+				<h3>AoIR Selected Papers of Internet Research</h3>
+							<div class="journalDescription" id="journalDescription-46">
+				<p>Selected Papers of Internet Research (SPIR) is the open access online collection of papers presented at the annual international conferences of the Association of Internet Researchers (AoIR).</p>
+			</div>
+				<p><a href="https://journals.uic.edu/ojs/index.php/spir" class="action">View Journal</a> | <a href="https://journals.uic.edu/ojs/index.php/spir/issue/current" class="action">Current Issue</a> | <a href="https://journals.uic.edu/ojs/index.php/spir/user/register" class="action">Register</a></p>
+					<div style="clear:left;">
+				</div>
+				<h3>Behavior and Social Issues</h3>
+							<div class="journalDescription" id="journalDescription-1">
+				<p>Affiliated with Behaviorists for Social Responsibility, <em>Behavior and Social Issues</em> is a peer-reviewed, interdisciplinary scientific journal which serves as a primary scholarly outlet for articles that advance the analysis of human social behavior, particularly with regard to understanding and influencing significant social problems. The journal is particularly interested in publishing work related to issues with social justice, human rights, and sustainability implications, but all serious social issues are of interest. Articles considered for publication should be grounded in behavior analytic and behavioral systems science. (Before submitting, please go to "About" on the menu above to review the Focus and Scope of the journal.)</p><p>Predecessor (Legacy) Journals:</p><p><a href="/ojs/index.php/bsaj/index%20" target="_blank">Behaviorists for Social Action Journal</a> (1978-1985)</p><p><a href="/ojs/index.php/basa/index" target="_blank">Behavior Analysis and Social Action</a> (1987-1989)</p>
+			</div>
+				<p><a href="https://journals.uic.edu/ojs/index.php/bsi" class="action">View Journal</a> | <a href="https://journals.uic.edu/ojs/index.php/bsi/issue/current" class="action">Current Issue</a> | <a href="https://journals.uic.edu/ojs/index.php/bsi/user/register" class="action">Register</a></p>
+					<div style="clear:left;">
+				</div>
+				<h3>First Monday</h3>
+							<div class="journalDescription" id="journalDescription-3">
+				<em>First Monday</em> is one of the first openly accessible, peer–reviewed journals solely devoted to research about the Internet. <em>First Monday</em> has published 1,806 papers in 270 issues, written by 2,515 different authors, over the past 22 years. No subscription fees, no submission fees, no advertisements, no fundraisers, no walls.
+			</div>
+				<p><a href="https://journals.uic.edu/ojs/index.php/fm" class="action">View Journal</a> | <a href="https://journals.uic.edu/ojs/index.php/fm/issue/current" class="action">Current Issue</a> | <a href="https://journals.uic.edu/ojs/index.php/fm/user/register" class="action">Register</a></p>
+					<div style="clear:left;">
+				</div>
+				<h3>Journal of Biocommunication</h3>
+							<div class="journalDescription" id="journalDescription-41">
+				<span>The </span><em>Journal of Biocomunication (JBC)</em><span> is a publicly accessible, peer-reviewed publication of visual communication in the life sciences. </span><span>The <em>JBC's</em> content describes proven or experimental procedures in medical and scientific illustration, medical and natural science photography, digital imaging, data visualization, animation, game design, instructional design, and other communication modalities.</span>
+			</div>
+				<p><a href="https://journals.uic.edu/ojs/index.php/jbc" class="action">View Journal</a> | <a href="https://journals.uic.edu/ojs/index.php/jbc/issue/current" class="action">Current Issue</a> | <a href="https://journals.uic.edu/ojs/index.php/jbc/user/register" class="action">Register</a></p>
+					<div style="clear:left;">
+				</div>
+				<h3>DISCO: Journal of Biomedical Discovery and Collaboration</h3>
+							<div class="journalDescription" id="journalDescription-24">
+				What is Journal of Biomedical Discovery and Collaboration? Journal of Biomedical Discovery and Collaboration is an Open Access, peer-reviewed online journal that will encompass all aspects of scientific information management and studies of scientific practice, with a particular emphasis on biomedical laboratory investigations. Currently, many scattered disciplines study aspects of scientific practice, including informatics, computer science, sociology, cognitive psychology, scientometrics, rhetoric, and history and philosophy of science. The journal will connect these disparate perspectives with each other, and with contemporary scientific practice.
+			</div>
+				<p><a href="https://journals.uic.edu/ojs/index.php/jbdc" class="action">View Journal</a> | <a href="https://journals.uic.edu/ojs/index.php/jbdc/issue/current" class="action">Current Issue</a> | <a href="https://journals.uic.edu/ojs/index.php/jbdc/user/register" class="action">Register</a></p>
+					<div style="clear:left;">
+				</div>
+				<h3>Letras Femeninas. A Journal of Women and Gender Studies in Hispanic Literatures and Cultures</h3>
+						<p><a href="https://journals.uic.edu/ojs/index.php/lf" class="action">View Journal</a> | <a href="https://journals.uic.edu/ojs/index.php/lf/issue/current" class="action">Current Issue</a> | <a href="https://journals.uic.edu/ojs/index.php/lf/user/register" class="action">Register</a></p>
+					<div style="clear:left;">
+				</div>
+				<h3>Online Journal of Public Health Informatics</h3>
+							<div class="journalDescription" id="journalDescription-25">
+				Interest in informatics as a specialty in the health sciences disciplines reflects the central role that information collection, analysis, and utilization now play in the healthcare sector. New public health threats such as bioterrorism and flu pandemics will demand an improved infrastructure for disseminating information about best practices. The Online Journal of Public Health Informatics (OJPHI) strives to satisfy the growing need for a public health informatics knowledge portal by practitioners, researchers, educators, and policy makers. It is a quarterly open access, open source, peer-reviewed journal.
+			</div>
+				<p><a href="https://journals.uic.edu/ojs/index.php/ojphi" class="action">View Journal</a> | <a href="https://journals.uic.edu/ojs/index.php/ojphi/issue/current" class="action">Current Issue</a> | <a href="https://journals.uic.edu/ojs/index.php/ojphi/user/register" class="action">Register</a></p>
+					<div style="clear:left;">
+				</div>
+				<h3>Uncommon Culture</h3>
+							<div class="journalDescription" id="journalDescription-32">
+				Uncommon Culture provides unique perspectives on a rich variety of cultural activities in Europe. Examining cultural institutions and their collections, this magazine gives new insight into diverse cultural activities.
+			</div>
+				<p><a href="https://journals.uic.edu/ojs/index.php/UC" class="action">View Journal</a> | <a href="https://journals.uic.edu/ojs/index.php/UC/issue/current" class="action">Current Issue</a> | <a href="https://journals.uic.edu/ojs/index.php/UC/user/register" class="action">Register</a></p>
+
+<div id="journalListPageInfo"></div>
+<div id="journalListPageLinks"></div>
+
+
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body -->
+
+
+
+</div><!-- container -->
+</body>
+</html>

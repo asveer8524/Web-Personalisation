@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> Lab14s18 &lt; CS111 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS111/Lab14s18?_T=2018-11-25" type="application/x-wiki" title="edit Lab14s18" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS111/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS111/Lab14s18"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS111/WebHome">CS111 Web</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/WebLeftBar" class="twikiLink">WebLeftBar</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/NotesS18" class="twikiLink">NotesS18</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/CodeS18" class="twikiLink">CodeS18</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/AssignmentsS18" class="twikiLink">AssignmentsS18</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS111/Lab14s18" title='Topic revision: 1 (2018-04-26 - 21:01:55)'>Lab14s18</a> <span class='patternRevInfo'>(2018-04-26, Main.troy)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS111/Lab14s18?t=1543180153' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS111/Lab14s18' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h2><a name="CS_111_Introduction_to_Computing"></a> CS 111 - Introduction to Computing </h2>
+<h3><a name="Lab_14"></a> Lab 14 </h3>
+<p />
+In this lab, you will take the Sound File <a href="http://www.cs.uic.edu/%7Ei101/SoundFiles/preamble.wav" target="_top"> preamble.wav</a> and create a new sentence from those words.
+<p />
+The sentence you are to create is:
+<blockquote> <strong>We common people promote united tranquility.</strong> </blockquote>
+<p />
+The entire text of the Preamble is:
+<blockquote> We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America. </blockquote>
+<p />
+The following words begin at the given sample numbers in the file:
+<p /> <ul>
+<li> 7519 We
+</li> <li> 15235 the
+</li> <li> 18742 people
+</li> <li> 29767 of
+</li> <li> 32457 the
+</li> <li> 34045 United
+</li> <li> 40527 States
+</li> <li> 54838 in
+</li> <li> 58653 order
+</li> <li> 64386 to
+</li> <li> 67561 form
+</li> <li> ????? a - not sure if this is actually spoken in the sound
+</li> <li> 74859 more
+</li> <li> 78894 perfect
+</li> <li> 86744 union
+</li> <li> 101363 establish
+</li> <li> 116027 justice
+</li> <li> 132829 ensure
+</li> <li> 142134 domestic
+</li> <li> 152012 tranquility
+</li> <li> 174240 provide
+</li> <li> 185130 for
+</li> <li> 189122 the
+</li> <li> 189189 common
+</li> <li> 196112 defense
+</li> <li> 212000 promote
+</li> <li> etc....
+</li></ul> 
+You will need to read in the sound file, separate out the needed words, and then join the word together into a single sound. The code to separate out the needed words can be found in <a href="/bin/view/CS111/CodeS18" class="twikiLink">lect0419c.py</a>, while the code to join them together is found in <a href="/bin/view/CS111/CodeS18" class="twikiLink">lect0419d.py.</a>
+<p />
+You may want to include some break/silence between the words of your newly created sentence, but this is not a requirement.
+<h3><a name="Using_a_Loop"></a> <a name="Using_a_Loop"></a> Using a Loop </h3>
+<p />
+You are to build up the final sound using a loop similar to what was done in <a href="/bin/view/CS111/CodeS18" class="twikiLink">lect0426b.py.</a>
+<p />
+To help with the loop, you can create two lists of integer values that contain the starting indexes of the words in one list and the ending indexes of the words in the other list. When you are building the i-th word for the sentence, you can use the loop counter with the lists to get the start and end indexes as needed for the parameters for the makeSoundByte( ) function.
+<p />
+For this loop, the two lists could be set up as follows:
+<p />
+# indexes for the sentence: <strong>People establish order to provide justice</strong>
+<p />
+# This is sentence you are to create for this lab!
+<p />
+# So these are <strong>NOT</strong> the actual values that you should be using for this lab!<br /> startIndexList = [ 18742, 101363, 58653, 64386, 174240, 116027 ]<br /> endIndexList = [ 29767, 116027, 64386, 67561, 185130, 132829 ]
+<p />
+<h3><a name="Notes_on_the_two_needed_function"></a> Notes on the two needed functions </h3>
+<p />
+To separate out a specify word from a longer sound: <ul>
+<li> First determine the starting and ending sample index of the needed word.
+</li> <li> Next create a new sound of the length between the starting and ending indices. (Subtract the starting index from the ending index).
+</li> <li> Copy the sample values from the starting index to the ending index place them in the new sound beginning at index position 0.
+</li></ul> 
+To join two sound objects together into a new sound: <ul>
+<li> First determine the length of the two original sound objects. The length of the new/joined sound object will be these two lengths added together.
+</li> <li> Next copy all of the samples from first original sound object into the new/joined sound object (where the first original sound object's sample is placed into the first sample of the new/joined sound object).
+</li> <li> Final copy all of the samples from the second original sound object into the new/joined sound object but the position needs to be shifted by the length of the first original sound object.
+</li></ul> 
+<h3><a name="Lab_Assignment_14"></a> Lab Assignment 14 </h3>
+<p />
+Due: Wednesday 5/2/2018 by 11:59 pm
+<p />
+Create a Python program that will be written using good programming style, which includes using: <ul>
+<li> Multiple Methods
+</li> <li> Meaningful variable names
+</li> <li> In-line commenting
+</li> <li> Proper indentation of program statements
+</li> <li> Use of blank lines to separate blocks of code
+</li> <li> Header Block Commenting for the entire program
+</li> <li> Header Block Commenting for each method
+</li></ul> 
+Your header block comment <strong>for the program</strong> must include the following: <ul>
+<li> Your name,
+</li> <li> Net-ID,
+</li> <li> Course Name,
+</li> <li> Assignment Name,
+</li> <li> Day and time of the CS 111 lab section (i.e. Monday at 11:00 am)
+</li> <li> A short description of the assignment
+</li></ul> 
+Your header block comments <strong>for each method</strong> must include the following: <ul>
+<li> A description of the purpose of the method
+</li> <li> A listing of the name, type, and purpose of every parameter
+</li> <li> A description of the return value and its type
+</li></ul> 
+<strong>Required Methods for the Lab Assignment:</strong> <ul>
+<li> Your program is to contain the main() method that will: <ul>
+<li> Prompt the use for the sound file to be used for input for this lab.
+</li> <li> Use a loop to build up the final sound similar to what was done in: <a href="/bin/view/CS111/CodeS18" class="twikiLink">lect0426b.py.</a> <ul>
+<li> Create each i-th word needed by using a call to the "make sound bite" method specified below.
+</li> <li> Join those i-th words to the final sentence using a call to the join sound method specified below.
+</li></ul> 
+</li> <li> Play (or explore) the sound.
+</li> <li> Prompt the user for a name and save it.
+</li></ul> 
+</li></ul> 
+<p /> <ul>
+<li> Your program is to contain a method called makeSoundByte() that will: <ul>
+<li> take a sound as its first parameter,
+</li> <li> take two integer values as its second and third parameters <ul>
+<li> verify that the second and third parameters contain valid values:
+</li> <li> the value of the second parameter is greater than or equal to zero
+</li> <li> the value of the second parameter is less than or equal to the third parameter
+</li> <li> the value of the third parameter is less than or equal to the length of the sound given as the first parameter.
+</li></ul> 
+</li> <li> create a newly created sound that contains only those samples found between the index positions indicated by the integer values given as the second and third parameters
+</li> <li> return the newly created sound from the method
+</li></ul> 
+</li></ul> 
+<p /> <ul>
+<li> Your program is to contain a method called joinSounds() that will: <ul>
+<li> take two sound objects as parameters and
+</li> <li> return a newly created sound object.
+</li> <li> The newly created sound object will contain the first sound object followed by the second sound object. (This is similar to the makeCollage() methods we created for pictures.)
+</li></ul> 
+</li></ul> 
+You are also to submit the Python file electronically via the assignment link for Lab 14 in BLackboard. </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS111/Lab14s18?t=1543180153' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS111/Lab14s18' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS111/Lab14s18?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS111/Lab14s18?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r1</span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS111/Lab14s18?template=backlinksweb' rel='nofollow' title='Search the CS111 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS111/Lab14s18?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS111/Lab14s18?t=1543180153;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS111/Lab14s18?template=oopsmore&amp;param1=1&amp;param2=1' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r1 - 2018-04-26 - 21:01:55 - Main.troy</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS111/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS111</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/CS111/CS111Spring2018" class="twikiLink">Web Page Spr 18</a>
+</li> <li> <a href="https://www.cs.uic.edu/pub/CS111/CS111Spring2018/syl111s18.pdf" target="_top">Syllabus Spr 18</a>
+</li> <li> <a href="/bin/view/CS111/NotesS18" class="twikiLink">Lecture Notes Spr 18</a>
+</li> <li> <a href="/bin/view/CS111/CodeS18" class="twikiLink">Sample Code Spr 18</a>
+</li> <li> <a href="/bin/view/CS111/AssignmentsS18" class="twikiLink">Assignments Spr 18</a>
+</li></ul> 
+<a href="/bin/edit/CS111/WebLeftBar" target="_top">&#91;edit this menu</a>]
+<p />
+<hr />
+<p />
+<div class="patternLeftBarPersonal">
+<ul><li class="patternLogIn"><a href="/bin/logon/CS111/Lab14s18">Log In</a> </li></ul>
+</div><!--/patternLeftBarPersonal-->
+<p /> <ul>
+<li> <a href="https://www.cs.uic.edu/bin/view/CS111/" target="_top">CS 111 Main Page</a>
+</li> <li> <a href="/bin/view/CS111/WebCreateNewTopic?topicparent=Lab14s18" target="_top"> <img src="/pub/TWiki/TWikiDocGraphics/newtopic.gif" width="16" height="16" alt="New topic" title="New topic" border="0" /> Create New Topic</a>
+</li> <li> <a href="/bin/view/CS111/WebTopicList" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/index.gif" width="16" height="16" alt="Index" title="Index" border="0" /> Index</a>
+</li> <li> <a href="/bin/view/CS111/WebSearch" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/searchtopic.gif" width="16" height="16" alt="Search topic" title="Search topic" border="0" /> Search</a>
+</li> <li> <a href="/bin/view/CS111/WebChanges" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/changes.gif" width="16" height="16" alt="Changes" title="Changes" border="0" /> Changes</a>
+</li> <li> <a href="/bin/view/CS111/WebNotify" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/notify.gif" width="16" height="16" alt="Notify" title="Notify" border="0" /> Notifications</a>
+</li> <li> <a href="/bin/view/CS111/WebRss" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/feed.gif" width="16" height="16" alt="RSS feed, rounded corners" title="RSS feed, rounded corners" border="0" /> RSS Feed</a>
+</li> <li> <a href="/bin/view/CS111/WebStatistics" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/statistics.gif" width="16" height="16" alt="Statistics" title="Statistics" border="0" /> Statistics</a>
+</li> <li> <a href="/bin/view/CS111/WebPreferences" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/wrench.gif" width="16" height="16" alt="Wrench, tools" title="Wrench, tools" border="0" /> Preferences</a>
+</li></ul> 
+<p />
+<hr />
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> WebStatistics &lt; NewLookTest &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/NewLookTest/WebStatistics?_T=2018-11-25" type="application/x-wiki" title="edit WebStatistics" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/NewLookTest/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/NewLookTest/WebStatistics"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('http://bits.cs.uic.edu/newweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/NewLookTest/WebHome">NewLookTest Web</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/NewLookTest/WebStatistics" title='Topic revision: 206 (2017-03-23 - 00:16:33)'>WebStatistics</a> <span class='patternRevInfo'>(2017-03-23, <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiGuest?topicparent=NewLookTest.WebStatistics;nowysiwyg=0" rel="nofollow" title="TWikiGuest (this topic does not yet exist; you can create it)">TWikiGuest</a></span>)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/NewLookTest/WebStatistics?t=1543179593' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/NewLookTest/WebStatistics' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h2><a name="Statistics_for_NewLookTest_Web"></a> Statistics for NewLookTest Web </h2>
+<p />
+<table cellspacing="0" id="table1" cellpadding="0" class="twikiTable" rules="all" border="1">
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#687684" valign="top" class="twikiTableCol0 twikiFirstCol"> <a rel="nofollow" href="/bin/view/NewLookTest/WebStatistics?sortcol=0;table=1;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">Month:</font></a> </th>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol1"> <a rel="nofollow" href="/bin/view/NewLookTest/WebStatistics?sortcol=1;table=1;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">Topic <br /> views:</font></a> </th>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol2"> <a rel="nofollow" href="/bin/view/NewLookTest/WebStatistics?sortcol=2;table=1;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">Topic <br /> saves:</font></a> </th>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol3"> <a rel="nofollow" href="/bin/view/NewLookTest/WebStatistics?sortcol=3;table=1;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">File <br /> uploads:</font></a> </th>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol4"> <a rel="nofollow" href="/bin/view/NewLookTest/WebStatistics?sortcol=4;table=1;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">Most popular <br /> topic views:</font></a> </th>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol5 twikiLastCol"> <a rel="nofollow" href="/bin/view/NewLookTest/WebStatistics?sortcol=5;table=1;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">Top contributors for <br /> topic save and uploads:</font></a> </th>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> <!--statDate--> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1"> <!--statViews--> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol2"> <!--statSaves--> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol3"> <!--statUploads--> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> <!--statTopViews--> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> <!--statTopContributors--> </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> 2017-03 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 602<br />(1 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> 128&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />&nbsp;&nbsp;77&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;&nbsp;60&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;&nbsp;48&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;&nbsp;41&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;&nbsp;33&nbsp;<a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a><br />&nbsp;&nbsp;29&nbsp;<a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a><br />&nbsp;&nbsp;27&nbsp;<a href="/bin/view/NewLookTest/WebBottomBar" class="twikiLink">WebBottomBar</a><br />&nbsp;&nbsp;25&nbsp;<a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />&nbsp;&nbsp;25&nbsp;<a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> 2017-02 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1"> 540<br />(1 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> 67&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />58&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />47&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />46&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />43&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />38&nbsp;<a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />30&nbsp;<a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />29&nbsp;<a href="/bin/view/NewLookTest/WebTopicList" class="twikiLink">WebTopicList</a><br />29&nbsp;<a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />29&nbsp;<a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> 2017-01 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 343<br />(1 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> 56&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />45&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />39&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />34&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />33&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />21&nbsp;<a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />16&nbsp;<a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a><br />15&nbsp;<a href="/bin/view/NewLookTest/WebCreateNewTopic" class="twikiLink">WebCreateNewTopic</a><br />15&nbsp;<a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />15&nbsp;<a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> 2016-12 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1"> 296<br />(1 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> 45&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />31&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />30&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />28&nbsp;<a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />27&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />23&nbsp;<a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a><br />22&nbsp;<a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a><br />20&nbsp;<a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a><br />18&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />15&nbsp;<a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> 2016-11 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 379<br />(1 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> 76&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />53&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />46&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />35&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />29&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />26&nbsp;<a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a><br />21&nbsp;<a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a><br />20&nbsp;<a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />16&nbsp;<a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a><br />15&nbsp;<a href="/bin/view/NewLookTest/WebCreateNewTopic" class="twikiLink">WebCreateNewTopic</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> 2016-10 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1"> 454<br />(1 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> 69&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />67&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />66&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />40&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />33&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />29&nbsp;<a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />23&nbsp;<a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a><br />21&nbsp;<a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a><br />19&nbsp;<a href="/bin/view/NewLookTest/WebCreateNewTopic" class="twikiLink">WebCreateNewTopic</a><br />19&nbsp;<a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> 2016-09 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 129<br />(1 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> 30&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />27&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />23&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />15&nbsp;<a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;&nbsp;6&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;&nbsp;5&nbsp;<a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a><br />&nbsp;&nbsp;4&nbsp;<a href="/bin/view/NewLookTest/WebTopicList" class="twikiLink">WebTopicList</a><br />&nbsp;&nbsp;3&nbsp;<a href="/bin/view/NewLookTest/WebCreateNewTopic" class="twikiLink">WebCreateNewTopic</a><br />&nbsp;&nbsp;3&nbsp;<a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />&nbsp;&nbsp;3&nbsp;<a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> 2016-08 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1"> 340<br />(1 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> 57&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />55&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />48&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />26&nbsp;<a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />22&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />19&nbsp;<a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />17&nbsp;<a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />17&nbsp;<a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a><br />16&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />13&nbsp;<a href="/bin/view/NewLookTest/WebTopicList" class="twikiLink">WebTopicList</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> 2016-07 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 808<br />(1 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> 198&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />104&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;&nbsp;69&nbsp;<a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;&nbsp;68&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;&nbsp;47&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;&nbsp;46&nbsp;<a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />&nbsp;&nbsp;44&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;&nbsp;35&nbsp;<a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />&nbsp;&nbsp;35&nbsp;<a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a><br />&nbsp;&nbsp;33&nbsp;<a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> 2016-06 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1"> 543<br />(1 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> 100&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />&nbsp;&nbsp;60&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;&nbsp;47&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;&nbsp;46&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;&nbsp;39&nbsp;<a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;&nbsp;34&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;&nbsp;31&nbsp;<a href="/bin/view/NewLookTest/WebBottomBar" class="twikiLink">WebBottomBar</a><br />&nbsp;&nbsp;28&nbsp;<a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />&nbsp;&nbsp;28&nbsp;<a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />&nbsp;&nbsp;26&nbsp;<a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> 2016-03 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 464<br />(1 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> 88&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />67&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />47&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />35&nbsp;<a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />34&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />24&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />23&nbsp;<a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />23&nbsp;<a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />23&nbsp;<a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a><br />22&nbsp;<a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> 2016-02 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1"> 531<br />(1 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> 92&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />87&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />67&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />32&nbsp;<a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />31&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />30&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />27&nbsp;<a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />27&nbsp;<a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a><br />27&nbsp;<a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />23&nbsp;<a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> 2016-01 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 68<br />(1 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> 11&nbsp;<a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;&nbsp;8&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />&nbsp;&nbsp;8&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;&nbsp;5&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;&nbsp;5&nbsp;<a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a><br />&nbsp;&nbsp;5&nbsp;<a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;&nbsp;4&nbsp;<a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />&nbsp;&nbsp;4&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;&nbsp;3&nbsp;<a href="/bin/view/NewLookTest/WebTopicList" class="twikiLink">WebTopicList</a><br />&nbsp;&nbsp;3&nbsp;<a href="/bin/view/NewLookTest/WebCreateNewTopic" class="twikiLink">WebCreateNewTopic</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> 2015-12 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1"> 273<br />(1 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 0<br />(0 unique users) </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> 46&nbsp;<a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />30&nbsp;<a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />25&nbsp;<a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />22&nbsp;<a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a><br />21&nbsp;<a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />19&nbsp;<a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />18&nbsp;<a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />15&nbsp;<a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />15&nbsp;<a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a><br />13&nbsp;<a href="/bin/view/NewLookTest/WebCreateNewTopic" class="twikiLink">WebCreateNewTopic</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> Nov 2015 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 529 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0 </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> &nbsp;93 <a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />&nbsp;37 <a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;30 <a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;27 <a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a><br />&nbsp;24 <a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;24 <a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />&nbsp;23 <a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />&nbsp;22 <a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;22 <a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />&nbsp;22 <a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;21 <a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> Oct 2015 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1"> 830 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2"> 0 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 0 </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> 114 <a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />&nbsp;89 <a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;42 <a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;40 <a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;37 <a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />&nbsp;35 <a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />&nbsp;34 <a href="/bin/view/NewLookTest/WebStatistics" class="twikiCurrentTopicLink twikiLink">WebStatistics</a><br />&nbsp;33 <a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;31 <a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a><br />&nbsp;29 <a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a><br />&nbsp;28 <a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> Sep 2015 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 1165 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0 </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> 114 <a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;98 <a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />&nbsp;64 <a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;58 <a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;50 <a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;45 <a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a><br />&nbsp;42 <a href="/bin/view/NewLookTest/WebTopicList" class="twikiLink">WebTopicList</a><br />&nbsp;42 <a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />&nbsp;42 <a href="/bin/view/NewLookTest/WebStatistics" class="twikiCurrentTopicLink twikiLink">WebStatistics</a><br />&nbsp;41 <a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />&nbsp;37 <a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> Aug 2015 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1"> 820 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2"> 0 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 0 </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> 133 <a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />&nbsp;58 <a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;58 <a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;51 <a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;40 <a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a><br />&nbsp;40 <a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;38 <a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />&nbsp;31 <a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />&nbsp;30 <a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />&nbsp;26 <a href="/bin/view/NewLookTest/WebStatistics" class="twikiCurrentTopicLink twikiLink">WebStatistics</a><br />&nbsp;23 <a href="/bin/view/NewLookTest/WebTopicList" class="twikiLink">WebTopicList</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> Jul 2015 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 859 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0 </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> 214 <a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />103 <a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;65 <a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;42 <a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;32 <a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;27 <a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a><br />&nbsp;23 <a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />&nbsp;21 <a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />&nbsp;15 <a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;15 <a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />&nbsp;13 <a href="/bin/view/NewLookTest/WebCreateNewTopic" class="twikiLink">WebCreateNewTopic</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> Jun 2015 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1"> 482 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2"> 0 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 0 </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> &nbsp;63 <a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />&nbsp;54 <a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;44 <a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;33 <a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;20 <a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a><br />&nbsp;19 <a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;19 <a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a><br />&nbsp;14 <a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;14 <a href="/bin/view/NewLookTest/WebStatistics" class="twikiCurrentTopicLink twikiLink">WebStatistics</a><br />&nbsp;12 <a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />&nbsp;12 <a href="/bin/view/NewLookTest/People" class="twikiLink">People</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> May 2015 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 1065 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0 </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> 134 <a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />125 <a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;75 <a href="/bin/view/NewLookTest/WebStatistics" class="twikiCurrentTopicLink twikiLink">WebStatistics</a><br />&nbsp;65 <a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;49 <a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;48 <a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a><br />&nbsp;47 <a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;44 <a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;32 <a href="/bin/view/NewLookTest/WebTopicList" class="twikiLink">WebTopicList</a><br />&nbsp;32 <a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />&nbsp;28 <a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> Apr 2015 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1"> 769 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2"> 0 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 0 </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4"> 131 <a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />106 <a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;58 <a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;51 <a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;42 <a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;26 <a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a><br />&nbsp;22 <a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />&nbsp;21 <a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a><br />&nbsp;19 <a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />&nbsp;19 <a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />&nbsp;19 <a href="/bin/view/NewLookTest/WebStatistics" class="twikiCurrentTopicLink twikiLink">WebStatistics</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> Mar 2015 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol1"> 826 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol2"> 0 </td>
+			<td bgcolor="#edf4f9" align="right" valign="top" class="twikiTableCol3"> 0 </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol4"> 206 <a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />&nbsp;47 <a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;44 <a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;43 <a href="/bin/view/NewLookTest/WebStatistics" class="twikiCurrentTopicLink twikiLink">WebStatistics</a><br />&nbsp;37 <a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />&nbsp;35 <a href="/bin/view/NewLookTest/WebChanges" class="twikiLink">WebChanges</a><br />&nbsp;32 <a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;29 <a href="/bin/view/NewLookTest/WebIndex" class="twikiLink">WebIndex</a><br />&nbsp;27 <a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />&nbsp;25 <a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;25 <a href="/bin/view/NewLookTest/WebNotify" class="twikiLink">WebNotify</a> </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol5 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> Feb 2015 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol1 twikiLast"> 980 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol2 twikiLast"> 20 </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3 twikiLast"> 4 </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol4 twikiLast"> 154 <a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a><br />&nbsp;78 <a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink">WebHome</a><br />&nbsp;67 <a href="/bin/view/NewLookTest/People" class="twikiLink">People</a><br />&nbsp;58 <a href="/bin/view/NewLookTest/WebSearch" class="twikiLink">WebSearch</a><br />&nbsp;38 <a href="/bin/view/NewLookTest/WebPreferences" class="twikiLink">WebPreferences</a><br />&nbsp;30 <a href="/bin/view/NewLookTest/WebTopBar" class="twikiLink">WebTopBar</a><br />&nbsp;29 <a href="/bin/view/NewLookTest/WebSearchAdvanced" class="twikiLink">WebSearchAdvanced</a><br />&nbsp;22 <a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a><br />&nbsp;14 <a href="/bin/view/NewLookTest/WebCreateNewTopic" class="twikiLink">WebCreateNewTopic</a><br />&nbsp;11 <a href="/bin/view/NewLookTest/WebLeftBar" class="twikiLink">WebLeftBar</a><br />&nbsp;10 <a href="/bin/view/NewLookTest/WebTopicList" class="twikiLink">WebTopicList</a> </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol5 twikiLastCol twikiLast"> &nbsp;24 <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/JakobEriksson?topicparent=NewLookTest.WebStatistics;nowysiwyg=0" rel="nofollow" title="JakobEriksson (this topic does not yet exist; you can create it)">JakobEriksson</a></span> </td>
+		</tr></table>
+<p />
+<strong><em>Notes:</em></strong> <ul>
+<li> Do not edit this topic, it is updated automatically. (You can also <a href="https://www.cs.uic.edu/bin/statistics/NewLookTest" target="_top">force</a> an update)
+</li> <li> <a href="/bin/view/TWiki/TWikiSiteTools#WebStatistics_site_statistics" class="twikiAnchorLink">TWikiSiteTools</a> tells you how to enable the automatic updates of the statistics.
+</li> <li> Suggestion: You could archive this topic once a year and delete the previous year's statistics from the table.
+</li></ul>  </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/NewLookTest/WebStatistics?t=1543179593' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/NewLookTest/WebStatistics' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/NewLookTest/WebStatistics?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/NewLookTest/WebStatistics?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r206&nbsp;<a rel="nofollow" href="/bin/rdiff/NewLookTest/WebStatistics?rev1=206;rev2=205">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/NewLookTest/WebStatistics?rev=205">r205</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/NewLookTest/WebStatistics?rev1=205;rev2=204">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/NewLookTest/WebStatistics?rev=204">r204</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/NewLookTest/WebStatistics?rev1=204;rev2=203">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/NewLookTest/WebStatistics?rev=203">r203</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/NewLookTest/WebStatistics?rev1=203;rev2=202">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/NewLookTest/WebStatistics?rev=202">r202</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/NewLookTest/WebStatistics?template=backlinksweb' rel='nofollow' title='Search the NewLookTest Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/NewLookTest/WebStatistics?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/NewLookTest/WebStatistics?t=1543179593;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/NewLookTest/WebStatistics?template=oopsmore&amp;param1=206&amp;param2=206' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r206 - 2017-03-23 - 00:16:33 - <span class="twikiNewLink"><a href="https://www.cs.uic.edu/bin/edit/Main/TWikiGuest?topicparent=NewLookTest.WebStatistics;nowysiwyg=0" rel="nofollow" title="TWikiGuest (this topic does not yet exist; you can create it)">TWikiGuest</a></span></div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/NewLookTest/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> NewLookTest</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/NewLookTest/People" class="twikiLink">People</a>
+</li> <li> <a href="/bin/view/NewLookTest/Projects" class="twikiLink">Projects</a>
+</li> <li> <a href="/bin/view/NewLookTest/Contact" class="twikiLink">Contact</a>
+</li></ul> 
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> Homework4 &lt; CS450fall11 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS450fall11/Homework4?_T=2018-11-25" type="application/x-wiki" title="edit Homework4" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS450fall11/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS450fall11/Homework4"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS450fall11/WebHome">CS450fall11 Web</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS450fall11/Homework4" title='Topic revision: 4 (2011-09-13 - 16:42:22)'>Homework4</a> <span class='patternRevInfo'>(2011-09-13, Main.amusa2)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS450fall11/Homework4?t=1543180461' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS450fall11/Homework4' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h1><a name="Homework_4"></a> Homework 4 </h1>
+<p />
+In this homework, we finally get to the mother of all serious socket programming: the select() system call.
+<p />
+select() allows a program to wait for multiple file descriptors at once, whether reading, writing or just looking for error messages from a socket.
+<p />
+Create a simple chat server for telnet clients, using TCP sockets and select(). Let every connected client receive using TCP sockets and every message sent by every other client.
+<p />
+Pay attention to the details. Specifically, you are required to handle the commands "say", "name" and "whisper", keep track of and report (on connection close) the number of received bytes for each client. You should also keep track of and use the name set by the client, as shown below. The number of clients can be more than two, but will be less than 16 during grading.
+<p />
+For the grading script to work right, you have to turn off block buffering (the default when stdout is redirected to a file or pipe). Add the following line to the top of your main() function to turn off buffering altogether <code>setbuf(stdout,NULL);</code>. To switch to line buffering, which should work fine as well, use <code>setlinebuf(stdout)</code>.
+<p />
+<strong>NOTE</strong>: There is no template for this homework. It is up to you to create the necessary directory, Makefile, etc.
+<p />
+Here is an example transcript with 3 connected telnet clients:
+<p />
+<pre>
+
+./hw4 8081
+Got connection (Client 1)
+Got connection (Client 2)
+Client 2 set name to Jakob
+Client 1 set name to Musa
+Jakob said: Hi Musa
+Got connection (Client 3)
+Client 3 set name to Tomas
+Jakob said: Hi Tomas
+Tomas said: Hi everyone
+Jakob whispered to Musa: Wasn&#39;t he the TA last year? What&#39;s he doing here?
+Jakob said: Bye bye
+Jakob disconnected. A total of 125 bytes received from Jakob.
+Musa said: Bye Tomas
+Musa disconnected. A total of 26 bytes received from Musa.
+Tomas disconnected. A total of 29 bytes received from Tomas.
+
+client session 1:
+
+telnet localhost 8081
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is &#39;^]&#39;.
+name Jakob
+Client 1 set name to Musa
+Hi Musa
+say Hi Musa
+Client 3 set name to Tomas
+say Hi Tomas
+Tomas&#62; Hi everyone
+whisper Musa Wasn&#39;t he the TA last year? What&#39;s he doing here?
+say Bye bye
+^]
+telnet&#62; close
+Connection closed.
+
+client session 2:
+
+telnet localhost 8081
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is &#39;^]&#39;.
+Client 2 set name to Jakob
+name Musa 
+Jakob&#62; Hi Musa
+Client 3 set name to Tomas
+Jakob&#62; Hi Tomas
+Tomas&#62; Hi everyone
+~Jakob&#62; Wasn&#39;t he the TA last year? What&#39;s he doing here?
+Jakob&#62; Bye bye
+Jakob disconnected.
+say Bye Tomas
+^]
+telnet&#62; close
+Connection closed.
+
+client session 3:
+
+telnet localhost 8081
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is &#39;^]&#39;.
+name Tomas
+Jakob&#62; Hi Tomas
+say Hi everyone
+Jakob&#62; Bye bye
+Jakob disconnected.
+Musa&#62; Bye Tomas
+Musa disconnected.
+^]
+telnet&#62; close
+Connection closed.
+</pre>
+<p />
+<p />
+<h2><a name="Hints"></a> Hints </h2>
+<p />
+The selectserver.c example will give you an excellent start, use it. My solution is 207 lines, including lots of whitespace and comments. selectserver.c is 134 lines, so you can figure the solution is about 50-100 lines of code.
+<p />
+In my solution, I use the following string functions:
+<p /> <ul>
+<li> strcmp for comparing strings
+</li> <li> sprintf for composing formatted strings from various parts
+</li> <li> sscanf for cutting out parts of strings
+</li> <li> strcpy for copying strings
+</li> <li> strlen for figuring out string length (don't forget about the null-terminator after!)
+</li></ul> 
+<p />
+<strong>TIP</strong>: you'll need to refactor the socketserver code (move stuff around) quite a bit to make it work well.
+<p />
+<h1><a name="Grading"></a> Grading </h1>
+<p />
+Do <code>svn up</code> in your <code>/pub</code>. The grading script is in /pub/grading-scripts/hw4/. To run the grading script:
+<p />
+<code>./hw4_score username port score_file</code>
+<p />
+The grading script runs the server and simulate multiple client telnet connection using a python library named telnetlib. It saves output from server and all the clients to files and look for appropriate output in them. You will need to follow the output format exactly with the example output so that grading script finds the output it is looking for. 
+<p />
+Following is the sample output of grading script:
+<p />
+<pre>
+&#91;SUCCESS] name works &#91;1]: 1
+&#91;SUCCESS] musa and tomas got message from jakob for say &#91;1]: 1
+&#91;SUCCESS] james, tomas, jakob, bala got message from musa for say &#91;1]: 1
+&#91;SUCCESS] whisper worked between musa and tomas &#91;1.5]: 1.5
+&#91;SUCCESS] correct statistics &#91;1.5]: 1.5
+Total score: 6
+
+</pre>
+<p />
+Following is the transcript used for grading
+<pre>
+Server:
+Got connection (Client 1)
+Client 1 set name to musa
+musa said: Hi from musa
+Got connection (Client 2)
+Client 2 set name to tomas
+tomas said: Hi from tomas
+closing connection...
+musa disconnected. A total of 27 bytes received from musa.
+closing connection...
+tomas disconnected. A total of 29 bytes received from tomas.
+Got connection (Client 1)
+Client 1 set name to musa
+Got connection (Client 2)
+Client 2 set name to tomas
+Got connection (Client 3)
+Client 3 set name to jakob
+musa said: hi jakob
+tomas said: hi jakob
+jakob said: hi musa, tomas
+musa whispered to tomas: this message is between you and me only
+tomas whispered to musa: sure
+Got connection (Client 4)
+Client 4 set name to bala
+Got connection (Client 5)
+Client 5 set name to james
+musa said: Hi James, good to see you!
+
+
+musa:
+Client 2 set name to tomas
+Client 3 set name to jakob
+tomas&#62; hi jakob
+jakob&#62; hi musa, tomas
+~tomas&#62; sure
+Client 4 set name to bala
+Client 5 set name to james
+
+
+tomas:
+Client 3 set name to jakob
+musa&#62; hi jakob
+jakob&#62; hi musa, tomas
+~musa&#62; this message is between you and me only
+Client 4 set name to bala
+Client 5 set name to james
+musa&#62; Hi James, good to see you!
+
+
+
+jakob:
+musa&#62; hi jakob
+tomas&#62; hi jakob
+Client 4 set name to bala
+Client 5 set name to james
+musa&#62; Hi James, good to see you!
+
+
+
+bala:
+Client 5 set name to james
+musa&#62; Hi James, good to see you!
+
+
+james:
+musa&#62; Hi James, good to see you!
+
+
+</pre> </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS450fall11/Homework4?t=1543180462' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS450fall11/Homework4' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS450fall11/Homework4?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS450fall11/Homework4?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r4&nbsp;<a rel="nofollow" href="/bin/rdiff/CS450fall11/Homework4?rev1=4;rev2=3">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS450fall11/Homework4?rev=3">r3</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS450fall11/Homework4?rev1=3;rev2=2">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS450fall11/Homework4?rev=2">r2</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS450fall11/Homework4?rev1=2;rev2=1">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS450fall11/Homework4?rev=1">r1</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS450fall11/Homework4?template=backlinksweb' rel='nofollow' title='Search the CS450fall11 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS450fall11/Homework4?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS450fall11/Homework4?t=1543180462;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS450fall11/Homework4?template=oopsmore&amp;param1=4&amp;param2=4' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r4 - 2011-09-13 - 16:42:22 - Main.amusa2</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS450fall11/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS450fall11</a>
+</li></ul> 
+</div>
+<a href="/bin/view/CS450fall11/WebHome" class="twikiCurrentWebHomeLink twikiLink">Home</a>
+<p /> <ul>
+<li> <a href="/bin/view/CS450fall11/Syllabus" class="twikiLink">Syllabus</a>
+</li> <li> <a href="/bin/view/CS450fall11/Recordings" class="twikiLink">Lecture Recordings</a>
+</li> <li> <a href="/bin/view/CS450fall11/Homeworks" class="twikiLink">Homeworks</a> 
+</li> <li> - <a href="/bin/view/CS450fall11/Subversion" class="twikiLink">Subversion</a>
+</li> <li> <a href="/bin/view/CS450fall11/Schedule" class="twikiLink">Schedule</a>
+</li></ul> 
+<!--   * <a href="http://listserv.uic.edu/archives/cs450f11.html" target="_top">List Archives</a> --> <ul>
+<li> <a href="http://www.piazza.com/class#450" target="_top">Q&amp;A System</a>
+</li> <li> <a href="/bin/view/Jakob/ShellScripting" class="twikiLink">Shell Scripting</a>
+</li></ul> 
+<p />
+<hr /> <ul>
+<li> <a href="https://www.cs.uic.edu/bin/view/CS450fall11/WebCreateNewTopic?topicparent=WebHome" target="_top">Create New Topic</a>
+</li> <li> <a href="http://www.cs.uic.edu/bin/view/CS450fall11/WebRss" target="_top">Changes RSS</a>
+</li></ul> 
+<p />
+<hr />
+<div class="patternLeftBarPersonal">
+<ul><li class="patternLogIn"><a href="/bin/logon/CS450fall11/Homework4">Log In</a> </li></ul>
+</div><!--/patternLeftBarPersonal-->
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

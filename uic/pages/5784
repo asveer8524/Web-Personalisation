@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> Homework5 &lt; CS385spring14 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS385spring14/Homework5?_T=2018-11-25" type="application/x-wiki" title="edit Homework5" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS385spring14/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS385spring14/Homework5"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS385spring14/WebHome">CS385spring14 Web</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS385spring14/Homeworks" class="twikiLink">Homeworks</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS385spring14/Homework5" title='Topic revision: 3 (2014-04-09 - 01:29:09)'>Homework5</a> <span class='patternRevInfo'>(2014-04-09, Main.driesk)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS385spring14/Homework5?t=1543179577' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS385spring14/Homework5' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h2><a name="Homework_5"></a> Homework 5 </h2>
+<p />
+<h3><a name="A_read_only_File_System_Driver"></a> A read-only File System Driver </h3>
+<p />
+<table cellspacing="0" id="table1" cellpadding="0" class="twikiTable" rules="all" border="1">
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> Issued </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> 3/20/14 </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> Due Date </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol twikiLast"> <strike>4/8/14</strike> 4/10/14 <strong>before class</strong> </td>
+		</tr></table>
+<p />
+<strong>NOTE</strong>: As a reminder, homework is considered handed in when it is committed to your personal subversion repository before the deadline. Changes made after the deadline will be ignored.
+<p />
+<h3><a name="Goal"></a> Goal </h3>
+<p />
+For this homework, we will be designing our own file system and develop (part of) a driver to access the file stored on our file system.
+<p />
+<h3><a name="Evaluation"></a> Evaluation </h3>
+<p />
+The homework will be evaluated using the following factors:
+<p /> <ul>
+<li> Code Quality: Your code should compile without warnings or errors
+</li> <li> Documentation of the code -- The code is clearly documented, explaining what the intent is and how it is accomplished.
+</li> <li> Correctness of execution -- The code performs the functions requested.
+</li> <li> Creativity -- Your solution is different. Make sure to <strong>document</strong> your code or we might miss your special trick!
+</li> <li> Optional tasks -- You implemented some or all of the optional requests, or went beyond what was requested in some other way.
+</li></ul> 
+<p />
+<h3><a name="What_to_hand_in"></a> What to hand in </h3>
+<p />
+As for all the other homework assignments, you will need to commit your homework to your assigned subversion repository, under the correct directory ( <code>homework/homework5</code>).
+<p />
+<strong>Use EXACTLY the requested file and directory names, including case!</strong>
+<p />
+Please commit the following files:
+<p /> <ul>
+<li> <code>mkfs.c</code>, <code>yourfs.c</code>, <code>yourfs.h</code> and any other files required to build the test program and the mkfs program. FILES SHOULD COMPILE WITHOUT WARNINGS!
+</li> <li> The <code>Makefile</code>
+</li> <li> Makefile used to build your floppy disk image
+</li> <li> A text file <code>DESCRIPTION</code> containing a description of what your code does, how you achieved it, clearly listing which tasks (see above) you completed.
+</li></ul> 
+Is is OK if you commit more files than requested, but make sure the files requested above are present and exactly named as specified.
+<p />
+<h3><a name="Details"></a> Details </h3>
+<p />
+<h4><a name="Environment"></a> Environment </h4>
+<p />
+Your code needs to compile under your virtual machine (ubuntu). While a part of your code will eventually be used in our own kernel, for the purpose of this homework, all development happens under linux.
+<p />
+A simple <code>Makefile</code> is provided. Feel free to enhance this makefile (for example to automate invoking your <code>mkfs</code> program or to automate testing.
+<p />
+<h4><a name="Storage_Abstraction"></a> Storage Abstraction </h4>
+<p />
+As discussed during class, the file system is typically implemented on top of a storage abstraction. For the homework, the way to access the underlying storage device is through the <code>device.h</code> header. This header contains functions to obtain the blocksize of the device, the number of blocks and to read or write a block on the device.
+<p />
+Please see <code>device.h</code> for a detailed description of the functions and their parameters.
+<p />
+You should not modify <code>device.h</code> or <code>device.c</code>.
+<p />
+<h3><a name="Task_1_mkfs"></a> Task 1: mkfs </h3>
+<p />
+The file system developed for this homework is a <strong>read-only</strong> file system. This means that it is intended for devices which do not support modifying device contents, such as a CDROM.
+<p />
+However, we still need to be able to create the file system. Since we can't create it the normal way (i.e. format the device with the file system and then copy the files onto the file system or similar), we will use a separate program which, given a set of files and directories, creates the final file system.
+<p />
+Part of this program is already provided; see the <code>mkfs.c</code> file in the shared repository.
+<p />
+This program takes a number of options:
+<p /> <ul>
+<li> <code>-v</code> and <code>-d</code>: these options set the <code>opt_verbose</code> and <code>opt_debug</code> variables. You can use these in your code to enable extra debug output if you want.
+</li></ul> 
+<p /> <ul>
+<li> <code>-i</code> filename: this option specifies <strong>an existing file</strong> in which the tool will write the file system image. You can use <code>make image1.img</code> and <code>make image2.img</code> to create empty image files which you can use for this.
+</li></ul> 
+<p /> <ul>
+<li> <code>-c</code> number: This sets the <code>opt_clear</code> variable; If this variable is not equal to 0, your <code>mkfs</code> programs needs to fill every unused disk block (i.e. every block not storing file data or data structures for you file system) with this byte.
+</li></ul> 
+So, for example, given a directory <code>test</code> containing the following files:
+<p />
+<pre>
+a   
+b
+c
+</pre>
+<p />
+and an image file <code>image1.img</code>, calling your <code>mkfs</code> program as:
+<p />
+<pre>
+./mkfs -i image1.img test
+</pre>
+<p />
+should create a file system containing 3 files, <code>a</code>, <code>b</code> and <code>c</code>, where each file contains the contents of the equally named file in the <code>test</code> directory.
+<p />
+You can make the following assumptions:
+<p /> <ul>
+<li> File and directory names can only contain letters and numbers (a-z,A-Z,0-9) and each directory or file name is at most 254 characters.
+</li></ul> 
+<p /> <ul>
+<li> The file system does not need to support modification, once created.
+</li></ul> 
+<p /> <ul>
+<li> For meta data / attributes, only the file size needs to be stored. So there is no need to store permission, owner or other information.
+</li></ul> 
+<p /> <ul>
+<li> Each file will be smaller than 2 GB in length.
+</li> <li> Each directory will contain at most 255 files.
+</li></ul> 
+<p />
+<h3><a name="Task_2_yourfs_h_and_yourfs_c"></a> Task 2: yourfs.h and yourfs.c </h3>
+<p />
+The <code>yourfs.h</code> and <code>yourfs.c</code> files provide the read access to the file system that was created by the <code>mkfs</code> tool.
+<p />
+The test program uses these two files to access the file system created by <code>mkfs</code>, and to validate that each file was correctly stored on your file system.
+<p />
+See the <code>yourfs.h</code> file for a list of functions to implement and how these functions should behave.
+<p />
+<strong>There is no need to modify =yourfs.h=</strong>
+<p />
+An example implementation of <code>yourfs.c</code>, which calls the existing POSIX I/O functions is provided.
+This is just <strong>an example</strong>. You should replace <code>yourfs.c</code> with your own version which provides the same functions
+and functionality, but uses <code>device.h</code> to obtain the file data and directory listings instead.
+<p />
+<p />
+<h3><a name="Tasks"></a> Tasks </h3>
+<p />
+Everybody needs to implement the 'minimal' functionality. For extra credit, one or more of the optional tasks can be completed.
+<p />
+Approximately 75% <strong>of the points for the code</strong> are allocated for to the minimal task, and each optional task counts for an additional 25%. If you successfully complete the two additional tasks, extra credit will go towards other homeworks.
+<p />
+The following tasks need to be completed:
+<p />
+<h4><a name="Minimal"></a> Minimal </h4>
+<p />
+The following tasks need to be completed:
+<p /> <ul>
+<li> Create a working <code>mkfs</code> program
+</li> <li> Create a working <code>yourfs.h</code> and <code>yourfs.c</code>
+</li> <li> Running the test program finds no errors.
+</li> <li> All code compiles without warnings.
+</li> <li> <strong>No subdirectories need to be supported</strong>; However, <strong>if subdirectories are present in the directory given to the mkfs tool, they need to be ignored by the tool</strong>, and your <code>mkfs</code> program should still function correctly.
+</li> <li> The <code>readdir</code> functionality does not need to be completed.
+</li></ul> 
+<p />
+<h4><a name="Optional_1_Readdir"></a> Optional 1: Readdir </h4>
+<p />
+For extra credit, implement the directory listing functionality in <code>yourfs.h</code> and <code>yourfs.c</code>.
+<p />
+<pre>
+yourfs&#95;dir&#95;open
+yourfs&#95;dir&#95;close
+yourfs&#95;dir&#95;getentry
+</pre>
+<p />
+See <code>yourfs.h</code> for more information.
+The special files <code>.</code> and=..= should not be returned by your <code>yourfs_dir_getentry</code> function.
+<p />
+<h3><a name="Optional_2_Subdirectories"></a> Optional 2: Subdirectories </h3>
+<p />
+For extra credit, implement subdirectories. Subdirectories should be able to nest to an arbitrary depth.
+<p />
+<h3><a name="Self_Evaluation"></a> Self-Evaluation </h3>
+<p />
+To help you to develop and test your code, a program <code>testfs</code> is provided. 
+The idea is that given a directory containing files (and possibly other subdirectories), and an image file (created by <code>mkfs</code>) which contains the same files and directories, <code>testfs</code> will use your <code>yourfs.c</code> file to verify that all the files are present in the image and that the contents of the files etc. is correct (when accessed through your <code>yourfs.c</code> functions).
+<p />
+By default, the program only tests the minimal functionality (no subdirectories, no readdir). If you also want to test the optional functionality, pass <code>-1</code> or <code>-2</code> to the test program.
+<p />
+To grade the homework, the same <code>testfs</code> program will be used.
+<p />
+<h3><a name="Help_and_hints"></a> Help and hints </h3>
+<p /> <ul>
+<li> A program to test your <code>mkfs</code> tool and <code>yourfs.c</code> and <code>yourfs.h</code> files is provided.
+</li></ul> 
+<p /> <ul>
+<li> The <code>valgrind</code> tool can help you find bugs in your program. <a href="http://valgrind.org/" target="_top">http://valgrind.org/</a>
+</li></ul> 
+It can be installed using <code>apt-get</code> under ubuntu.
+<p /> <ul>
+<li> In the <code>yourfs_xxx_open</code> functions, you can <code>malloc</code> a <code>yourfs_xxx_handle_t</code> structure, and return it. Store enough information to identify the file or directory, so when later your <code>yourfs_xxx_read</code> function is called, you can retrieve the information from the structure.<br /><span style="background-color: transparent"><br />In the </span> <code>yourfs_xxx_close</code> <span style="background-color: transparent"> function, you can </span> <code>free()</code> <span style="background-color: transparent"> the structure again.</span>
+</li></ul> 
+<p /> <ul>
+<li> If you do not implement subdirectories, you can ignore the <code>yourfs_dir_handle_t</code> parameter as it will always be equal to <code>YOURFS_ROOT_DIRECTORY</code>.
+</li></ul> 
+<p /> <ul>
+<li> In case you do implement subdirectories: take some time to think about how to best implement this. Hint: even if you don't allow subdirectories, there will at least be one directory in your file <span style="background-color: transparent">system<br /></span><span style="background-color: transparent">the root directory. So, maybe, adding support for subdirectories should not be that much work since you will already have code to handle the root directory.</span>
+</li></ul>  </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS385spring14/Homework5?t=1543179577' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS385spring14/Homework5' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS385spring14/Homework5?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS385spring14/Homework5?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r3&nbsp;<a rel="nofollow" href="/bin/rdiff/CS385spring14/Homework5?rev1=3;rev2=2">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS385spring14/Homework5?rev=2">r2</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS385spring14/Homework5?rev1=2;rev2=1">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS385spring14/Homework5?rev=1">r1</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS385spring14/Homework5?template=backlinksweb' rel='nofollow' title='Search the CS385spring14 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS385spring14/Homework5?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS385spring14/Homework5?t=1543179577;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS385spring14/Homework5?template=oopsmore&amp;param1=3&amp;param2=3' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r3 - 2014-04-09 - 01:29:09 - Main.driesk</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS385spring14/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS385spring14</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/CS385spring14/Syllabus" class="twikiLink">Syllabus</a>
+</li> <li> <a href="/bin/view/CS385spring14/LectureNotes" class="twikiLink">Lecture Notes</a>
+</li> <li> <a href="/bin/view/CS385spring14/Homeworks" class="twikiLink">Homeworks</a>
+</li> <li> <a href="/bin/view/CS385spring14/GroupProjects" class="twikiLink">Group Projects</a>
+</li></ul> 
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

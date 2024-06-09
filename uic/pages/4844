@@ -1,0 +1,13 @@
+@inproceedings{polakis:acsac12,<br>
+author    = {Iasonas Polakis and
+Marco Lancini and
+Georgios Kontaxis and
+Federico Maggi and
+Sotiris Ioannidis and
+Angelos D. Keromytis and
+Stefano Zanero},<br>
+title     = {All your face are belong to us: breaking Facebook's social authentication},<br>
+booktitle = {Annual Computer Security Applications Conference (ACSAC '12)},<br>
+year      = {2012},<br>
+pages     = {399-408},<br>
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+	
+	<META NAME="GENERATOR" Content="Visual Page 2.0 for Windows">
+	<TITLE>Tutorial at SC2002</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white">
+
+<P>
+<TABLE ALIGN="LEFT" BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%" HEIGHT="100%">
+	<TR ALIGN="LEFT" VALIGN="TOP">
+		<TD>
+			<P>
+			<TABLE ALIGN="LEFT" BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="2087">
+				<TR>
+					<TD WIDTH="974">&nbsp;</TD>
+					<TD ROWSPAN="3" COLSPAN="2">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="974" HEIGHT="52" ALIGN="LEFT" VALIGN="TOP">
+						<P>&nbsp;<A HREF="http://www.sc2002.org/"><IMG SRC="images/sc2002/sub_01.gif" WIDTH="416" HEIGHT="112" ALIGN="TOP"
+						BORDER="0"></A>
+					</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="974" HEIGHT="450" ALIGN="LEFT" VALIGN="TOP" background="images/sc2002/background_12.gif">
+						<P>&nbsp; 
+						<TABLE ALIGN="LEFT" BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="861" HEIGHT="116">
+							<TR>
+								<TD WIDTH="122" ALIGN="LEFT" VALIGN="TOP">
+									<P><IMG SRC="images/sc2002/sub_04.gif" WIDTH="122" HEIGHT="57" ALIGN="TOP" BORDER="0">
+								</TD>
+								<TD WIDTH="835">
+									<DIV>
+										<P><B><FONT SIZE="4" COLOR="#2C6EAC" FACE="Arial, Helvetica, sans-serif">M2 <BR>
+										A Tutorial Introduction to Infrastructure for the Analysis and Mining of Globally Distributed Data<BR>
+										</FONT></B></P>
+
+										<P><B><FONT SIZE="4" COLOR="#2C6EAC" FACE="Arial, Helvetica, sans-serif">Presenters</FONT></B></P>
+									</DIV>
+									<P>
+									<TABLE BORDER="0" WIDTH="70%" HEIGHT="259">
+										<TR>
+											<TD WIDTH="26%" VALIGN="TOP"><FONT COLOR="black" FACE="Arial, Helvetica, sans-serif">Part 1</FONT></TD>
+											<TD WIDTH="21%" VALIGN="TOP"><FONT COLOR="black" FACE="Arial, Helvetica, sans-serif">Data Grids and Data Webs</FONT></TD>
+											<TD WIDTH="2%">&nbsp;</TD>
+											<TD WIDTH="27%" VALIGN="TOP"><A HREF="http://www.lac.uic.edu/~grossman/index.htm"><FONT FACE="Arial, Helvetica, sans-serif">Robert L. Grossman</FONT></A><FONT
+												COLOR="black" FACE="Arial, Helvetica, sans-serif"><BR>
+												University of Illinois at Chicago/Two Cultures Group</FONT></TD>
+											<TD WIDTH="2%">&nbsp;</TD>
+											<TD WIDTH="22%"><IMG SRC="images/sc2002/grossman.gif" WIDTH="75" HEIGHT="75" ALIGN="BOTTOM" BORDER="0"></TD>
+										</TR>
+										<TR>
+											<TD WIDTH="26%" VALIGN="TOP"><FONT COLOR="black" FACE="Arial, Helvetica, sans-serif">Part 2</FONT></TD>
+											<TD WIDTH="21%" VALIGN="TOP"><FONT COLOR="black" FACE="Arial, Helvetica, sans-serif">Distributed Data Mining</FONT></TD>
+											<TD WIDTH="2%">&nbsp;</TD>
+											<TD WIDTH="27%" VALIGN="TOP"><A HREF="http://www.doc.ic.ac.uk/~yg/"><FONT FACE="Arial, Helvetica, sans-serif">Yike Guo</FONT></A><FONT COLOR="black"
+												FACE="Arial, Helvetica, sans-serif"><BR>
+												Imperial College</FONT></TD>
+											<TD WIDTH="2%">&nbsp;</TD>
+											<TD WIDTH="22%"><IMG SRC="images/sc2002/yg.jpg" WIDTH="73" HEIGHT="78" ALIGN="BOTTOM" BORDER="0"></TD>
+										</TR>
+										<TR>
+											<TD WIDTH="26%" HEIGHT="80" VALIGN="TOP"><FONT COLOR="black" FACE="Arial, Helvetica, sans-serif">Part 3</FONT></TD>
+											<TD WIDTH="21%" HEIGHT="80" VALIGN="TOP"><FONT COLOR="black" FACE="Arial, Helvetica, sans-serif">Semantic Web and Web Services</FONT></TD>
+											<TD WIDTH="2%" HEIGHT="80">&nbsp;</TD>
+											<TD WIDTH="27%" HEIGHT="80" VALIGN="TOP"><A HREF="http://www.cs.uic.edu/~ifc/"><FONT FACE="Arial, Helvetica, sans-serif">Isabel F. Cruz</FONT></A><FONT
+												COLOR="black" FACE="Arial, Helvetica, sans-serif"><BR>
+												University of Illinois at Chicago</FONT></TD>
+											<TD WIDTH="2%" HEIGHT="80">&nbsp;</TD>
+											<TD WIDTH="22%" HEIGHT="80"><IMG SRC="images/sc2002/cruz.gif" WIDTH="75" HEIGHT="75" ALIGN="BOTTOM" BORDER="0"></TD>
+										</TR>
+									</TABLE>
+
+									<DIV>
+										<P><B><FONT SIZE="4" COLOR="#2C6EAC" FACE="Arial, Helvetica, sans-serif">Summary<BR>
+										<BR>
+										</FONT></B><FONT COLOR="black" FACE="Arial, Helvetica, sans-serif">A variety of distributed infrastructures have
+										emerged which support the remote and distributed analysis of data, including data webs, data grids, and semantic
+										webs. With clusters and high performance networks becoming common, the analysis of remote and distributed data
+										is now practical. In this tutorial, we broad an overview of the infrastructure and tools available for analyzing
+										globally distributed data. The tutorial includes several case studies from science, engineering, and business.
+										We will describe both cluster and grid based tools from high performance computing as well as web services being
+										developed by the web community. Finally, we give an overview of the current and emerging standards. The goal of
+										the tutorial is to provide researchers, practitioners, and advanced students with an introduction to techniques
+										for analyzing and mining globally distributed data.</FONT></P>
+										<P><B><FONT SIZE="4" COLOR="#2C6EAC" FACE="Arial, Helvetica, sans-serif">Contact information</FONT></B></P>
+
+										<P><FONT COLOR="black" FACE="Arial, Helvetica, sans-serif">For Part 3 of the Tutorial, send email to </FONT><A
+										HREF="mailto:ifc@cs.uic.edu?subject=<SC2002>"><FONT FACE="Arial, Helvetica, sans-serif">ifc@cs.uic.edu</FONT></A><FONT
+										COLOR="black" FACE="Arial, Helvetica, sans-serif"> if you would like to receive a file with the presentation.</FONT>
+									</DIV>
+								</TD>
+							</TR>
+						</TABLE>
+
+					</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="974">&nbsp;</TD>
+					<TD WIDTH="518">&nbsp;</TD>
+					<TD WIDTH="594">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="974">&nbsp;</TD>
+					<TD WIDTH="518">&nbsp;</TD>
+					<TD WIDTH="594">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="974">&nbsp;</TD>
+					<TD WIDTH="518">&nbsp;</TD>
+					<TD WIDTH="594">&nbsp;</TD>
+				</TR>
+			</TABLE>
+
+		</TD>
+	</TR>
+</TABLE>
+</P>
+
+<P>&nbsp;
+
+</BODY>
+
+</HTML>

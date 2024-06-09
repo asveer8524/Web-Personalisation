@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> Proj2S18 &lt; CS111 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS111/Proj2S18?_T=2018-11-25" type="application/x-wiki" title="edit Proj2S18" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS111/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS111/Proj2S18"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS111/WebHome">CS111 Web</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/WebLeftBar" class="twikiLink">WebLeftBar</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/NotesS18" class="twikiLink">NotesS18</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/CodeS18" class="twikiLink">CodeS18</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/AssignmentsS18" class="twikiLink">AssignmentsS18</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS111/Proj2S18" title='Topic revision: 3 (2018-04-17 - 20:19:23)'>Proj2S18</a> <span class='patternRevInfo'>(2018-04-17, Main.troy)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS111/Proj2S18?t=1543180108' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS111/Proj2S18' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h2><a name="CS_111_Program_Design_I"></a> <a href="https://www.cs.uic.edu/CS111" target="_top">CS 111 - Program Design I </a> </h2>
+<h2><a name="Project_2_Image_Authentication"></a> Project 2 - Image Authentication </h2>
+<h3><a name="Due_Date_Thursday_3_15_2018_at_1"></a> Due Date: Thursday 3/15/2018 at 11:59 pm </h3>
+<p />
+For this assignment, we will be doing image authentication. The idea is that we are checking to see if a copy of a picture has been modified away from the original picture.
+<p />
+We will be using three pictures for this project. The first picture will be the original. The second picture will be the copy that is being checked for modifications. The third picture will be created by the program which will show only the parts of the original that were modified in the copy. The user is to prompt the user for the original and the copy (using pickAFile() twice is the suggested way to prompt the user for these two pictures).
+<p />
+The two pictures must have the same width and height. If the two pictures do not have the same size, print out an error message and quit the program. The third pictures is to be created to have the same width and height.
+<p />
+For each pixel position in the first picture, compare the color of that pixel with the color of the pixel in the same position from second picture. If the two pixels have the same color (i.e. the original is not modified in the copy), set the color of this position in the third picture to blue. If the two pixels do not have the same color, set the color of this position in the third picture to the color of the pixel from the original picture. The "color distance" function is to be used to determine if the color of the pixels is "the same". Not that due to the way that pictures are stored, the program should allow some small difference between the color of the pixels but still consider the colors to be "the same".
+<p />
+After all the positions have been checked and the third picture has been completely created, the third picture is to be displayed and the user should be asked to provide a filename to save the third picture. Again, pickAFile() should be used for the prompting of the filename.
+<p />
+Note: if the color in the original picture at a modified position is blue or nearly blue, it may be hard to detect the modified parts. Since most of our original pictures are in black and white, using the color blue does make the modified areas of the picture standout.
+<p />
+The following are original pictures and modified pictures. It will be assumed that everyone will be using the following picture to run/test their programs. You do not need to find/create your own pictures for this assignment (however, if you want to, you certainly can. Creating such picture is actually kind of hard to do). The picture of the Lady, the picture of the Houses, and the picture of the butterfly work best for this assignment.
+<p /> <ul>
+<li> Picture 1: Lady in Stripes<br /> <p><img alt="" src="http://www.cs.uic.edu/~troy/spring10/cs101/projects/barbara_jpeg_wm.gif" /><br /> <a href="http://www.cs.uic.edu/%7Etroy/spring10/cs101/projects/barbara_jpeg_wm.gif" target="_top">Original Image</a></p> <p><img alt="" src="http://www.cs.uic.edu/~troy/spring10/cs101/projects/barbara_jpeg_manip.gif" /><br /> <a href="http://www.cs.uic.edu/%7Etroy/spring10/cs101/projects/barbara_jpeg_manip.gif" target="_top">Modified Image</a></p> <p> </p>
+</li> <li> Picture 2: Birds of a Feather<br /> <p><img alt="" src="http://www.cs.uic.edu/~troy/spring10/cs101/projects/birds_1.jpg" /><br /> <a href="http://www.cs.uic.edu/%7Etroy/spring10/cs101/projects/birds_1.jpg" target="_top">Original Image</a></p> <p><img alt="" src="http://www.cs.uic.edu/~troy/spring10/cs101/projects/birds_2.jpg" /><br /> <a href="http://www.cs.uic.edu/%7Etroy/spring10/cs101/projects/birds_2.jpg" target="_top">Modified Images</a></p> <p> </p>
+</li> <li> Picture : The Shipyard <p><img alt="" src="http://www.cs.uic.edu/~troy/spring10/cs101/projects/fishingboat_wm.gif" /><br /> <a href="http://www.cs.uic.edu/%7Etroy/spring10/cs101/projects/fishingboat_wm.gif" target="_top">Original Image</a></p> <p><img alt="" src="http://www.cs.uic.edu/~troy/spring10/cs101/projects/fishingboat_manip.gif" /><br /> <a href="http://www.cs.uic.edu/%7Etroy/spring10/cs101/projects/fishingboat_manip.gif" target="_top">Modified Images</a></p> <p> </p>
+</li> <li> Picture 4: Where's Alfred? <br /> <p><img alt="" src="http://www.cs.uic.edu/~troy/spring10/cs101/projects/houses_jpeg_wm.gif" /><br /> <a href="http://www.cs.uic.edu/%7Etroy/spring10/cs101/projects/houses_jpeg_wm.gif" target="_top">Original Image</a></p> <p><img alt="" src="http://www.cs.uic.edu/~troy/spring10/cs101/projects/houses_jpeg_manip.gif" /><br /> <a href="http://www.cs.uic.edu/%7Etroy/spring10/cs101/projects/houses_jpeg_manip.gif" target="_top">Modified Images</a></p> <p> </p>
+</li> <li> Picture 5: Eating Oranges <p><img alt="" src="http://www.cs.uic.edu/~troy/spring10/cs101/projects/man512_jpeg_wm.gif" /><br /> <a href="http://www.cs.uic.edu/%7Etroy/spring10/cs101/projects/man512_jpeg_wm.gif" target="_top">Original Image</a></p> <p><img alt="" src="http://www.cs.uic.edu/~troy/spring10/cs101/projects/man512_jpeg_manip.gif" /><br /> <a href="http://www.cs.uic.edu/%7Etroy/spring10/cs101/projects/man512_jpeg_manip.gif" target="_top">Modified Images</a></p>
+</li> <li> <p> </p>
+</li> <li> Picture 6: The Butterfly <p><img alt="butterflyorig.jpg" src="http://www.cs.uic.edu/pub/CS101/Proj2s12/butterflyorig.jpg" /><br /> Original Image</p> <p><img alt="butterflymanip.jpg" src="http://www.cs.uic.edu/pub/CS101/Proj2s12/butterflymanip.jpg" /><br /> Modified Image</p> <p> </p>
+</li></ul> 
+<a href="/bin/view/CS101/Proj2ResultsS12" class="twikiLink"><font face="#mce_temp_font#">Look here for results of this program.</font></a>
+<p />
+Note: the results that you get are not going to be as good as you would like. This is because the .jpg format use a "lossly" compression algorithm. This algorithm introduces some inaccuracies in order to get a better compression result. So instead of asking "Do these two pixels have the same color?" We have to ask "Are the colors in these two pixels close enough?"
+<h3><a name="Project_Collaboration"></a> Project Collaboration </h3>
+<p />
+You are allowed to receive help on this project from other students who are also taking CS 111. Each student must still complete and submit his/her own project. You will be required to include a <strong>Collaboration Statement</strong> somewhere on your project if you receive help. This statement can simply be something like the following:
+<blockquote> For this project, I received help from the following member of CS 111. <ul>
+<li> <strong>Devang Jariwala</strong>, netID: djariw1
+</li> <li> <strong>Shun Liang</strong>, netID: sliang2
+</li> <li> <strong>Hongwei Zhu</strong>, netID: hzhu7
+</li></ul> 
+</blockquote>
+<p />
+This statement should list each helping student's name in a comment in the "header comment" of your Java file that includes the main() method.
+<h3><a name="Programming_Style"></a> Programming Style </h3>
+<p />
+Your program must be written in good programming style which includes: <ul>
+<li> Meaningful Variable Names
+</li> <li> Proper Indentation of Code
+</li> <li> Blank Lines between Code Sections
+</li> <li> Use of Multiple Functions
+</li> <li> In-Line Commenting
+</li> <li> Header Comment for the File
+</li> <li> Header Comments for each Method.
+</li></ul> 
+<h3><a name="How_assignments_should_be_submit"></a> How assignments should be submitted </h3>
+<p />
+You are also to submit the Python file electronically via the Assignment link in Blackboard for this lab. You are to name your file with the lab number and your netID. Unless you have created your own pictures to use with this program, there is no reason to send us pictures. </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS111/Proj2S18?t=1543180108' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS111/Proj2S18' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS111/Proj2S18?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS111/Proj2S18?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r3&nbsp;<a rel="nofollow" href="/bin/rdiff/CS111/Proj2S18?rev1=3;rev2=2">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS111/Proj2S18?rev=2">r2</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS111/Proj2S18?rev1=2;rev2=1">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS111/Proj2S18?rev=1">r1</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS111/Proj2S18?template=backlinksweb' rel='nofollow' title='Search the CS111 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS111/Proj2S18?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS111/Proj2S18?t=1543180108;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS111/Proj2S18?template=oopsmore&amp;param1=3&amp;param2=3' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r3 - 2018-04-17 - 20:19:23 - Main.troy</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS111/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS111</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/CS111/CS111Spring2018" class="twikiLink">Web Page Spr 18</a>
+</li> <li> <a href="https://www.cs.uic.edu/pub/CS111/CS111Spring2018/syl111s18.pdf" target="_top">Syllabus Spr 18</a>
+</li> <li> <a href="/bin/view/CS111/NotesS18" class="twikiLink">Lecture Notes Spr 18</a>
+</li> <li> <a href="/bin/view/CS111/CodeS18" class="twikiLink">Sample Code Spr 18</a>
+</li> <li> <a href="/bin/view/CS111/AssignmentsS18" class="twikiLink">Assignments Spr 18</a>
+</li></ul> 
+<a href="/bin/edit/CS111/WebLeftBar" target="_top">&#91;edit this menu</a>]
+<p />
+<hr />
+<p />
+<div class="patternLeftBarPersonal">
+<ul><li class="patternLogIn"><a href="/bin/logon/CS111/Proj2S18">Log In</a> </li></ul>
+</div><!--/patternLeftBarPersonal-->
+<p /> <ul>
+<li> <a href="https://www.cs.uic.edu/bin/view/CS111/" target="_top">CS 111 Main Page</a>
+</li> <li> <a href="/bin/view/CS111/WebCreateNewTopic?topicparent=Proj2S18" target="_top"> <img src="/pub/TWiki/TWikiDocGraphics/newtopic.gif" width="16" height="16" alt="New topic" title="New topic" border="0" /> Create New Topic</a>
+</li> <li> <a href="/bin/view/CS111/WebTopicList" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/index.gif" width="16" height="16" alt="Index" title="Index" border="0" /> Index</a>
+</li> <li> <a href="/bin/view/CS111/WebSearch" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/searchtopic.gif" width="16" height="16" alt="Search topic" title="Search topic" border="0" /> Search</a>
+</li> <li> <a href="/bin/view/CS111/WebChanges" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/changes.gif" width="16" height="16" alt="Changes" title="Changes" border="0" /> Changes</a>
+</li> <li> <a href="/bin/view/CS111/WebNotify" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/notify.gif" width="16" height="16" alt="Notify" title="Notify" border="0" /> Notifications</a>
+</li> <li> <a href="/bin/view/CS111/WebRss" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/feed.gif" width="16" height="16" alt="RSS feed, rounded corners" title="RSS feed, rounded corners" border="0" /> RSS Feed</a>
+</li> <li> <a href="/bin/view/CS111/WebStatistics" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/statistics.gif" width="16" height="16" alt="Statistics" title="Statistics" border="0" /> Statistics</a>
+</li> <li> <a href="/bin/view/CS111/WebPreferences" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/wrench.gif" width="16" height="16" alt="Wrench, tools" title="Wrench, tools" border="0" /> Preferences</a>
+</li></ul> 
+<p />
+<hr />
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

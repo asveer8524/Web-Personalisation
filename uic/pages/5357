@@ -1,0 +1,11 @@
+@inproceedings{agadakos:mobisys17,<br>
+author    = {Ioannis Agadakos and <br>
+        Jason Polakis and<br>
+	Georgios Portokalidis},<br>
+title = {Techu: Open and Privacy-preserving Crowdsourced GPS for the Masses}, <br>
+ booktitle = {Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services}, <br>
+ series = {MobiSys '17}, <br>
+ year = {2017}, <br>
+ location = {NY, USA}, <br>
+}
+

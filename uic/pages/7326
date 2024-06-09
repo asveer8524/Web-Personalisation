@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> Homework3 &lt; CS450 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS450/Homework3?_T=2018-11-25" type="application/x-wiki" title="edit Homework3" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS450/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS450/Homework3"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS450/WebHome">CS450 Web</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS450/Homework1" class="twikiLink">Homework1</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS450/Homeworks" class="twikiLink">Homeworks</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS450/Homework3" title='Topic revision: 4 (2013-02-09 - 23:34:14)'>Homework3</a> <span class='patternRevInfo'>(2013-02-09, Main.ckanich)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS450/Homework3?t=1543179932' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS450/Homework3' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h1><a name="Homework_3_DNS_resolution"></a> Homework 3 - DNS resolution </h1>
+<p />
+In this homework, we talk to the global domain name system to resolve domain names into IP addresses.
+<p />
+Some good domain names to try, which you definitely will be tested on. Additional domains may be added if we find something <strong>even more</strong> interesting than these.
+<pre>
+www.domain.invalid
+nonexistent.kaytwo.org
+www.thelongestdomainnameintheworldandthensomeandthensomemoreandmore.com
+ds.v6ns.test-ipv6.com
+ipv6.google.com
+www.cs.uic.edu
+www.yahoo.com.tw
+nibbles.cs.uic.edu
+www.uic.edu
+</pre>
+<p />
+To get started, check out the hw3 template from
+<p />
+svn://cs450.cs.uic.edu/pub/homeworks/hw3
+<p />
+This code already does DNS querying and parsing for you. Your responsibility is to modify the hw3 to work as follows:
+<p />
+The file root-servers.txt contains a list of DNS root servers. Your application must use this file to find a working root server to use. You can assume it will always be called root-servers.txt, and exist in the current working directory. If a server does not respond, your code must move on to the next server. Its parameters and output are illustrated below. Try to match the output as closely as possible: there should not be lots of extra lines of debug output etc. in the final version.
+<p />
+You are obviously not allowed to use gethostbyname or getaddrinfo for this homework, nor are you allowed to run any executables such as `host' or `nslookup' or `dig' from inside your program.
+<p />
+<h1><a name="Hints"></a> Hints </h1>
+<p />
+To time out on a recv() call (in case you get no answer), use setsockopt() with the SO_RECVTIMEO option: <a href="http://linux.die.net/man/7/socket" target="_top">http://linux.die.net/man/7/socket</a>
+<p />
+Alternatively, you can use alarm(), and set up a handler for SIGALRM. "man alarm()" and "man signal" will help you set that up. Or try the newer sigitimer().
+<p />
+Either way, look for errno==EINTR (for alarm) or errno=EAGAIN (for timeout) when recv() returns -1 when using these techniques to see if you actually timed out. If you want to jump off the deep end of the pool, use a select() call (which takes a timeout parameter) instead of the blocking recv().
+<p />
+You can try out the template version like this:
+<pre>
+./hw3 -d -n nameserver -i domain
+</pre>
+<p />
+to find your local DNS server, check your network settings, or run "cat /etc/resolv.conf" on a non-windows machine.
+<p />
+<strong>Massive hint: recursion is your friend.</strong>
+<p />
+<h1><a name="Turn_in_instructions"></a> Turn-in instructions </h1>
+<p />
+The same rules apply for your submission as for previous homeworks, with <strong>one big exception</strong>: you are now expected to commit at least 4 revisions, each with significant edits and intelligible commit comments, at least 10 minutes apart, reflecting your progress toward the final turned-in result.
+<p />
+For example, you may commit the template version, a version that is able to read 'root-servers.txt', a broken version that doesn't work at all, a version that can do the v4 but not v6 lookups, a version that handles all but the difficult ds.v6ns.test-ipv6.com example, and the final version. Remember to write a comment that indicates the current status of your project. You are of course welcome to make many more commits if you please.
+<p />
+To see how many commits you have, and to read the messages, use svn log
+<p />
+To see the difference between two revisions, say revision r129 and r157, use svn diff -r 129:157
+<p />
+<h1><a name="Example_use_sessions"></a> Example use sessions </h1>
+<p />
+Program usage and example runs are given below. Implementation of command line option handling is given in the template.
+<p />
+<pre>
+./hw3 -i www.domain.invalid
+www.domain.invalid IPv4 address: not found.
+www.domain.invalid IPv6 address: not found.
+./hw3 -i nonexistent.kaytwo.org
+nonexistent.kaytwo.org IPv4 address: not found.
+nonexistent.kaytwo.org IPv6 address: not found../hw3 -i www.thelongestdomainnameintheworldandthensomeandthensomemoreandmore.com
+www.thelongestdomainnameintheworldandthensomeandthensomemoreandmore.com IPv4 address: 94.126.42.50
+www.thelongestdomainnameintheworldandthensomeandthensomemoreandmore.com IPv6 address: not found.
+./hw3 -i ds.v6ns.test-ipv6.com 
+ds.v6ns.test-ipv6.com IPv4 address: 216.218.228.114
+ds.v6ns.test-ipv6.com IPv6 address: 2001:470:1:18::2
+./hw3 -i ipv6.google.com
+ipv6.google.com IPv4 address: not found.
+ipv6.google.com IPv6 address: 2607:f8b0:4003:c01::63
+./hw3 -i www.cs.uic.edu
+www.cs.uic.edu IPv4 address: 131.193.32.29
+www.cs.uic.edu IPv6 address: not found.
+./hw3 -i www.yahoo.com.tw
+www.yahoo.com.tw IPv4 address: 68.180.206.184
+www.yahoo.com.tw IPv6 address: not found.
+./hw3 -i nibbles.cs.uic.edu 
+nibbles.cs.uic.edu IPv4 address: 131.193.34.150
+nibbles.cs.uic.edu IPv6 address: not found.
+./hw3 -i www.uic.edu
+www.uic.edu IPv4 address: 128.248.156.31
+www.uic.edu IPv6 address: not found.
+</pre>
+<p />
+<h1><a name="Grading"></a> Grading </h1>
+You can get the grading script using:
+<p />
+<code>svn co svn://cs450.cs.uic.edu/pub/</code>
+<p />
+or just <code>svn up</code> in your <code>/pub</code> if you already have one checked out. The grading script is in /pub/grading-scripts/hw3/. To run the grading script:
+<p />
+<code>./hw3_score username score_file</code>
+<p />
+This script will download hw3 from svn and create score_file inside hw3. 
+<p />
+The grading script will check the ip address following the first colon in the first two lines: the first for ipv4, and the second for ipv6. Credit is given if the output matches either a correct IP (in the case of multiple resolutions), or "not found." in the case of a nonexistent domain. If all test-cases are successful in grading script you will get 11 points from grading script. However, the following tests will be done manually and points will be deducted if your program can't handle the corresponding issues.
+<p />
+<pre>
+-0.5: At least four descriptive commits are made
+-20: Hard codes a recursive nameserver to resolve the name
+</pre>
+<p />
+The score file will look something like the following:
+<p />
+<pre>
+starting grade run for ckanich (revision 16) at 09 Feb 2013 22:41:40 +0000
+-----
+testing non-recursive functionality
+
+testing command:
+  ./hw3 -n 2001:4978:292:2::1 -i www.uic.edu
+ipv4 check for www.uic.edu successful: +0.50 pts
+ipv6 check for www.uic.edu successful: +0.50 pts
+-----
+testing recursive lookup starting at root nameservers
+
+testing command:
+  ./hw3  -i www.domain.invalid
+ipv4 check for www.domain.invalid successful: +0.50 pts
+ipv6 check for www.domain.invalid successful: +0.50 pts
+testing command:
+  ./hw3  -i nonexistent.kaytwo.org
+ipv4 check for nonexistent.kaytwo.org successful: +0.50 pts
+ipv6 check for nonexistent.kaytwo.org successful: +0.50 pts
+testing command:
+  ./hw3  -i www.thelongestdomainnameintheworldandthensomeandthensomemoreandmore.com
+ipv4 check for www.thelongestdomainnameintheworldandthensomeandthensomemoreandmore.com successful: +0.50 pts
+ipv6 check for www.thelongestdomainnameintheworldandthensomeandthensomemoreandmore.com successful: +0.50 pts
+testing command:
+  ./hw3  -i ds.v6ns.test-ipv6.com
+ipv4 check for ds.v6ns.test-ipv6.com successful: +0.25 pts
+ipv6 check for ds.v6ns.test-ipv6.com successful: +0.25 pts
+testing command:
+  ./hw3  -i ipv6.google.com
+ipv4 check for ipv6.google.com successful: +0.50 pts
+ipv6 check for ipv6.google.com successful: +0.50 pts
+testing command:
+  ./hw3  -i www.cs.uic.edu
+ipv4 check for www.cs.uic.edu successful: +0.25 pts
+ipv6 check for www.cs.uic.edu successful: +0.25 pts
+testing command:
+  ./hw3  -i www.yahoo.com.tw
+ipv4 check for www.yahoo.com.tw successful: +0.25 pts
+ipv6 check for www.yahoo.com.tw successful: +0.25 pts
+testing command:
+  ./hw3  -i nibbles.cs.uic.edu
+ipv4 check for nibbles.cs.uic.edu successful: +0.25 pts
+ipv6 check for nibbles.cs.uic.edu successful: +0.25 pts
+-----
+testing with bad root servers
+testing command:
+  ./hw3  -i www.cs.uic.edu
+ipv4 check for www.cs.uic.edu successful: +2.00 pts
+ipv6 check for www.cs.uic.edu successful: +2.00 pts
+
+final score: 11.00/11.00
+</pre> </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS450/Homework3?t=1543179932' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS450/Homework3' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS450/Homework3?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS450/Homework3?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r4&nbsp;<a rel="nofollow" href="/bin/rdiff/CS450/Homework3?rev1=4;rev2=3">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS450/Homework3?rev=3">r3</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS450/Homework3?rev1=3;rev2=2">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS450/Homework3?rev=2">r2</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS450/Homework3?rev1=2;rev2=1">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS450/Homework3?rev=1">r1</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS450/Homework3?template=backlinksweb' rel='nofollow' title='Search the CS450 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS450/Homework3?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS450/Homework3?t=1543179932;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS450/Homework3?template=oopsmore&amp;param1=4&amp;param2=4' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r4 - 2013-02-09 - 23:34:14 - Main.ckanich</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS450/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS450</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/CS450/WebHome" class="twikiCurrentWebHomeLink twikiLink">CS450 Home</a>
+</li> <li> <a href="/bin/view/CS450/Syllabus" class="twikiLink">Syllabus</a>
+</li> <li> <a href="/bin/view/CS450/Homeworks" class="twikiLink">Homeworks</a>
+</li> <li> - <a href="/bin/view/CS450/UsingSubversion" class="twikiLink">Using Subversion</a>
+</li> <li> <a href="https://piazza.com/class#spring2013/cs450" target="_top">Discussion Forum</a>
+</li> <li> <a href="/bin/view/CS450/LectureNotes" class="twikiLink">Lecture Notes</a>
+</li></ul> 
+<hr />
+<div class="patternLeftBarPersonal">
+<ul><li class="patternLogIn"><a href="/bin/logon/CS450/Homework3">Log In</a> </li></ul>
+</div><!--/patternLeftBarPersonal-->
+<p /> <ul>
+<li> <strong><a href="/bin/view/CS450/WebHome" class="twikiCurrentWebHomeLink twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/home.gif" width="16" height="16" alt="Home" title="Home" border="0" /> CS450 Web</a></strong>
+</li> <li> <a href="/bin/view/CS450/WebCreateNewTopic?topicparent=Homework3" target="_top"> <img src="/pub/TWiki/TWikiDocGraphics/newtopic.gif" width="16" height="16" alt="New topic" title="New topic" border="0" /> Create New Topic</a>
+</li> <li> <a href="/bin/view/CS450/WebTopicList" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/index.gif" width="16" height="16" alt="Index" title="Index" border="0" /> Index</a>
+</li> <li> <a href="/bin/view/CS450/WebSearch" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/searchtopic.gif" width="16" height="16" alt="Search topic" title="Search topic" border="0" /> Search</a>
+</li> <li> <a href="/bin/view/CS450/WebChanges" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/changes.gif" width="16" height="16" alt="Changes" title="Changes" border="0" /> Changes</a>
+</li> <li> <a href="/bin/view/CS450/WebNotify" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/notify.gif" width="16" height="16" alt="Notify" title="Notify" border="0" /> Notifications</a>
+</li> <li> <a href="/bin/view/CS450/WebRss" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/feed.gif" width="16" height="16" alt="RSS feed, rounded corners" title="RSS feed, rounded corners" border="0" /> RSS Feed</a>
+</li> <li> <a href="/bin/view/CS450/WebStatistics" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/statistics.gif" width="16" height="16" alt="Statistics" title="Statistics" border="0" /> Statistics</a>
+</li> <li> <a href="/bin/view/CS450/WebPreferences" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/wrench.gif" width="16" height="16" alt="Wrench, tools" title="Wrench, tools" border="0" /> Preferences</a>
+</li></ul> 
+<p />
+<hr />
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

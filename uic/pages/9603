@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WorkshopNotFound</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    
+    <link href="/workshops/Content/css?v=PBAXwf4_tft62-EUIN_2XEj8HNhw9SMP9YXb6hpIFHc1" rel="stylesheet"/>
+
+    <link href="/workshops/Content/themes/base/css?v=kFoVJpUdwQWDifR2O7ZvJB4WkiYLkwf-0fPWMvcDiWk1" rel="stylesheet"/>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+            <ul class="navbar-nav">
+                <a class="navbar-brand" href="http://www.counseling.uic.edu">UIC Counseling Center</a>
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/workshops/Login">Login</a>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="/workshops/bundles/jquery?v=MRjVrMuK9DXe6nW0tFmw9cj1pT5oo4Jf-eJQmGfwEF01"></script>
+
+    <div class="main container" style="padding-top: 50px; padding-bottom: 50px;">
+        
+
+<h2>Workshop Not Found</h2>
+
+<p>It appears that you are trying to access a workshop that does not exist or has expired.</p>
+<p>You can add yourself to the mailing list for the active workshops below.</p>
+
+<form action="/workshops/Home/MailingList" method="post"><div class="form-group">
+    <label for="First">First Name</label>
+    <input class="form-control" data-val="true" data-val-required="The First Name field is required." id="First" name="First" type="text" value="" />
+    <span class="field-validation-valid text-danger" data-valmsg-for="First" data-valmsg-replace="true"></span>
+</div>
+
+<div class="form-group">
+    <label for="Last">Last Name</label>
+    <input class="form-control" data-val="true" data-val-required="The Last Name field is required." id="Last" name="Last" type="text" value="" />
+    <span class="field-validation-valid text-danger" data-valmsg-for="Last" data-valmsg-replace="true"></span>
+</div>
+
+<div class="form-group">
+    <label for="Email">Email</label>
+    <input class="form-control" data-val="true" data-val-regex="Invalid Email" data-val-regex-pattern="^\S+@\S+\.\S+$" data-val-required="The Email field is required." id="Email" name="Email" type="text" value="" />
+    <span class="field-validation-valid text-danger" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+</div>
+
+<div class="form-group">
+    <label for="Workshop">Workshop</label>
+    <select class="form-control" data-val="true" data-val-required="The Workshop field is required." id="Workshop" name="Workshop"><option value="D2II6YGAFA">Fall 2018 Koru 2.0 Workshop</option>
+<option value="EDNC4C6SV7">Fall 2018 Self-Compassion Workshop 2</option>
+<option value="JVY3Q670VS">Fall 2018 Self-Compassion Workshop</option>
+<option value="WD6KT1NKMC">Fall 2018 Koru Mindfulness Workshop!</option>
+<option value="ZU4QFA2XKE">Fall 2018 Koru Mindfulness Workshop 2</option>
+</select>
+    <span class="field-validation-valid text-danger" data-valmsg-for="Workshop" data-valmsg-replace="true"></span>
+</div>
+
+    <button type="submit" class="btn btn-primary btn-block">
+        Submit
+    </button>
+</form>
+
+
+    </div>
+    <div class="footer">
+        <div class="container">
+            <img src="/workshops/Images/favicon_144.png" width="25" height="25" />&nbsp;© 2018 The Board of Trustees of the University of Illinois
+        </div>
+    </div>
+
+    
+
+    
+
+    
+    <script src="/workshops/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+
+    <script src="/workshops/bundles/jqueryval?v=EPsGA8WCKdSTAUqh-muLJVW2F3NuSYS0-k1Gy3A7sS81"></script>
+
+    <script src="/workshops/bundles/jqueryui?v=yqCVigxSu97_s_vulMWzX97PVmpAp1RUApV3df4vSeo1"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="/workshops/Scripts/jquery.inputmask.bundle.min.js"></script>
+
+    
+</body>
+</html>

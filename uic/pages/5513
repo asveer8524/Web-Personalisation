@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <meta http-equiv="refresh" content="0; url=http://www.cs.uic.edu/~hrezaei/" />
+     <title>Hamed Rezaei</title>
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+     </style>
+</head>
+
+<body>
+
+    <div id="page-wrap">
+    
+    	<img  src="hamed.png" alt="Smiley face" height="200" width="200" style="float: right;">
+    	<div id="contact-info" class="vcard">
+        
+		<h1 class="fn">Hamed Rezaei</h1>
+        
+            <p>
+                Office: <span class="tel">Sience and Engineering Offices - Room 1300</span><br />
+                Email: <a class="email" href="mailto:hrezae2@uic.edu">hrezae2@uic.edu</a><br />
+	        Full CV: <a href="CV.pdf" target="CV">CV</a>
+            </p>
+        </div>
+                
+        <div id="objective" align="justify">
+            <p>
+                I am a second year PhD student at the Computer Science Department of University of Illinois at Chicago (UIC). I am honored to have Prof. Balajee Vamanan as my PhD advisor. Prior to UIC, I got my M.Sc	degree in Electronic Commerce from department of Information Technology at University of Qom, Iran.
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Research Interests</dt>
+            <dd>
+               
+                <p>I am primarily interested in computer networks with a focus on datacenters, congestion control and quality of service.</p>
+            </dd>
+            
+            <dd class="clear"></dd>
+       <div align="justify">     
+            <dt>Publications</dt>
+           
+	    <dd>
+		<p><strong>Hamed Rezaei</strong>, Nima Ghazanfari motlagh, Yaghoub Farjami, Mohammad Hossein Yektaei.A novel framework for DDoS detection in huge scale networks, thanks to QoS features.International Journal of Emerging Technology and Advanced Engineering (ISSN 2250–2459, ISO 9001:2008 Certified Journal, Volume 5, Issue 6, June 2015)</p>
+	    </dd>
+
+
+	    <dd>
+                <p><strong>Hamed Rezaei</strong>,Behdad Karimi,Seyed Jamalaldin Hosseini. Impact of Cloud Computing Systems in terms of Service Quality of Knowledge based Systems, International Conference on Knowledge and Software Engineering, Paris, December 2014.</p>
+                
+            </dd>
+	    <dd>
+	<p><strong>Hamed Rezaei</strong>,Behdad Karimi. Choosing the best producer in supply chain, based on cloud computing technology. 6th international conference on management entrepreneurship and economic development, September 2014,Qom-Iran
+	   </p> </dd>
+       </div>
+            <dd class="clear"></dd>
+            
+            <dt>Teaching Experiences</dt>
+            <dd>
+                <h2>Academic <span>UIC - Teaching Assistant</span></h2>
+                <ul>
+                    <li>Operating Systems(Fall 2015)</li>
+		    <li>Security and Privacy in Networked and Distributed Systems(Spring 2016)</li>
+		    <li>Computer Systems Security(Fall 2016)</li>
+                </ul>
+                
+                <h2>Industrial <span>2012-2015</span></h2>
+                <ul>
+                    <li>CCNA</li>
+		    <li>CCNP Routing and Switching</li>
+		    <li>LPIC1&2</li>
+		    <li>MPLS and MPLS-VPN</li>
+		    <li>C|EH v7</li>
+		    <li>QoS</li>
+		    
+                </ul> 
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Work Experiences</dt>
+            <dd>Designer of FAVA-NAFT datacenter(2015)-IRAN</dd>
+	    <dd>Datacenter Virtualization contractor of Ministry of Energy(2014-2015)-Kermanshah-IRAN</dd>
+            
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,585 @@
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head id="Head1"><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><title>
+	IUPLR
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="geo.region" content="US-IL" /><meta name="geo.placename" content="Chicago" /><meta name="geo.position" content="41.874428;-87.651787" /><meta name="ICBM" content="41.874428, -87.651787" /><link rel="shortcut icon" href="//static.las.uic.edu/favicon.ico" />
+    <!-- 1140px Grid styles for IE -->
+    <!--[if lte IE 9]><link rel="stylesheet" href="//static.las.uic.edu/css/1140grid/ie.min.css" type="text/css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="//static.las.uic.edu/css/1140grid/1140.min.css" type="text/css" media="screen" /><link href="https://d35islomi5rx1v.cloudfront.net/ajax/2017.2.621/TreeView.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="https://d35islomi5rx1v.cloudfront.net/ajax/2017.2.621/Silk/TreeView.Silk.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="https://d35islomi5rx1v.cloudfront.net/ajax/2017.2.621/Common/fonticons.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="https://d35islomi5rx1v.cloudfront.net/ajax/2017.2.621/SocialShare.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="https://d35islomi5rx1v.cloudfront.net/ajax/2017.2.621/Default/SocialShare.Default.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><meta name="Generator" content="Sitefinity 10.1.6525.0 PU" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><script type="text/javascript">
+	(function() {var _rdDeviceWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;var _rdDeviceHeight = (window.innerHeight > 0) ? window.innerHeight : screen.height;var _rdOrientation = (window.width > window.height) ? 'landscape' : 'portrait';})();
+</script><link href="/Telerik.Web.UI.WebResource.axd?d=PMrIT5dOWaVYIcpFWUE4nB1pPPnOz5pNq0t0cYzEQSVn5COsXF0Rl08kngy1N_BfhvqqcHaL1nOnb7sW3HAu-OYmGOqNmI2Qq0AVyRaDlfouFxDW1pyTKqE0mEuq_cj90&amp;t=636692118962391687&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%2c+Version%3d10.1.6525.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aen%3aeb177f10-254a-47f5-be2f-2f1c3f40d5ff%3a7a90d6a" type="text/css" rel="stylesheet" /><link href="/Sitefinity/Public/ResponsiveDesign/layout_transformations.css?pageDataId=8a05e38f-e0be-4046-a330-a9b36c709130&amp;pageSiteNode=74DF1A02-B315-46D4-A471-1EBC973FDDD1/0c6d85b0-9314-4b64-9fb2-d4ea3b04cce8/SitefinitySiteMap" type="text/css" rel="stylesheet" /><link href="/Sitefinity/WebsiteTemplates/LAS/App_Themes/IUPLR/global/iuplr.css?v=636450525656934357" type="text/css" rel="stylesheet" /><meta name="description" content="This is the main page for Inter-University Program for Latino Research" /><meta name="keywords" content="uic, las, iuplr, inter-university, program, latino, research" /></head>
+<body>
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="ctl13_TSSM" id="ctl13_TSSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Hg3jBwSxzWVcmpnP5Orb/vdI5xgkyGChM4TeRspMiTjrLWBJSLFVj6fz4UHfY1AKh88FQtqzsfUMuT0A3z5WmqTDbKtJzXU+vi/CSrnqqfQY/tSJCfJeswETkwSm3O/rB6HhcDafKw5vvazCVmHTNfxcxzZYWmS71IsfQVWoXANsbDZAbgCmNdqrj1WnQ0HKqI17wm288ou9fkkGrq4cCzorrkgN200EUQ1QA0yYvtOPRM+ozQSp3omZ0p0xHL7DgRg/SvRQ6rQOeNlaa20uiN6EUGNIzURPdaE1R/eNJWOmDL4O4NZq+DIYHFqpdMddJDa4i/wV3oKPEl7EL35E2Z7JyTja0nj78vVf3r2NDwAngABaXEVBQ9deelyyG5GYob++NloMMcQBHSCD3i0819M4XlSxaCPHDZsbwNxRwmHkmedYcgtLA3AM6L4rNeRpwZnrhTyXomAxoGXc7BjWOx5WezIlefjZ7t6i8QcfZT/OF86RAoyxlr/pHcDsXMA/eV3JJ0VpaEvp1HqqDcwbtb3bEj+8OQVJLoimPU5oEaTg0FDiwsO0FBVkrVZvT2HkMiQEDX9M3mDD6WosuGWoKaAb2XRVfIBA0kqe+Qw1ZePERuE2OVd0xIM168mRUa6DMXZEdrb2qMEBwy0axIf1Sr9hF7jOO9NcfIwk/0113yYtY5VGPPKzbDfLykNu7cFttYzgmW8MI+4pG36xXY8oKjRPgMFxr3FHdRbjM4MC+m2Cb5alrfjZHMot9XV9NgUbZn0MxiUU7SHf+OmHMCd4+5Smk0O1Mkiurb1e0BMRRGktScxupjA+NWf+YrM+slmzANFnjZpqKlY1qRs6QUbnnAE0WP4wZuSQqgfwwhlJ3prArNF7NIx6W7D1T8VWfrFH" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+function socialButtonClickedHandler(sender, args){
+      if (window.DataIntelligenceSubmitScript) {
+            DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                predicate: 'Share on social media',
+                object: args._socialNetType,
+                objectMetadata: [
+											{
+											    'K': 'PageTitle',
+											    'V': document.title
+											},
+                                            {
+                                                'K': 'PageUrl',
+                                                'V': location.href
+                                            }
+                ]
+            });
+        }
+}function twitterButtonClickedHandler(sender, args){
+      if (window.DataIntelligenceSubmitScript) {
+            DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                predicate: 'Share on social media',
+                object: 'Twitter',
+                objectMetadata: [
+											{
+											    'K': 'PageTitle',
+											    'V': document.title
+											},
+                                            {
+                                                'K': 'PageUrl',
+                                                'V': location.href
+                                            }
+                ]
+            });
+        }
+}function googlePlusButtonClickedHandler(sender, args){
+      if (window.DataIntelligenceSubmitScript) {
+            DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                predicate: 'Share on social media',
+                object: 'Google+',
+                objectMetadata: [
+											{
+											    'K': 'PageTitle',
+											    'V': document.title
+											},
+                                            {
+                                                'K': 'PageUrl',
+                                                'V': location.href
+                                            }
+                ]
+            });
+        }
+}//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+function socialButtonClickedHandler(sender, args){
+      if (window.DataIntelligenceSubmitScript) {
+            DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                predicate: 'Share on social media',
+                object: args._socialNetType,
+                objectMetadata: [
+											{
+											    'K': 'PageTitle',
+											    'V': document.title
+											},
+                                            {
+                                                'K': 'PageUrl',
+                                                'V': location.href
+                                            }
+                ]
+            });
+        }
+}function twitterButtonClickedHandler(sender, args){
+      if (window.DataIntelligenceSubmitScript) {
+            DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                predicate: 'Share on social media',
+                object: 'Twitter',
+                objectMetadata: [
+											{
+											    'K': 'PageTitle',
+											    'V': document.title
+											},
+                                            {
+                                                'K': 'PageUrl',
+                                                'V': location.href
+                                            }
+                ]
+            });
+        }
+}function googlePlusButtonClickedHandler(sender, args){
+      if (window.DataIntelligenceSubmitScript) {
+            DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                predicate: 'Share on social media',
+                object: 'Google+',
+                objectMetadata: [
+											{
+											    'K': 'PageTitle',
+											    'V': document.title
+											},
+                                            {
+                                                'K': 'PageUrl',
+                                                'V': location.href
+                                            }
+                ]
+            });
+        }
+}//]]>
+</script>
+
+<script src="https://ajax.aspnetcdn.com/ajax/4.6/1/MicrosoftAjax.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys._Application && Sys.Observer)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yEcsgj8rlG5bnwLijoQH3dO5B6wyEIGHB03P9HJ8MuG1XxE3XzBj-sseGBVYMqAK6gphGCEvaUk6zrIcIGKwguZ2pSyjX0ErYFfRFYvky5r_fJp77P1TzvojAxxRVDZLQ-g4Y9VNdEGhHAATvPBdwYw1&t=545ba255"><\/script>');//]]>
+</script>
+
+<script src="//www.google.com/jsapi" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-1.12.1.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=lAcNKCSBPRb9dHiP3rTbP9CEOtWvv3purkeSzGQmF64vrxe5hLWBLLK6TfHHIg0-rNqJpS-p287g-J5C0DfSpQaGnypKOlelA61WV4b4oJrkMobdh2VOD8OpBs1kzS67iZEXEn6EVXgdOhArXxD5dg9HC_k1Y_g15RyVSkuDdmJFywMBrXzqbW6QCXgcvKKST6V3WrZ-77zdp-tnrXFvrw2&amp;t=fffffffff0f3ba09" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=8u3ngCqoRB16IXgFyG-fdtgNLuC7R9kehi8FiKaiJrWL5c6S11luND4ViK0qFRftk3l_iQKuvc86T5iX5yoszRmwjhwejQJJ7Tgiz_rLRymEA7vTN8lm9JB0TtvxzdK90&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=pL5wgiwL1GpmyqMwhkDjF6C0LcZYDDb9cOTM_0vrI5znRBvbWLPZEPrrrmGIIgob6Sag3xU3f_-WKcF5LoEZQwm2SxNOzVOdfFOHjkdLMmOIs6LMvx7FenmOK5w3O_L7uwUT-gGw5HJPypwxKZnACw2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=r5UL-hsNriOxS7UV4wWMiAJDcSY4XPTUistpAtXuuqWE7siyPJayGQ2VeS2LQwoo3OP-hAZyVUzV1s8bWXVo_LC4mL8qTWCYy_O_WV2Z0PVSVvJsdf5WfXCtcS2XCifPhHLZszokL9oCmiM_OP-broXFVVZSQFxJmgLDNiWYCZc1&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dnHi0nMgDDe1Bo6v1KTdpEOwzv0U_TAy8ahvy6dX8ST_IVSAvzJU6QvEVi6ixj2pQch7-qc2mNTzxZkp9x4QHtJ3Lc1DLjGDeHGh6wYlOn0SYfuQOUKtzmVUUA1nVmrxoa4GxT2FRI_aDnlIw1Zzcg2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=KlfC4ae2T77svfC92c_tAckplpC59j99XcpMetMJIeX0geCPdvoOMeTlrMn_cQKZ7PJf_L7LElnr5Keoo5kdvC8Ile4kjCAe-QPRShQp4wCkdQU3jFufcCIT0-xRYwei0JmVK3G8j0fD8WHRULA-Ag2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=oTWEP7ThC1yo24ooSsBTo_cTJ6lpIFkv2AIA18ITYizhZni_mMMaIHnZ4DvPloYRdr7XEbwF3I2a63aWS4DMdceiTq-n_MXPr2giBpapMhermyn-5cd5M5xVGGaoV5gMl9SoxRDWxec9BFlgnJ7zvadAnXQQt-As_TiKjJ_Y2rQ1&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=fXuWcQwzGDZIk7t9UCjetf59o8A9nJLF-3ayDjFVevnxfGqUOqYvmgcDAxoer1lntjxpsiVjq9fciuVwIDfLLHJz-v1IDzRiQdAEDM1SswOOq6-KSdRxRMHln9Y0NXMrnMvp2moeAKcs2VSCe-W2cHXjUHlssO04ZAJFkIaLEQ81&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=v_I7_Ww9YDbzP79DTo1lX2cd9RC_f3W739aCpjEIZropGbYVwkBDCfoobng7_YaTUyLzk_lEXJOx35Kj1Qd5Ymri0SSA6KtBWEvcRqi1TUiC18z7NQC5-IME8NAaUeZy7659S8yLOWuKS-RwGpQ5N-DthbXnRixNKC_Dw5M3RWA1&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=b4-yKWFT9xWbIHhZk6DyHy-0OC6vJPcZjtl-n4SUY_cJYgO-naHt8S2y3AO0_qsXVmvd7-zV7dRxtPA8bnpCLyfkJv9E0K0KruPFOdF--TjokEqPV3fiMreLP3vhLfjCx3S3RnGcGxQ_7PraW_by-A2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=U8OMYmPzb2LbIsKauUCqxqjsJFkjawfquNqTjs16KhCujSz8KSxWAlloKT6mW2jF52Lr_-DRDj6qDX--uL2sZCDGjlx2uK2eCp-U1ZImU2Pobtl-OT2kh7i7zzftxgX_NQWh7xfIdslCHAS0lIJsIVRLaDGaybqjgEg4DFKvcDI1&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Taq5viT0lCo7nhcwUrcGx4XT7fHIsUkkpWKodI-7AkwMU2grRHmd7x-FBkaA0XBleB8yv8x6x73b5g2Uk5KsQhRBVRADUoeeehNnQ1bQ-jBS-iAmLvnZutA3j1KPT_KmdCntrV4ZfBhM3KrCP_B-DQ2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FvzgbXewu1O9l9c7Jb8XDvayHsqa22NqHJ1rhoFMxIll4DKqdnjdHRe7jfV1860Zeyg30t7I41fWuo7sVY8hGoTgmCQOb-JmOFXfQSholQTcpmtt32JNLsMRK5Xe0D1_hOd1KLDAl4Uvr-wjcjVxbw2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=rhuZTxOeKg7tLBV3R6FzUU-dSxbtIv1gSICeiF2pjZ3WZC4-PlPKehohaWv_rhS2ptzlqc5n-UoXW80yr_UGE3cLseyNcyzCvKV4WtryNUNxbOKWecSnRAR-h_o1RCctkWizwQccmqzVj4tn523vxTen-0MGWj_bDCh0HzV5h_C7fCI6ZA2oyZLsAH6whDWv0&amp;t=4293c76a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=75C6zhn_I2ZyGfX3QbVbDBsCh0XqaXe0l2cM-J2CaxhDa0IdedpeXLs-qerMaHsH-nprFcnx2xXeAYeLXaFH80qYMQVbkGkYP5lDwU99oivMg8FBJ4naqQQrCeF83D_LgaxWO8dch8F__C2FODIMzg2&amp;t=154d5dcf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=K_8jTsao3WxrqclMbxfB04d0Jawe8CwSiQeMSV2jHpWyk703GW36lnaWkMQfqwWYQpm-9-PObwqFVxPGSrmlOTfboIMl1uGSa5ZBt1d0SPMLEfCOilxVm-PAvohh0sXSqKBgWIWW70g-QO62BjJ4bbMzraJRpCd6tTJ8yNT0r2I1&amp;t=4293c76a" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F59DF31A" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="NKFs6ky+fcfQK/nMZmSHoL4pVCcZSeqxyw9ZlD0Q+a3x4+tM72QuUwhyPVokO1cp4mcIpeeZbvRHI8+o5OMQz94iSlyKWxjxZFlKBcrJfwVCQbp71g7uYwNpt/cF8hKba0KhJH7J/Mh9VJGDlRtuXQ==" />
+    
+	
+    <div id="wrapper">
+        <div class="container">
+            <div id="topNav" class="row">
+                <div id="topNavMenu" role="navigation">
+                    <ul role="menu">
+                        <li role="menuitem">
+                            <a title="go to UIC website" href="http://www.uic.edu" target="_blank">UIC</a></li>
+                        <li role="menuitem">
+                            <a title="go to LAS website" href="http://www.las.uic.edu" target="_blank">LAS</a></li>
+                    </ul>
+                    <span class="breadCrumbs">
+                        
+<div id="cphBreadCrumbs_T2A5F492A004">
+	<span id="cphBreadCrumbs_T2A5F492A004_ctl00_ctl00_BreadcrumbTrail"><span>IUPLR</span></span>
+</div>
+
+
+
+                    </span>
+                </div>
+                
+
+<div id="search" role="search">
+    <label id="lblSearchBox" for="searchTextBox">
+        Search</label>
+    <input name="ctl00$cphSearchBox$T3A5AEE12001$searchTextBox" type="text" id="searchTextBox" />
+    <input type="image" name="ctl00$cphSearchBox$T3A5AEE12001$searchButton" id="cphSearchBox_T3A5AEE12001_searchButton" title="submit this search" class="btnGo" src="//static.las.uic.edu/images/las-ui/btn-go.png" alt="Go" />
+</div>
+
+
+            </div>
+        </div>
+        <!-- end #topNav -->
+        <div class="container">
+            <header class="row bannerWrapper" role="banner">
+                <div class="twelvecol last banner">
+                    
+<div class='sfContentBlock'><h1><a href="/iuplr" title="go to homepage"><img src="/sf-images/default-source/layout/iuplr-logo.png?sfvrsn=44cf7649_18" alt="Inter University Program for Latino Research" class="logo" /></a></h1>
+
+
+</div>
+                    <div id="bannerText">
+                        
+
+                    </div>
+                </div>
+                <div class="twelvecol last headerPhoto">
+                    
+<img id="cphBannerPhoto_C004_imageHolder" src="https://iuplr.uic.edu/sf-images/default-source/header-images/cutback_rally.jpg?sfvrsn=1da83a7c_6" longdesc="data:text/html;charset=utf-8;,%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Ctitle%3EDescription%20of%20%3C/title%3E%3C/head%3E%3Cbody%3E%3Cp%3EPicture%20of%20a%20cutback%20rally%3C/p%3E%3C/body%3E%3C/html%3E" />
+
+                </div>
+            </header>
+        </div>
+        <!-- end #header -->
+        <div class="container">
+            <div id="pageBody" class="row">
+                <div class="twelvecol last">
+                    <div class="row sideBG">
+                        <nav class="threecol side_img" role="navigation">
+                            
+<div id="cphLeftNav_T2A5F492A005">
+	<div id="ctl00_cphLeftNav_T2A5F492A005_ctl00_ctl00_siteMapControl_verticaltree" class="RadTreeView RadTreeView_Silk">
+		<!-- 2017.2.621.40 --><ul class="rtUL rtLines">
+			<li class="rtLI rtFirst"><div class="rtTop">
+				<span class="rtSp"></span><a class="rtIn" href="iuplr/home">Home</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="iuplr/about">About</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI"><div class="rtTop">
+					<span class="rtSp"></span><a class="rtIn" href="iuplr/about/welcome-letter-from-executive-director">Welcome from Executive Director </a>
+				</div></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><a class="rtIn" href="iuplr/about/moment">Moment</a>
+				</div></li><li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><a class="rtIn" href="iuplr/about/history">History</a>
+				</div></li>
+			</ul></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="iuplr/calendar">Calendar</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="iuplr/become-a-member">Our Members</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI"><div class="rtTop">
+					<span class="rtSp"></span><a class="rtIn" href="iuplr/become-a-member/member-sign-up">Become A Member</a>
+				</div></li><li class="rtLI"><div class="rtMid">
+					<span class="rtSp"></span><a class="rtIn" href="iuplr/become-a-member/meet-iuplr-co-directors">Meet IUPLR Co-Directors</a>
+				</div></li><li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="iuplr/become-a-member/member-institutions">Member Institutions</a>
+				</div><ul class="rtUL" style="display:none;">
+					<li class="rtLI rtLast"><div class="rtBot">
+						<span class="rtSp"></span><a class="rtIn" href="iuplr/become-a-member/member-institutions/membership-fees">Membership Fees</a>
+					</div></li>
+				</ul></li>
+			</ul></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="iuplr/working-groups">Working Groups</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI"><div class="rtTop">
+					<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="iuplr/working-groups/active-working-groups">Active Working Groups</a>
+				</div><ul class="rtUL" style="display:none;">
+					<li class="rtLI rtLast"><div class="rtBot">
+						<span class="rtSp"></span><a class="rtIn" href="iuplr/working-groups/active-working-groups/language-within-and-across-latinx-communities">Language within and across Latinx communities</a>
+					</div></li>
+				</ul></li><li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><a class="rtIn" href="iuplr/working-groups/past-working-groups">Past Working Groups</a>
+				</div></li>
+			</ul></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="iuplr/chicago-latino-artchive">Chicago Latino ArTchive</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="iuplr/conferences">Conferences</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI"><div class="rtTop">
+					<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="iuplr/conferences/latino-art-now">Latino Art Now! Conference</a>
+				</div><ul class="rtUL" style="display:none;">
+					<li class="rtLI"><div class="rtTop">
+						<span class="rtSp"></span><a class="rtIn" href="iuplr/conferences/latino-art-now/home">Home</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="https://iuplr.uic.edu/docs/default-source/LAN!-2016/lan_program_final.pdf?sfvrsn=2">Program</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="https://appserv7.admin.uillinois.edu/FormBuilderSurvey/Survey/UIC_LAS/IUPLR/Fifth_Biennial_IUPLR_Conference___Latino_Art_Now_/">Registration</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="iuplr/conferences/latino-art-now/transportation-lodging">Transportation & Lodging</a>
+					</div></li><li class="rtLI"><div class="rtMid">
+						<span class="rtSp"></span><a class="rtIn" href="iuplr/conferences/latino-art-now/food-and-parking">Food and Parking</a>
+					</div></li><li class="rtLI rtLast"><div class="rtBot">
+						<span class="rtSp"></span><a class="rtIn" href="springoflatinoart">Spring of Latino Art</a>
+					</div></li>
+				</ul></li><li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><a class="rtIn" href="iuplr/conferences/siglo-xxi-2017">SIGLO XXI 2017</a>
+				</div></li>
+			</ul></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="iuplr/el-noticiero">El Noticiero</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><a class="rtIn" href="iuplr/news">News</a>
+			</div></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="iuplr/mellon-fellows-program">Mellon Fellows Program</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><a class="rtIn" href="iuplr/mellon-fellows-program/home">Home</a>
+				</div></li>
+			</ul></li><li class="rtLI"><div class="rtMid">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="iuplr/staff">Staff</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><a class="rtIn" href="iuplr/staff/welcome-new-chicago-director">WELCOME NEW CHICAGO DIRECTOR</a>
+				</div></li>
+			</ul></li><li class="rtLI rtLast"><div class="rtBot">
+				<span class="rtSp"></span><span class="rtPlus"></span><a class="rtIn" href="iuplr/featured-research">Featured Research</a>
+			</div><ul class="rtUL" style="display:none;">
+				<li class="rtLI rtLast"><div class="rtBot">
+					<span class="rtSp"></span><a class="rtIn" href="iuplr/featured-research/families-and-youth">Families and Youth</a>
+				</div></li>
+			</ul></li>
+		</ul><input id="ctl00_cphLeftNav_T2A5F492A005_ctl00_ctl00_siteMapControl_verticaltree_ClientState" name="ctl00_cphLeftNav_T2A5F492A005_ctl00_ctl00_siteMapControl_verticaltree_ClientState" type="hidden" />
+	</div>
+
+<script type="text/javascript">
+    function pageLoad() { var tree = $find("ctl00_cphLeftNav_T2A5F492A005_ctl00_ctl00_siteMapControl_verticaltree"); if (tree) { var location = window.location.pathname; location = location.substring(location.lastIndexOf('/') + 1); var currentNode = tree.findNodeByUrl(location); if (currentNode) { currentNode.set_selected(true); ExpandParent(currentNode); currentNode.set_expanded(true) } } } function CollapseSiblings(node) { var parent = node.get_parent(); var siblings = parent.get_nodes(); var siblingsCount = siblings.get_count(); for (var nodeIndex = 0; nodeIndex < siblingsCount; nodeIndex++) { var siblingNode = siblings.getNode(nodeIndex); if ((siblingNode != node) && (siblingNode.get_expanded())) { siblingNode.collapse(); return } } } function OnClientNodeExpanding(sender, args) { var node = args.get_node(); if (node.get_nodes().get_count()) { CollapseSiblings(node) } } function ExpandParent(node) { node = node.get_parent(); while (node != null) { if (node.expand) { node.expand() } node = node.get_parent() } }
+</script>
+
+
+</div>
+                        </nav>
+                        <div class="eightcol last copy">
+                            
+<div class="sf_cols">
+    <div class="sf_colsOut sf_2cols_1_67">
+        <div id="cphPageBody_TF8D4EED6001_Col00" class="sf_colsIn sf_2cols_1in_67"><div class="sfimageWrp">
+	        
+
+
+
+</div><div class="sfimageWrp">
+	        
+
+
+
+</div><div class="sfimageWrp">
+	        
+
+
+
+</div><div class='sfContentBlock'><h4><span data-sfref="[images|OpenAccessDataProvider]a08a60bf-cc65-674c-864b-ff00008e5f8f" class="sfImageWrapper"><a href="https://iuplr.uic.edu/iuplr/conferences/siglo-xxi-2017-call-for-papers">&nbsp;<img src="/sf-images/default-source/side-navigation/call-for-papers-image.png?sfvrsn=b54e057c_0" data-displaymode="Original" alt="Call for Papers Image" title="Call for Papers Image" /></a></span></h4>
+<h4 style="text-align: left;"></h4>
+<p>&nbsp;</p>
+<span data-sfref="[images|OpenAccessDataProvider]93d55ebf-cc65-674c-864b-ff00008e5f8f" class="sfImageWrapper" style="text-decoration: underline; line-height: 24px; font-size: 16px;"><a href="https://iuplr.uic.edu/iuplr/chicagolatinoartchive/artists-profiles"><img src="/sf-images/default-source/Logos/chicago-artchive-image.jpg?sfvrsn=5964077c_1" displaymode="Original" alt="chicago artchive image" title="chicago artchive image" /></a><br />
+</span><a href="/iuplr/conferences/latino-art-now"> </a>
+<p>&nbsp;</p>
+<a href="http://latino.si.edu/LatinoArtNow/LAN-ChiVG"><img src="/sf-images/default-source/side-navigation/lvm_lanchicago_.jpg?sfvrsn=7246057c_0" data-displaymode="Original" alt="LVM_LANChicago_" title="LVM_LANChicago_" /></a>
+
+<div class="sfRadSocialShareWrp"><div id="ctl00_cphPageBody_C019_ctl00_ctl00_ctl01" class="RadSocialShare RadSocialShare_Default">
+	<ul class="sshContent">
+		<li class="sshListItem"><a class="sshLinkItem" href="javascript:void(0)" title="Share on Facebook"><span class="sshIcon sshShareOnFacebook "></span></a></li><li class="sshListItem"><a class="sshLinkItem" href="javascript:void(0)" title="Tweet this"><span class="sshIcon sshShareOnTwitter "></span></a></li><li class="sshListItem"><a class="sshLinkItem" href="javascript:void(0)" title="Share on LinkedIn"><span class="sshIcon sshLinkedIn "></span></a></li><li class="sshListItem"><a class="sshLinkItem" href="javascript:void(0)"></a></li>
+	</ul><input id="ctl00_cphPageBody_C019_ctl00_ctl00_ctl01_ClientState" name="ctl00_cphPageBody_C019_ctl00_ctl00_ctl01_ClientState" type="hidden" />
+</div></div>
+</div><div class='sfContentBlock'><h2></h2> <p>&nbsp;</p> <br /> <br /> <br />
+Proudly sponsored by<span style="line-height: 1.5; font-size: 1em;">:<br /> <span data-sfref="[images|OpenAccessDataProvider]fee95ebf-cc65-674c-864b-ff00008e5f8f" class="sfImageWrapper"><img width="153" height="22" src="/sf-images/default-source/Logos/southwest_online_rgb.jpg?sfvrsn=c48c397c_1" displaymode="Original" alt="Southwest_online_rgb" title="Southwest_online_rgb" style="float: left;" /></span><br /> <br />
+____________________________________<br /> </span>
+
+
+</div><div id='fb-root'></div><fb:like width="450" layout="standard" colorscheme="light" action="like" send="true" show_faces="true"></fb:like><div id="cphPageBody_C016">
+
+</div><div id="cphPageBody_C017">
+	<div id="ctl00_cphPageBody_C017_ctl00" class="RadSocialShare RadSocialShare_Default">
+		<ul class="sshContent">
+			<li class="sshListItem"><a class="sshLinkItem" href="javascript:void(0)" title="Share on Facebook"><span class="sshIcon sshShareOnFacebook "></span></a></li><li class="sshListItem"><a class="sshLinkItem" href="javascript:void(0)" title="Tweet this"><span class="sshIcon sshShareOnTwitter "></span></a></li><li class="sshListItem"><a class="sshLinkItem" href="javascript:void(0)" title="Share on LinkedIn"><span class="sshIcon sshLinkedIn "></span></a></li><li class="sshListItem"><a class="sshLinkItem" href="javascript:void(0)"></a></li><li class="sshListItem"><a class="sshLinkItem" href="javascript:void(0)" title="Share on GoogleBookmarks"><span class="sshIcon sshGoogleBookmarks "></span></a></li><li class="sshListItem"><a class="sshLinkItem" href="javascript:void(0)" title="Share on Reddit"><span class="sshIcon sshReddit "></span></a></li>
+		</ul><input id="ctl00_cphPageBody_C017_ctl00_ClientState" name="ctl00_cphPageBody_C017_ctl00_ClientState" type="hidden" />
+	</div>
+</div>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_2cols_2_33">
+        <div id="cphPageBody_TF8D4EED6001_Col01" class="sf_colsIn sf_2cols_2in_33">
+        <div class="list-title">
+	        <h3 class="news-title">News</h3>
+            <h4 class="more-link"><a id="ctl00_cphPageBody_C001_newsFrontendList_ctl00_ctl00_NewsList_morelink" title="go to news page" href="iuplr/news">+ (More)</a></h4>
+            <a id="ctl00_cphPageBody_C001_newsFrontendList_ctl00_ctl00_NewsList_newsRSS" title="subscribe to RSS" href="Feeds/iuplr-news"><img alt="rss icon" src="//static.las.uic.edu/images/vector-social-media-icons/24px/rss.png" class="rss-button"/></a>
+        </div>
+        
+        <ul class="sfnewsList sfnewsListTitleDateSummary">
+            
+      <li class="sfnewsListItem">
+            <h3 class="sfnewsTitle inline">
+                <a id="ctl00_cphPageBody_C001_newsFrontendList_ctl00_ctl00_NewsList_ctrl0_DetailsViewHyperLink1" Rel="tooltip" Title="" href="iuplr/news/2017/12/06/the-university-of-texas-at-el-paso-presents-borderlands-history-conference">The University of Texas at El Paso presents Borderlands History Conference</a>
+            </h3>
+            <div class="sfnewsSummary">
+                </div>
+            
+          </li>
+    
+      <li class="sfnewsListItem">
+            <h3 class="sfnewsTitle inline">
+                <a id="ctl00_cphPageBody_C001_newsFrontendList_ctl00_ctl00_NewsList_ctrl1_DetailsViewHyperLink1" Rel="tooltip" Title="" href="iuplr/news/2017/11/08/aahhe-proudly-announces-its-13th-annual-national-conference-latina-o-students-policy-assessment-and-academic-preparation-for-success">AAHHE proudly announces its 13th Annual National Conference “Latina/o Students: Policy, Assessment and Academic Preparation for Success”</a>
+            </h3>
+            <div class="sfnewsSummary">
+                </div>
+            
+          </li>
+    
+      <li class="sfnewsListItem">
+            <h3 class="sfnewsTitle inline">
+                <a id="ctl00_cphPageBody_C001_newsFrontendList_ctl00_ctl00_NewsList_ctrl2_DetailsViewHyperLink1" Rel="tooltip" Title="" href="iuplr/news/2017/11/08/iuplr-co-directors&#39;-meeting-cdmx-2017">IUPLR Co-Directors' Meeting CDMX 2017</a>
+            </h3>
+            <div class="sfnewsSummary">
+                </div>
+            
+          </li>
+     
+        </ul>
+    <input id="ctl00_cphPageBody_C001_newsFrontendList_ctl00_ctl00_NewsList_ClientState" name="ctl00_cphPageBody_C001_newsFrontendList_ctl00_ctl00_NewsList_ClientState" type="hidden" /><span id="ctl00_cphPageBody_C001_newsFrontendList_ctl00_ctl00_NewsList" style="display:none;"></span>
+
+<span></span>
+        <div class="list-title">
+            <h3 class="events-title">Calendar</h3>
+            <h4 class="more-link"><a id="ctl00_cphPageBody_C002_eventsFrontendList_ctl00_ctl00_eventsList_HyperLink1" title="go to calendar" href="iuplr/calendar">+ (More)</a></h4>
+            <a id="ctl00_cphPageBody_C002_eventsFrontendList_ctl00_ctl00_eventsList_newsRSS" title="subscribe to RSS" href="Feeds/iuplr-calendar"><img alt="rss icon" src="//static.las.uic.edu/images/vector-social-media-icons/24px/rss.png" class="rss-button"/></a>
+        </div>
+        
+        <ul class="sfeventsList sfeventsListTitleCityDateContent">
+            
+        <li class="sfeventListItem">
+            <h3 class="sfeventTitle">
+                <a id="ctl00_cphPageBody_C002_eventsFrontendList_ctl00_ctl00_eventsList_ctrl0_DetailsViewHyperLink1" Title="view event details" href="iuplr/calendar/2014/12/11/sola/nuestras-historias-stories-of-mexican-identity-from-the-permanent-collection">Nuestras Historias: Stories of Mexican Identity from the Permanent Collection</a>
+            </h3>
+            <div class="sfeventMetaInfo">
+                <div class="event-date">
+                    
+                    <strong>Date: </strong>
+					Dec 11, 2014
+                    <span id="ctl00_cphPageBody_C002_eventsFrontendList_ctl00_ctl00_eventsList_ctrl0_lblEventEndDate">- Dec 11, 2024</span>
+                </div>
+                <div class="sfeventsSummary">
+                    
+                </div>
+            </div>
+            
+        </li>
+    
+        </ul>
+    <input id="ctl00_cphPageBody_C002_eventsFrontendList_ctl00_ctl00_eventsList_ClientState" name="ctl00_cphPageBody_C002_eventsFrontendList_ctl00_ctl00_eventsList_ClientState" type="hidden" /><span id="ctl00_cphPageBody_C002_eventsFrontendList_ctl00_ctl00_eventsList" style="display:none;"></span>
+
+
+<span></span>
+            
+        </div>
+    </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end #pageBody -->
+        <div class="container">
+            <footer role="contentinfo">
+                <div id="copyright" class="row">
+                    <div class="twelvecol last">
+                        
+<div class='sfContentBlock'><span class="copyrightText">&copy;2017 The Board of Trustees of the University of Illinois.</span>
+
+
+</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="container">
+            <div id="footer" class="row">
+                <div class="footerCol">
+                    
+<div class='sfContentBlock'><a href="http://www.las.uic.edu/giving" title="give to LAS"><img src="//static.las.uic.edu/images/giving/give-button-las.png" alt="Give to LAS logo" class="dark-shadow" /></a>
+
+
+</div>
+                </div>
+                <div class="footerCol">
+                    
+<div class='sfContentBlock'>Inter-University Program for <br />
+Latino Research (IUPLR)<br />
+University of Illinois at Chicago<br />
+College of Liberal Arts and Sciences<br />
+412 South Peoria Street<br />
+3rd Floor (MC 347)<br />
+Chicago, IL 60607
+
+
+</div>
+                </div>
+                <div class="footerGroup">
+                    <div class="footerCol">
+                        
+<div class='sfContentBlock'><a target="_blank" href="http://www.uic.edu" title="go to UIC website">UIC Home</a><br /> <a target="_blank" href="http://www.las.uic.edu" title="go to LAS website">LAS Home</a><br /> <a target="_blank" href="http://www.uic.edu/uic/search/" title="go to UIC directory search">Find People</a><br /> <div class="social_media">
+Social:
+<ul> <li><a href="https://www.facebook.com/IUPLR" title="find us on Facebook" target="_blank"><img src="//static.las.uic.edu/images/round-social-media-icons/48px/facebook.png" alt="Facebook logo" /></a></li> <li><a href="https://twitter.com/_iuplr" title="follow us on Twitter" target="_blank"><img src="//static.las.uic.edu/images/round-social-media-icons/48px/twitter2.png" alt="Twitter logo" /></a> </li> </ul> </div>
+
+
+</div>
+                    </div>
+                    <div class="footerCol">
+                        
+<div class='sfContentBlock'><a target="_blank" title="go to website" href="http://www.uic.edu/uic/studentlife/campus/emergency-information.shtml">Emergency Information</a><br /> <a target="_blank" title="go to website" href="http://tigger.uic.edu/home/wdw/accessweb/what.html">Accessibility</a><br /> <a target="_blank" title="go to website" href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Policy</a><br /> <a title="email LAS webmaster" href="mailto:laswebstaff@uic.edu">Webmaster</a>
+
+
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end #footer-->
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Telerik.Web.UI.RadTreeView._preInitialize("ctl00_cphLeftNav_T2A5F492A005_ctl00_ctl00_siteMapControl_verticaltree","0");//]]>
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-24550204-19");
+pageTracker._trackPageview();
+} catch(err) {} 
+</script>
+<script type="text/javascript">
+//<![CDATA[
+;(function() {
+                        function loadHandler() {
+                            var hf = $get('ctl13_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Sitefinity.Resources, Version=10.1.6525.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:en:eb177f10-254a-47f5-be2f-2f1c3f40d5ff:7a90d6a';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadTreeView, {"_skin":"Silk","_uniqueId":"ctl00$cphLeftNav$T2A5F492A005$ctl00$ctl00$siteMapControl_verticaltree","clientStateFieldID":"ctl00_cphLeftNav_T2A5F492A005_ctl00_ctl00_siteMapControl_verticaltree_ClientState","collapseAnimation":"{\"duration\":200}","expandAnimation":"{\"duration\":200}","nodeData":[{"value":"Home"},{"value":"About","items":[{"value":"Welcome from Executive Director "},{"value":"Moment"},{"value":"History"}]},{"value":"Calendar"},{"value":"Our Members","items":[{"value":"Become A Member"},{"value":"Meet IUPLR Co-Directors"},{"value":"Member Institutions","items":[{"value":"Membership Fees"}]}]},{"value":"Working Groups","items":[{"value":"Active Working Groups","items":[{"value":"Language within and across Latinx communities"}]},{"value":"Past Working Groups"}]},{"value":"Chicago Latino ArTchive"},{"value":"Conferences","items":[{"value":"Latino Art Now! Conference","items":[{"value":"Home"},{"value":"Program"},{"value":"Registration"},{"value":"Transportation \u0026 Lodging"},{"value":"Food and Parking"},{"value":"Spring of Latino Art"}]},{"value":"SIGLO XXI 2017"}]},{"value":"El Noticiero"},{"value":"News"},{"value":"Mellon Fellows Program","items":[{"value":"Home"}]},{"value":"Staff","items":[{"value":"WELCOME NEW CHICAGO DIRECTOR"}]},{"value":"Featured Research","items":[{"value":"Families and Youth"}]}]}, {"nodeExpanding":OnClientNodeExpanding}, null, $get("ctl00_cphLeftNav_T2A5F492A005_ctl00_ctl00_siteMapControl_verticaltree"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSocialShare, {"_addFbScript":false,"_addGoogleScript":true,"_addLinkedInScript":false,"_addPinterestScript":false,"_addTwitterScript":false,"_addYammerScript":false,"_locale":"en_US","_uniqueId":"ctl00$cphPageBody$C019$ctl00$ctl00$ctl01","clientStateFieldID":"ctl00_cphPageBody_C019_ctl00_ctl00_ctl01_ClientState","mainButtons":"[['ShareOnFacebook','','', '470', '470', '', ''],['ShareOnTwitter','','', '470', '470', '', ''],['LinkedIn','','', '470', '470', '', ''],['GooglePlusOne','','', 'Small', 'None', '']]","urlToShare":"https://iuplr.uic.edu/"}, {"clicked":socialButtonClickedHandler,"onPlusone":googlePlusButtonClickedHandler,"tweet":twitterButtonClickedHandler}, null, $get("ctl00_cphPageBody_C019_ctl00_ctl00_ctl01"));
+});
+(function(d, s, id) {
+				   var js, fjs = d.getElementsByTagName(s)[0];
+				   if (d.getElementById(id)) {return;}
+				   js = d.createElement(s); js.id = id; js.async = true;
+				   js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7';
+				   fjs.parentNode.insertBefore(js, fjs);
+				   }(document, 'script', 'facebook-jssdk'));window.fbAsyncInit = function () {
+				FB.Event.subscribe('edge.create', function (href, widget) {					
+					 if (window.DataIntelligenceSubmitScript) {
+                        DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                            predicate: 'Like on Facebook',
+                            object: href,
+                            objectMetadata: [
+											    {
+											        'K': 'SourcePageTitle',
+											        'V': document.title
+											    },
+                                                {
+                                                    'K': 'SourcePageUrl',
+											        'V': location.href
+                                                }
+                            ]
+                        });
+                    }
+				});
+			};Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSocialShare, {"_addFbScript":false,"_addGoogleScript":true,"_addLinkedInScript":false,"_addPinterestScript":false,"_addTwitterScript":false,"_addYammerScript":false,"_locale":"en_US","_uniqueId":"ctl00$cphPageBody$C017$ctl00","clientStateFieldID":"ctl00_cphPageBody_C017_ctl00_ClientState","mainButtons":"[['ShareOnFacebook','','', '470', '470', '', ''],['ShareOnTwitter','','', '470', '470', '', ''],['LinkedIn','','', '470', '470', '', ''],['GooglePlusOne','','', 'Small', 'None', ''],['GoogleBookmarks','','', '470', '470', '', ''],['Reddit','','', '470', '470', '', '']]","urlToShare":"https://iuplr.uic.edu/"}, {"clicked":socialButtonClickedHandler,"onPlusone":googlePlusButtonClickedHandler,"tweet":twitterButtonClickedHandler}, null, $get("ctl00_cphPageBody_C017_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$cphPageBody$C001$newsFrontendList$ctl00$ctl00$NewsList","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_cphPageBody_C001_newsFrontendList_ctl00_ctl00_NewsList_ItemsContainer","DataService":{}}},"_virtualItemCount":3,"clientStateFieldID":"ctl00_cphPageBody_C001_newsFrontendList_ctl00_ctl00_NewsList_ClientState","renderMode":1}, null, null, $get("ctl00_cphPageBody_C001_newsFrontendList_ctl00_ctl00_NewsList"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Sitefinity.Web.UI.UserPreferences, {"_timeOffset":"-21600000","_userBrowserSettingsForCalculatingDates":true,"timeZoneDisplayName":"(UTC-06:00) Central Time (US \u0026 Canada)","timeZoneId":"Central Standard Time"}, null, null);
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$cphPageBody$C002$eventsFrontendList$ctl00$ctl00$eventsList","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_cphPageBody_C002_eventsFrontendList_ctl00_ctl00_eventsList_ItemsContainer","DataService":{}}},"_virtualItemCount":1,"clientStateFieldID":"ctl00_cphPageBody_C002_eventsFrontendList_ctl00_ctl00_eventsList_ClientState","renderMode":1}, null, null, $get("ctl00_cphPageBody_C002_eventsFrontendList_ctl00_ctl00_eventsList"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

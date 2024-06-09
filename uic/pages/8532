@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Schedule &middot; CS450: Introduction to Networking
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/poole.css">
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/syntax.css">
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/~balajee/cs450-f16/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/~balajee/cs450-f16/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-08">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>This is the webpage for the course "CS450: Introduction to Networking" at the University of Illinois at Chicago (UIC).</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/~balajee/cs450-f16/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw1/">Homework 1</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw2/">Homework 2</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw3/">Homework 3</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw4/">Homework 4</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw5/">Homework 5</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw6/">Homework 6</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item active" href="/~balajee/cs450-f16/schedule/">Schedule</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/syllabus/">Syllabus</a>
+        
+      
+    
+    
+    <!--
+    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+    -->
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2018. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/~balajee/cs450-f16/" title="Home">CS450: Introduction to Networking</a>
+            <small>Fall 2016</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">Schedule</h1>
+  <h3 id="module-0-course-overview">Module 0: Course Overview</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Week</strong></td>
+      <td><strong>Date</strong></td>
+      <td><strong>Topic</strong></td>
+      <td><strong>Readings</strong></td>
+      <td><strong>Notes</strong></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>8/22</td>
+      <td>Hello world!</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>8/24</td>
+      <td>git primer</td>
+      <td><a href="https://try.github.io/levels/1/challenges/1">tutorial</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>8/26</td>
+      <td>TCP/IP Layering model, <em>end-to-end</em> argument</td>
+      <td>1.1, 1.5, 1.6, 2.1</td>
+      <td><a href="/~balajee/cs450-f16/notes/e2e.pdf">paper</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="module-1-application-layer">Module 1: Application layer</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Week</strong></td>
+      <td><strong>Date</strong></td>
+      <td><strong>Topic</strong></td>
+      <td><strong>Readings</strong></td>
+      <td><strong>Notes</strong></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>8/29</td>
+      <td>Network performance, HTTP</td>
+      <td>2.2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>8/31</td>
+      <td>HTTP and Web Caches, Email</td>
+      <td>2.2, 2.4</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>9/2</td>
+      <td>DNS</td>
+      <td>2.5</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>9/5</td>
+      <td><em>Holiday!</em></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>9/7</td>
+      <td>DNS (cont.)</td>
+      <td>2.5</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>9/9</td>
+      <td>Distributed Hash Table</td>
+      <td>2.6.2</td>
+      <td><a href="https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf">paper</a></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>9/12</td>
+      <td>Distributed Hash Table (cont.), sockets</td>
+      <td>2.6.2</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Reference: <a href="http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html">Socket programming primer</a></p>
+
+<h3 id="module-2-transport-layer">Module 2: Transport Layer</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Week</strong></td>
+      <td><strong>Date</strong></td>
+      <td><strong>Topic</strong></td>
+      <td><strong>Readings</strong></td>
+      <td><strong>Notes</strong></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>9/14</td>
+      <td>Sockets, UDP</td>
+      <td>3.3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>9/16</td>
+      <td>UDP</td>
+      <td>3.3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>9/19</td>
+      <td>Reliable Transport</td>
+      <td>3.4</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>9/21</td>
+      <td>TCP</td>
+      <td>3.5</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>9/23</td>
+      <td>TCP congestion control</td>
+      <td>3.6</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>9/26</td>
+      <td>TCP congestion control (cont.)</td>
+      <td>3.7</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="module-3-network-layer">Module 3: Network Layer</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Week</strong></td>
+      <td><strong>Date</strong></td>
+      <td><strong>Topic</strong></td>
+      <td><strong>Readings</strong></td>
+      <td><strong>Notes</strong></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>9/28</td>
+      <td>Routing vs. Forwarding, Circuit vs. Packet Switching</td>
+      <td>4.1, 4.2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>9/30</td>
+      <td>Router Architecture</td>
+      <td>4.3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>10/3</td>
+      <td>Router Architecture (cont.)</td>
+      <td>4.3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>10/5</td>
+      <td>IP addressing</td>
+      <td>4.4</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>10/7</td>
+      <td>NAP, IPv6</td>
+      <td>4.4</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>10/10</td>
+      <td>Routing: OSPF</td>
+      <td>4.5</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>10/12</td>
+      <td>Routing: Distance Vector</td>
+      <td>4.4</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>10/14</td>
+      <td>Hierarchical routing</td>
+      <td>4.6</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>10/17</td>
+      <td>Hierarchical routing (cont.)</td>
+      <td>4.6</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>10/19</td>
+      <td>Border Gateway protocol</td>
+      <td>4.6</td>
+      <td><a href="https://www.cs.princeton.edu/~jrex/papers/policies.pdf">paper</a></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>10/21</td>
+      <td>Midterm Review</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="module-35-recent-advances">Module 3.5: Recent Advances</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>10</td>
+      <td>10/24</td>
+      <td>Midterm Exam</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>10/26</td>
+      <td>Traffic Management</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>10/28</td>
+      <td>DCTCP</td>
+      <td> </td>
+      <td><a href="http://simula.stanford.edu/~alizade/Site/DCTCP_files/dctcp-final.pdf">paper</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="module-4-link-layer">Module 4: Link Layer</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>11</td>
+      <td>10/31</td>
+      <td>Link Layer</td>
+      <td>5.1, 5.2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>11/2</td>
+      <td>Media Access Control</td>
+      <td>5.3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>11/4</td>
+      <td>Guest Lecture by Prof. Kanich</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>11/7</td>
+      <td>Ethernet and LAN</td>
+      <td>5.4</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>11/9</td>
+      <td>Transparent Bridges</td>
+      <td>5.4</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>11/11</td>
+      <td>Spanning Tree Protocol</td>
+      <td>Notes</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>11/14</td>
+      <td>VLANs, MPLS</td>
+      <td>5.4.5, 5.5</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>11/16</td>
+      <td>Datacenters</td>
+      <td>5.6</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>11/18</td>
+      <td>Odds and end</td>
+      <td>notes</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

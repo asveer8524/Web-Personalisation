@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/favicon.ico">
+
+    <title>An Empirical Analysis of Single Sign-On Account Hijacking and Session Management on the Web</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/template.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsToggler" aria-controls="navbarsToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsToggler">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#paper">Research Paper</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#data">Download Data</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+        <div class="starter-template">
+            <h1 class="font-weight-bold">An Empirical Analysis of Single Sign-On Account Hijacking and Session Management on the Web</h1>
+            <p class="lead">Mohammad Ghasemisharif, Amrutha Ramesh, Stephen Checkoway, Chris Kanich, and Jason Polakis<br><a href="https://www.cs.uic.edu" target="_blank">University of Illinois at Chicago</a></p>
+        </div>
+        <hr>
+        <section id="overview">
+            <h3>
+                Overview
+            </h3>
+            <p class="text-justify font-weight-light">
+                The usability of Single Sign-On (SSO) has made it a popular authentication scheme for users and websites. In this project, we conducted a large-scale study on the prevalence of SSO, investigated the security implications of SSO and offered an in-depth empirical analysis of account hijacking on the modern Web.
+            </p>
+        </section>
+        <section id="paper"> 
+            <h3>
+                Research Paper
+            </h3>
+            <p class="text-justify font-weight-light">Details of our research can be found in the following paper:<br><br>
+               <span class="font-weight-bold">O Single Sign-Off, Where Art Thou? An Empirical Analysis of Single Sign-On Account Hijacking and Session Management on the Web [<a href="data/sso-usenix18.pdf" target="_blank">PDF</a>][<a href="data/bibtex.bib">BibTeX</a>]</span><br>
+               <span class="font-weight-light">Mohammad Ghasemisharif, Amrutha Ramesh, Stephen Checkoway, Chris Kanich, and Jason Polakis<br>
+               in <span class="font-italic">Proceedings of the 27th USENIX Security Symposium</span>, August 2018</span>
+            </p>
+        </section>
+        <hr>
+        <section id="faq">
+            <h3>
+                FAQ
+            </h3>
+            <p class="font-weight-bold">Is data available to the public?<br>
+                <span class="font-weight-light">Yes! Due to the increasing popularity of SSO, we have made our dataset public so as to facilitate more research  on the deployment of SSO. Details 
+                <a href="#data">below</a>.</span></p>
+            <p class="font-weight-bold">How did you collect the data?<br>
+                <span class="font-weight-light">We built a tool to crawl the Alexa top 1 million websites and obtain  identity providers and their relying parties. Our tool uses a heuristic approach to find common terms and links of identity providers in each webpage. More details can be found in our <a href="#paper">research paper</a>.
+            </span></p>
+            <p class="font-weight-bold">When was the data collected?<br>
+                <span class="font-weight-light">The Alexa top 1M file was obtained on September 14, 2017 and is available <a href="data/top1m-sep-14-17.csv.zip">here</a>. The SSO data was collected between September 2017-January 2018. The data collection was done over multiple rounds to limit the number of server errors (e.g. DNS errors).</span></p>
+            <p class="font-weight-bold">What information is included in the dataset?<br>
+                <span class="font-weight-light">The collected data is available as a JSON file in the <a href="#data">download</a> section. The file includes all the crawled websites from the Alexa top 1M from which we received correct response. We have excluded any websites that had erroneous behavior even after multiple crawls.</span></p>
+
+            <p class="font-weight-bold">How to cite data?<br>
+                <span class="font-weight-light">If you use the data please cite our paper:</span>
+                <pre>@inproceedings {217498,
+    author = {Mohammad Ghasemisharif and Amrutha Ramesh and Stephen Checkoway and Chris Kanich and Jason Polakis},
+    title = {O Single Sign-Off, Where Art Thou? An Empirical Analysis of Single Sign-On Account Hijacking and Session Management on the Web},
+    booktitle = {27th {USENIX} Security Symposium ({USENIX} Security 18)},
+    year = {2018},
+    address = {Baltimore, MD},
+    url = {https://www.usenix.org/conference/usenixsecurity18/presentation/ghasemisharif},
+    publisher = {{USENIX} Association},
+}</pre></p>
+
+        </section>
+        <hr>
+        <section id="data">
+            <h3>
+                Download Data
+            </h3>
+            <p class="font-weight-light">You can download our dataset here:</p>
+            <ul>
+                <li>
+                    <a href="data/sso-study-data.zip">SSO data as JSON</a><span class="font-weight-light"> (30 MB)</span>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section id="disclaimer">
+            <h3>
+                Disclaimer
+            </h3>
+            <p class="font-weight-light">Due to the dynamic and constantly-evolving nature of the Internet, SSO support changes over time. In our experiments we have observed relying parties change their identity providers or completely drop support of SSO.</p>
+        </section>
+        <hr>
+        <section id="contact">
+            <h3>
+                Contact
+            </h3>
+            <p class="font-weight-light">For any questions or suggestions, please email <code>mghas2@uic.edu</code></p>
+        </section>
+    </main>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

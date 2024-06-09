@@ -1,0 +1,808 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>
+        Profiles - Subject & Course Guides at University of Illinois at Chicago
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noarchive" /><!-- favicon.twig -->
+<link rel="apple-touch-icon" sizes="180x180" href="//libapps.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon-16x16.png">
+<link rel="manifest" href="//libapps.s3.amazonaws.com/apps/common/favicon/site.webmanifest">
+<link rel="mask-icon" href="//libapps.s3.amazonaws.com/apps/common/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-config" content="//libapps.s3.amazonaws.com/apps/common/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="/web/jquery/css/jquery-ui.min.css?2695" />
+            <link rel="stylesheet" href="/web/font-awesome/4.7.0/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/web/css1.27.6/lg-public.min.css" />
+        <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script>
+        <script type="text/javascript" src="/web/jquery/js/jquery-ui.min.js?2695"></script>
+            <script type="text/javascript" src="/web/js1.27.6/lg-public.min.js"></script>
+        <!-- BEGIN: CUSTOM HEAD JS/CSS -->
+        <link rel="stylesheet" type="text/css" href="https://library.uic.edu/css/main.min.css">
+<style type="text/css">
+    /* Pixo styles from main website */
+
+
+    /* Overrides General */
+        body, #s-lib-footer-public {
+            background-color: #f8f8f8;
+            font-size:16px;
+        }
+
+        @media (max-width: 800px) {
+            #s-lib-public-header-title,
+            #s-lib-public-header-desc,
+            #s-lib-public-main, {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+        }
+
+        [class*=" col-"], [class*=" grid-"], [class^=col-], [class^=grid-] {
+            margin: 0;
+            display: inherit;
+            flex-flow: inherit;
+        }
+
+        #s-lg-guide-list-controls > div.pull-right {
+            margin: -.5rem 0 .5rem 1rem
+        }
+
+        #s-lg-guide-main div[class^="col-md-"] {
+            margin: 0;
+        }
+
+        /* Typography Main */
+       #s-lc-public-header,
+        #s-lg-guide-nav,
+        #s-lg-guide-main,
+        #s-lib-footer-public,
+        #s-lib-public-header,
+        #s-lib-public-nav,
+        #s-lib-public-main,
+        #s-lg-tabs-container,
+       #s-lg-guide-name,
+       #s-lg-guide-desc-container,
+       .popover-title {
+            color: #363636;
+        }
+
+        /* Title */
+        #s-lg-guide-header h1,
+        #s-lib-public-header h1 {
+            font-size: 2.5em;
+            line-height: 1.125em;
+            font-weight: 500;
+            padding-bottom: .75rem;
+        }
+
+        #s-lg-guide-main h2,
+        #s-lib-public-header h2,
+        #s-lg-guide-tabs h2 {
+            font-size: 1.5em;
+            line-height: 1.125em;
+            font-weight: 600;
+            padding-bottom: .5rem;
+        }
+        #s-lg-guide-main h3,
+        #s-lib-public-header h3,
+        .s-lg-col-boxes h3 {
+            line-height: 1.25em;
+            font-size: 1.25em;
+            font-weight: 700;
+        }
+        #s-lg-guide-main h4,
+        #s-lib-public-header h4,
+        .s-lg-col-boxes h4 {
+           line-height: 1.25em;
+           font-size: 1em;
+           font-weight: 700;
+        }
+        #s-lg-guide-main h5,
+        #s-lib-public-header h5,
+        .s-lg-col-boxes h5 {
+               color: #d50032;
+               font-style: italic;
+               line-height: 1.25em;
+               font-size: 1em;
+               font-weight: 500;
+}
+       #s-lg-guide-main h6,
+        #s-lib-public-header h6,
+        .s-lg-col-boxes h6 {
+              letter-spacing: 0.11em;
+              text-transform: uppercase;
+              line-height: 1.25em;
+               font-size: 1em;
+               font-weight: 400;
+       }
+        #s-lg-guide-main strong,
+        #s-lg-guide-main b {
+            font-weight: bold;
+        }
+
+        #s-lg-guide-main em {
+            font-style: italic;
+        }
+
+        /* Links */
+        #s-lg-guide-main a,
+        #s-lib-footer-public a,
+        #s-lg-tabs-container a {
+            color: #007f85;
+        }
+
+        #s-lg-guide-main a:hover,
+        #s-lib-footer-public a:hover,
+        #s-lg-tabs-container a:hover {
+            border-bottom: 1px solid rgba(213,0,50,0.5);
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: rgba(213, 0, 50, 0.498039);
+            color: #d50032;
+            transition: all .4s;
+        }
+
+        /* Lists */
+        #s-lg-guide-main ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        #s-lg-guide-main ol {
+            padding-left: 20px;
+            list-style-type: georgian;
+        }
+
+        #s-lg-guide-main li {
+            list-style-type: disc;
+            /*margin: 0;*/
+        }
+
+      /*Image Wrapping*/
+        .s-lib-box img {
+          float: left;
+          padding: 0 10px;
+     }
+    .s-lib-box img.left {
+          float: left;
+          width: 50%;
+     }
+      .s-lib-box img.right{
+          float: right;
+          width: 50%;
+     }
+        .s-lib-profile-image img {
+         float: none;
+        padding: 0;
+        background-color: inherit;
+        border: none;
+        box-shadow: none;
+     }
+
+
+    /* Overrides Header */
+
+        /* breadcrumb */
+
+        #s-lib-bc #s-lib-bc-customer > a {
+            display: block;
+            font-size: 14px;
+            line-height: 28px;
+            background-color: #d50032;
+            border-radius: 50%;
+            height: 14px;
+            overflow: hidden;
+            padding: 0;
+            text-indent: 50px;
+            white-space: nowrap;
+            width: 14px;
+            border: none;
+            position: relative;
+            top: 2px;
+        }
+
+        .breadcrumb>li+li:before {
+            padding: 0 .8rem;
+            font-size: .75em;
+            vertical-align: middle;
+            color: #888;
+            content: "/\00a0";
+            content: "➤";
+        }
+
+        @media (min-width: 801px) {
+            #s-lib-bc {
+                margin-top: 2.5rem;
+            }
+
+            /* temp fix to header styles, 2018-09-07 */
+            #menu-eyebrow {
+                flex: 1 0 31em;
+                text-align: right;
+            }
+
+            /* body > header > div.l-header > div.l-full > nav > div.l-eyebrow > ul.menu-uic */
+            ul.menu-uic {
+                flex: 1 0 20em !important;
+            }
+            #search {
+                flex: 0 0 2rem;
+                margin-top: 0;
+            }
+        }
+
+        #s-lib-bc a,
+        #s-lib-bc-page, 
+        .dropdown-menu>li>a {
+            font-size: 1.25em;
+            font-weight: normal;
+            color: rgb(0, 30, 98);
+        }
+
+      
+        #s-lib-bc #s-lib-bc-page {
+            color: #d50032;
+        }
+
+        #s-lib-bc a:hover {
+            color: #d50032;
+            transition: all .4s;
+        }
+
+
+        #s-lg-guide-tabs > ul > li:nth-child(4) > a.s-lg-tab-drop.dropdown-toggle > span.caret {}
+
+        /* Line under tabs */
+        #s-lg-guide-tabs-title-bar {
+            border: 1px solid rgb(225, 225, 225);
+            border-bottom: none;
+        }
+
+        /* Page Subtitle */
+        span#s-lg-guide-description {
+            font-size: .9em;
+        }
+     /*Home page navigation */
+     .highlight-btn {border: 1px solid #141b4d;}
+     #s-lg-hp-nav .rightnav-links {display: block;}
+     #s-lg-hp-nav .rightnav-links li {float:right;}
+
+    .nav-pills>li.active>button, .nav-pills>li.active>button:focus, .nav-pills>li.active>button:hover {background-color:#001e62;}
+    .nav .s-lg-index-nav-btn>button {color:#001e62; font-weight: 700;}
+    .nav .s-lg-index-nav-btn>button:hover {text-decoration:underline;}
+
+   @media (max-width: 960px) {
+    #s-lg-hp-nav .rightnav-links {float:left; clear:left; padding-top:3px;}
+}
+
+
+        /* Tabs */
+            /* Reset */
+            #s-lg-tabs-container ul.nav-tabs > li > a,
+            #s-lg-tabs-container ul.nav-tabs > li > a:hover,
+            #s-lg-tabs-container ul.nav-tabs > li > a.active,
+            #s-lg-tabs-container ul.nav-tabs > li > a.active:hover,
+            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-drop,
+            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-drop:hover,
+            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-top-link,
+            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-top-link:hover {
+                color: rgb(0, 30, 98);
+                background-color: white;
+                border-radius: 0;
+                font-weight: 500;
+                padding: 5px 10px; /**/
+                margin: 0 .5rem .5rem 0;
+                border: 1px solid rgb(225, 225, 225);
+                outline: none;
+            }
+
+            /* Hover */
+            #s-lg-tabs-container ul.nav-tabs > li > a:hover,
+            #s-lg-tabs-container ul.nav-tabs > li > a.active:hover,
+            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-top-link:hover {
+                z-index: 1;
+                border: 2px solid rgb(0, 30, 98);
+                padding: 4px 9px;
+                transition: border-color .4s;
+            }
+
+            /* Dropdown Tab */
+            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-top-link,
+            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-top-link:hover {
+                margin-right: 0;
+            }
+
+            /* Dropdown button */
+            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-drop {
+                border-left: none;
+                padding: 5px 9px 5px 6px;
+            }
+
+            /* carat */
+            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-drop.dropdown-toggle > span.caret, #s-lg-tabs-container ul.nav-pills > li > a.s-lg-tab-drop.dropdown-toggle > span.caret  {
+                color: rgb(0, 30, 98);
+            }
+
+            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-drop:hover,   #s-lg-tabs-container ul.nav-pills > li > a.s-lg-tab-drop:hover,  {
+                border: 2px solid rgb(0, 30, 98);
+                padding: 4px 8px 4px 6px;
+                margin-left: -2px;
+            }
+
+
+            /* Active tab */
+            #s-lg-tabs-container ul.nav-tabs > li > a.active,
+            #s-lg-tabs-container ul.nav-tabs > li > a.active:hover {
+                background-color: rgb(0, 30, 98);
+                color: white;
+                z-index: 1;
+                transition: border-color .4s;
+            }
+
+            #s-lg-tabs-container ul.nav-tabs > li > a.active:hover {
+                color: white;
+                transition: border-color .4s;
+            }
+
+            /* Dropdown menu itself */
+           #s-lg-guide-tabs > ul.nav-tabs > li.dropdown.clearfix > ul   {
+                top: 35px;
+           }
+            #s-lg-guide-tabs > ul.nav-pills > li.dropdown.clearfix> ul {
+               width: 85%;
+               margin-left: 15% !important;
+           }         
+           #s-lg-guide-tabs > ul.nav-tabs > li.dropdown.clearfix > ul,  #s-lg-guide-tabs > ul.nav > li.dropdown.clearfix> ul  {
+                border: 2px solid rgb(0, 30, 98);
+                border-top-width: 6px;
+                border-radius: 0;
+                transition: border-color .4s;
+            }
+
+  
+
+            /* Dropdown items */
+            #s-lg-tabs-container ul > li.dropdown.clearfix > ul > li > a, .dropdown-menu>li>a {
+                color: #363636;
+            }
+            #s-lg-tabs-container ul > li.dropdown.clearfix > ul > li > a:hover, .dropdown-menu>li>a:hover {
+                color: white;
+                background-color: rgb(0, 30, 98);
+                transition: all .4s;
+            }
+           
+           #s-lg-guide-search-box {
+               margin-bottom: 0;
+        }
+
+           #s-lg-guide-header-info {
+               padding-top: 2.5em;
+               margin-bottom: 2em;
+        }
+
+        /* header mobile margins, width to match set in Pixo header */
+        @media (max-width: 800px) {
+            #s-lib-bc,
+            #s-lg-guide-header-info {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+
+            #s-lg-guide-search-form > div.input-group {
+                margin-right: 1rem;
+            }
+        }
+
+    /* Overrides body */
+
+        /* reset */
+        #s-lg-guide-main .row.s-lg-row,
+        #s-lg-guide-main .col-md-6,
+        #s-lg-guide-main .col-md-12,
+        #s-lg-guide-main .pad-left-med,
+        #s-lg-guide-main .pad-top-sm,
+        #s-lg-guide-main .pad-right-med,
+        #s-lg-guide-main .row.s-lg-row .s-lib-box-title,
+        #s-lg-guide-main .row.s-lg-row .s-lib-box-content,
+        #s-lg-guide-main .s-lib-box,
+        #s-lg-guide-main .s-lib-box-std,
+        .s-lib-box,
+        .s-lib-box .s-lib-box-title{
+            padding: 0;
+            margin: 0;
+            border: none;
+            background-color: transparent;
+            box-shadow: none;
+            color: #363636;
+        }
+
+        #s-lg-tabs-container,
+        #s-lg-guide-main .col-md-6,
+        #s-lg-guide-main .col-md-12  {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        @media (min-width: 801px) {
+            #s-lg-guide-main .col-md-6:first-of-type,
+            #s-lg-guide-main .col-md-12:first-of-type {
+                padding-left: 0;
+            }
+
+            #s-lg-guide-main .col-md-6:first-of-type,
+            #s-lg-guide-main .col-md-12:first-of-type {
+                padding-right: 0;
+            }
+        }
+
+        @media (min-width: 801px) {
+            #s-lg-tabs-container,
+            #s-lg-guide-main {
+                padding-left: 0;
+            }
+        }
+
+        #s-lg-guide-main ul.s-lg-link-list > li {
+            padding-bottom: .5em;
+            padding-top: 1em;
+        }
+
+        #s-lg-guide-main .s-lib-box-content ul > li {
+            padding-bottom: .5em;
+        }
+
+        /* Forms */
+        #s-lg-guide-main input {
+            border: 1px solid rgb(225, 225, 225);
+            padding: .125em .25em .125em .25em;
+            background-color: white;
+        }
+       
+       .input-group .form-control {
+           height: 34px;
+       }
+
+      /* Inputs */
+      .checkbox input[type=checkbox],
+      .checkbox-inline input[type=checkbox],
+      .radio input[type=radio],
+      .radio-inline input[type=radio] {
+        margin-left: -20px !important
+      }
+
+      .s-lg-poll-title {
+          margin-top: 3rem;
+      }
+      
+   #s-lg-guide-search {width:400px;float:right;}
+
+        /* Tables */
+        #s-lg-guide-main td {
+            padding-right: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        /* Override box title */
+        #s-lg-guide-main .row.s-lg-row .s-lib-box-title {
+            font-size: 1.5em;
+            font-weight: 500;
+            padding-top: 1em;
+            padding-bottom: .5em;
+            line-height: 1.25em;
+        }
+
+        /* Bold links in link list*/
+        #s-lg-guide-main ul.s-lg-link-list > li > div[id^="s-lg-content-"] > a:first-of-type,
+        #s-lg-guide-main ul.s-lg-link-list > li > div[id^="s-lg-content-"] > span:first-of-type a {
+            font-size: 1.125em;
+            font-weight: 500;
+            margin-bottom: .5em;
+        }
+
+        #s-lg-guide-main .s-lg-label-more {
+            border-bottom: 1px solid transparent;
+        }
+
+        #s-lg-page-prevnext {
+            display: none;
+        }
+
+    /*Styles for tabbed boxes*/
+        /*Reset*/
+        #s-lg-guide-main .ui-tabs .ui-tabs-nav li {
+            list-style:none;
+            height: 2em;}
+        #s-lg-guide-main.ui-widget-header,
+        #s-lg-guide-main .ui-state-default, 
+        #s-lg-guide-main .ui-widget-content .ui-state-default, 
+        #s-lg-guide-main .ui-widget-header .ui-state-default,
+        #s-lg-guide-main .ui-widget-header{
+            background:none;
+            border:none;}
+        #s-lg-guide-main .ui-widget-header {
+            border-bottom: 1px solid #e2e2e2;
+            padding-bottom: 1em;
+        }
+        #s-lg-guide-main .ui-state-default, 
+        #s-lg-guide-main .ui-widget-content .ui-state-default, 
+        #s-lg-guide-main .ui-widget-header .ui-state-default,
+        #s-lg-guide-main .ui-state-active, 
+        #s-lg-guide-main .ui-widget-content .ui-state-active, 
+        #s-lg-guide-main .ui-widget-header .ui-state-active,
+        #s-lg-guide-main .ui-state-hover, 
+        #s-lg-guide-main .ui-widget-content .ui-state-hover, 
+        #s-lg-guide-main .ui-widget-header .ui-state-hover,
+        #s-lg-guide-main .ui-state-focus, 
+        #s-lg-guide-main .ui-widget-content .ui-state-focus, 
+        #s-lg-guide-main .ui-widget-header .ui-state-focus
+        {
+                border-radius: 0;
+                font-weight: 600;
+                font-size:14px;
+                padding: 5px;
+                margin: 0 .5rem .5rem 0;
+                border: none;
+            }
+      #s-lg-guide-main .ui-state-active a, 
+        #s-lg-guide-main .ui-widget-content .ui-state-active  a, 
+        #s-lg-guide-main .ui-widget-header .ui-state-active a,
+        #s-lg-guide-main .ui-state-hover a, 
+        #s-lg-guide-main .ui-widget-content .ui-state-hover a, 
+        #s-lg-guide-main .ui-widget-header .ui-state-hover a {
+            background-color: #007f85;
+            color: #fff;
+            border: none;
+        }
+        #s-lib-footer-public {
+            margin-top: 4rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+/*Profiles*/
+.s-lib-profile-div {text-align:center;}
+.s-lib-profile-container {padding: 1.2em;}
+a.label.label-info, #s-lg-guide-main a.label.label-info {background-color: transparent; border: 1px solid #001e62;color:#001e62; font-size:1em !important;}
+a.label.label-info:hover, #s-lg-guide-main  a.label.label-info:hover {background-color: transparent; border: 2px solid #001e62;color:#001e62;}
+
+
+
+/*Databases A-Z */
+    #s-lg-az-result-count {
+    margin-bottom: 0.2em;
+}
+.navbar{
+   background-color: #e8e8e8;
+}
+#s-lg-az-search-bar {
+padding-bottom: 2em;
+}
+/*Hide vendor dropdown list*/
+#s-lg-az-filter-cols #col-search {width: 50%;}
+#s-lg-az-filters #col-vendors {
+display: none;
+}
+
+/*Hide alternative names and keywords on Databases A-Z*/
+ .s-lg-az-result-keywords {
+          display: none;
+      }
+
+
+
+/*Hide metadata on Guide List Box*/
+       .s-lg-guide-list-info {
+           display: none;
+       }
+
+/*Hide metadata on Subject page*/
+      .s-lg-gmeta {
+          display:none;
+      }
+
+</style>
+
+<!-- Place this script as near to the end of your BODY as possible. -->
+<script type="text/javascript">
+
+/* header overrides (some code in main.js is not meant for libguides) */
+$(document).ready(function() {
+
+    /* Force sidebar to open */
+    var menu_nav_toggle_button = $('#menu_nav_toggle_button')
+    var menu_nav = $('div.l-header > div.l-full > nav')
+    menu_nav_toggle_button.click(function() {
+        menu_nav.toggleClass('is-active')
+    })
+
+    /* Force chat widget to open */
+    var chat_widget = $('footer .chat-widget')
+    chat_widget.click(function() {
+        chat_widget.toggleClass('chat-widget--active')
+    })
+
+
+    /* Markup Cleanup */
+        /* remove all inline styles except visibility */
+        $('#s-lg-guide-main *[style]').each(function() {
+            var hidden;
+            if (!$(this).is(":visible")) {
+                hidden = true
+            }
+            $(this).removeAttr('style');
+            if (hidden) {
+                $(this).css("display", "none")
+            }
+        })
+
+        /* remove extraneous subheader menu */
+        $('body > header > div.l-header > a.menu-secondary-anchor').css('display', 'none')
+
+        /* remove buttons in mobile sidebar */
+        $('#menu-main > li > button').css("display", "none")
+
+        /* remove width, height, border attributes from tables */
+        $('#s-lg-guide-main table').removeAttr('height')
+        $('#s-lg-guide-main table').removeAttr('width')
+        $('#s-lg-guide-main table').removeAttr('border')
+
+        /* remove all font tags */
+        $('font').contents().unwrap();
+
+        /* remove extra spaces */
+        $('#s-lg-guide-main').text(function (i, old) {
+            var $this = $(this);
+            $this.html($this.html().replace(/ /g, ''));
+        });
+
+        /* misc wtf */
+        /* I've seen 'invisible' classes; hide */
+        $('#s-lg-guide-main .invisibleNavHeading').css("display", "none")
+        $('#s-lg-guide-main .invisibleLabel').css("display", "none")
+
+
+});
+
+</script>
+        <!-- END: CUSTOM HEAD JS/CSS -->
+        <script>
+var springStats = springStats || {};
+springStats.saConfig = springStats.saConfig || {
+    site_id: 34,
+    tracking_parameters: {"_st_site_id":34},
+    tracking_server_host: "libguides-proc.springyaws.com"
+};
+</script>
+<script async  src="/web/js/sa.min.js?3116"></script>
+        <script type="text/javascript">
+            //====================================================
+            springSpace.publicObj = new springSpace.public.Public({
+                constant: {
+                    PROCESSING: {
+
+                    },
+                    CONTENT: {
+                    }
+                }
+            });
+            //====================================================
+            jQuery(document).ready(function() {
+                if (0 == 0) {
+                    loadProfileList(0);
+                }
+                springSpace.UI.xhrPopover();
+            });
+            //====================================================
+            setActiveButton=function(id) {
+                jQuery("#s-lg-profile-name-btn").removeClass("active");
+                jQuery("#s-lg-profile-subject-btn").removeClass("active");
+                jQuery(id).addClass("active");
+            }
+            //====================================================
+            toggleSubjectBoxes=function(subject_id) {
+                jQuery("#s-lg-profile-guides-div").html("");
+
+                var is_subject = (subject_id != 0);
+                if (is_subject) {
+                    xhr = jQuery.ajax({
+                        url: "prf_process.php",
+                        data: {
+                            action: 531,
+                            subject_id: subject_id
+                        },
+                        type: "GET",
+                        dataType: "json",
+                        success: function(response, textStatus, jqXHR) {
+                            if ( response.errCode == 200 ) {
+                                jQuery("#s-lg-profile-guides-div").html(response.data.guides);
+                            }
+                            else {
+                                springSpace.UI.error(response.errCode);
+                            }
+                        },
+                        error: function (jqXHR, textStatus, errorThrown) {
+                            springSpace.UI.error(errorThrown);
+                        }
+                    });
+                }
+
+                jQuery("#s-lg-profile-az-div").toggle(!is_subject);
+                jQuery("#s-lg-profile-help-div").toggle(!is_subject);
+                jQuery("#s-lg-profile-guides-div").toggle(is_subject);
+            }
+            //====================================================
+            loadProfileList=function(subject_id) {
+                jQuery("#s-lg-profile-content").html('<div class="bold s-lib-color-lt-grey pad-top-med text-center">Loading...</div>');
+                jQuery("#s-lg-profile-count").html(0);
+
+                //set the active button
+                setActiveButton(subject_id == 0 ? "#s-lg-profile-name-btn" : "#s-lg-profile-subject-btn");
+
+                // toggle the right hand boxes based on if this is a subject or not
+                toggleSubjectBoxes(subject_id);
+
+                // hide the subject view if needed
+                if (subject_id == 0) { toggleSubjectView(false); }
+
+                // get the data
+                xhr = jQuery.ajax({
+                    url: "prf_process.php",
+                    data: {
+                        action: 530,
+                        subject_id: subject_id
+                    },
+                    type: "GET",
+                    dataType: "json",
+                    success: function(response, textStatus, jqXHR) {
+                        if ( response.errCode == 200 ) {
+                            jQuery("#s-lg-profile-content").html(response.data.html);
+                            jQuery("#s-lg-profile-count").html(response.data.count);
+                        }
+                        else {
+                            springSpace.UI.error(response.errCode);
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        springSpace.UI.error(errorThrown);
+                    }
+                });
+            }
+            //====================================================
+            handleSubjectBtnClick=function() {
+                jQuery("#s-lg-profile-count").html(0);
+                if (!jQuery("#s-lg-profile-subjects").is(":visible")) {
+                    jQuery("#s-lg-profile-content").html("");
+                }
+                toggleSubjectView(true);
+            }
+            //====================================================
+            toggleSubjectView=function(visible) {
+                jQuery("#s-lg-profile-subjects").toggle(visible);
+                if (visible) { setActiveButton("#s-lg-profile-subject-btn"); }
+            }
+            //====================================================
+            filterBySubject=function(subject_id) {
+                toggleSubjectView(true);
+                loadProfileList(subject_id);
+            }
+            //====================================================
+            jQuery(function() {jQuery(window).on('load', function() {springSpace.springTrack.trackPage({_st_type_id: '20'});});
+            });
+        </script>
+        
+        <style>
+            .pad-left-sm { margin-left:10px; }
+            .s-lib-featured-profile-container { width: 160px; margin:0px 10px 20px 10px !important; }
+            .s-lib-profile-container .s-lib-profile-name { display:none; }
+            .s-lib-profile-image { margin-bottom:30px; }
+            .s-lg-profile-personal-statement { padding:10px; background-color:#fafafa; border:1px solid #ccc; }
+        </style>
+        <!-- BEGIN: Analytics code --><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5NVRDL');</script>
+<!-- End Google Tag Manager --><!-- END: Analytics code --></head><meta http-equiv="refresh" content="0;url=http://library.uic.edu/about/directory" /></html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> Lab12s18 &lt; CS111 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS111/Lab12s18?_T=2018-11-25" type="application/x-wiki" title="edit Lab12s18" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS111/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS111/Lab12s18"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS111/WebHome">CS111 Web</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/WebLeftBar" class="twikiLink">WebLeftBar</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/NotesS18" class="twikiLink">NotesS18</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/CodeS18" class="twikiLink">CodeS18</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS111/AssignmentsS18" class="twikiLink">AssignmentsS18</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS111/Lab12s18" title='Topic revision: 1 (2018-04-12 - 21:34:06)'>Lab12s18</a> <span class='patternRevInfo'>(2018-04-12, Main.troy)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS111/Lab12s18?t=1543179752' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS111/Lab12s18' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h2><a name="CS_111_PROGRAM_DESIGN_I"></a> CS 111 - PROGRAM DESIGN I </h2>
+<h3><a name="Lab_12"></a> Lab 12 </h3>
+<p />
+This lab will have you combine two sound files to add a "background" soundtrack to a foreground sound. The following files of the Gettysburg Address and the Preamble of the U.S. Constitution are great foreground sound files. <ul>
+<li> <a href="http://www.cs.uic.edu/%7Ei101/SoundFiles/gettysburg.wav" target="_top">Gettysburg Address</a>
+</li> <li> <a href="http://www.cs.uic.edu/%7Ei101/SoundFiles/preamble.wav" target="_top">The Preamble</a>
+</li> <li> <a href="http://www.cs.uic.edu/%7Ei101/SoundFiles/gettysburg10.wav" target="_top">Gettysburg Address 10 seconds</a>
+</li> <li> <a href="http://www.cs.uic.edu/%7Ei101/SoundFiles/preamble10.wav" target="_top">The Preamble 10 seconds</a>
+</li></ul> 
+The background file should be repeated it if is not as long as the foreground file. To do this, if the current index from the foreground sound is a value bigger than the length of the background sound, you need to subtract the length of the background sound from the current index until the result produces a valid array index for background sound. The use of the modulus operator <strong>%</strong> may help perform this calculation - see notes at bottom of lab write-up.
+<p />
+We will also want to make the background sound quieter than it originally is, so we wish to make its volume a third of its original value. Here are some good files for the background sound: <ul>
+<li> <a href="/bin/view/CS111/SoundFiles" class="twikiLink">Sample Sound Files</a>
+</li></ul> 
+<h1><a name="Combining_Two_Sounds_Together"></a> <strong>Combining Two Sounds Together</strong> </h1>
+<p />
+To combine two sound files, you simply just add the sample values together. Assuming s1 and s2 are both Sound objects, the following will combine the two sounds in s1 and s2 together and have the result placed back into s1.
+<p />
+First set up a list of samples for each sound:
+<blockquote> sampleList1 = getSamples( s1 )<br />sampleList2 = getSamples( s2 ) </blockquote>
+<p />
+As you loop through the locations in the list using the variable i, the following code will do the actual combining of the amplitudes at each location:
+<blockquote> amp1 = getSampleValue ( sampleList1 [i] )<br />amp2 = getSampleValue ( sampleList2 [i] )<br />amp3 = amp1 + amp2<br />setSampleValue ( sampleList1 [i], amp3 ) </blockquote>
+<p />
+The only problem occurs if the resulting value goes above 32,767 or below -32,768. A simple solution is to use an if statement to check for this. Two simple if statements can check for this and correct the problem if it occurs. To correct this, just set the value to either 32,767 if the value was greater than 32,767 or set the value to -32768. if the value was less than -32,768.
+<p />
+Another issue is the two sounds are not the same length. If s1 is shorter, no real problem occurs (we just don't get the end of s2). However, if s2 is shorter, the above code has problems (which you are to fix for this lab).
+<p />
+To determine the length of a sound (which is the same as the number of samples a sound contains) you can use the getLength( ) function from the JES Library. (Note that the getNumSamples( ) function gives you the same thing.) To set up a loop to allow a variable, i, to loop through all of the locations in the list of Sound Samples.
+<p />
+<pre>    sampleList1 = getSamples ( s1 )<br />    len = getLength ( s1 )<br />    for i in range ( 0, len, 1 ):<br />        # access the sample value from each sample in s1<br />        sample = sampleList[i]<br />        amp1 = getSampleValues ( sample )</pre>
+<p />
+<h3><a name="Lab_Assignment_11"></a> Lab Assignment 11 </h3>
+<p />
+<strong>Due: Wednesday 4/18/2018 by 11:59 pm</strong>
+<p />
+Create a Python program that will: <ol>
+<li> Be written using good programming style which includes: <ul>
+<li> Good variable names
+</li> <li> In-line commenting
+</li> <li> Proper indentation of program statements
+</li> <li> Use of blank lines to separate blocks of code.
+</li> <li> Header block commenting for the program and each method written
+</li></ul> 
+</li></ol> 
+<blockquote> Your header block comment for the program must include the following:<br />Your Name,<br />Net-ID,<br />Course Name,<br />Assignment Name and<br />Day and time of your CS 101 lab section (i.e. Monday at 2:00pm)<br />A short description of the assignment. <br /><br />Header block comments for each method must include the following: <br />A description of the purpose of the method<br />A listing of the name, type and purpose of every parameter<br />A description of the return value and its type </blockquote>
+<p /> <ul>
+<li> Your program must contain the main() method that will <ul>
+<li> Prompt the user for the "Foreground" sound file and make a sound object from this file.
+</li> <li> Prompt the user for the "Background" sound file and make a sound object from this file.
+</li> <li> Call a method combineSounds()
+</li> <li> play (or explore) the resulting sound and
+</li> <li> Prompt the user to save the resulting sound in a file
+</li></ul> 
+</li></ul> 
+<p /> <ul>
+<li> Contain the method combineSounds() that will <ul>
+<li> Take two sound objects as parameters: the foreground sound and the background sound.
+</li> <li> Add the background sound to the foreground sound, <strong>but the volume of the background sound should be one-third of its original volume.</strong> To do this, first divide the background sound sample values by 3 before adding the two values together.
+</li> <li> check for and correct any "clipping" that may result from the resulting value being greater than 32,767 or less than -32,768.
+</li> <li> Note: if the background sound file is shorter than the foreground sound file, repeat the background sound as often as needed to give a background sound to the entire foreground sound. Use the 3 second version of the Star Wars Theme in <a href="https://www.cs.uic.edu/pub/CS111/Lab11S14/StarWars3.wav" target="_top">StarWars3.wav</a> or the 3 second version of <a href="https://www.cs.uic.edu/pub/CS111/Lab11S14/CantinaBand3.wav" target="_top">CantinaBand3.wav</a> to test this out. This is the hard part of this assignment. First use a background sound file that is longer than the foreground sound to verify that the combining works, then worry about the getting the backbround sound to repeat if the background sound is shorter than the foreground sound.
+</li></ul> 
+</li></ul> 
+You are also to submit the Java file electronically via the assignment link for Lab 11 in BLackboard.
+<p />
+Here are some example sound files you can use with this assignment. <ul>
+<li> <a href="http://www.cs.uic.edu/%7Ei101/SoundFiles/index.html" target="_top">Sample Sound Files</a>
+</li></ul> 
+<h3><a name="More_on_Getting_a_Sound_File_to"></a> More on Getting a Sound File to Repeat </h3>
+<p />
+This part of the write-up addresses the issue when the background sound is shorter than the foreground sound. When this happens, we need to make the background sound repeats (perhaps multiple times) while the foreground sound is being processed.
+<p />
+Assume the length of the foreground sound is 100 samples (which has valid positions 0 - 99) and the length of the backgound sound is 14 samples (which has valid positions 0 - 13). (In reality, the foreground sound might have closer to 1000000 samples and the background sound might have about 140000 samples, but using 100 and 14 makes the discussion simpler.)
+<p />
+For samples at positions 0-13 of the foreground sound, we add the samples from same positions (0-13) from the background sound. This is simple.
+<p />
+However, once we get the samples in position 14 and above in the foreground sound, there is not a corresponding position in the background sound. So at position 14 in the foreground, we must access the position at the beginning of the background sound (position 0). At position 15 in the foreground, we must access the second position of the background sound (position 1). At position 16 in the foreground, we must access the third position of the background sound (position 2). Etc.
+<p />
+Once we get to position 28 in the foreground sound, we will again need to access the position at the beginning of the background sound (position 0). Etc.
+<p /> <ul>
+<li> Position 14 in foreground added with position 0 in the background
+</li> <li> Position 15 in foreground added with position 1 in the background
+</li> <li> Position 16 in foreground added with position 2 in the background
+</li> <li> Position 17 in foreground added with position 3 in the background
+</li> <li> ...
+</li> <li> Position 26 in foreground added with position 12 in the background
+</li> <li> Position 27 in foreground added with position 13 in the background
+</li> <li> Position 28 in foreground added with position 0 in the background (start over again)
+</li> <li> Position 29 in foreground added with position 1 in the background
+</li> <li> Position 30 in foreground added with position 2 in the background
+</li> <li> ...
+</li> <li> Position 40 in foreground added with position 12 in the background
+</li> <li> Position 41 in foreground added with position 0 in the background (start over again)
+</li> <li> Position 42 in foreground added with position 1 in the background
+</li> <li> ...
+</li></ul> 
+Note that we start accessing from the beginning of the background sound when we are at position 0, 14, 28, 42, 56, 70, ... in the foreground sound. These values are multiples of the length of the background sound: <ul>
+<li> Background sound length * 0 = 14 * 0 = 0
+</li> <li> Background sound length * 1 = 14 * 1 = 14
+</li> <li> Background sound length * 2 = 14 * 2 = 28
+</li> <li> Background sound length * 3 = 14 * 3 = 42
+</li> <li> ...
+</li></ul> 
+When trying to determine if one number is a multiple of another number, the modulus operator % is useful. IF the result of the % operation is zero, then the number on the left hand side of the operator is a multiple of the number on the right hand side:
+<blockquote> if ( a % b == 0 ):
+<p />
+// then a is a multiple of b
+</blockquote>
+<p />
+We can use this information and the modulus operator to help make the code so a short background sound will repeat. </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS111/Lab12s18?t=1543179753' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS111/Lab12s18' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS111/Lab12s18?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS111/Lab12s18?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r1</span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS111/Lab12s18?template=backlinksweb' rel='nofollow' title='Search the CS111 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS111/Lab12s18?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS111/Lab12s18?t=1543179753;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS111/Lab12s18?template=oopsmore&amp;param1=1&amp;param2=1' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r1 - 2018-04-12 - 21:34:06 - Main.troy</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS111/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS111</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/CS111/CS111Spring2018" class="twikiLink">Web Page Spr 18</a>
+</li> <li> <a href="https://www.cs.uic.edu/pub/CS111/CS111Spring2018/syl111s18.pdf" target="_top">Syllabus Spr 18</a>
+</li> <li> <a href="/bin/view/CS111/NotesS18" class="twikiLink">Lecture Notes Spr 18</a>
+</li> <li> <a href="/bin/view/CS111/CodeS18" class="twikiLink">Sample Code Spr 18</a>
+</li> <li> <a href="/bin/view/CS111/AssignmentsS18" class="twikiLink">Assignments Spr 18</a>
+</li></ul> 
+<a href="/bin/edit/CS111/WebLeftBar" target="_top">&#91;edit this menu</a>]
+<p />
+<hr />
+<p />
+<div class="patternLeftBarPersonal">
+<ul><li class="patternLogIn"><a href="/bin/logon/CS111/Lab12s18">Log In</a> </li></ul>
+</div><!--/patternLeftBarPersonal-->
+<p /> <ul>
+<li> <a href="https://www.cs.uic.edu/bin/view/CS111/" target="_top">CS 111 Main Page</a>
+</li> <li> <a href="/bin/view/CS111/WebCreateNewTopic?topicparent=Lab12s18" target="_top"> <img src="/pub/TWiki/TWikiDocGraphics/newtopic.gif" width="16" height="16" alt="New topic" title="New topic" border="0" /> Create New Topic</a>
+</li> <li> <a href="/bin/view/CS111/WebTopicList" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/index.gif" width="16" height="16" alt="Index" title="Index" border="0" /> Index</a>
+</li> <li> <a href="/bin/view/CS111/WebSearch" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/searchtopic.gif" width="16" height="16" alt="Search topic" title="Search topic" border="0" /> Search</a>
+</li> <li> <a href="/bin/view/CS111/WebChanges" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/changes.gif" width="16" height="16" alt="Changes" title="Changes" border="0" /> Changes</a>
+</li> <li> <a href="/bin/view/CS111/WebNotify" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/notify.gif" width="16" height="16" alt="Notify" title="Notify" border="0" /> Notifications</a>
+</li> <li> <a href="/bin/view/CS111/WebRss" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/feed.gif" width="16" height="16" alt="RSS feed, rounded corners" title="RSS feed, rounded corners" border="0" /> RSS Feed</a>
+</li> <li> <a href="/bin/view/CS111/WebStatistics" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/statistics.gif" width="16" height="16" alt="Statistics" title="Statistics" border="0" /> Statistics</a>
+</li> <li> <a href="/bin/view/CS111/WebPreferences" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/wrench.gif" width="16" height="16" alt="Wrench, tools" title="Wrench, tools" border="0" /> Preferences</a>
+</li></ul> 
+<p />
+<hr />
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

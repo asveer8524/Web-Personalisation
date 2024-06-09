@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<!-- Sorry no IE7 support! -->
+<!-- @see http://foundation.zurb.com/docs/index.html#basicHTMLMarkup -->
+
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, maximum-scale = 1.0" />
+<link rel="shortcut icon" href="http://www.ccts.uic.edu/sites/default/files/CCTS-Favicon.ico" />
+<meta http-equiv="ImageToolbar" content="false" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="http://www.ccts.uic.edu/content/trial-innovation-network" />
+<link rel="shortlink" href="http://www.ccts.uic.edu/node/1305" />
+<meta property="og:site_name" content="Center for Clinical and Translational Science" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.ccts.uic.edu/content/trial-innovation-network" />
+<meta property="og:title" content="Trial Innovation Network" />
+<meta property="og:updated_time" content="2018-08-24T14:31:57-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="http://www.ccts.uic.edu/content/trial-innovation-network" />
+<meta name="twitter:title" content="Trial Innovation Network" />
+<meta property="article:published_time" content="2018-06-27T09:57:30-05:00" />
+<meta property="article:modified_time" content="2018-08-24T14:31:57-05:00" />
+  <title>Trial Innovation Network | Center for Clinical and Translational Science</title>
+  <style>
+@import url("http://www.ccts.uic.edu/modules/system/system.base.css?ph1y44");
+@import url("http://www.ccts.uic.edu/modules/system/system.messages.css?ph1y44");
+@import url("http://www.ccts.uic.edu/modules/system/system.theme.css?ph1y44");
+</style>
+<style>
+@import url("http://www.ccts.uic.edu/sites/all/modules/contrib/caption_filter_mod/caption-filter.css?ph1y44");
+@import url("http://www.ccts.uic.edu/sites/all/modules/contrib/date/date_api/date.css?ph1y44");
+@import url("http://www.ccts.uic.edu/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?ph1y44");
+@import url("http://www.ccts.uic.edu/sites/all/modules/contrib/date/date_repeat_field/date_repeat_field.css?ph1y44");
+@import url("http://www.ccts.uic.edu/modules/field/theme/field.css?ph1y44");
+@import url("http://www.ccts.uic.edu/modules/node/node.css?ph1y44");
+@import url("http://www.ccts.uic.edu/modules/search/search.css?ph1y44");
+@import url("http://www.ccts.uic.edu/modules/user/user.css?ph1y44");
+@import url("http://www.ccts.uic.edu/sites/all/modules/contrib/views/css/views.css?ph1y44");
+@import url("http://www.ccts.uic.edu/sites/all/modules/contrib/ckeditor/css/ckeditor.css?ph1y44");
+</style>
+<style>
+@import url("http://www.ccts.uic.edu/sites/all/modules/contrib/ctools/css/ctools.css?ph1y44");
+@import url("http://www.ccts.uic.edu/sites/all/modules/contrib/field_collection/field_collection.theme.css?ph1y44");
+</style>
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="http://www.ccts.uic.edu/sites/all/themes/uic_ccts/css/ie.css?ph1y44" />
+<![endif]-->
+<style>
+@import url("http://www.ccts.uic.edu/sites/all/themes/uic_ccts/css/app.css?ph1y44");
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,300,300italic,600,600italic,700,700italic,900,italic,regular&amp;subset=latin" />
+  <script src="http://www.ccts.uic.edu/sites/all/libraries/modernizr/modernizr.min.js?ph1y44"></script>
+<script src="//code.jquery.com/jquery-1.7.2.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.js'>\x3C/script>")</script>
+<script src="http://www.ccts.uic.edu/misc/jquery.once.js?v=1.2"></script>
+<script src="http://www.ccts.uic.edu/misc/drupal.js?ph1y44"></script>
+<script src="http://www.ccts.uic.edu/sites/all/modules/contrib/caption_filter_mod/js/caption-filter.js?ph1y44"></script>
+<script src="http://www.ccts.uic.edu/sites/all/modules/contrib/google_analytics/googleanalytics.js?ph1y44"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-19848887-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="http://www.ccts.uic.edu/sites/all/modules/contrib/better_exposed_filters/better_exposed_filters.js?ph1y44"></script>
+<script src="http://www.ccts.uic.edu/sites/all/themes/uic_ccts/js/vendor/custom.modernizr.js?ph1y44"></script>
+<script src="http://www.ccts.uic.edu/sites/all/themes/uic_ccts/js/foundation/foundation.js?ph1y44"></script>
+<script src="http://www.ccts.uic.edu/sites/all/themes/uic_ccts/js/foundation/foundation.alerts.js?ph1y44"></script>
+<script src="http://www.ccts.uic.edu/sites/all/themes/uic_ccts/js/foundation/foundation.clearing.js?ph1y44"></script>
+<script src="http://www.ccts.uic.edu/sites/all/themes/uic_ccts/js/foundation/foundation.placeholder.js?ph1y44"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"uic_ccts","theme_token":"FX7fTLEiwVqN6dVlPr0YbVziFlLVUHzkJo0JEcxNCeA","js":{"sites\/all\/modules\/contrib\/addthis\/addthis.js":1,"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"\/\/code.jquery.com\/jquery-1.7.2.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/caption_filter_mod\/js\/caption-filter.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/modules\/contrib\/better_exposed_filters\/better_exposed_filters.js":1,"sites\/all\/themes\/uic_ccts\/js\/vendor\/custom.modernizr.js":1,"sites\/all\/themes\/uic_ccts\/js\/foundation\/foundation.js":1,"sites\/all\/themes\/uic_ccts\/js\/foundation\/foundation.alerts.js":1,"sites\/all\/themes\/uic_ccts\/js\/foundation\/foundation.clearing.js":1,"sites\/all\/themes\/uic_ccts\/js\/foundation\/foundation.placeholder.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/caption_filter_mod\/caption-filter.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"sites\/all\/themes\/uic_ccts\/css\/ie.css":1,"sites\/all\/themes\/zurb-foundation\/css\/normalize.css":1,"sites\/all\/themes\/uic_ccts\/css\/foundation.min.css":1,"sites\/all\/themes\/uic_ccts\/css\/app.css":1,"https:\/\/fonts.googleapis.com\/css?family=Titillium+Web:200,200italic,300,300italic,600,600italic,700,700italic,900,italic,regular\u0026subset=latin":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/search\/search_by_page":true,"\/repository":true},"better_exposed_filters":{"datepicker":false,"slider":false,"settings":[],"autosubmit":false}});</script>
+  <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!-- Bugherd -->
+	<script type='text/javascript'>
+  (function (d, t) {
+    var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+    bh.type = 'text/javascript';
+    bh.src = '//www.bugherd.com/sidebarv2.js?apikey=9cnqfxmhxalohom2ue0iva';
+    s.parentNode.insertBefore(bh, s);
+    })(document, 'script');
+  </script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-1305 node-type-page section-content" >
+  <div class="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <!-- #main-header -->
+<header id="main-header" class="ha-header-large ha-header">
+  <div class="ha-header-perspective">
+    <div class="nav-wrapper ha-header-front">
+      <div class="row">
+        <div class="columns small-12 top-bar-wrapper">
+          <nav class="top-bar clearfix">
+            <div class="row">
+              <div class="columns large-5 small-12 logo-wrapper">
+                <div class="logo">
+                  <a href="/"><img class="logo-tall" src="/sites/all/themes/uic_ccts/images/logo_tall.png" alt="Center for Clinical and Translational Science" title="Center for Clinical and Translational Science" /></a>                  <a href="/"><img class="logo-short" src="/sites/all/themes/uic_ccts/images/logo_short.png" alt="Center for Clinical and Translational Science" title="Center for Clinical and Translational Science" /></a>                </div>
+                <ul class="title-area clearfix">
+                  <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+                </ul>
+              </div>
+              <div class="columns large-7 small-12 main-nav-wrapper">
+                <section class="top-bar-section main-nav">
+                  <ul class="links right"><li class="first leaf"><a href="/content/uics-hub-clinical-translational-research" title="">About</a></li>
+<li class="leaf"><a href="/content/ccts-research-service-cores" title="">Services</a></li>
+<li class="leaf"><a href="/content/ccts-resources" title="">Resources</a></li>
+<li class="leaf"><a href="/content/education-and-professional-development" title="">Training</a></li>
+<li class="leaf"><a href="/content/getting-involved-health-research-uic" title="">Participate</a></li>
+<li class="leaf"><a href="/news" title="">News</a></li>
+<li class="leaf last search"><a href="/search" class="trigger"><img src="/sites/all/themes/uic_ccts/images/searchglass-smallheader.png" alt="Search the site" title="Search the Site" /></a><div class="search-form-modal target"><form class="search-form custom" action="/search/search_by_page" method="post" id="search-form" accept-charset="UTF-8"><div><div class="container-inline form-wrapper" id="edit-basic"><div class="form-item form-type-textfield form-item-keys">
+  <label class="element-invisible" for="edit-keys">Search the Site </label>
+ <input placeholder="Search the Site" type="text" id="edit-keys" name="keys" value="" size="40" maxlength="255" class="form-text" />
+</div>
+<button class="button radius-5 red form-submit" id="edit-submit" name="op" value="Search" type="submit">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-WYEdXeA8H4erPlAFawYw0xyJ7wjJx7pTepiKH10JWeI" />
+<input type="hidden" name="form_id" value="search_form" />
+</div></form></div></ul>                </section>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+        <div class="repo-search-wrapper ha-header-bottom">
+      <div class="row">
+        <div class="columns small-12 large-12">
+          <form class="custom" action="/repository" method="get" id="views-exposed-form-repository-page-header" accept-charset="UTF-8"><div>  <div class="row collapse">
+    <div class="large-11 small-12 columns">
+          <label for="edit-search-api-views-fulltext" class="element-invisible">Search Repository</label>
+      <div class="form-item form-type-textfield form-item-search-api-views-fulltext">
+ <input placeholder="Search Repository" type="text" id="edit-search-api-views-fulltext" name="search_api_views_fulltext" value="" size="30" maxlength="128" class="form-text" />
+</div>
+        </div>
+    <div class="large-1 small-12 columns submit-wrapper">
+      <button class="button lime radius-5 form-submit" id="edit-submit-repository" name="" value="Search" type="submit">Search</button>
+    </div>
+  </div>
+</div></form>        </div>
+      </div>
+        </div>
+  </div>
+</header>
+<!-- /#main-header -->
+
+<!-- #content-header -->
+<div id="content-header">
+  <div class="bg" style=" background-image:url('http://www.ccts.uic.edu/sites/default/files/bgs/content/bedside_patient.jpg'); ">
+    <div class="row">
+      <div class="large-12 columns">
+        <h1 class="title">Service Cores / <a href="/content/clinical-research" title="">Clinical Research</a> / <a href="/content/trial-innovation-network" title="" class="active">Multisite Clinical Trials</a></h1>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /#content-header -->
+
+
+
+<!-- .page-content -->
+<section role="main" class="page-content clearfix" id="main-content">
+  <!-- Content and Asides -->
+  <div class="row">
+    <div class="small-12 large-9 large-push-3 main columns">
+      <div class="padding-div bg clearfix empty-content-header">
+                            <h1 id="page-title" class="title page-title">Trial Innovation Network</h1>
+          <hr />                
+                                    
+        
+        <a id="main-content"></a>
+          
+      
+      <!-- Default - row-col-wrap.tpl.php -->
+<div  class="ds-content-page row node node-page view-mode-full">
+<div class="large-12 small-12 columns">
+  <div class="body field"><h3><img align="center" alt="" src="/sites/default/files/pictures/CCTS%20TIN.jpg" style="width: 300px; height: 392px; align: center;" /></h3>
+<h3> </h3>
+<h3><a href="#a1">What is the Trial Innovation Network?</a><br /><a id="a1" name="a1"></a><a href="#a2">How does it benefit the investigator?</a><br /><a href="#a3">How do consultations work?</a><br /><a href="#a4">How do I submit a proposal?</a><br /><a href="#a5">FAQs</a><br /><a href="#a6">Recruiting Trials</a></h3>
+<hr /><h2><strong>What is the Trial Innovation Network?</strong></h2>
+<h3>Vision and Mission:</h3>
+<p>The vision for the Trial Innovation Network is to innovatively address critical roadblocks in clinical trials and accelerate the translation of novel interventions into life-saving therapies. The Trial Innovation Network is a collaborative national network that focuses on <strong><em>operational innovation, operational excellence, and collaboration </em></strong>and will leverage the expertise and resources of the CTSA Program. The Trial Innovation Network will feature a single IRB system, master contracting agreements, quality by design approaches, and a focus on evidence-based strategies to recruitment and patient engagement. The goal of the Trial Innovation Network is to not only execute trials better, faster, and more cost-efficiently but, importantly, to be a national laboratory to study, understand and innovate the process of conducting clinical trials.</p>
+<p>The investigators are currently building the key elements of the Trial Innovation Network. The goal is to start early projects as soon as possible and collaborate with other NIH Institutes and partners to launch clinical trials in 2017.</p>
+<h3>TIN Structure:</h3>
+<p>The Trial Innovation Network is a new collaborative initiative of the CTSA Program and is composed of three key organizational partners – the Recruitment Innovation Center (RIC), the Trial Innovation Centers (TICs), and the <a href="https://trialinnovationnetwork.org/liaison-teams/?key-element=1600" target="_blank">CTSA Program Hubs</a>. *<em>The CCTS is UIC’s Program Hub.</em></p>
+<p>Key elements of the Trial Innovation Network include:</p>
+<ul><li>Trial Innovation Network Central IRB System (uses the SMART IRB Authorization Agreement) – Flexible and efficient IRB review for multicenter studies. Johns Hopkins University, Vanderbilt University Medical Center, and University of Utah serve as the reviewing IRBs for the Trial Innovation Network.</li>
+<li>Standard Agreements System<a id="a2" name="a2"></a></li>
+<li>Streamlined protocols – TIC and RIC collaboration to develop optimized, streamlined protocols. Will use NIH-FDA Protocol Template.</li>
+<li>Harmonized IT tools and approaches (e.g., tools for recruitment using the electronic health record)</li>
+<li>Systematic approaches to engagement, recruitment, and retention. Data-driven recruitment strategies.</li>
+</ul><h2><strong>What is the Benefit of using the Trial Innovation Network?</strong></h2>
+<p>The current state of clinical trials – across the board and in all disciplines – presents many opportunities for improvement. The Trial Innovation Network is designed to be a complementary resource and an option for investigators, NIH Institutes and other stakeholders to optimize clinical trials.</p>
+<p><em>Benefit to Investigators:</em><a id="a3" name="a3"></a></p>
+<ul><li>One-stop shopping to implement clinical studies so investigators can focus on the scientific question</li>
+<li>TICs and RICs – expertise in operational innovation and operational excellence</li>
+<li>CTSA Program hubs – broad expertise; large, diverse patient populations</li>
+<li>More competitive clinical trials applications submitted to NIH ICs</li>
+</ul><h2><strong>Trial Innovation Network Consultations</strong></h2>
+<h2><img alt="Trial Innovation Network Process Graphic" src="/sites/default/files/pictures/TIN%20Process.png" style="opacity: 0.9; width: 500px; height: 254px;" /></h2>
+<h3>Trial Innovation Network Initial Consultations</h3>
+<p>These consultations are for proposals in the development stage and not yet submitted for funding.</p>
+<h3>Trial Innovation Network Comprehensive Consultations</h3>
+<p>Based on the outcome of an Initial Consultation, the next step may be a Comprehensive Consultation. A Comprehensive Consultation cannot be selected by an investigator, but is a decision that is reached after the Initial Consultation and after approval by the Proposal Assessment Team and NCATS.</p>
+<p>A Comprehensive Consultation involves mutual agreement and commitment by the investigator and the TIC/RIC to collaboratively develop the proposal into a protocol. In addition, one of the goals in the Comprehensive Consultation process is to obtain input from the CTSA Hubs on the protocol. The estimated number of hours of consultation time for a Comprehensive Consultation has not yet been determined.</p>
+<p>After a Comprehensive Consultation, an investigator prepares a clinical trial application for submission to an NIH Institute for funding. The TICs/RIC would serve as the Coordinating Centers for the study and the CTSA Hubs would be potential sites. If an application is funded, the proposed study would be implemented in the Trial Innovation Network using the TICs, RIC, and CTSA Hubs.</p>
+<h3>Trial Innovation Network Services</h3>
+<p>If you are requesting a Trial Innovation Network Service, your study should already be funded or you should have already applied for funding. Service requests will be prioritized based on resource availability.</p>
+<p>Based on your funding status, investigators are eligible to receive up to TWO of the following services:</p>
+<ul><li><a href="https://trialinnovationnetwork.org/popup-dialogs/community-engagement-studio-popup/">Community Engagement Studio</a></li>
+<li><a href="https://trialinnovationnetwork.org/popup-dialogs/operationalize-standard-agreements/" id="a4" name="a4">Operationalize Standard Agreements</a></li>
+<li><a href="https://trialinnovationnetwork.org/popup-dialogs/operationalize-central-irb/">Operationalize Central IRB</a></li>
+<li><a href="https://trialinnovationnetwork.org/popup-dialogs/recruitment-plan/">Recruitment Plan</a></li>
+<li><a href="https://trialinnovationnetwork.org/popup-dialogs/feasibility-assessment-recruitment-plan/">Recruitment Feasibility Assessment</a></li>
+<li><a href="https://trialinnovationnetwork.org/popup-dialogs/recruitment-materials/" id="a5" name="a5">Recruitment Materials</a></li>
+<li><a href="https://trialinnovationnetwork.org/popup-dialogs/ehr-based-cohort-assessment/">EHR-Based Cohort Assessment</a></li>
+</ul><h2><strong>Trial Innovation Network Proposal Intake Process</strong></h2>
+<p>Anyone interested in submitting a proposal to the Trial Innovation Network should contact the CCTS’s TIN Liaison, Charity Ball, at <a href="mailto:chball@uic.edu">chball@uic.edu</a>.</p>
+<p><a href="https://trialinnovationnetwork.org/elements/trial-innovation-network-proposal-process/" id="a6" name="a6">Learn more about the TIN Proposal Process</a></p>
+<h2><strong>Trial Innovation Network FAQs</strong></h2>
+<p><a href="https://trialinnovationnetwork.org/frequently-asked-questions/?key-element=1601">See answers to common TIN Questions here.</a></p>
+<hr /><h2><strong>Recruiting Trials</strong></h2>
+<h3>Comparison of Oral anticoagulants for extended Venous Thromboembolism (COVET)</h3>
+<p>The Duke/Vanderbilt Trial Innovation Center (TIC) along with the Vanderbilt Recruitment Innovation Center (RIC) are assisting Dr. Ortel from Duke University on a protocol for the Comparison of Oral anticoagulants for extended Venous Thromboembolism (short title COVET).  This study is funded by PCORI and has been supported by the Trial Innovation Network (TIN) since the fall of 2017.  The study team is currently preparing for their first site to be activated by the end of July 2018.  Interested sites would begin discussions with the study team immediately on next steps to becoming a participating site. To learn more about this project, please see the attached documents below. Interested PIs should contact Charity Ball at <a href="mailto:chball@uic.edu?subject=COVET%20Study">chball@uic.edu</a>. </p>
+<p><a href="http://www.ccts.uic.edu/sites/default/files/uploads/COVET%20PROTOCOL%20AMENDMENT%202%20Synopsis_08Dec2017.pdf" target="_blank">COVET Protocol Amendment</a></p>
+<p><a href="http://www.ccts.uic.edu/sites/default/files/uploads/Exhibit%20B.PDF" target="_blank">Exhibit B: Budget and Payment Schedule</a></p>
+<hr /><h3>Rhythm Evaluation for AntiCoagulaTion for Atrial Fibrillation (REACT-AF)</h3>
+<p>The purpose of the Rhythm Evaluation for Anticoagulation with Continuous moniToring of Atrial Fibrillation (REACT-AF) clinical trial is to compare continuous novel oral anticoagulation (NOAC) versus targeted NOAC using an AF-sensitive smartwatch to guide therapy for patients with non-continuous atrial fibrillation (AF). To assess the role of AFSM guidance in the use of NOAC in patients with infrequent AF episodes, the primary endpoints will measure the rate of stroke, arterial embolism, cardiovascular or unknown death, and major bleeding. If proven safe and beneficial, intermittent AFSM-guided NOAC treatment may reduce bleeding events and maintain stroke protection in AF patients compared with continuous NOAC.</p>
+<p>REACT-AF is a prospective, unblinded, randomized (1:1 allocation), multi-center, investigational, clinical trial. Subjects randomized to the treatment arm (AFSM-guided NOAC) will take their NOAC for 30 consecutive days if a qualifying AF episode is detected by their device. A qualifying AF episode is defined as continuous AF ≥1 hour in duration. If a subject is already taking a 30-day course of NOAC and experiences a new qualifying AF episode, the NOAC course will be extended for an additional 30 days. Subjects randomized to the control arm (continuous NOAC) will continuously take their NOAC throughout the course of the study. All subjects will be followed for 30 months. Roughly 6,000 subjects will be enrolled in the study to ensure 5,260 randomized subjects.</p>
+<p>PI: Dr. Rod Passman, Northwestern University<br /><a href="/sites/default/files/uploads/React-AF.pdf" target="_blank">Learn more</a><br />
+Interested PIs should contact Charity Ball at <a href="mailto:chball@uic.edu?subject=COVET%20Study">chball@uic.edu</a>. </p>
+<p> </p>
+</div></div>
+</div>
+<!-- /row-col-wrap.tpl.php -->
+  
+      </div>
+    </div>
+          <aside role="complementary" class="small-12 large-3 large-pull-9 l-sidebar-first columns sidebar first-aside">
+            <section class="block block-bean bg red-btn block-bean-contact-the-clinical-research-ce clearfix">
+
+        <h3 class="block-title">Contact the Clinical Research Center</h3>
+    
+      <!-- Default - row-col-wrap.tpl.php -->
+<div  class="ds-content-page row entity entity-bean bean-call-to-action view-mode-default">
+<div class="large-12 small-12 columns">
+  <div class="field field-name-field-cta-block field-type-text-long field-label-hidden field-wrapper" ><p class="field-item even" >Clinical Research Center consultations are available by appointment only. To request a consultation, please submit an online service request or call the Center at 312-996-2937.</p></div><div class="field field-name-field-cta-button field-type-link-field field-label-hidden field-wrapper"><a href="http://www.cade.uic.edu/CCTS_Service_Requests/login.aspx" class="button small radius-5">Request Service</a></div></div>
+</div>
+<!-- /row-col-wrap.tpl.php -->
+  
+</section>  <section class="block block-menu block-menu-menu-service-cores clearfix">
+
+      
+      <ul class="menu"><li class="first leaf"><a href="/content/ccts-research-service-cores" title="">Service Cores</a></li>
+<li class="leaf"><a href="/content/collaborative-project-support" title="">Collaborative Project Support</a></li>
+<li class="collapsed"><a href="/content/biomedical-informatics" title="">Biomedical Informatics</a></li>
+<li class="collapsed"><a href="/content/biostatistics-core" title="">Biostatistics</a></li>
+<li class="expanded active-trail"><a href="/content/clinical-research" title="" class="active-trail">Clinical Research</a><ul class="menu"><li class="first leaf"><a href="/content/clinical-research-services-facilities" title="">Clinical Research Services</a></li>
+<li class="leaf"><a href="/content/research-participant-recruitment-services" title="">Participant Recruitment Services</a></li>
+<li class="leaf"><a href="/content/integrative-physiology-lab" title="">Integrative Physiology Lab</a></li>
+<li class="leaf active-trail"><a href="/content/trial-innovation-network" title="" class="active-trail active">Multisite Clinical Trials</a></li>
+<li class="leaf"><a href="/content/clinical-research-center-application-process" title="">CRC Application Process</a></li>
+<li class="leaf"><a href="/content/clinical-research-center-frequently-asked-questions" title="">FAQ</a></li>
+<li class="leaf"><a href="/content/clinical-research-center-resources" title="">Resources</a></li>
+<li class="last leaf"><a href="/content/clinical-research-center-personnel" title="">Core Personnel</a></li>
+</ul></li>
+<li class="collapsed"><a href="/content/community-engagement" title="">Community Engagement</a></li>
+<li class="collapsed"><a href="/content/community-based-dissemination-implementation-science-program" title="">Dissemination &amp; Implementation</a></li>
+<li class="collapsed"><a href="/content/uicentre-drug-discovery" title="">Drug Discovery - UICentre</a></li>
+<li class="collapsed"><a href="/content/recruitment-retention" title="">Recruitment &amp; Retention</a></li>
+<li class="collapsed"><a href="/content/regulatory-knowledge-support-core" title="">Regulatory Support</a></li>
+<li class="collapsed"><a href="/content/research-navigation" title="">Research Navigation</a></li>
+<li class="last collapsed"><a href="/content/translational-research-technologies" title="">Translational Research Technologies</a></li>
+</ul>  
+</section>      </aside>
+          </div>
+  <!-- /Content and Asides -->
+  <!-- #content-footer -->
+  <div id="content-footer" class="empty" style=" background-image:url('http://www.ccts.uic.edu/sites/default/files/bgs/content/bedside_patient.jpg'); ">
+    <div class="row">
+      <div class="columns large-12">
+                <h2 class="related-content-title">Related Content</h2>
+                <div class="row">
+          <div class="columns large-4 content-footer-1 content-footer-item">
+                    <!-- .content-footer-1 -->
+                <section class="block block-bean bg red-btn block-bean-example-call-out-1">
+
+        <h3 class="block-title">Contact the CCTS</h3>
+    
+      <!-- Default - row-col-wrap.tpl.php -->
+<div  class="ds-content-page row entity entity-bean bean-call-to-action view-mode-default">
+<div class="large-12 small-12 columns">
+  <div class="field field-name-field-cta-block field-type-text-long field-label-hidden field-wrapper" ><p class="field-item even" >CCTS consultations are available by appointment only. Campus investigators can contact the CCTS Navigator at any time by emailing laurenw@uic.edu or calling 312-413-7316.</p></div><div class="field field-name-field-cta-button field-type-link-field field-label-hidden field-wrapper"><a href="https://webapps.ccts.uic.edu/CCTS_Service_Requests" target="_blank" class="button small radius-5">Request Service</a></div></div>
+</div>
+<!-- /row-col-wrap.tpl.php -->
+  
+</section>          <!-- /.content-footer-1 -->
+                    </div>
+          <div class="columns large-4 content-footer-2 content-footer-item">
+                    <!-- .content-footer-2 -->
+                <section class="block block-bean bg block-bean-example-button-menu">
+
+        <h3 class="block-title">Learn More About CCTS and How We Can Support You</h3>
+    
+      <!-- Default - row-col-wrap.tpl.php -->
+<div  class="ds-content-page row entity entity-bean bean-button-menu view-mode-default">
+<div class="large-12 small-12 columns">
+  <ul class="field-items menu buttons" ><li class="field-item even" ><a href="http://www.ccts.uic.edu/content/ccts-research-service-cores">Service Cores</a></li><li class="field-item even odd" ><a href="http://www.ccts.uic.edu/content/ccts-resources">CCTS Resources</a></li><li class="field-item even odd" ><a href="http://www.ccts.uic.edu/repository">Search the Resource Repository</a></li><li class="field-item even odd" ><a href="http://www.ccts.uic.edu/content/request-letter-support">Request Letters of Support</a></li></ul></div>
+</div>
+<!-- /row-col-wrap.tpl.php -->
+  
+</section>          <!-- /.content-footer-2 -->
+                    </div>
+          <div class="columns large-4 content-footer-3 content-footer-item">
+                    <!-- .content-footer-3 -->
+                <section class="block block-bean no-bg block-bean-example-call-out-2">
+
+        <h3 class="block-title">Upcoming Events</h3>
+    
+      <!-- Default - row-col-wrap.tpl.php -->
+<div  class="ds-content-page row entity entity-bean bean-call-to-action view-mode-default">
+<div class="large-12 small-12 columns">
+  <div class="field field-name-field-cta-block field-type-text-long field-label-hidden field-wrapper" ><p class="field-item even" >Read the latest news and other upcoming events at the Center for Clinical and Translational Science at UIC. If you would like to submit an event to the CCTS Calendar, please contact Lauren Walsh at laurenw@uic.edu.</p></div><div class="field field-name-field-cta-button field-type-link-field field-label-hidden field-wrapper"><a href="http://www.ccts.uic.edu/events" class="button small radius-5">View the Calendar</a></div></div>
+</div>
+<!-- /row-col-wrap.tpl.php -->
+  
+</section>          <!-- /.content-footer-3 -->
+                    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#content-footer -->
+</section>
+<!--/.page-content-->
+
+<!-- #main-footer -->
+<footer id="main-footer" class="l-footer" role="contentinfo">
+  <div class="row footer-main-row">
+    <div id="footer-first" class="large-4 columns footer-region-1 footer-region">
+              <section class="block block-bean block-bean-news-letter-action-block">
+
+        <h3 class="block-title">Sign up for Updates</h3>
+    
+      <!-- Default - row-col-wrap.tpl.php -->
+<div  class="ds-content-page row entity entity-bean bean-call-to-action view-mode-default">
+<div class="large-12 small-12 columns">
+  <div class="field field-name-field-cta-block field-type-text-long field-label-hidden field-wrapper" ><p class="field-item even" >Stay on top of the CCTS and UIC campus clinical-translational seminars, workshops and events. </p></div><div class="field field-name-field-cta-button field-type-link-field field-label-hidden field-wrapper"><a href="https://uofi.uic.edu/gm/subscribe/12689" target="_blank" class="button small radius-5">Sign up for Updates</a></div></div>
+</div>
+<!-- /row-col-wrap.tpl.php -->
+  
+</section>        </div>
+    <div id="footer-middle" class="large-4 columns footer-region-2 footer-region">
+              <section class="block block-menu block-menu-menu-footer-quick-links">
+
+        <h3 class="block-title">Quick Links</h3>
+    
+      <ul class="menu"><li class="first leaf"><a href="https://webapps.ccts.uic.edu/CCTS_Service_Requests/login.aspx" title="Go directly to the request for service login page">Request Services</a></li>
+<li class="leaf"><a href="/map/navigation_home" title="">Research Navigation Map</a></li>
+<li class="leaf"><a href="/repository/redcap-research-electronic-data-capture" title="">REDCap</a></li>
+<li class="leaf"><a href="http://www.experts.scival.com/uic/" title="Find collaborators directly at the UICollaboratory Research PRofiles">UICollaboratory Research Profiles</a></li>
+<li class="last leaf"><a href="/content/ccts-faqs" title="">CCTS FAQs</a></li>
+</ul>  
+</section>        </div>
+    <div id="footer-last" class="large-4 columns footer-region-3 footer-region">
+              <section class="block block-block block-block-2">
+
+        <h3 class="block-title">Contact Us</h3>
+    
+      <p><strong>The Center for Clinical &amp; Translational Sciences<br />
+Administrative Offices:</strong><br /><span style="line-height: 1.6em;">Medical Center Administration Building</span><br /><span style="line-height: 1.6em;">914 S Wood Street</span><br /><span style="line-height: 1.6em;">MC 595</span><br /><span style="line-height: 1.6em;">Chicago, Illinois 60612</span><br /><span style="line-height: 1.6em;">Phone: 312-413-7316</span><br /><span style="line-height: 1.6em;">Email: </span><a href="mailto:admin-ccts@uic.edu" style="line-height: 1.6em;">admin-ccts@uic.edu</a></p>
+  
+</section>        </div>
+  </div>
+</footer>
+<!--/#main-footer-->
+
+<!-- #secondary-footer -->
+<div id="secondary-footer">
+  <div class="row">
+    <div class="large-12 columns">
+          <section class="block block-bean block-bean-uic-footer">
+
+      
+      
+<div class="uic-footer">
+<div class="row">
+  <div class="large-1 small-12 columns">
+    <div class="field-collection-container clearfix"><div class="field field-name-field-uic-logo field-type-field-collection field-label-hidden field-wrapper"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-uic-logo clearfix">
+  <div class="content">
+    <div class="field field-name-field-uic-def-linked-logo field-type-computed field-label-hidden field-wrapper"><a href="http://www.uic.edu/uic/" title="" class=""><img src="http://www.ccts.uic.edu/sites/default/files/footer_logo/CAMP.CIRC_.LG_.RED_.PNG" width="500" height="500" alt="UIC Home" title="UIC Home" /></a></div>  </div>
+</div>
+</div></div></div>  </div>
+  <div class="large-8 small-12 columns">
+    <div class="group-site-links">
+      <div class="field field-name-field-uic-def-priv-statement field-type-link-field field-label-hidden field-wrapper"><a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm" target="_blank">Privacy Statement</a></div>      <div class="field field-name-field-uic-def-site-map field-type-link-field field-label-hidden field-wrapper"><a href="http://www.ccts.uic.edu/sitemap">Site Map</a></div>      <div class="field field-name-field-uic-def-accessibility field-type-link-field field-label-hidden field-wrapper"><a href="http://accessweb.uic.edu/" target="_blank">Accessibility</a></div>      <div class="field field-name-field-uic-def-home-link field-type-computed field-label-hidden field-wrapper"><a href="/">CCTS Home</a></div>      <div class="field field-name-field-uic-def-uic-home field-type-link-field field-label-hidden field-wrapper"><a href="http://www.uic.edu/" target="_blank">UIC Home</a></div>    </div>
+    <span class="copyright">Copyright &copy; 2018 The Board of Trustees of the University of Illinois at Chicago</span>
+  </div>
+  <div class="large-3 small-12 columns">
+    <div class="field-collection-container clearfix"><div class="field field-name-field-uic-def-social-links"><div class="field-collection-view clearfix view-mode-full"><div class="field field-name-field-uic-social-link field-type-computed field-label-hidden field-wrapper"><a href="https://twitter.com/UIC_CCTS" class="social-link t-social-link">Twitter</a></div></div><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="field field-name-field-uic-social-link field-type-computed field-label-hidden field-wrapper"><a href="http://www.linkedin.com/company/uic-center-for-clinical-and-translational-sciences" class="social-link l-social-link">LinkedIn</a></div></div></div></div>  </div>
+</div>
+</div>  
+</section>    </div>
+  </div>
+</div>
+<!-- /#secondary-footer -->
+
+<!-- TODO
+  - Remove this on production.
+-->
+
+  <script src="http://www.ccts.uic.edu/sites/all/modules/contrib/addthis/addthis.js?ph1y44"></script>
+    <script>
+    (function ($, Drupal, window, document, undefined) {
+      $(document).foundation();
+    })(jQuery, Drupal, this, this.document);
+  </script>
+  <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+  <script src="/sites/all/themes/uic_ccts/js/contrib_plugins.js"></script>
+  <script src="/sites/all/themes/uic_ccts/js/plugins.js"></script>
+  <script src="/sites/all/themes/uic_ccts/js/app.js"></script></body>
+</html>

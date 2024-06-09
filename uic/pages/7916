@@ -1,0 +1,10 @@
+@inproceedings{polakis:acsac13, <br>
+author    = {Iasonas Polakis and
+Stamatis Volanis and
+Elias Athanasopoulos and
+Evangelos P. Markatos},<br>
+title     = {The man who {\it was} there: validating check-ins in location-based services}, <br>
+booktitle = {Annual Computer Security Applications Conference (ACSAC '13)}, <br>
+year      = {2013},<br>
+pages     = {19-28},<br>
+}

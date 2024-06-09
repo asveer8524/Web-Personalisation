@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> Homework1 &lt; CS450 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS450/Homework1?_T=2018-11-25" type="application/x-wiki" title="edit Homework1" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS450/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS450/Homework1"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS450/WebHome">CS450 Web</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS450/Homework1" title='Topic revision: 10 (2013-01-16 - 05:55:49)'>Homework1</a> <span class='patternRevInfo'>(2013-01-16, Main.ckanich)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS450/Homework1?t=1543179705' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS450/Homework1' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h1><a name="Homework_1_VMWare_subversion_and"></a> Homework 1: VMWare, subversion and a web client </h1>
+<p />
+<h2><a name="Install_VMWare_and_Ubuntu"></a> Install VMWare and Ubuntu </h2>
+<p />
+For this class, you will need a virtual machine running Ubuntu 12.04 Linux. You can get a free license of VMWare <a href="http://go.uic.edu/csvmware" target="_top">here</a>, and download Ubuntu for free <a href="http://releases.ubuntu.com/precise/ubuntu-12.04.1-desktop-i386.iso" target="_top">here</a>. If you have trouble getting your VMWare license key, let <a href="mailto&#58;ckanich&#64;uic&#46;edu">ckanich&#64;uic.edu</a> know.
+<p />
+If your computer is windows or linux, VMWare Player will work just as well and is free: <a href="http://www.vmware.com/products/player/" target="_top">vmware player</a>. You <strong>only</strong> need vmware fusion if your computer is a mac. If you were signed up for the class as of the afternoon of January 15, you should be able to access the uic vmware download site by Thursday.
+<p />
+Once installed, you will need to add some packages and prepare your VM for connecting to our IPv6 VPN. To prepare your new ubuntu install for class, run these commands: 
+<p />
+<pre>
+cd /tmp/
+wget http://ckanich.uicbits.net/cs450/bitsvpn.tgz
+tar xzf bitsvpn.tgz
+cd bitsvpn
+sudo ./install.sh
+</pre>
+<p />
+The install script will ask you for the password that you selected for your user account when you created the virtual machine.
+<p />
+If all goes well, your virtual machine is now on the IPv6 Internet. You can verify this by trying the command:
+<p />
+<code>ping6 ipv6.google.com</code>
+<p />
+If that ping command works, you're in business! Now you're ready for the fun part.
+<p />
+<p />
+Refer to our <a href="http://www.piazza.com/class#cs450" target="_top">Piazza site</a> if you have further questions.
+<p />
+<h2><a name="Subversion"></a> Subversion </h2>
+<p />
+The main objective of this homework is to get you familiarized with the versioning system we will be using for homework turn-in, called subversion (svn). You will also get a quick introduction to network programming in C, which will be our main language in the course.
+<p />
+Use the credentials you were given during lecture to check out your class directory:
+<p />
+<code>svn checkout svn://cs450.cs.uic.edu/s13/<em>mynamehere</em> --username mynamehere</code>
+<p />
+a directory with the same name as your username will appear. In this directory, create a directory for homework one. Call it hw1. Add this directory to the repository through the command:
+<p />
+<code>svn add hw1</code>
+<p />
+and then
+<p />
+<code>svn commit -m "Added my first homework directory!"</code>
+<p />
+to store it permanently in the central repository. Make sure you got it right by deleting the checked out directory (named as your username), and then running
+<p />
+<code>svn checkout svn://cs450.cs.uic.edu/s13/<em>mynamehere</em> --username mynamehere</code>
+<p />
+again. This time, the checked out directory should already contain your hw1 directory. Any file you want to turn in as your homework submission needs to be added to the correct directory using "svn add". Before the submission deadline, make sure that you have committed the most recent version of your submission directory, by running "svn commit" inside the directory. You can always double-check the status of all your files by running "svn status". You are encouraged to add files and commit new revisions as often as you like, before the submission deadline: only the most recent revision, committed to the repository before the submission deadline, will be used.
+<h2><a name="The_Programming_Part"></a> <a name="The_Programming_Part"></a> The Programming Part! </h2>
+<p />
+For this week's programming exercise, we will create a truly barebones ipv6 web client. Based on the example tcp client code in <code>svn://cs450.cs.uic.edu/pub/examples/sockets/</code>, and the http example sessions shown in class, write a command-line program called hw1 that takes a URL as its only parameter, retrieves the indicated file, and stores it in the local directory with the appropriate filename. If the URL does not end in a filename, use 'index.html'. Make sure it works for both text and images by opening the stored file in a web browser. You may assume that the URL is on the form <a target="_top" href="http://host/path">http://host/path</a>, where path may or may not be an empty string, may or may not contain multiple slashes (for subdirectories), and may or may not contain a file name. You may assume files to be no larger than one megabyte, and you are not expected to handle HTTP redirect (3xx) return codes other than report them.
+<p />
+The hostname may be a name like www.google.com, but the example code requires an ip address (like 64:ff9b::83c1:201d). To look up the IP address of a given host name, use getaddrinfo(). "man 3 getaddrinfo" on the command line will give you the details, or use <a target="_top" href="http://linux.die.net/man/3/gethostbyname">this link</a>, and see the getaddrinfo.c example.
+<p />
+<h3><a name="Template"></a> Template </h3>
+<p />
+For this homework, there is a prepared skeleton directory that you may use. To import a copy of this skeleton into your directory, first delete any old hw1 directory you may have with
+<p />
+<pre>
+svn rm hw1
+svn commit -m &#34;deleted old hw1 directory&#34;
+</pre>
+<p />
+and then copy the skeleton directory from the svn like this
+<p />
+<pre>
+svn export svn://cs450.cs.uic.edu/pub/homeworks/hw1
+svn add hw1
+</pre>
+<p />
+this will automatically copy all the contents of the skeleton directory to your local directory, and add these new files to your own repository.
+<p />
+<h3><a name="A_few_hints"></a> <a name="A_few_hints"></a> A few hints </h3>
+<p />
+Use http version 1.0. Version 1.1 can get a lot more complicated. Good functions to use for handling filenames and text include:
+<p />
+<code>sprintf, sscanf, strstr, strchr</code>
+<p />
+Read more about these using the "man pages". For example, try "man sprintf" on the command line.
+<p />
+<strong>NOTE:</strong> Newlines in http are represented as "\r\n", not just "\n".
+<p />
+Your program will be tested (at least) on these urls:
+<p />
+<a target="_top" href="http://www.google.com/">http://www.google.com/</a><br />http://www.google.com/intl/en_ALL/images/logo.gif<br />http://www.google.com/thispagedoesnotexist<br />http://www.thissitedoesnotexist1000.com <br /> <a href="http://www.engadget.com/2010/08/27/amazon-kindle-review" target="_top">http://www.engadget.com/2010/08/27/amazon-kindle-review</a> <br /> <a href="http://www.engadget.com/2010/08/27/amazon-kindle-review/" target="_top">http://www.engadget.com/2010/08/27/amazon-kindle-review/</a>
+<p />
+make sure you handle all these cases gracefully. The first should produce a file index.html. The second should produce a logo.gif (containing the picture). The third and fourth should exit with error i.e. exit(1). <a href="http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html" target="_top">Beej's Guide to Network Programming</a> is a great resource you may want to make use of. For the engadget URLs, you need to supply an extra "host:" parameter in the request.
+<p />
+If you're curious, try firing up Wireshark, and then fetching the URL with "wget" or "curl". You'll find the request they sent (which may have a lot of addl. parameters in it) in one of the packets with destination port 80.
+<p />
+Spend some time thinking about how to do the string manipulation. It does not have to be complicated. The complete program, including comments, error handling etc. can be written in about 100 leisurely lines.
+<p />
+<h2><a name="Turn_in_instructions"></a> <a name="Turn_in_instructions"></a> Turn-in instructions </h2>
+<p />
+For your turn-in, prepare a Makefile that compiles the hw1 target. To make sure your submission is complete, try the following in a temporary directory
+<p />
+<pre>
+svn checkout svn://cs450.cs.uic.edu/s13/mynamehere/hw1 --username mynamehere 
+cd hw1 
+make 
+./hw1 http://www.google.com/index.html 
+</pre>
+<p />
+this should produce a file called index.html, containing the source for the google front page.
+<pre>
+./hw1 http://www.google.com/intl/en&#95;ALL/images/logo.gif 
+</pre> should produce a file called logo.gif, containing the google logo.
+<p />
+<h2><a name="Grading"></a> Grading </h2>
+ Grading will be done automatically using a script. You can check your grade even before final submission using the script. You can get the grading script using:
+<p />
+<code>svn co svn://cs450.cs.uic.edu/pub/</code>
+<p />
+The grading script is in <code>/pub/grading-scripts/hw1/hw1_score</code>. You will need to give your svn username, a file to have all output from your program run and another file for your score same as following
+<p />
+<code>./hw1_score username output_file score_file</code>
+<p />
+This script will create a directory with your username, download hw1 from svn and create output_file and score_file inside hw1. The score file will look something like the following, with minor changes:
+<p />
+<pre>
+&#91;SUCCESS] files submitted using svn? &#91;2]: 2
+&#91;SUCCESS] index.html created for http://www.google.com? &#91;0.50]: 0.50
+&#91;SUCCESS] skype&#95;logo.png created for http://c.skype.com/i/images/logos/skype&#95;logo.png? &#91;0.25]: 0.25
+&#91;SUCCESS] images&#95;logo&#95;lg.gif created for http://images.google.com/intl/en&#95;ALL/images/logos/images&#95;logo&#95;lg.gif? &#91;0.25]: 0.25
+&#91;SUCCESS] chord&#95;sigcomm.pdf created for http://pdos.csail.mit.edu/papers/chord:sigcomm01/chord&#95;sigcomm.pdf? &#91;0.25]: 0.25
+&#91;SUCCESS] cs450.html created for ipv6 only host http://cs450.uicbits.net/cs450/cs450.html? &#91;0.25]: 0.25
+&#91;SUCCESS] ipv4.html created for ipv4 host http://131.193.34.207/cs450/ipv4.html? &#91;0.25]: 0.25
+&#91;SUCCESS] exit with error for http://www.google.com/thispagedoesnotexist? &#91;0.25]: 0.25
+&#91;SUCCESS] exit with error for http://www.thissitedoesnotexist1000.com? &#91;0.25]: 0.25
+&#91;SUCCESS] exit with error for http://www.skype.com? &#91;0.25]: 0.25
+&#91;SUCCESS] skype&#95;logo.png size correct? &#91;0.25]: 0.25
+&#91;SUCCESS] images&#95;logo&#95;lg.gif size correct? &#91;0.25]: 0.25
+&#91;SUCCESS] chord&#95;sigcomm.pdf size correct? &#91;0.25]: 0.25
+&#91;SUCCESS] skype&#95;logo.png content correct? &#91;0.25]: 0.25
+&#91;SUCCESS] images&#95;logo&#95;lg.gif content correct? &#91;0.25]: 0.25
+&#91;SUCCESS] chord&#95;sigcomm.pdf content correct? &#91;0.25]: 0.25
+&#91;SUCCESS] cs450.html content correct? &#91;0.25]: 0.25
+&#91;SUCCESS] ipv4.html content correct? &#91;0.25]: 0.25
+&#91;SUCCESS] index.html created for http://cs450.uicbits.net/cs450/? &#91;0.25]: 0.25
+&#91;SUCCESS] Lenses-Product-Reviews-AdoramaTV created for http://www.adorama.com/alc/0012691/article/Lenses-Product-Reviews-AdoramaTV? &#91;0.25]: 0.25
+Total score: 7
+</pre> </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS450/Homework1?t=1543179705' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS450/Homework1' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS450/Homework1?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS450/Homework1?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r10&nbsp;<a rel="nofollow" href="/bin/rdiff/CS450/Homework1?rev1=10;rev2=9">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS450/Homework1?rev=9">r9</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS450/Homework1?rev1=9;rev2=8">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS450/Homework1?rev=8">r8</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS450/Homework1?rev1=8;rev2=7">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS450/Homework1?rev=7">r7</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/CS450/Homework1?rev1=7;rev2=6">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/CS450/Homework1?rev=6">r6</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS450/Homework1?template=backlinksweb' rel='nofollow' title='Search the CS450 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS450/Homework1?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS450/Homework1?t=1543179705;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS450/Homework1?template=oopsmore&amp;param1=10&amp;param2=10' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r10 - 2013-01-16 - 05:55:49 - Main.ckanich</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS450/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS450</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/CS450/WebHome" class="twikiCurrentWebHomeLink twikiLink">CS450 Home</a>
+</li> <li> <a href="/bin/view/CS450/Syllabus" class="twikiLink">Syllabus</a>
+</li> <li> <a href="/bin/view/CS450/Homeworks" class="twikiLink">Homeworks</a>
+</li> <li> - <a href="/bin/view/CS450/UsingSubversion" class="twikiLink">Using Subversion</a>
+</li> <li> <a href="https://piazza.com/class#spring2013/cs450" target="_top">Discussion Forum</a>
+</li> <li> <a href="/bin/view/CS450/LectureNotes" class="twikiLink">Lecture Notes</a>
+</li></ul> 
+<hr />
+<div class="patternLeftBarPersonal">
+<ul><li class="patternLogIn"><a href="/bin/logon/CS450/Homework1">Log In</a> </li></ul>
+</div><!--/patternLeftBarPersonal-->
+<p /> <ul>
+<li> <strong><a href="/bin/view/CS450/WebHome" class="twikiCurrentWebHomeLink twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/home.gif" width="16" height="16" alt="Home" title="Home" border="0" /> CS450 Web</a></strong>
+</li> <li> <a href="/bin/view/CS450/WebCreateNewTopic?topicparent=Homework1" target="_top"> <img src="/pub/TWiki/TWikiDocGraphics/newtopic.gif" width="16" height="16" alt="New topic" title="New topic" border="0" /> Create New Topic</a>
+</li> <li> <a href="/bin/view/CS450/WebTopicList" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/index.gif" width="16" height="16" alt="Index" title="Index" border="0" /> Index</a>
+</li> <li> <a href="/bin/view/CS450/WebSearch" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/searchtopic.gif" width="16" height="16" alt="Search topic" title="Search topic" border="0" /> Search</a>
+</li> <li> <a href="/bin/view/CS450/WebChanges" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/changes.gif" width="16" height="16" alt="Changes" title="Changes" border="0" /> Changes</a>
+</li> <li> <a href="/bin/view/CS450/WebNotify" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/notify.gif" width="16" height="16" alt="Notify" title="Notify" border="0" /> Notifications</a>
+</li> <li> <a href="/bin/view/CS450/WebRss" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/feed.gif" width="16" height="16" alt="RSS feed, rounded corners" title="RSS feed, rounded corners" border="0" /> RSS Feed</a>
+</li> <li> <a href="/bin/view/CS450/WebStatistics" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/statistics.gif" width="16" height="16" alt="Statistics" title="Statistics" border="0" /> Statistics</a>
+</li> <li> <a href="/bin/view/CS450/WebPreferences" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/wrench.gif" width="16" height="16" alt="Wrench, tools" title="Wrench, tools" border="0" /> Preferences</a>
+</li></ul> 
+<p />
+<hr />
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

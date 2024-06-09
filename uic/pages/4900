@@ -1,0 +1,486 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en_US" lang="en_US">
+<head>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<link rel="stylesheet" href="http://www.cs.uic.edu/pub/TWiki/HeadlinesPlugin/style.css" type="text/css" media="all" />
+  <title>Leon Stenneth - WebHome</title>
+
+<link rel="icon" href="http://www.uic.edu/favicon.png" type="image/x-icon" />
+<link rel="alternate" href="http://www.cs.uic.edu/bin/edit/PSYu/WebHome?_T=2011-09-25" type="application/x-wiki" title="edit WebHome" />
+<link rel="shortcut icon" href="http://www.uic.edu/favicon.png" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/PSYu/WebRss" />
+<base href="http://www.cs.uic.edu/bin/view/PSYu/WebHome"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+	height:100px;  /* top bar height; make room for header columns */
+	overflow:visible;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+<!--GENERATED_HEADERS--><!-- TWISTYPLUGIN_TWISTY --> <style type="text/css" media="all">
+@import url("http://www.cs.uic.edu/pub/TWiki/TwistyContrib/twist.css");
+</style>
+<script type='text/javascript' src='http://www.cs.uic.edu/pub/TWiki/BehaviourContrib/behaviour.compressed.js'></script>
+<script type="text/javascript" src="http://www.cs.uic.edu/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="http://www.cs.uic.edu/pub/TWiki/TWikiJavascripts/twikiPref.js"></script>
+<script type="text/javascript" src="http://www.cs.uic.edu/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="http://www.cs.uic.edu/pub/TWiki/TwistyContrib/twist.compressed.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+var styleText = '<style type="text/css" media="all">.twikiMakeVisible{display:inline;}.twikiMakeVisibleInline{display:inline;}.twikiMakeVisibleBlock{display:block;}.twikiMakeHidden{display:none;}</style>';
+document.write(styleText);
+// ]]>
+</script>
+
+<!-- TABLEPLUGIN_twikiAttachmentsTable --> <style type="text/css" media="all">
+.tableSortIcon img {padding-left:.3em; vertical-align:text-bottom;}
+.twikiTable#twikiAttachmentsTable td {vertical-align:middle;}
+.twikiTable#twikiAttachmentsTable th {vertical-align:middle;}
+.twikiTable#twikiAttachmentsTable td {vertical-align:top;}
+.twikiTable#twikiAttachmentsTable th {background-color:#ffffff;}
+.twikiTable#twikiAttachmentsTable th.twikiSortedCol {background-color:#eeeeee;}
+.twikiTable#twikiAttachmentsTable th {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:link {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:visited {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:link font {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:visited font {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:hover {color:#ffffff;background-color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:hover font {color:#ffffff;background-color:#0066cc;}
+.twikiTable#twikiAttachmentsTable tr.twikiTableRowdataBg0 td {background-color:#ffffff;}
+.twikiTable#twikiAttachmentsTable tr.twikiTableRowdataBg0 td.twikiSortedCol {background-color:#f5f5f5;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol0 {text-align:center;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol1 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol2 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol3 {text-align:right;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol4 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol5 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol6 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol7 {text-align:center;}
+</style></head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <img width="156" alt="Leon O. Stenneth's photo" src="http://cs.uic.edu/~lstennet/leon_pic.jpg" height="136" />
+<h1><a name="Philip_S_Yu"></a> Leon O. Stenneth </h1>
+<hr />
+<p />
+<strong>PhD candidate and Fulbright Fellow</strong><br /> <a target="_blank" href="http://www.cs.uic.edu//">Department of Computer Science</a><br /> <a target="_blank" href="http://www.uic.edu/">University of Illinois, Chicago </a>
+<br><br><a><b>I defended my PhD thesis on October 4th 2013. The title is "Human activity detection using smartphones and maps"</b><a href="http://www.cs.uic.edu/~lstennet/defense.pptx"> [slides .pptx] </a><a href="http://www.cs.uic.edu/~lstennet/thesis.pdf">[thesis document .pdf]</a><br><a target="_blank" <br><br><a target="_blank" href = "http://lamda.nju.edu.cn/conf/sdm13/papers.html">Paper co-authored with Professor Philip Yu accepted to SIAM SDM 2013...</a><br> <a target="_blank" href = "http://www.igert.org/spotlights/2234"><a target="_blank" href = "http://www.igert.org/highlights/653">IGERT invention highlight...</a><br> <a target="_blank" href = "http://www.igert.org/spotlights/2234">news...</a><br><a target="_blank" href = "http://cs.uic.edu/~lstennet/resume-20-2012.pdf">RESUME...</a><br><br>
+<hr />
+<p />
+<h2><a name="Biographical_sketch"></a> Biographical sketch: </h2>
+I defended my PhD sucesfully on October 4th 2013. I was a PhD candidate and a Fulbright Fellow in the Department of Computer Science at the University of Illinois Chicago (UIC). I worked under the supervision of <a href="http://www.cs.uic.edu/~wolfson/"> Professor Ouri Wolfson </a> and <a href = "http://www.cs.uic.edu/PSYu/"> Professor Philip Yu </a>. Previously, I was also a research associate of the <a href = "http://www.cs.uic.edu/bin/view/Bits/WebHome">BITS Lab </a> headed by Professor Jakob Erikkson at the Chicago campus of the University of Illinois. <br><br>My PhD research was in two folds: (1) Context detection from mobile phone sensors which detects human activities from smartphones (2) Privacy-aware location based services. For my study at University of Illinois Chicago, I was awarded the <a href = "http://www.iie.org/fulbright">Fulbright Fellowship </a> by the United States Department of State. Before joinging UIC I was a student at the University of Westminster in London (Harrow Campus), here I studied for an MSc. For my study at the University of Westminster London I was awarded the European Union Fellowship. 
+I spent most of my early days in Jamaica where I did the BSc at the University of Technology (Kingston campus). <br><br>Currently, I am a full-time research scientist in the Connected Driving Division of Nokia (Chicago). My research roles are centered around (1) Traffic and Dynamic content, (2) Automtive experiences, software, & map updates, (3) Telematics sensor analytics, and (4) Autonomous driving and automotive cloud. <br><br>Previously at Nokia (Chicago) I worked on the real time transit project where we automated ways using supervised and unsupervised machine learning schemes to derive transit systems (routes, stops, schedules) from GPS traces obtained from traveler's mobile phones or automatic vehicle locators. Other components of real time transit that we are currently involved in are bus bunching, transit arrival time prediction, real time routing, and spatial and temporal deviation detection and prediction.Several patents and papers have been published based on this project. 
+<p />
+<p />
+<h2><a name="Contact"></a> Awards </h2>
+<p />
+ (-)   <a target="_blank" href = "http://www.cs.uic.edu/~lstennet/Group.jpg">2013 Nokia Inventor Oscars - Award for <b> most Enthusiastic Inventor</b><br /></a>
+ (-)	2013 IEEE MDM (Mobile Data Management) NSF doctoral travel award <br />
+ (-)   2013 SIAM SDM (Statistical Data Mining) doctoral travel award <br />
+ (-)   2012 SIAM SDM (Statistical Data Mining) doctoral travel scholarship<br />
+ (-)	Chevron International Student Scholarship 2011</strong><br />
+ (-)	Richard Tapia Diversity Fellowship 2011 </strong><br />
+ (-)	Univerity of Illinois Student Presenters award 2010 </strong><br />
+ (-)	<b>Fulbright Fellowship 2008</b> </strong><br />
+ (-)	European Union Fellowship 2004 </strong><br />
+ (-)   University of Technology honor roll award 2000-2003</strong><br /> 
+ (-)	University of Technology Foundation Scholarship 1999-2003</strong><br /> 
+ (-)	BCR Bookstore scholarship, University of Technology 2002
+<p />
+<p />
+<h2><a name="Contact"></a> Selected Publications </h2>
+<p />
+<Strong><u>Selected Journal Entries</u></Strong><br><br>
+Mitigating location privacy breaches on mobile phones by homogenizing motion sensors. 
+<br><i><b> IEEE Transactions on Mobile Computing 2013 (under review) </i></b>
+<b><br>Leon Stenneth </b><br><br>
+
+Activity recognition from smartphone sensor traces and geospatial knowledge. 
+<br><i><b>Springer Distributed and Parallel Databases 2013 (under review) </i></b><br>
+<b>Leon Stenneth</b>, Ouri Wolfson, Philip Yu, Bo Xu <br><br>
+
+Mobile Systems Privacy. "MobiPriv" A Robust K-Anonymous System For snapsot and continious querying location based systems. 
+<i><b><br>Transactions on Data Privacy 2011 </i></b><br>
+<b>Leon Stenneth</b>, Philip S. Yu, Ouri Wolfson <br><br>
+
+
+<br>
+<Strong><u>Selected Conferences</u></Strong><br><br>
+Spatio-temporal matching under data uncertainty.  
+<b><br>Proceedings of the 30th IEEE International Conference on Data Engineering 2014 (ICDE 2014) [under review] </b>
+<br>Daneil Ayala, Ouri Wolfson, <b>Leon Stenneth </b>, Bashkar Dasgupta, Jane Lin<br><br>
+
+BATE: Bus arrival time estimation.  
+<b><br>Proceedings of the 30th IEEE International Conference on Data Engineering 2014 (ICDE 2014) [under review]</b> 
+<br><b>Leon Stenneth </b>, Philip S. Yu<br><br>
+
+Real-time street parking availability estimation. <a href = "http://www.cs.uic.edu/~lstennet/mdm-2013-final_leon.pdf"> [pdf],</a> <a href = "http://www.cs.uic.edu/~lstennet/Real time parking availability estimation.pptx"> [ppt]</a> <i><b><br>Proceedings of the 13th IEEE MDM 2013</i></b><br> JAVA implemenation of the proposed algorithms are <a href = "http://www.cs.uic.edu/~lstennet/ParkingEstimation.zip"> available here...</a>, additionally the data set is available <a href = "https://www.dropbox.com/s/t8hvouac960iokr/sfpark.zip"> here in dropbox...</a>
+<br>Bo Xu, Ouri Wolfson, Jie Yang, <b>Leon Stenneth </b>, Philip S. Yu, Peter C. Nelson<br><br>
+
+Monitoring and mining GPS traces in transit space. <a href = "http://www.cs.uic.edu/~lstennet/sdm13-final.pdf"> [pdf]</a><i><b><br>Proceedings of the SIAM International Conference on data mining (SDM) 2013</i></b><br> <a href = "https://www.dropbox.com/s/anvl8rcjjudd73s/training%20data%20set.csv"> data set available here in dropbox</a> 
+<b><br>Leon Stenneth</b>, Philip Yu<br><br>
+
+An Empirical Study of Data Race Detector Tools. <br><i> <b> Proceedings of the 25th IEEE Chinese International Conference on Control and Decision 2013 </i></b><br>
+Jalal Alowibdi,<b> Leon Stenneth</b><br><br>
+
+Automated transportation transfer detection using GPS enabled smartphones. <a href = "http://www.cs.uic.edu/~lstennet/IEEE ITSC.pdf"> [pdf]</a><br><i> <b> Proceedings of the 15th IEEE International Intelligent Transportation Systems Conference (ITSC) 2012 </i></b><br>
+<b>Leon Stenneth</b>, Kenville Thompson, Jalal Alowibdi, Waldin Stone<br><br>
+
+Detecting human activities from smartphones and maps (Poster).<br> <i><b>SIAM SDM 2012 </i></b><br>
+<b>Leon Stenneth</b><br><br>
+
+PhonePark:Street parking using mobile phones. <a href = "https://www.researchgate.net/publication/225303972_PhonePark_Street_Parking_using_mobile_phones"> [pdf]</a><br><i><b> Proceedings of the 12th IEEE Mobile Data Management (MDM) 2012</i></b><br>
+<b>Leon Stenneth</b>, Ouri Wolfson, Philip S. Yu, Bo Xu<br><br>
+
+Transportation mode detection from mobile phones and GIS information. <a href = "http://www.cs.uic.edu/~lstennet/acm_gis_2011.pdf"> [pdf] , </a> <a href = "http://www.cs.uic.edu/~lstennet/slides.pptx"> [ppt]</a> <br><i><b> Proceedings of the 19th ACM SIGSPATIAL GIS 2011</i></b><br>
+<b>Leon Stenneth</b>, Ouri Wolfson, Philip S. Yu, Bo Xu. For the data set, please send me an email at lstenneth@gmail.com, lstenn2@uic.edu<br><br>
+
+Privacy-Aware Mobile locations based systems. <a href = "http://www.academia.edu/2798568/Privacy-aware_mobile_location-based_systems"> [pdf]</a><br><i><b>Proceedings of the 13th ACM UbiComp 2011 (MLBS) </i></b><br>
+<b>Leon Stenneth</b>, Philip S. Yu<br><br>
+
+Reducing Travel Time by Incident Reporting via CrowdSourcing. <a href = "http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=FA64D1CAE7D5DA60B7814D4B1B8DE1C1?doi=10.1.1.217.7927"> [pdf]</a><br><i><b>Proceedings of the 12th International Conference on Internet
+Computing (ICOMP) 2011</i></b><br>
+<b>Leon Stenneth</b>, Waldin Stone, Jalal Alowibdi<br><br>
+
+Mobile  Systems Location Privacy:  "MobiPriv" A Robust K Anonymous System. <a href = "http://www.academia.edu/371401/Mobile_Systems_Location_Privacy_MobiPriv_A_Robust_K-Anonymous_System"> [pdf]</a><br><i><b>Proceedings of the 6th IEEE International Conference on Wireless and  Mobile Computing,  Networking and  Communications (WiMob) 2010</i></b><br>
+<b>Leon Stenneth</b>, Philip Yu, Ouri Wolfson.<br><br>
+
+Global privacy and transportation mode homogeneity anonymization in location based mobile systems with continuous queries. <a href = "http://www.academia.edu/371404/Global_Privacy_and_Transportation_Mode_Homogeneity_Anonymization_in_Location_Based_Mobile_Systems_with_Continuous_Queries"> [pdf]</a><br> <i><b>Proceedings of the 6th IEEE Intemational Conference on  Collaborative Computing: Networking, Applications and Worksharing (CollaborateCom), 2010</i></b><br>
+<b>Leon Stenneth</b>, Philip Yu. <br><br>
+
+An Application of Intelligent Adaptive Agents Over Wireless Networks. <br><i><b>Proceedings of the International Conference on Information and Communications Technology Research, 2009</i></b><br>
+<b>Leon Stenneth</b>, Waldin Stone<br><br>
+
+A Peer Based Model for 2D Multiplayer Gaming. <br><i><b>Proceedings of the 4th International Conference on Internet Technologies and Applications (ITA 05)</i></b><br>
+<b>Leon Stenneth</b>, Richard Pyne<br><br>
+
+
+<br>
+<Strong><u>Selected Workshops</u></Strong><br><br>
+Supporting Privacy and Auditing in Cloud Computing Systems, 2013. <br>
+<b>Proceedings of the 1st IEEE International Workshop on Cloud Security Auditing  2013</b><br>
+Tyrone Grandison, Sean Thorpe, <b>Leon Stenneth</b> 
+
+<h2><a name="Contact"></a> Patents published or pending </h2>
+<p />
+Automated street parking payment of a autonomous/driverless car <br> 
+<b>Inventor:</b>  <b> Leon Stenneth </b> and Gavril Giurgiu
+<br>
+<p />
+<p />
+
+<p />
+Software system and methods for transforming probe data across transportation modes. US serial # 14/039393  <br> 
+<b>Inventor:</b>  <b> Leon Stenneth </b>
+<br>
+<p />
+<p />
+Turn restriction determination.US serial# 14/015185<br> 
+<b>Inventor:</b>  <b> Leon Stenneth </b>
+<br>
+<p />
+<p />
+System and methods for matching transit vehicles to trips in a real time transit tracking environment.US serial # 14/012329<br> 
+<b>Inventors:</b> <b> Leon Stenneth </b>
+<br>
+<p />
+<p />
+System and method for advanced selection of a resource among available resources.<br> 
+<b>Inventors:</b>  Ouri Wolfson, <b> Leon Stenneth </b>,Philip Yu, and Bo Xu
+<br>
+<p />
+<p />
+Systems and methods for location proof beyond location positioning US serial# 13/951740<br> 
+<b>Inventor: </b> Leon Stenneth
+<br>
+<p />
+<p />
+Systems and methods for automated street parking payment detection using mobile device and a map US serial# 13/915230<br> 
+<b>Inventor: </b> Leon Stenneth
+<br>
+<p />
+<p/>
+Vehicle arrival prediction US serial# 13/849012<br> 
+<b>Inventors: </b> Leon Stenneth, Leo Modica
+<br>
+<p />
+<p/>
+Structure access characteristics determined from mobile unit data. US serial# 13/784120<br> 
+<b>Inventors: </b> Leon Stenneth, Leo Modica
+<br>
+<p />
+<p/>
+Systems and methods for activity classification, 2012 - [US serial# 61/720,815] <a href = "http://www.igert.org/highlights/653">highlight</a> <br>
+<b>Inventors: </b> Leon Stenneth, Ouri Wolfson, Philip Yu, and Bo Xu<br>
+<p />
+<p />
+Methods and apparatus for transit mapping,  2012 - US serial# 13/780901 <br>
+<b>Inventors: </b> Leon Stenneth, Leo Modica<br>
+<p />
+<p />
+Methods and apparatus for deriving spatial properties of bus stops and traffic controls,  2012 - US Serial # 13/872439<br>
+<b>Inventors: </b> Leon Stenneth, Leo Modica<br>
+<p />
+<p />
+Real-time vehicle spacing control,  2012 - US serial# 13/739709 <br>
+<b>Inventors: </b> Leon Stenneth, Leo Modica
+<br>
+<p />
+<p />
+Deviation detection in mobile transit systems,  2012 - US serial# 13/739560 <br>
+<b>Inventors: </b> Leon Stenneth, Leo Modica
+<br>
+<p />
+<p />
+Methods and apparatus for transit mapping, 2012 - US serial# 13/781188 <br>
+<b>Inventors: </b> Leon Stenneth, Leo Modica<br>
+<p />
+<p />
+
+<h2><a name="Contact"></a> Reviewer for </h2>
+<p />
+<b>Scientific Journals</b>
+<br>IEEE Transactions on Human-Machine Systems<br />
+IEEE Transactions on Parallel and Distributed Systems<br />
+Intelligent Transportation and Urban Planning<br />
+Elsevier Pervasive and Mobile Computing<br />
+
+<br><b>Conferences</b>
+<br>IEEE MDM 2013<br />
+ACM SIGSPATIAL 2013<br />
+ACM RACS 2013<br />
+Applied Computing 2013 <br />
+ACM UBICOMP 2013<br />
+IEEE MDM 2012<br />
+ACM SIGSPATIAL 2012<br />
+ACM RACS 2012<br />
+Applied Computing 2012 <br />
+VLDB 2012 <br />
+ACM UBICOMP 2012<br />
+SMART 2012<br />
+30th IEEE Symposium on Reliable Distributed Systems (SRDS 2011)<br />
+CIKM 2011<br />
+IEEE MDM 2009, 2010, 2011<br />
+ACM GIS 2009, 2010, 2011<br />
+COLLOBORATE COM 2010, 2011<br />
+12th Symposium on spaital and temporal databases 2011<br />
+Wireless Applications and Computing (WAC) 2011 <br />
+9th IEEE Consumer Communications and Networking Conference - Emerging Consumer Technologies<br />
+Applied Computing 2011<br />
+10th IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks 2009<br />
+2 Chapters in the Handbook of Peer-to-Peer Networking <br />
+<p />
+
+<br><h2><a href = "http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/s/Stenneth:Leon.html">DBLP List </a>
+<br><br><a href = "http://scholar.google.com/citations?user=2nuS5hwAAAAJ&hl=en">Google Scholar List </a></h2>
+<h2><a name="Contact"></a> Contact </h2>
+<p />
+<strong>851 S. Morgan St., Rm 120 SEO, Chicago, IL 60607 </strong><br /> <em>e-mail:</em> <a href="mailto&#58;lstennet&#64;cs&#46;uic&#46;edu">lstennet&#64;cs.uic.edu, lstenn2@uic.edu, lstenneth@gmail.com (preferred)</a>
+<p />
+mobile: (312) 772 - 8380, 312-772-8429 <br> SKYPE: lstenneth<br /> </div><!-- /patternTopic-->
+
+
+<h2><a name="Contact"></a> MSc students co-supervised </h2>
+<p />
+Pavan Kumar Reddy (Univeristy of Illinois at Chicago)
+<br>Navyatha Bondugula (Univeristy of Illinois at Chicago)
+<br>Vijay Bhojwani (Univeristy of Illinois at Chicago)
+<p />
+
+
+<h2><a name="Contact"></a> Friends </h2>
+<p />
+<a href = "http://www.cs.uic.edu/~jalowibd/">Jalal Alowibdi</a>
+<br>Waldin Stone
+<p />
+
+
+
+<div class="twikiContentFooter"></div><div class="twikiAttachments">
+<div class="twistyPlugin twikiMakeVisibleInline">  <span id="topicattachmentslistshow" class="twistyRememberSetting twistyTrigger twikiUnvisited twistyHidden twistyInited"><a href="#"><span class="twikiLinkLabel twikiUnvisited"></span></a> </span> <span id="topicattachmentslisthide" class="twistyRememberSetting twistyTrigger twikiUnvisited twistyHidden twistyInited"><a href="#"><span class="twikiLinkLabel twikiUnvisited"></span></a> </span>  </div><!--/twistyPlugin twikiMakeVisibleInline--> <div class="twistyPlugin"><div id="topicattachmentslisttoggle" class="twistyRememberSetting twistyContent twikiMakeHidden twistyInited">
+<table summary="Topic attachments" cellspacing="0" id="twikiAttachmentsTable" cellpadding="0" class="twikiTable" rules="rows" border="1"><caption>Topic attachments</caption>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol0 twikiFirstCol"> <a rel="nofollow" href="/bin/view/PSYu/?sortcol=0;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">I</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol1"> <a rel="nofollow" href="/bin/view/PSYu/?sortcol=1;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Attachment</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol2"> <a rel="nofollow" href="/bin/view/PSYu/?sortcol=2;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Action</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol3"> <a rel="nofollow" href="/bin/view/PSYu/?sortcol=3;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Size</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol4"> <a rel="nofollow" href="/bin/view/PSYu/?sortcol=4;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Date</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol5"> <a rel="nofollow" href="/bin/view/PSYu/?sortcol=5;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Who</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol6 twikiLastCol"> <a rel="nofollow" href="/bin/view/PSYu/?sortcol=6;table=1;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Comment</font></a> </th>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> <img src="/pub/TWiki/TWikiDocGraphics/png.gif" width="16" height="16" alt="Png" title="Png" border="0" /><span class="twikiHidden">png</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1 twikiLast"> <a href="/pub/PSYu/WebHome/jakob_eriksson_small.png">jakob_eriksson_small.png</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2 twikiLast"> <a href="/bin/attach/PSYu/WebHome?filename=jakob_eriksson_small.png;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3 twikiLast"> 19.5&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4 twikiLast"> <span class="twikiNoBreak">2009-05-20 - 18:13</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5 twikiLast"> <a href="/bin/view/Main/TWikiAdminUser" class="twikiLink">TWikiAdminUser</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol twikiLast"> &nbsp; </td>
+		</tr></table>
+</div></div> <!--/twistyPlugin--></div><!--//twikiAttachments--></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"></span></div><!--/patternTopicAction--></div><!--/patternTopicActions-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"> <ul>
+<li> <a href="http://www.cs.uic.edu/~lstennet/resume-20-2012.pdf" class="twikiLink">Research</a>
+</li> <li> <a href="http://www.cs.uic.edu/~lstennet/publications.html" class="">Publications</a>
+</li> <li> <a href="http://www.cs.uic.edu/~lstennet/work.html" class="">Work Experience</a>
+</li> <li> <a href="http://cs.uic.edu/~lstennet/resume-20-2012.pdf" class="">Resume</a>
+</li> <li> <a href="http://www.cs.uic.edu/~lstennet/resume-09-2011.pdf" class="">Scholarships/Awards</a>
+</li> <li> <a href="http://www.cs.uic.edu/~lstennet/resume-09-2011.pdf" class="">Projects</a>
+</li></ul> 
+<div class="patternLeftBarPersonal">
+</div><!--/patternLeftBarPersonal--> <ul>
+
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div 
+id="patternTopBarContents"><div  id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap"><area shape="rect" alt="" title="" coords="144,20,317,74" href="http://www.cs.uic.edu" target="" /><area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target="" /><area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target="" /></map>
+<img src="http://www.cs.uic.edu/pub/cslogo_ds.png" border="0" alt="Powered by Computer Science" style="border:none;" usemap="#logomap"/></div>
+<p />
+<div style="position: relative; margin-left: 650px; margin-top: 0px">
+<form name="quickSearchForm" method="get" action="http://www.google.com/search"><input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value="" /><input type="hidden"  name="sitesearch" value="cs.uic.edu" />
+</form>
+</div>
+<p />
+<div id="menuContainer" style="position:absolute; left: 342px; top: 58px; width: 640px; z-index: 2; overflow: visible;">
+<div id="navMenu">
+  <ul>
+   <li> <a href="http://cs.uic.edu/~lstenneth/research">RESEARCH</a>
+  <ul>
+    
+  </ul>
+  </li>
+  </ul>
+  <ul>
+   <li> <a href="http://www.cs.uic.edu/~lstennet/publications.html">PUBLICATIONS</a>
+  <ul>
+    
+  </ul>
+  </li>
+  </ul>
+  <ul>
+   <li> <a href="http://www.cs.uic.edu/~lstennet/work.html">EXPERIENCE</a>
+  <ul>
+    
+  </ul>
+  </li>
+  </ul>
+<p />
+ <ul>
+   <li> <a href="http://www.cs.uic.edu/~lstennet/resume-20-2012.pdf">RESUME</a>
+  <ul>
+   
+  </ul>
+  </li>
+  </ul>
+    <br class="clearFloat" />
+ </div> </div></div></div><!-- 
+
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

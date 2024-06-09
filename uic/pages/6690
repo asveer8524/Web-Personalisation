@@ -1,0 +1,429 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>Welcome to UIC &lt; University of Illinois at Chicago</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+    <div class="accessible-menu" role="navigation" aria-label="Accessible Navigation">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.uic.edu">Institution Home</a></li>
+		</ul>
+	</div>
+</div>
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="header" role="header">
+    <div class="wrap clearfix">
+        <li><a href="/"><h1>Academic Catalog</h1></a></li>
+        <div id="head-right">
+            <div id="search" role="search">
+			<form id="cl-search" action="/search/" class="clearfix">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="search" size="25" placeholder="Search catalog..." class="searchbox" id="name" title="Search Catalog" />
+				<input type="submit" value="Search" class="submit" />
+			</form>
+            </div><!-- end #search -->
+        </div><!--end #head-right -->
+    </div><!--end .wrap -->
+</div><!-- end #header -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="navigation" class="clearfix" role="navigation" aria-label="Main Navigation">
+    <div class="wrap">
+        <ul>
+            <li><a href="/ucat/">Undergraduate Catalog</a></li>
+            <li><a href="/gcat">Graduate Catalog</a></li>
+            <li><a href="#" onclick="showPrintDialog(); return false;">Print / Download Options</a></li>
+            <li><a href="http://www.uic.edu">UIC Home</a></li>
+        </ul>
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="banner" role="banner">
+    <div class="wrap">
+        <div class="logo"><a href="http://www.uic.edu">The University of Illinois at Chicago</a></div>
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<div id="wrapper">
+
+    <div id="container" class="clearfix">
+        <div id="nav-col" role="complementary">
+            <div id="cl-menu-control" class="togglenav clearfix">
+                <a class="cl-menu-text" href="#">Catalog Navigation</a>
+                <a class="cl-menu-btn" href="#">Catalog Navigation</a>
+            </div><!--end #cl-menu-control-->
+
+            <!-- Begin Regular Nav -->
+            <div id="cl-menu" role="navigation" aria-label="Secondary Navigation">
+<ul class="nav levelzero" id="/">
+	<li class="active isparent"><a href="/gcat/">Graduate Catalog</a>
+	<ul class="nav levelone" id="/gcat/">
+		<li><a href="/gcat/academic-calendar/">Academic Calendar</a></li>
+		<li class="active isparent"><a href="/gcat/the-university/">The University</a>
+		<ul class="nav leveltwo" id="/gcat/the-university/">
+			<li class="active self"><a href="#" onclick="return false;">Welcome to UIC</a></li>
+			<li><a href="/gcat/the-university/students-guide/">The Graduate Student's Guide to UIC</a></li>
+			<li><a href="/gcat/the-university/campus-maps/">Campus Maps</a></li>
+			<li><a href="/gcat/the-university/travel-visitor-parking/">Travel Directions and Visitor Parking</a></li>
+		</ul>
+		</li>
+		<li class="isparent"><a href="/gcat/graduate-study/">Graduate Study at UIC</a></li>
+		<li class="isparent"><a href="/gcat/degree-programs/">Degree Programs</a></li>
+		<li class="isparent"><a href="/gcat/colleges-schools/">Colleges &amp;&#8203; Schools</a></li>
+		<li class="isparent"><a href="/gcat/course-descriptions/">Graduate Course Descriptions</a></li>
+		<li class="isparent"><a href="/gcat/graduate-college/">Graduate College</a></li>
+		<li><a href="/gcat/faculty/">Graduate Faculty</a></li>
+		<li><a href="/gcat/archive-links/">Archive &amp;&#8203; Links</a></li>
+		<li><a href="http://grad.uic.edu" target="_blank">Graduate College Website</a></li>
+	</ul>
+	</li>
+</ul>
+			   </div><!--end #cl-menu-->
+            <!-- End Nav -->
+        </div><!-- end #nav-col -->
+
+        <div id="content-col">
+            <div id="content" role="main">
+
+<div id="breadcrumb" class="clearfix" role="navigation" aria-label="Breadcrumb Navigation">
+<ul><li><a href="/">Home</a><span class="crumbsep">/</span></li><li><a href="/gcat/">Graduate&nbsp;Catalog</a><span class="crumbsep">/</span></li><li><a href="/gcat/the-university/">The&nbsp;University</a><span class="crumbsep">/</span></li><li><span class="active">Welcome to UIC</span></li></ul>
+</div><!-- end #breadcrumb -->
+
+			<h1 class="page-title">Welcome to UIC</h1>
+
+
+
+<div id="textcontainer" class="tab_content" role="tabpanel">
+
+<div class="sidebar">
+	<div id="sidebar-contact">
+
+
+
+
+
+
+
+
+	</div>
+</div>
+
+<h2>Mission</h2>
+<p>UIC provides the broadest access to the highest levels of intellectual excellence. UIC's mission is:</p>
+<ul>
+	<li>To create knowledge that transforms our views of the world and, through sharing and application, transforms the world.</li>
+	<li>To provide a wide range of students with the educational opportunity only a leading research university can offer.</li>
+	<li>To address the challenges and opportunities facing not only Chicago but all Great Cities of the 21st century, as expressed by our Great Cities Commitment.</li>
+	<li>To foster scholarship and practices that reflect and respond to the increasing diversity of the U.S. in a rapidly globalizing world.</li>
+	<li>To train professionals in a wide range of public service disciplines, serving Illinois as the principal educator of health science professionals and as a major healthcare provider to underserved communities.</li>
+</ul>
+<h2>History and Overview</h2>
+<p>The University of Illinois at Chicago is the largest institution of higher education in the Chicago area with 30,000 undergraduate, graduate, and professional students. Through its 15 colleges and professional schools, UIC offers 83 undergraduate, 93 master’s, and 64 doctoral programs in architecture, art, applied health sciences, business administration, dentistry, education, engineering, humanities, mathematics, medicine, movement sciences, nursing, performing arts, pharmacy, public administration, public health, sciences, social sciences, social work, and urban planning. The university’s programs are enhanced by a variety of research centers and institutes that cover areas such as community improvement, developmental disabilities, energy, gerontology, robotics, urban economic development, and urban transportation. UIC consistently ranks among the top 50 out of more than 637 national universities in federal research funding.</p>
+<p>In 1946, an undergraduate division of the University of Illinois was established at Navy Pier. This facility, renamed the University of Illinois at Chicago Circle, moved to its present location in 1965, when it opened its doors as a four-year university. By 1982, it had grown to include eight academic colleges offering degree programs at both the undergraduate and graduate levels.</p>
+<p>In the fall of 1982, the University of Illinois at Chicago was formed by the consolidation of the two Chicago campuses (formerly known as the University of Illinois at the Medical Center and the University of Illinois at Chicago Circle) into a single institution of higher learning. The university’s facilities for medical instruction date back to 1894, when the Chicago College of Pharmacy became the School of Pharmacy of the University of Illinois. In 1897, the independent College of Physicians and Surgeons of Chicago became the ‘Department of Medicine of the University; in 1901, the Columbian Dental College became the University School of Dentistry; and in 1925 the University Hospital opened. Programs in nursing education under university auspices began in the 1940s, becoming the School of Nursing in 1951 and, in 1959, the College of Nursing. Other health sciences units of the University of Illinois at Chicago include the College of Applied Health Sciences, the School of Public Health, and over 50 clinics and research facilities. A new $60 million University of Illinois Hospital was completed in 1981.</p>
+<p>To learn about UIC's leadership and role as one of three campuses of the University of Illinois, please consult the following web pages: <a href="http://www.uic.edu/about/leadership" target="_blank">Chancellor and Leadership</a>  and the <a href="http://www.uillinois.edu" target="_blank">University of Illinois website</a>.</p>
+<h2>Accreditation</h2>
+<p>Accreditation is the recognition that an institution maintains standards requisite for its graduates to gain admission to other reputable institutions of higher learning or to achieve credentials for professional practice. The goal of accreditation is to ensure that education provided by institutions of higher education meets acceptable levels of quality.</p>
+<p>There are two basic types of educational accreditation, one identified as “institutional” and one referred to as “specialized” or “programmatic.” Institutional accreditation normally applies to an entire institution, indicating that each of an institution’s parts is contributing to the achievement of the institution’s objectives. Specialized accreditation normally applies to the evaluation of programs, departments, or schools which usually are parts of a total collegiate or other postsecondary institution. The unit accredited may be as large as a college or school within a university, or as small as a curriculum within a discipline. Most of the specialized accrediting agencies review units within a postsecondary institution, which is accredited by one of the regional accrediting commissions.  </p>
+<p>The University of Illinois at Chicago is accredited by the Higher Learning Commission (HLC), one of the regional accrediting commissions in the United States. HLC is located at:</p>
+<p>230 South LaSalle Street, Suite 7-500<br/>
+Chicago, Illinois 60604-1411<br/>
+(800) 621-7440<br/>
+<a href="https://www.hlcommission.org/" target="_blank">https://www.hlcommission.org</a></p>
+<p>The Higher Learning Commission is recognized by the U.S. Department of Education (USDE) and the Council for Higher Education Accreditation (CHEA). In 2017, HLC voted to continue accreditation of UIC for the maximum period of 10 years. The next comprehensive evaluation of UIC is scheduled for 2027-2028. Verification of accreditation status is available in the Office of the Chancellor (312) 413-3350 and at the <a href="https://www.hlcommission.org/component/directory/?Action=ShowBasic&amp;Itemid=&amp;instid=1873" target="_blank">HLC website</a>.</p>
+<p>The graduate academic degree programs described in this catalog have been approved by the Illinois Board of Higher Education, located at:</p>
+<p>1 N. Old State Capitol Plaza, Suite 333<br/>
+Springfield, Illinois 62701-1377<br/>
+(217) 782-2551, (888) 261-2881 (TTY)<br/>
+General Information: <a href="mailto:info@ibhe.org">info@ibhe.org</a>, <a href="http://www.ibhe.org" target="_blank">http://www.ibhe.org</a><br/>
+Institutional Complaint Hotline: (217) 557-7359, <a href="http://complaints.ibhe.org" target="_blank"><u>http://complaints.ibhe.org</u></a>.</p>
+<p>In addition to institutional accreditation, certain individual programs offered at UIC's main campus, branch campuses, and additional locations are accredited by the following specialized accrediting agencies:</p>
+<h3>College of Applied Health Sciences</h3>
+<p><strong>Biomedical Visualization (MS</strong><strong>)</strong><br/>
+<em>Commission on Accreditation of Allied Health Education Programs (CAAHEP)</em><br/>
+Accreditation Review Committee for the Medical Illustrator (ARC-MI)<br/>
+25400 US Highway 19 North<br/>
+Suite 158<br/>
+Clearwater, FL 33763<br/>
+(727) 210-2350<br/>
+<a href="http://www.caahep.org/" target="_blank">http://www.caahep.org</a></p>
+<p><strong>Health Informatics (MS)</strong><br/>
+<em>Commission on Accreditation for Health Informatics and Information Management Education (CAHIIM)</em><br/>
+233 North Michigan Avenue, 21st Floor<br/>
+Chicago, IL 60601-5800<br/>
+(312) 233-1166<br/>
+Email: <a href="mailto:info@cahiim.org">info@cahiim.org</a><br/>
+<a href="http://www.cahiim.org/" target="_blank">http://www.cahiim.org</a></p>
+<p><strong>Nutrition - Coordinated Program (MS)</strong><br/>
+<em>Accreditation Council for Education in Nutrition and Dietetics (ACEND)</em><br/>
+Academy of Nutrition and Dietetics<br/>
+120 South Riverside Plaza, Suite 2190<br/>
+Chicago, IL 60606-6995<br/>
+(800) 877-1600<br/>
+(312) 899-0400 ext. 5400<br/>
+Email: ACEND@eatright.org<br/>
+<a href="http://www.eatrightpro.org/acend" target="_blank">http://www.eatrightpro.org/acend</a></p>
+<p><strong>Occupational Therapy—Professional (MS)</strong><br/>
+<em>Accreditation Council for Occupational Therapy Education (ACOTE)</em><br/>
+American Occupational Therapy Association, Inc.<br/>
+4720 Montgomery Lane, Suite 200<br/>
+Bethesda, MD 20814-3449<br/>
+(301) 652-2682<br/>
+<a href="mailto:accred@aota.org" target="_blank">Email: accred@aota.org<br/>
+http://www.acoteonline.org</a></p>
+<p><strong>Doctor of Physical Therapy Program—Professional (DPT)</strong><br/>
+<em>Commission on Accreditation in Physical Therapy Education (CAPTE)</em><br/>
+1111 North Fairfax Street<br/>
+Alexandria, VA 22314-1488<br/>
+(703) 706-3245<br/>
+Email: <a href="mailto:accreditation@apta.org">accreditation@apta.org</a><br/>
+<a href="http://www.capteonline.org/" target="_blank">http://www.capteonline.org</a></p>
+<h3>College of Architecture, Design, and the Arts</h3>
+<p><strong>Architecture (MArch)</strong><br/>
+<em>National Architectural Accrediting Board (NAAB)</em><br/>
+1101 Connecticut Avenue, NW, Suite 410<br/>
+Washington, DC 20036<br/>
+(202) 783-2007<br/>
+Email: <a href="mailto:info@naab.org">info@naab.org</a><br/>
+<a href="http://www.naab.org/" target="_blank">http://www.naab.org</a></p>
+<h3>College of Business Administration</h3>
+<p><strong>Accounting (MS)<br/>
+Business Administration (MBA)<br/>
+Business Administration (PhD)</strong><br/>
+<strong>Business Analytics (MS)</strong><br/>
+<strong>Finance (MS)<br/>
+Management Information Systems (MS)<br/>
+Management Information Systems (PhD)<br/>
+Marketing (MS)</strong><br/>
+<em>AACSB International—The Association to Advance Collegiate Schools of Business (AACSB)</em><br/>
+777 South Harbour Island Boulevard, Suite 750<br/>
+Tampa, FL 33602-5730<br/>
+(813) 769-6500<br/>
+<a href="http://www.aacsb.edu/" target="_blank">http://www.aacsb.edu</a></p>
+<h3>College of Dentistry</h3>
+<p><strong>Dental Medicine (DMD) (formerly: Dental Surgery (DDS))</strong><br/>
+<strong>Advanced Certificate in Endodontics<br/>
+Advanced Certificate in Orthodontics<br/>
+Advanced Certificate in Pediatric Dentistry<br/>
+Advanced Certificate in Periodontics<br/>
+Advanced Certificate in Prosthodontics<br/>
+Advanced Certificate in Oral and Maxillofacial Surgery</strong><br/>
+<em>Commission on Dental Accreditation (CODA)</em><br/>
+American Dental Association (ADA)<br/>
+211 East Chicago Avenue<br/>
+Chicago, IL 60611-2637<br/>
+(800) 621-8099<br/>
+(312) 440-8099<br/>
+<a href="http://www.ada.org/coda" target="_blank">http://www.ada.org/coda</a></p>
+<h3>College of Education</h3>
+<p><strong>Education-Urban Education Leadership (EdD)<br/>
+Instructional Leadership (MEd)<br/>
+Special Education (MEd)</strong><br/>
+<strong>Science Education (MEd)<br/>
+Early Childhood Education (MEd)<br/>
+Language, Literacies, and Learning (MEd)</strong><br/>
+<em>Illinois State Board of Education (ISBE)</em><br/>
+100 North 1st Street<br/>
+Springfield, IL 62777<br/>
+(866) 262-6663<br/>
+(217) 782-4321<br/>
+<a href="http://www.isbe.net" target="_blank">http://www.isbe.net</a><br/>
+<strong>Note: The ISBE approves programs for licensure.</strong></p>
+<h3>College of Liberal Arts and Sciences</h3>
+<p><strong>Psychology (PhD)</strong><br/>
+<em>American Psychological Association</em><br/>
+750 First Street NE<br/>
+Washington, DC 20002-4242<br/>
+(800) 374-2721<br/>
+(202) 336-5500<br/>
+(202) 336-6123 (TDD/TTY)<br/>
+<a href="http://www.apa.org/" target="_blank">http://www.apa.org</a></p>
+<h3>College of Medicine</h3>
+<p><strong>Medicine (MD)</strong><br/>
+<em>Liaison Committee on Medical Education (LCME), is jointly sponsored by the Association of American Medical Colleges (AAMC) and the American Medical Association (AMA)</em><br/>
+<em>Association of American Medical Colleges</em><br/>
+655 K Street NW, Suite 100<br/>
+Washington, DC 20001-2399<br/>
+(202) 828-0596<br/>
+And<br/>
+<em>American Medical Association</em><br/>
+330 North Wabash Avenue, Suite 39300<br/>
+Chicago, IL 60611-5885<br/>
+(312) 464-4933<br/>
+<a href="http://www.lcme.org/" target="_blank">http://www.lcme.org</a></p>
+<h3>College of Nursing</h3>
+<p><strong>Nursing Science (MS)<br/>
+Nursing Practice (DNP) </strong><br/>
+<em>Commission on Collegiate Nursing Education (CCNE)</em><br/>
+American Association of Colleges of Nursing<br/>
+655 K Street, NW, Suite 750<br/>
+Washington, DC 20001<br/>
+(202) 463-6930<br/>
+<a href="http://www.aacnnursing.org/CCNE" target="_blank">http://www.aacnnursing.org/CCNE</a></p>
+<p><strong>Nursing Nurse-Midwifery Program (MS, DNP, Post-Graduate Certificate)</strong><br/>
+<em>Accreditation Commission for Midwifery Education (ACME)</em><br/>
+8403 Colesville Road, Suite 1550<br/>
+Silver Spring, MD 20910-6374<br/>
+(240) 485-1802<br/>
+<a href="http://www.midwife.org/Accreditation" target="_blank">http://www.midwife.org/Accreditation</a></p>
+<h3>College of Pharmacy</h3>
+<p><strong>Pharmacy (PharmD: Doctor of Pharmacy)</strong><br/>
+<em>Accreditation Council for Pharmacy Education (ACPE)</em><br/>
+135 South LaSalle Street, Suite 4100<br/>
+Chicago, IL 60603-4810<br/>
+(312) 664-3575<br/>
+<a href="http://www.acpe-accredit.org/" target="_blank">http://www.acpe-accredit.org</a></p>
+<p><strong>Forensic Science (MS)</strong><br/>
+<em>Forensic Science Education Programs Accreditation Commission (FEPAC)</em><br/>
+410 North 21st Street<br/>
+Colorado Springs, CO 80904<br/>
+(719) 636-1100<br/>
+Email: <a href="mailto:membship@aafs.org">membship@aafs.org</a><br/>
+<a href="http://www.fepac-edu.org" target="_blank">http://www.fepac-edu.org</a></p>
+<h3>School of Public Health (SPH)</h3>
+<p><strong>Public Health (DrPH)<br/>
+Public Health (MPH)<br/>
+Public Health (MS)<br/>
+Public Health (PhD)<br/>
+Healthcare Administration (MHA)</strong><br/>
+<strong>Clinical and Translational Science (MS)</strong><br/>
+<em>Council on Education for Public Health (CEPH)</em><br/>
+1010 Wayne Avenue, Suite 220<br/>
+Silver Spring, MD 20910<br/>
+(202) 789-1050<br/>
+<a href="http://www.ceph.org/" target="_blank">http://www.ceph.org</a></p>
+<p><strong>Healthcare Administration (MHA)</strong><br/>
+<em>Commission on Accreditation of Healthcare Management Education (CAHME)</em><br/>
+6110 Executive Boulevard, Suite 614<br/>
+Rockville, MD 20852<br/>
+(301) 298-1820<br/>
+Email: <a href="mailto:info@cahme.org" target="_blank">info@cahme.org</a><br/>
+<a href="http://www.cahme.org" target="_blank">http://www.cahme.org</a></p>
+<p><strong>Public Health—Industrial Hygiene (MS, MPH)</strong><br/>
+<em>Accreditation Board for Engineering and Technology, Inc.</em><br/>
+111 Market Place, Suite 1050<br/>
+Baltimore, MD 21202-4012<br/>
+(410) 347-7700<br/>
+<a href="http://www.abet.org/" target="_blank">http://www.abet.org</a></p>
+<h3>Jane Addams College of Social Work</h3>
+<p><strong>Master of Social Work (MSW)</strong><br/>
+<em>Council on Social Work Education (CSWE)</em><br/>
+1701 Duke Street, Suite 200<br/>
+Alexandria, VA 22314-3457<br/>
+(703) 683-8080<br/>
+Email: <a href="mailto:info@cswe.org">info@cswe.org</a><br/>
+<a href="http://www.cswe.org" target="_blank">http://www.cswe.org</a></p>
+<h3>College of Urban Planning and Public Affairs</h3>
+<p><strong>Public Administration (MPA)</strong><br/>
+<em>Network of Schools of Public Policy, Affairs, and Administration (NASPAA)</em><br/>
+1029 Vermont Avenue NW, Suite 1100<br/>
+Washington, DC 20005-3517<br/>
+(202) 628-8965<br/>
+Email: <a href="mailto:copra@naspaa.org" target="_blank">copra@naspaa.org</a><br/>
+<a href="https://accreditation.naspaa.org/" target="_blank">https://accreditation.naspaa.org</a></p>
+<p><strong>Urban Planning and Policy (MUPP)</strong><br/>
+<em>Planning Accreditation Board (PAB)</em><br/>
+2334 West Laurence Avenue, Suite 209<br/>
+Chicago, IL  60625<br/>
+(773) 334-7200<br/>
+<a href="http://www.planningaccreditationboard.org/" target="_blank">http://www.planningaccreditationboard.org</a></p>
+<h3><strong>State Authorization for Online Programs and Courses</strong></h3>
+<p>UIC must comply with state regulations concerning the delivery of online courses and programs to out-of-state students. UIC was approved by the Illinois Board of Higher Education to participate in the National Council for State Authorization Reciprocity Agreements (NC-SARA), which is intended to ease the work load of institutions seeking authorization to deliver online programs and courses in other states.</p>
+<p>While students from most states may enroll in online programs at UIC, there are some important limitations.  Out-of-state students interested in enrolling in a UIC online program or online courses should check the <a href="https://ec.uic.edu/state-authorization/" target="_blank">State Authorization webpage</a> for more information about the states in which UIC is approved to offer distance education programs.</p>
+<p>Students interested in online programs may contact UIC Extended Campus at <a href="mailto:onlineinfo@uic.edu">onlineinfo@uic.edu</a> or (312) 355-0423 for more program information.</p></div><!--end #textcontainer -->
+
+
+
+            </div> <!-- end #content -->
+        </div><!--end #content-col -->
+    </div><!-- end #container -->
+</div><!-- end #wrapper -->
+
+<div id="footer" class="clearfix" role="contentinfo">
+    <div class="wrap">
+        <div id="foot-logo">
+            <a href="/">University of Illinois at Chicago</a>
+        </div><!-- end #foot-logo -->
+
+        <p><a href="http://admissions.uic.edu/apply-now">Apply Online</a> | <a href="http://admissions.uic.edu/contact-admissions">Contact Admissions</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a><br />
+        Having problems accessing this site? <a href="mailto:ccmelby@uic.edu">Contact the Webmaster</a>.<br />
+        &copy; 2018-2019 The Board of Trustees of the University of Illinois</p>
+    </div>
+</div><!-- end #footer -->
+
+<a href="#header" id="totop">Back to Top</a>
+
+<div id="print-dialog" class="screen noscript">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false;">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+
+
+<div class="print-option"><div class="option-head"><a href="uic-welcome.pdf" target="_blank">Download PDF of this page</a></div><p><em>The PDF will include all information unique to this page.</em></p></div>
+
+		<div class="print-option">
+			<div class="option-head">
+				<a href="/pdf/2018-20-graduate.pdf">Download PDF of the entire Graduate Catalog</a>
+			</div>
+			<p>
+				<em>All pages in the campus catalog.</em>
+			</p>
+		</div>
+
+	</div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

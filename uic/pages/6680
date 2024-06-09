@@ -1,0 +1,12 @@
+@inproceedings{wpes16, <br>
+ author = {Sivakorn, Suphannee and Keromytis, Angelos D. and Polakis, Jason},<br>
+ title = {That's the Way the Cookie Crumbles: Evaluating HTTPS Enforcing Mechanisms},<br>
+ booktitle = {Proceedings of the 2016 ACM on Workshop on Privacy in the Electronic Society},<br>
+ series = {WPES '16},<br>
+ year = {2016},<br>
+ location = {Vienna, Austria},<br>
+ pages = {71--81},<br>
+ numpages = {11},<br>
+ acmid = {2994638},<br>
+ publisher = {ACM}<br>
+}

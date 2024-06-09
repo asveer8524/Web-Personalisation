@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Homework 3 &middot; CS450: Introduction to Networking
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/poole.css">
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/syntax.css">
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/~balajee/cs450-f16/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/~balajee/cs450-f16/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-08">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>This is the webpage for the course "CS450: Introduction to Networking" at the University of Illinois at Chicago (UIC).</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/~balajee/cs450-f16/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw1/">Homework 1</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw2/">Homework 2</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item active" href="/~balajee/cs450-f16/hw3/">Homework 3</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw4/">Homework 4</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw5/">Homework 5</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw6/">Homework 6</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/schedule/">Schedule</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/syllabus/">Syllabus</a>
+        
+      
+    
+    
+    <!--
+    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+    -->
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2018. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/~balajee/cs450-f16/" title="Home">CS450: Introduction to Networking</a>
+            <small>Fall 2016</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">Homework 3</h1>
+  <h2 id="homework-3-writing-full-servers-serving-multiple-clients-edition">Homework 3: writing full servers (serving multiple clients edition!)</h2>
+
+<p>For this assignment you will extend your war server to accept an arbitrary number of simultaneous connections. Furthermore, while refactoring the server to accept multiple simultaneous connections using multiple processes or threads will get the job done, we will be using non-blocking input/output.</p>
+
+<p>When you originally wrote your code for homework 2, you most likely did something that basically looked like this:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>new_command = recv(2)
+if(parse_cmd(new_command) == "want game"):
+	send(get_half_deck())
+else:
+	cry_about_error()
+
+new_command = recv(2)
+</code></pre>
+</div>
+<p>Note that, whenever you call <code class="highlighter-rouge">recv</code>, you are implicitly causing your program to yield the processor until data comes in. If you were trying to serve multiple games at the same time, no matter how many valid commands are waiting on other sockets, you won’t read them until you first receive bytes on the socket you are currently calling <code class="highlighter-rouge">recv</code> on. This <em>blocking I/O</em> is easy to understand but does not allow one to write high performance code.</p>
+
+<p>We can solve this problem in one of two basic ways. Most easily, we can simply spawn multiple threads of control, and each thread can block while listening for new data. This is a very simple approach, however it incurs extra overhead for each thread/process spawned. Alternatively, we can keep all of the sockets in the same thread, and tell the operating system to notify us whenever ANY of those sockets has data waiting to be read by the process. The challenge, however, is that rather than being able to sprinkle your code with <code class="highlighter-rouge">recv</code> calls wherever you choose, you can only receive data at one point in your code, and then you must manually keep track of the state each connection is in.</p>
+
+<h3 id="startup-hints-c">Startup hints: C</h3>
+
+<p>In C, event driven networking code can be written using the select command. Basics of using select are available at this <a href="http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html#select">link</a>.</p>
+
+<h3 id="startup-hints-python">Startup hints: Python</h3>
+
+<p>Because Python is built on top of C, select is <a href="https://docs.python.org/2/library/select.html#select.select">built in to Python</a> as well with largely the same semantics.</p>
+
+<h3 id="requirements">Requirements</h3>
+
+<p>Your code can only have one thread of control. Attempting to turn in a solution for grading with multiple threads will be considered cheating. If you have any doubt about your solution’s legality, please contact the professor or TA.</p>
+
+<p>Your code must allow multiple clients to connect simultaneously. There is no requirement that any specific client be paired with any other client. Your code should easily handle up to 100 simultaneous games, and ANY game having 2 client commands being ready should see forward progress (i.e. you can’t be waiting on a separate socket when new data is available).</p>
+
+<h3 id="turn-in-instructions">Turn-in instructions</h3>
+
+<p>As in previous homework project you are allowed to use either C or Python, but you need to ensure that we will be able to grade your submission on our class Ubuntu VM. If you need to compile source files, or otherwise prepare the environment, you’ll need to provde a Makefile which will do so. You will also provide a <code class="highlighter-rouge">server.sh</code> script which we can run to start the code. <code class="highlighter-rouge">server.sh</code> will take one argument:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>/server.sh [portnumber]
+</code></pre>
+</div>
+<p>It will then listen for connections, and pair up 2 connecting clients for a game of war using the v.1 protocol.</p>
+
+<!--Your server must listen for connections on both its ipv4 and ipv6 addresses.
+-->
+<h3 id="grading">Grading</h3>
+
+<p>We will run your server against a reference implementation of clients. If at any time a client sends an incorrect message, your code should close the connection for BOTH clients, but otherwise continue operating.</p>
+
+<p>We will connect to your server with a combination of buggy clients (that either send the wrong thing, don’t send anything, or send something but not enough to kick them or continue), laggy clients, and correctly operating clients. Your server should not exit when anything unexpected happens, but rather close client connections and continue accepting new connections and supporting current games.</p>
+
+<p>Any output to <code class="highlighter-rouge">stdout</code> or <code class="highlighter-rouge">stderr</code> will not be considered - feel free to send debugging output, the result of each war, etc, to the screen.</p>
+
+<h3 id="due-date">Due Date</h3>
+
+<p>This assignment is due <strong>September 28, Wednesday, 3 pm</strong> . See the syllabus for the late turnin policy. This assignment is worth just as much as every other homework, so getting as much credit on it as possible is important (don’t turn in late!).</p>
+
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

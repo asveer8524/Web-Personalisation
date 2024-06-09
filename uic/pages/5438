@@ -1,0 +1,10 @@
+@article{kontaxis:ec2nd11,<br>
+author = {Georgios Kontaxis and Iasonas Polakis and Michalis Polychronakis and Evangelos P. Markatos},<br>
+title = {dead.drop: URL-Based Stealthy Messaging},<br>
+journal ={2011 Seventh European Conference on Computer Network Defense}, <br>
+volume = {0},<br>
+isbn = {978-1-4673-2116-7},<br>
+year = {2011}, <br>
+pages = {17-24}, <br>
+publisher = {IEEE Computer Society},<br>
+}

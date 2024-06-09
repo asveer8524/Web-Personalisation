@@ -1,0 +1,482 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> Homework2 &lt; CS385spring12 &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/CS385spring12/Homework2?_T=2018-11-25" type="application/x-wiki" title="edit Homework2" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/CS385spring12/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/CS385spring12/Homework2"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/CS385spring12/WebHome">CS385spring12 Web</a><span class='twikiSeparator'>&gt;</span><a href="/bin/view/CS385spring12/Homeworks" class="twikiLink">Homeworks</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/CS385spring12/Homework2" title='Topic revision: 1 (2012-01-17 - 21:06:00)'>Homework2</a> <span class='patternRevInfo'>(2012-01-17, Main.jakob)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/CS385spring12/Homework2?t=1543180578' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/CS385spring12/Homework2' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h1><a name="Homework_2_functions_calls_and_m"></a> Homework 2 - functions calls and memory management </h1>
+<p />
+In this homework, we study how parameters are passed and memory is allocated throughout the execution of a program through a variety of mechanisms. 
+<p />
+<h2><a name="1_Pass_by_value_vs_pass_by_refer"></a> 1. Pass by value vs. pass by reference </h2>
+<p />
+Function parameters (and return values) in C can be passed in two fundamentally different ways: <ul>
+<li> <strong>By value</strong>, the parameter value is copied into a new variable for use by the callee. Since the value is copied into a new variable, changes to the parameter value by the callee have no effect on the callers variable. 
+</li> <li> <strong>By reference</strong>, where a pointer to the intended parameter value is provided to the callee. Since caller and callee operate on the same variable, any changes made by the callee are seen by the caller. 
+</li></ul> 
+<p />
+Passing by value results in a pure and easy to understand program from a mathematical perspective. However, in programs that <em>do something, rather than calculate something</em>, passing by reference is sometimes necessary. Let us explore this distinction through a few exercises.   
+<p />
+<h3><a name="a_From_call_by_reference_to_call"></a> a. From call-by-reference to call-by-value </h3>
+<p />
+The following program unnecessarily uses the call-by-reference method for the function <code>addfive</code>. Change the function <code>addfive()</code> and parts of <code>main()</code> to use call-by-value instead.
+<p />
+<pre>
+#include&#60;stdio.h&#62;
+#include&#60;stdlib.h&#62;
+void addfive(int &#42;value) {
+  &#42;value&#61;(&#42;value)+5;
+}
+
+int main(int argc, char &#42;&#42;argv) {
+  if(argc!&#61;2) { printf(&#34;Usage: hw2i1a &#60;integer&#62;\n&#34;); exit(1); }
+  int times &#61; atoi(argv&#91;1]);
+  int accumulator&#61;0;
+  while(times--) {
+    printf(&#34;Accumulator &#61; &#37;d\n&#34;,accumulator);
+    addfive(&#38;accumulator);
+  }
+}
+</pre>
+<p />
+<strong>Turn-in requirement:</strong> submit your program as a file called <code>hw2i1a.c</code> in your hw2 directory, and add <code>hw2i1a</code> as a target to the Makefile. 
+<p />
+<h3><a name="b_From_call_by_value_to_call_by"></a> b. From call-by-value to call-by-reference </h3>
+<p />
+This program crashes with a stack overflow error when we try to pass a very large struct by value. To see the program work, try changing the size of the largearray field to something much smaller. It should break when the size exceeds 4090  kilobytes or so. 
+<p />
+Change the function <code>incrementCharAtOffset()</code> (and part of <code>main()</code>) to use call-by-reference for this call instead.  
+<p />
+<pre>
+#include&#60;stdio.h&#62;
+#include&#60;stdlib.h&#62;
+#include&#60;string.h&#62;
+struct LargeStruct {
+  char largearray&#91;4096&#42;1024];
+};
+
+struct LargeStruct 
+incrementCharAtOffset(struct LargeStruct s, int offset)
+{
+  s.largearray&#91;offset]++;
+  return s;
+}
+
+struct LargeStruct myLargeStruct;
+main() {
+  int incrementOffset &#61; 10;
+  printf(&#34;Value at offset &#37;d before incrementing &#37;d\n&#34;,
+          incrementOffset,
+          myLargeStruct.largearray&#91;incrementOffset]);
+
+  myLargeStruct&#61;incrementCharAtOffset(myLargeStruct,incrementOffset);
+
+  printf(&#34;Value at offset &#37;d after incrementing &#37;d\n&#34;,
+           incrementOffset,
+           myLargeStruct.largearray&#91;incrementOffset]);  
+}
+</pre>
+<p />
+<strong>Turn-in requirement:</strong> submit your program as a file called <code>hw2i1b.c</code> in your hw2 directory, and add <code>hw2i1b</code> as a target to the Makefile. 
+<p />
+<h2><a name="Dynamic_memory_allocation"></a> Dynamic memory allocation </h2>
+<p />
+Memory is allocated in C in three primary ways.
+<p /> <ul>
+<li> Static allocation, which is used for global variables. Static memory allocation is determined at compile time, and is the same for every execution of a program. This memory is released only upon program exit.
+</li> <li> Stack allocation, which is used for local variables, function parameters and return values. Space for these variables is allocated from the stack on each function call, and thus depends on the execution flow of a program. The maximum size of the stack is typically set externally. Memory allocated from the stack is released upon function return.
+</li> <li> Dynamic allocation, often referred to as the 'heap'. Dynamic memory allocation is done using the malloc() or mmap() calls in C. Dynamically allocated memory is released upon program exit, or using the functions free() or munmap(). 
+</li></ul> 
+<p />
+<h3><a name="a_Use_dynamic_memory_allocation"></a> a. Use dynamic memory allocation instead of static </h3>
+<p />
+The program below reverses a word provided on the command line. Unfortunately, we don't know how long the word might be. To be on the safe side, the current program statically allocates one megabyte to hold the reversed version of the string before printing it out. Try compiling the code, to see the size of the binary: over one megabyte!
+<p />
+Change the code to instead allocate only the required amount of memory at runtime, using malloc(), and don't forget to free() the memory at the end!
+<p />
+<pre>
+#include&#60;stdio.h&#62;
+#include&#60;stdlib.h&#62;
+#include&#60;string.h&#62;
+
+char reversed&#91;1024&#42;1024]&#61;&#34;Huge&#34;;
+int main(int argc, char&#42;&#42; argv) {
+ if(argc !&#61; 2) { fprintf(stderr,&#34;Usage: hw2i2a &#60;word&#62;\n&#34;); exit(1); }
+
+ memset(reversed,0,sizeof(reversed));
+ int i;
+ for(i&#61;0;i&#60;strlen(argv&#91;1]);i++) {
+  reversed&#91;i]&#61;argv&#91;1]&#91;strlen(argv&#91;1])-i-1];
+ }
+  
+ printf(&#34;&#37;s &#61; reversed(&#37;s)\n&#34;,reversed,argv&#91;1]);
+ printf(&#34;The reversed string array is &#37;ld bytes.\n&#34;,sizeof(reversed));
+}
+</pre>
+<p />
+<strong>Turn-in requirement:</strong> submit your program as a file called <code>hw2i2a.c</code> in your hw2 directory, and add <code>hw2i2a</code> as a target to the Makefile. 
+<p />
+<h3><a name="b_implement_a_leaky_string_conca"></a> b. implement a (leaky) string concatenation function </h3>
+<p />
+Change (only) the function <code>concatenate()</code>, so that it returns the result of concatenating strings a and b. For example, <code>concatenate("fire","cracker")</code> returns the string "firecracker". You'll need to use <code>malloc()</code> inside concatenate. However, since there are no calls to free(), this code is leaking memory. That's ok for now.
+<p />
+<strong>NOTE:</strong> as before, you may not use existing string library functions, such as sprintf, strcpy, etc for this homework. strlen() is ok. 
+<p />
+<pre>
+#include&#60;stdio.h&#62;
+#include&#60;stdlib.h&#62;
+#include&#60;string.h&#62;
+char &#42;concatenate(char&#42; a, char&#42; b) {
+   return a; // replace this with your string concatenation code
+}
+
+int main(int argc, char&#42;&#42; argv) {
+  if(argc&#60;4) { printf(&#34;Usage: hw2i2b &#60;count&#62; &#60;firstword&#62; &#60;secondword&#62;\n&#34;);
+              exit(1); }
+
+  char &#42;middle&#61;&#34;cruel&#34;;
+  char number&#91;10];
+  int i;
+    
+  for(i&#61;0;i&#60;atoi(argv&#91;1]);i++) {
+    sprintf(number,&#34;&#37;d&#34;,i); // update the number string
+
+    // begin leaky
+    char &#42;line &#61; concatenate( // not leaked
+                  concatenate(argv&#91;2],number), // leaked
+                  concatenate(middle, // leaked
+                   concatenate(number, argv&#91;3]))); // leaked
+    if(i&#62;0)  // can&#39;t free the statically allocated &#34;cruel&#34; string above
+      free(middle); 
+    // end leaky      
+    printf(&#34;&#37;s\n&#34;,line);
+    middle&#61;line;
+  }
+  free(middle);
+}
+
+</pre>
+<p />
+Example program output:
+<p />
+<pre>
+~&#62; ./hw2i2b 10 hello world
+hello0cruel0world
+hello1hello0cruel0world1world
+hello2hello1hello0cruel0world1world2world
+hello3hello2hello1hello0cruel0world1world2world3world
+hello4hello3hello2hello1hello0cruel0world1world2world3world4world
+hello5hello4hello3hello2hello1hello0cruel0world1world2world3world4world5world
+hello6hello5hello4hello3hello2hello1hello0cruel0world1world2world3world4world5world6world
+hello7hello6hello5hello4hello3hello2hello1hello0cruel0world1world2world3world4world5world6world7world
+hello8hello7hello6hello5hello4hello3hello2hello1hello0cruel0world1world2world3world4world5world6world7world8world
+hello9hello8hello7hello6hello5hello4hello3hello2hello1hello0cruel0world1world2world3world4world5world6world7world8world9world
+</pre>
+<strong>Turn-in requirement:</strong> submit your program as a file called <code>hw2i2b.c</code> in your hw2 directory, and add <code>hw2i2b</code> as a target to the Makefile. 
+<p />
+<h3><a name="c_manual_garbage_collection"></a> c. manual garbage collection </h3>
+<p />
+Without garbage collection, it's difficult to write the above program both elegantly and leak-free at the same time: all those nested concatenate calls are forgetting the pointers to the <code>malloc()ed</code>  strings before we get a chance to <code>free()</code> them. 
+<p />
+Without resorting to much stronger measures, the only way to fix these leaks is to keep a pointer to each string until we don't need the string any more, and then <code>free()</code> it. Make a copy of your hw2i2b.c, calling it hw2i2c.c. Changing only the lines between the "begin leaky" and "end leaky" comments, make sure to plug every memory leak in this program. 
+<p />
+To help with the debugging, add the following before <code>concatenate()</code>, change the <code>malloc()</code> call in concatenate to <code>mymalloc()</code>, and use <code>myfree()</code> instead of <code>free()</code> (yes, you're allowed to make those changes).
+<p />
+<pre>
+
+void&#42; mymalloc(int size) {
+  void&#42; ptr &#61; malloc(size);
+  fprintf(stderr,&#34;malloc: &#37;p\n&#34;,ptr);
+  return ptr;
+}
+void myfree(void&#42; ptr) {
+  fprintf(stderr,&#34;free: &#37;p\n&#34;,ptr);
+  free(ptr);
+}
+</pre>
+<p />
+example output: 
+<p />
+<pre>
+./a.out 2 hello world
+malloc: 100080
+malloc: 100090
+malloc: 1000a0
+malloc: 1000b0
+free: 100080
+free: 100090
+free: 1000a0
+hello0cruel0world
+malloc: 1000a0
+malloc: 100080
+malloc: 1000d0
+malloc: 1000e0
+free: 1000a0
+free: 100080
+free: 1000d0
+free: 1000b0
+hello1hello0cruel0world1world
+free: 1000e0
+</pre>
+<p />
+<strong>Turn-in requirements:</strong> hw2i2c.c and a hw2i2c Makefile target, you know the drill.
+<p />
+<h2><a name="3_Three_reverse_Fibonaccis"></a> 3. Three reverse Fibonaccis </h2>
+<p />
+The fibonacci series ought to be familiar to you by now: 1,1,2,3,5,8,13.... or f(x)=f(x-1)+f(x-2), f(0)=1, f(1)=1. Here is a typical implementation using recursion:
+<p />
+<pre>
+long long fib(x) {
+ if(x&#60;2) return 1;
+ else return fib(x-1)+fib(x-2);
+}
+</pre>
+<p />
+and an iterative implementation
+<pre>
+main() {
+ long long back1&#61;1,back2&#61;1;
+ printf(&#34;1, 1, &#34;);
+ int i;
+ for(i&#61;2;i&#60;75;i++) {
+  long long fib&#61;back1+back2;
+  printf(&#34;&#37;lld, &#34;,fib);
+  back2&#61;back1;
+  back1&#61;fib;
+ }
+}
+</pre>
+<p />
+Both solutions use the 64-bit type "long long" to support large integers. You are to implement a "reverse fibonacci series" program, in three different ways. All three programs take the same input and produce the same output:
+<p />
+<pre>
+./hw2i3a 6
+8,5,3,2,1,1
+./hw2i3b 3
+2,1,1
+./hw2i3c 9
+34,21,13,8,5,3,2,1,1
+./hw2i3a 70
+190392490709135,117669030460994,72723460248141,44945570212853,27777890035288,17167680177565,10610209857723,6557470319842,4052739537881,2504730781961,1548008755920,956722026041,591286729879,365435296162,225851433717,139583862445,86267571272,53316291173,32951280099,20365011074,12586269025,7778742049,4807526976,2971215073,1836311903,1134903170,701408733,433494437,267914296,165580141,102334155,63245986,39088169,24157817,14930352,9227465,5702887,3524578,2178309,1346269,832040,514229,317811,196418,121393,75025,46368,28657,17711,10946,6765,4181,2584,1597,987,610,377,233,144,89,55,34,21,13,8,5,3,2,1,1
+</pre>
+<p />
+In our tests, the input number will always be below 75 and above 2.
+<p />
+<h3><a name="a_Functional_No_loops_no_global"></a> a. Functional: No loops, no global variables, no arrays </h3>
+Use recursive function calls instead of loops. 
+<p />
+<strong>HINT:</strong> your recursive function will probably need several arguments to make this work.
+<p />
+<h3><a name="b_Iterative_No_functions_no_arra"></a> b. Iterative: No functions, no arrays </h3>
+Do not declare any functions of your own, and use no arrays or pointers. 
+<p />
+<strong>HINT:</strong> use an outer loop to count down from the input number to 0, and an inner loop to compute the appropriate fibonacci number.
+<p />
+<h3><a name="c_Efficient_No_functions_and_no"></a> c. Efficient: No functions, and no nested loops </h3>
+You may have several loops, but no loops within loops, or any functions of your own.
+<p />
+<strong>HINT:</strong> use a first loop to compute and store the appropriate fibonacci sequence in an array. Use a second loop to print the numbers in the array in reverse order. 
+<p />
+<strong>Turn-in requirement:</strong> submit your programs as files called <code>hw2i3a.c</code>, <code>hw2i3b.c</code> and <code>hw2i3c.c</code> in your hw2 directory, and add the corresponding targets to the Makefile.  </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/CS385spring12/Homework2?t=1543180579' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/CS385spring12/Homework2' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS385spring12/Homework2?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/CS385spring12/Homework2?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r1</span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS385spring12/Homework2?template=backlinksweb' rel='nofollow' title='Search the CS385spring12 Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/CS385spring12/Homework2?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/CS385spring12/Homework2?t=1543180579;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/CS385spring12/Homework2?template=oopsmore&amp;param1=1&amp;param2=1' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r1 - 2012-01-17 - 21:06:00 - Main.jakob</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/CS385spring12/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> CS385spring12</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/CS385spring12/Syllabus" class="twikiLink">Syllabus</a>
+</li> <li> <a href="/bin/view/CS385spring12/LectureNotes" class="twikiLink">Lecture Notes</a>
+</li> <li> <a href="/bin/view/CS385spring12/Homeworks" class="twikiLink">Homeworks</a>
+</li> <li> <a href="http://piazza.com/class#spring2012/cs385" target="_top">Discussion Board</a>
+</li> <li> <a href="/bin/view/CS385spring12/Subversion" class="twikiLink">Subversion help</a>
+</li> <li> <a href="/bin/view/CS385spring12/AdditionalMaterial" class="twikiLink">Additional Material</a>
+</li></ul> 
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> -->
+<html lang="en"><!-- InstanceBegin template="/templates/faculty_staff_template.dwt" codeOutsideHTMLIsLocked="false" --> <!--<![endif]-->
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Midterm Grading | UIC Office of the Registrar</title>
+    <!-- InstanceEndEditable -->
+    <meta name="description" content="">
+    <meta name="University of Illinois at Chicago" content="">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link href="../../assets/css/layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../../assets/css/main.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../../assets/css/header_red.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../../assets/css/print.css" rel="stylesheet" type="text/css" media="print">
+    <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,700,600,800|Open%20Sans%20Condensed:300,300italic,700|Shadows%20Into%20Light%20Two" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 9]>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <![endif]-->
+    <!-- Favicons -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="/assets/js/cookielaw.js"></script>
+    <script src="../../assets/js/respond.js"></script>
+    <script src="../../assets/js/rwd-nav.js"></script>
+    <script src="../../assets/js/analytics.js"></script>
+    <script src="../../assets/js/nav-menu-slider.js" type="text/javascript"></script>
+    <script src="../../assets/js/search-bar-replace-txt.js" type="text/javascript"></script>
+    <script src="../../assets/js/breadcrumb.js" type="text/javascript"></script>
+    <script src="../../assets/js/notification.js" type="text/javascript"></script>
+    <!-- topmenu -->
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+</head>
+<body onload="showMenu()">
+<a href="#content" class="offPage">Skip navigation</a>
+<div id="top">
+    <div id="header">
+        <a href="../../index.html">
+            <img alt="UIC Office of the Registrar" src="../../assets/images/registrar-logo-white.png" class="logo">
+            <img alt="UIC Office of the Registrar" src="../../assets/images/registrar-logo-red.png" class="logo-print"></a>
+        <div id="topNav_01">
+            <div id="topLinks"><a href="../../student_records/transcripts/">Transcripts</a> <a href="/registration/">Registration</a> <a href="../../contact/index.html">Contact
+                us</a><a href="http://www.uic.edu">UIC Home</a>
+            </div>
+        </div>
+
+        <div id="search">
+            <!-- <span class="vaText">Search Website:</span>-->
+            <form action="/search/" id="cse-search-box">
+                <label for="vaquestion" class="offPage">Search:</label>
+                <input name="cx" value="013828019967465427494:hgaggi0gegq" type="hidden">
+                <input value="FORID:11" name="cof" type="hidden">
+                <input name="ie" value="UTF-8" type="hidden">
+                <input name="q" class="searchText" id="vaquestion" value="Search website..." size="20" maxlength="200" alt="enter your question" onfocus="clickTextbox(this.id)" onblur="blurTextbox(this.id)" type="text">
+
+                <input name="sa" id="btnask" value="Search" type="submit">
+            </form>
+        </div> <!-- // end div search -->
+
+
+    </div> <!-- // end div header -->
+
+</div> <!-- // end div top -->
+<div id="container">
+    <div id="menu" class="menu">
+        <h2 class="offPage">Top Navigation</h2>
+        <ul id="topNav2" class="topNav2">
+            <li class="top-level rightMenu item-with-ul"><a href="../../current_students/index.html" class="topLVL link-with-ul">Current Students</a>
+                <h6 class="offPage">Current Students</h6>
+                <ul class="sub-menu">
+                    <li class="subLVL"><a href="../../registration/">Registration Services</a> </li>
+                    <li class="subLVL"><a href="../../current_students/calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../../financial_matters/">Financial Matters</a></li>
+                    <li class="subLVL"><a href="../../student_records/">Student Records</a></li>
+                    <li class="subLVL"><a href="../../student_records/transcripts/">Transcripts</a></li>
+                    <li class="subLVL"><a href="../../campus_policies/">Campus Policies</a></li>
+                </ul>
+            </li>
+            <li class="top-level item-with-ul"><a href="../../current_students/index.html" class="topLVL link-with-ul">Former Students</a>
+
+                <h6 class="offPage">Former Students</h6>
+                <ul class="sub-menu">
+                    <li class="subLVL"><a href="../../current_students/calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../../student_records/">Student Records</a></li>
+                    <li class="subLVL"><a href="../../student_records/transcripts/">Transcripts</a></li>
+                    <li class="subLVL"><a href="../../campus_policies/">Campus Policies</a></li>
+                </ul>
+            </li>
+            <li class="top-level item-with-ul"><a href="/uic_faculty_staff/" class="topLVL link-with-ul">Faculty &amp; Staff</a>
+                <h6 class="offPage">Faculty &amp; Staff</h6>
+                <ul class="sub-menu">
+                    <li class="subLVL"><a href="../classroom_scheduling/">Classroom Scheduling</a></li>
+                    <li  class="subLVL"><a href="../faculty_self_service/">Faculty Self-Service</a></li>
+                    <li class="subLVL"><a href="../calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../classes.html">Classes</a></li>
+                    <li class="subLVL"><a href="../grades/">Grades</a></li>
+                    <li class="subLVL"><a href="../registration/">Registration</a></li>
+                    <li class="subLVL"><a href="http://uic.verbacollect.com">Textbook Adoption</a></li>
+                    <li class="subLVL"><a href="../student_records_policy/">Student Records Policy</a></li>
+                </ul>
+            </li>
+            <li class="top-level item-with-ul"><a href="/uic_faculty_staff/" class="topLVL link-with-ul">Other Links...</a>
+
+                <h6 class="offPage">Other Links... sub-category</h6>
+                <ul class="sub-menu">
+                    <li class="subLVL"><a href="https://admissions.uic.edu/undergraduate">Prospective Students</a></li>
+                    <li class="subLVL"><a href="https://aes.uic.edu/aes-staff/">AES Staff</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> <!-- // end div menu -->
+    <div class="embed-notification"><p></p></div>
+    <div id="leftNav">
+        <h3 class="offPage">Section navigation</h3>
+        <ul>
+            <li class="nav-current"><a href="#">Go to Section...</a></li>
+            <li><a href="../classroom_scheduling/index.html">Classroom Scheduling</a></li>
+            <li><a href="../faculty_self_service/">Faculty Self-Service</a></li>
+            <li><a href="../calendars/">Calendars</a></li>
+            <li><a href="../classes.html">Classes</a></li>
+            <li><a href="../grades/">Grades</a></li>
+            <li><a href="../registration/">Registration</a></li>
+            <li><a href="http://uic.verbacollect.com">Textbook Adoption</a></li>
+            <li><a href="../student_records_policy/">Student Records Policy</a></li>
+        </ul>
+    </div><!-- // end div leftnav -->
+    <div id="breadcrumb">
+        <!-- InstanceBeginEditable name="breadcrumb" -->
+        <a href="../../index.html">Home</a> &raquo; <a href="../../uic_faculty_staff/index.html">Faculty and Staff</a> &raquo; Grading<!-- InstanceEndEditable -->
+    </div><!-- // end div breadcrumb -->
+    <div id="content">
+        <!-- InstanceBeginEditable name="content" -->
+        <!--end rightLinks div -->
+        <h1>Midterm Grades</h1>
+        <h2>Midterm grades for students in 000 and 100 level courses</h2>
+        <p>The Committee of Associate and Assistant Deans are requesting that  Instructors in 000 and 100 level courses evaluate student performance by  midterm.&nbsp; Midterm grades will be collected for students enrolled in 000  and 100 level courses.&nbsp; These grades are not recorded on the student's permanent record and are advisory grades used for counseling purposes.</p>
+        <h2>Midterm Grades</h2>
+        <ul type="disc">
+            <li><a href="#processing">Processing Schedule</a> </li>
+            <li><a href="#midterm">Midterm Grade Entry Instructions</a> </li>
+            <li><a href="#faq">Helpful Information </a></li>
+            <li><a href="#reports">Reports</a></li>
+        </ul>
+        <h2><a name="processing" id="processing"></a>Processing Schedule</h2>
+        <ul type="disc">
+            <li>Comments will be placed on the Banner Class Roster indicating that a Midterm Grade is required the week of <strong>October 1, 2018</strong>. This comment is needed to create rosters for midterm grading.</li>
+            <li><strong>Grades will be due on Wednesday, October 24, 2018 11:59 pm. </strong></li>
+            <li>Students will be able to view midterm grades via <a href="http://my.UIC.edu">my.UIC.edu</a> in Student Self Service Thursday, October 25, 2018, 9:00 am.</li>
+            <li>View Direct reports available Friday, October 26, 2018.</li>
+        </ul>
+        <p><a href="#top">Back  to Top</a></p>
+        <h2><a name="midterm" id="midterm"></a>Midterm Grade Entry Instructions</h2>
+        <p>In order to access the Self-Service System ALL faculty members must  establish an Enterprise ID. For instructions, go the <a href="https://apps.uillinois.edu/">https://apps.uillinois.edu</a>, select  Student &amp; Faculty Self-Service and follow instructions for first-time  users.</p>
+        <ol start="1" type="1">
+            <li>Log in to <a href="https://my.UIC.edu">https://my.UIC.edu</a> and proceed to Mid-Term and Final Grading on the lower left hand column of choices.</li>
+            <li>Be certain that Midterm Grades are selected at the  option in the upper left hand of the page.</li>
+            <li>If the CRN is not displayed, contact your  department. </li>
+            <li>To assign a grade for individual students, use the  drop-down box that appears in the Grade column. Only applicable grades will be  displayed in the drop-down box. </li>
+            <li>A spreadsheet of grades can also be loaded.  Click on the Tools pull down menu at the upper right of the page and follow instructions. See <a href="https://ossswebcs4.admin.uillinois.edu/xe/xe_fac.html">https://ossswebcs4.admin.uillinois.edu/xe/xe_fac.html</a> for help and instructions.</li>
+            <li>To submit grades hit the SAVE button.</li>
+            <li>You will have the ability to edit and/or correct  grades you have already submitted through the Self-Service system up until the  the Office of the Registrar published grade deadline. </li>
+            <li>Repeat steps to enter grades for each course you  are teaching. </li>
+            <li>You will NOT be able to  view midterm grades submitted for your students AFTER the submission deadline.  Select the Tools menu in the upper right hand of the page to Export a copy of  all grades submitted for your records.</li>
+        </ol>
+        <p><a href="#top">Back  to Top</a> </p>
+        <h2><a name="faq" id="faq"></a>Helpful Information </h2>
+        <ul type="disc">
+            <li>The <strong>midterm</strong> grades for an entire class can  also be viewed in Banner on the Class Roster form, SFASLST. </li>
+            <li>All midterm grades submitted for a individual  student can be viewed in Banner using the SFARHST form. </li>
+            <li>Once the deadline to enter midterm grades has  passed, the ability to enter or update the web midterm grade feature will be  electronically shut off. There will be no late submission of midterm grades. </li>
+            <li>Instructors will NOT be able to view midterm grades  submitted for students AFTER the submission deadline. Instructors will NOT be  able to view midterm grades submitted for students AFTER the submission  deadline. Instructors may select the Tools menu in the upper right hand of the  page to Export a copy of all grades submitted for their records. </li>
+            <li>Students will be able to view the midterm grades  once the faculty deadline to enter grades has passed.<br>
+                Student evaluations at midterm are used for counseling purposes, and are not  recorded on the student&rsquo;s permanent record. </li>
+            <li>Tips for students on  interpreting midterm grades can be found at <a href="http://advising.uic.edu/">http://advising.uic.edu/</a>.</li>
+        </ul>
+        <p><strong>Midterm grades not submitted by the deadline will not display on the  college and departmental advising reports.</strong></p>
+        <p><a href="#top">Back  to Top</a> </p>
+        <h2><a name="reports" id="reports"></a>Midterm Grade Reports</h2>
+        <p>Three new view direct reports will be available for college and department  staff:</p>
+        <h3>Midterm Grades (SR2MGRA01B)</h3>
+        <p>This student grade report will list all courses and midterm grades (if  submitted) for ALL students in 000 and 100 level courses.&nbsp; Data elements  include:&nbsp; student's name, UIN, phone number, email, mailing address,  department/major, course subject, number, section, campus, course title, grade,  credit hours, earned hours, attempted hours, GPA hours and midterm GPA.&nbsp;  This report will be indexed by college and sorted alphabetically by student.</p>
+        <h3>Midterm Grades Below C (SR2MGRA02B)</h3>
+        <p>This report is a subset of the population of students in the Midterm Grades  report listed above.&nbsp; Only students who received at least one midterm  grade below a C will be included in this report.</p>
+        <h3>Midterm Grades Below C Data (SR2MGRA03B)</h3>
+        <p>This is a downloadable data version of the Report of Grades Below C.&nbsp;  Select demographic and GPA data elements will be included in this report.</p>
+        <h3>Midterm grade queries are available in the Decision  Support Solutions Library</h3>
+        <p>See <a href="https://www.aits.uillinois.edu/services/reports_and_data/reports/solution_library/student/mid-_term_grades/">Mid-Term Grades Student Solution Library</a></p>
+        <h3>Security Access</h3>
+        <p>Users with Banner access to view registration records will have access to  these reports. If you are unable to retrieve these reports in ViewDirect or if  you need access to Banner forms, please contact your Unit Security Contact  (USC) to obtain access.&nbsp; <br />
+            See <a href="http://www.aits.uillinois.edu/access/find_my_usc/">http://www.aits.uillinois.edu/access/find_my_usc/</a>&nbsp;  for a listing of Unit Security Contacts.</p>
+        <p><a href="#top">Back  to Top </a></p>
+        <p>
+            <em>Last updated on
+                <!-- #BeginDate format:Am1 -->March 2, 2017<!-- #EndDate -->
+            </em><br />
+        </p>
+        <!-- InstanceEndEditable -->
+        <p class="last">&nbsp;</p>
+
+    </div> <!-- // end div content -->
+</div> <!-- // end div container -->
+<div id="bottom" role="contentinfo">
+    <div id="footer">
+        <div class="bottomNav">
+            <h2>Office of the Registrar, MC 018</h2>
+            <ul>
+                <li>University of Illinois at Chicago</li>
+                <li>Suite 1200 Student Services Building</li>
+                <li>1200 West Harrison Street</li>
+                <li>Chicago, Illinois 60607-7161</li>
+                <li>312-996-4350</li>
+            </ul>
+            <h2>Hours of Operation</h2>
+            <ul>
+                <li>Monday - Friday, 8:30-5:00pm</li>
+            </ul>
+        </div>
+        <!-- end of div bottomNav -->
+        <div class="bottomNav">
+            <h2><a href="../../current_students/">UIC Office of the Registrar</a></h2>
+            <ul>
+                <li> </li>
+                <li> <a href="../../current_students/">Current &amp; Former Students</a></li>
+                <li><a href="../../uic_faculty_staff/">UIC Faculty &amp; Staff</a></li>
+            </ul>
+            <h2><a href="../../contact/">Contact us!</a></h2>
+            <ul>
+                <li><a href="../../contact/form_current_students.html">Registrar Webform</a></li>
+                <li><a href="mailto:aes_webmaster@helpdesk.uic.edu?subject=Registrar Website">Webmaster</a></li>
+                <li><a href="../../sitemap">Sitemap</a></li>
+            </ul>
+        </div>
+        <!-- end of div bottomNav -->
+        <img class="bottomImage" src="../../assets/images/uic-logo-mark-wht.png" alt="UIC Sign in front of Chicago Skyline">
+        <img class="bottomImage-print" src="../../assets/images/uic-logo-mark-red.png" alt="UIC Sign in front of Chicago Skyline">
+    </div>
+    <!--OneTrust Cookies Settings button start -->
+    <a class="optanon-show-settings">CookieSettings</a>
+    <!--OneTrust Cookies Settings button end -->
+</div>
+<!-- Classic Analytics -->
+</body><!-- InstanceEnd --></html>

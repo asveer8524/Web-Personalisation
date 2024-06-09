@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/text.css">
+<link rel="stylesheet" href="css/960.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Condensed'>
+<link rel="stylesheet" href="css/style_cs450.css">
+<title>CS450: Introduction to Networking</title>
+</head>
+<body>
+<div id="container" class="container_16">
+
+  <div id="mainContent" class="grid_16">
+
+    <div id="logo" class="grid_16 alpha omega">
+      <h1>CS 450: Introduction to Networking (Spring 2016)</h1>
+    </div>
+
+    <div id="basics" class="grid_16 alpha omega">
+      <div id="profilepic">
+        <p>Course picture</p>
+      </div>
+
+    <h2>First things first</h2>
+    <p>
+    <ul>
+      <li> <strong>Instructor</strong>: <a href="mailto:bvamanan@uic.edu">Balajee Vamanan</a>, <strong>Office hours</strong>: MW 3-4 PM at SEO #1240 </li>
+      <li> <strong>Lecture hours</strong>: MWF 1-1:50 PM at SES #138 </li>
+      <li> <strong>TA</strong>: <a href="mailto:amusa2@uic.edu">ABM Musa</a>, <strong>Office hours</strong>: ThF 3-4 PM at ERF 2054 </li>
+      <li> <strong>Textbook</strong>: <a href="http://www.amazon.com/Computer-Networking-Top-Down-Approach-Edition/dp/0132856204">Computer Networking: A Top-Down Approach</a> by Kurose and Ross, 6th Edition </li>
+      <li> <strong>Online discussion</strong>: <a href="https://piazza.com/class/ij9cntb1t0d7mi">CS450@Piazza</a> </li>
+      <li> <strong>iClickers</strong> are required for quizzes; quizzes account for 5% of overall grade.</li>
+      <li> <strong>Exam dates</strong>: Midterm on <strong>3/16 in-class</strong>, Finals on 
+        <strong>May 2, 2016 (Monday), 1:00 - 3:00 p.m. at SES 138 </strong>
+    </ul>
+    </p>
+
+    <h2>Course Overview</h2>
+    <p>
+    The goal of this course is to give you a good understanding of the various components (layers) of the Internet. It is a hands-on course and you will get exposure to a few network diagnostic tools and simulators.</p> 
+
+    <p>Towards the end, we will also explore recent trends in networking research which would help those interested in pursuing research in this area. </p>  
+    <p>
+    The course would cover the following topics:
+    <ul>
+      <li>TCP/IP layering model of the Internet
+      <li>Domain Name Services (DNS)</li>
+      <li>Networking APIs for application developers</li>
+      <li>Network performance - throughput, delay and packet loss</li>
+      <li>TCP - Reliability and Congestion Control</li>
+      <li>IPv4/IPv6 Addressing / Routing</li>
+      <li>Inter/intra domain routing protocols</li>
+      <li>Network address translation</li>
+      <li>Mobility and the Internet</li>
+      <li>Network Security - Botnets, DoS/DDoS, Viruses and Worms</li>
+      <li>Multicast and Anycast mechanisms</li>
+      <li>Physical layer: modulation and coding</li>
+    </ul>
+    </p>
+    <h2>Prerequisites</h2>
+    <p>A substantial portion of this class involves low level network programming; CS385 or equivalent is required. Concurrent enrollment is only available with instructor consent but not recommended. You can find the recordings of CS385 <a href="http://www.cs.uic.edu/CS385">here</a>.</p>
+    <h2>Grading</h2>
+    <p>
+    <ul>
+      <li>Grading is relative (i.e, grade cut-offs are not defined ahead of time).</li>
+      <li>Grading is done separately for graduate and undergraduate students.</li>
+
+      These are the weights of the individual components.
+      <table border="1" style="width:50%">
+        <tr>
+          <th>Component</th>
+          <th>Weightage</th> 
+        </tr>
+        <tr> <td>Class participation</td> <td>5%</td></tr>
+        <tr> <td>Reading Quizzes</td>     <td>5%</td></tr>
+        <tr> <td>Homeworks</td>           <td>35%</td></tr>
+        <tr> <td>Midterm Exam</td>        <td>25%</td></tr>
+        <tr> <td>Final Exam</td>          <td>30%</td></tr>
+      </table>
+      </p>
+      <h2>Reading Quizzes</h2>
+      <p>Reading quizzes will be given at the beginning of each class period using iClickers. Everyone will have their lowest three quiz scores dropped.</p>
+      <h2>Class Participation</h2>
+      <p>Participation is incredibly important! 
+      <ul>
+        <li>Bonus 5% for exceptional participation at the dicretion of instructor and TA. This extra credit will be highly selective.</li>
+        <li>Expectional participation includes but not limited to answering questions in Piazza, reporting errors (if any) in homeworks and assignments, asking good questions in class, and contributing testcases and scripts code for the common good.
+      </ul>
+      </p>
+
+      <h2>Homeworks</h2>
+      <p>
+      <ul>
+        <li>Eight homeworks roughly uniformly distributed throughout the semester. </li>
+        <li>C is preferred. If you want to use any other language, <xxx> please talk to the instructor.</xxx></li>
+      </ul>
+      Please check the <a href="cs450-sched.html">schedule</a> page where the homeworks would be posted. 
+
+      </p>
+
+      <h2>Late submissions</h2>
+      <p>Late home work submissions will be penalized. Late Submissions that are within 24 hours will receive 50% credit. After that, all bets are off. </p>
+
+      <h2>Academic Integrity</h2>
+      <p>Discussions with your peers are encouraged. However, copying code is considered plagiarism. If you don't know how your code (the one you were supposed to implement for an assignment or a homework) works, then its likely a problem. To be safe, please cite your your sources in all your turn-ins. When in doubt, please ask the instructor or the TA.</p>
+
+      <h2>Schedule</h2>
+      <p>
+      You can find the running schedule of the class <a href="cs450-sched.html">here</a>.
+      </p>
+      
+    </div>
+
+    </div>
+  </div>
+
+    </body>
+
+    </html>
+garbage text

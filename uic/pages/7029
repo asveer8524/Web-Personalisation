@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>ABM Musa</title>
+
+  <meta name="author" content="ABM Musa" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="HOME - ABM Musa" href="/~amusa/feed.xml" />
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/~amusa/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/~amusa/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/~amusa/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="ABM Musa" />
+  
+
+   
+  <meta property="og:description" content="### About Me I am currently an Applied Scientist at [Amazon](https://www.amazon.com) working on localization, maps, and geo-related projects at the Last Mile Technology group. I obtained a Ph.D. in [Computer Science](https://www.cs.uic.edu) from the University of Illinois at Chicago [(UIC)](https://www.uic.edu) in 2017. I worked with [Professor Jakob Eriksson](https://www.cs.uic.edu/Jakob) at [BITS Networked...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://www.cs.uic.edu/~amusa/" />
+  <link rel="canonical" href="http://www.cs.uic.edu/~amusa/" />
+  
+
+  
+  
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="ABM Musa" />
+  
+
+  
+  <meta name="twitter:description" content="### About Me I am currently an Applied Scientist at [Amazon](https://www.amazon.com) working on localization, maps, and geo-related projects at the Last Mile Technology group. I obtained a Ph.D. in [Computer Science](https://www.cs.uic.edu) from the University of Illinois at Chicago [(UIC)](https://www.uic.edu) in 2017. I worked with [Professor Jakob Eriksson](https://www.cs.uic.edu/Jakob) at [BITS Networked...">
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://www.cs.uic.edu/~amusa">HOME</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/~amusa/research">Research</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/~amusa/resume">Resume</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/~amusa/misc">Misc</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>ABM Musa</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <p><img src="/~amusa/img/profile3.jpg" alt="Drawing" style="width: 400px;" /></p>
+
+<h3 id="about-me">About Me</h3>
+<p>I am currently an Applied Scientist at <a href="https://www.amazon.com">Amazon</a> working on localization, maps, and geo-related projects at the Last Mile Technology group. I obtained a Ph.D. in <a href="https://www.cs.uic.edu">Computer Science</a> from the University of Illinois at Chicago <a href="https://www.uic.edu">(UIC)</a> in 2017. I worked with <a href="https://www.cs.uic.edu/Jakob">Professor Jakob Eriksson</a> at <a href="https://www.cs.uic.edu/Bits">BITS Networked Systems Laboratory</a>. I completed my BS in <a href="https://cse.buet.ac.bd">Computer Science and Engineering</a> from Bangladesh University of Engineering and Technology <a href="http://www.buet.ac.bd">(BUET)</a>.</p>
+
+<h3 id="reserach-interests">Reserach Interests</h3>
+<ul>
+  <li>Localization</li>
+  <li>Tracking</li>
+  <li>Video analytics</li>
+  <li>Applied machine learning</li>
+  <li>Mobile sensing and systems</li>
+  <li>Networked systems and wireless networks</li>
+</ul>
+
+<h3 id="publications">Publications</h3>
+<ol class="bibliography"><li><span id="musa-visloc">A.B.M. Musa and Jakob Eriksson, “<b>Looking Beyond GPS: Vision-based Sub-Meter Smartphone Re-Localization</b>,” <i>to be submitted in CVPR (available on request)</i>, 2017.</span>
+
+
+
+
+
+</li>
+<li><span id="musa-tmc16">A.B.M. Musa, James Biagioni, and Jakob Eriksson, “<b>Trading Off Accuracy, Timeliness, and Uplink Usage in Online GPS Tracking</b>,” <i>IEEE Transactions on Mobile Computing (TMC)</i>, vol. 15, no. 8, pp. 2124–2136, Aug. 2016.</span>
+
+ <a href="papers/musa-tmc16.pdf">[paper]</a> 
+ <a href="papers/slides_musa-tmc16.key">[slides (keynote)]</a> 
+ <a href="papers/slides_musa-tmc16.pdf">[slides (pdf)]</a> 
+
+</li>
+<li><span id="biagioni-gis13">James Biagioni, A.B.M. Musa, and Jakob Eriksson, “<b>Thrifty Tracking: Online GPS Tracking with Low Data Uplink Usage</b>,” in <i>Proceedings of the 21st ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems</i>, New York, NY, USA, 2013, pp. 496–499.</span>
+
+ <a href="papers/biagioni-gis13.pdf">[paper]</a> 
+
+ <a href="papers/slides_biagioni-gis13.pdf">[slides (pdf)]</a> 
+ <a href="papers/poster_biagioni-gis13.pdf">[poster]</a> 
+</li>
+<li><span id="musa-sensys12">A.B.M. Musa and Jakob Eriksson, “<b>Tracking Unmodified Smartphones Using Wi-fi Monitors</b>,” in <i>Proceedings of the 10th ACM Conference on Embedded Network Sensor Systems (SenSys)</i>, New York, NY, USA, 2012, pp. 281–294.</span>
+
+ <a href="papers/musa-sensys12.pdf">[paper]</a> 
+ <a href="papers/slides_musa-sensys12.key">[slides (keynote)]</a> 
+ <a href="papers/slides_musa-sensys12.pdf">[slides (pdf)]</a> 
+
+</li>
+<li><span id="musa-sensys11-demo">A.B.M. Musa and Jakob Eriksson, “<b>Demo: WiFlow: Real Time Travel Time Estimation Using Wi-fi Monitors</b>,” in <i>Proceedings of the 9th ACM Conference on Embedded Networked Sensor Systems (SenSys)</i>, New York, NY, USA, 2011, pp. 429–430.</span>
+
+ <a href="papers/musa-sensys11-demo.pdf">[paper]</a> 
+
+
+
+</li>
+<li><span id="musa-mobicom10-demo">A.B.M. Musa and Jakob Eriksson, “<b>Demo: On-Demand, Deploy-Anywhere Wi-Fi Diagnostics</b>,” in <i>16th ACM Conference on Mobile Computing and Networking (MobiCom)</i>, New York, NY, USA, 2010.</span>
+
+ <a href="papers/musa-mobicom10-demo.pdf">[paper]</a> 
+
+
+
+</li></ol>
+
+<h3 id="patents">Patents</h3>
+<ol>
+  <li>Theodoros Salonidis, A.B.M. Musa, Seraphin B. Calo, Murtaza Jafar, <strong>Executing Data Stream Processing Applications in Dynamic Network Environments</strong>, International Business Machines Corporation, US20160156514 (2016). <a href="https://www.google.com/patents/US9705749">[url]</a></li>
+  <li>Lenin Ravindranath, Victor Bahl, A.B.M. Musa, and David Chu, <strong>Application-centric Socialization</strong>, Microsoft Corporation, US20140280443 (2014). <a href="https://www.google.com/patents/US20140280443">[url]</a></li>
+</ol>
+
+<h3 id="contact">Contact</h3>
+<p>Email: <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#109;&#117;&#115;&#097;&#050;&#064;&#117;&#105;&#099;&#046;&#101;&#100;&#117;">&#097;&#109;&#117;&#115;&#097;&#050;&#064;&#117;&#105;&#099;&#046;&#101;&#100;&#117;</a></p>
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+          <li>
+            <a href="https://github.com/abmmusa" title="GitHub">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+	  
+      
+		  
+          <li>
+            <a href="mailto:amusa2@uic.edu" title="Email me">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+          <li>
+            <a href="https://linkedin.com/in/abmmusa" title="LinkedIn">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+		  
+      
+      
+      
+      
+      
+		  
+        </ul>
+        <p class="copyright text-muted">
+		  ABM Musa
+		  &nbsp;&bull;&nbsp;
+		  2017
+
+		  
+	    </p>
+	        <!-- Please don't remove this, keep my open source work credited :) -->
+		<p class="theme-by text-muted">
+		  Theme by
+		  <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+		</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/~amusa/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/~amusa/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/~amusa/js/main.js"></script>
+    
+  
+
+
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-91451662-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+<script type="text/javascript">
+var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(101023505);
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+})();
+</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101023505ns.gif" /></p></noscript>
+
+
+
+  
+  </body>
+</html>

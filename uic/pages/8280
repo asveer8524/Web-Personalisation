@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Homework 1 &middot; CS450: Introduction to Networking
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/poole.css">
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/syntax.css">
+  <link rel="stylesheet" href="/~balajee/cs450-f16/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/~balajee/cs450-f16/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/~balajee/cs450-f16/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-08">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>This is the webpage for the course "CS450: Introduction to Networking" at the University of Illinois at Chicago (UIC).</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/~balajee/cs450-f16/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+        
+        <a class="sidebar-nav-item active" href="/~balajee/cs450-f16/hw1/">Homework 1</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw2/">Homework 2</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw3/">Homework 3</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw4/">Homework 4</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw5/">Homework 5</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/hw6/">Homework 6</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/schedule/">Schedule</a>
+        
+      
+    
+      
+        
+        <a class="sidebar-nav-item" href="/~balajee/cs450-f16/syllabus/">Syllabus</a>
+        
+      
+    
+    
+    <!--
+    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+    -->
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2018. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/~balajee/cs450-f16/" title="Home">CS450: Introduction to Networking</a>
+            <small>Fall 2016</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">Homework 1</h1>
+  <h2 id="homework-1-virtualbox-git-and-a-web-client">Homework 1: Virtualbox, git, and a web client</h2>
+
+<h3 id="setting-up-an-ubuntu-1404-virtual-machine">Setting up an Ubuntu 14.04 virtual machine</h3>
+
+<p>For this class, we will use Ubuntu 14.04 as the reference platform to run all programs.</p>
+
+<p>You are welcome to develope and test your programs on any platform of your choice, 
+but you NEED TO make sure that your final programs compile and run fine on Ubuntu 14.04, because that’s what will be used for grading.</p>
+
+<p>For this reason, we will provide a Ubuntu14.04 VM image as a reference, which you can use to test your programs. 
+You should be able to use the image with any virtualization software, but we recommend and support using VirtualBox and here is how to set it up:</p>
+
+<p>Once you have VirtualBox installed (https://www.virtualbox.org/wiki/Downloads), you should download the VM image we have provided from (https://drive.google.com/folderview?id=0ByajJYQ856dpVmJ6clYxeFQxcWs&amp;usp=sharing)</p>
+
+<ol>
+  <li>Open VirtualBox</li>
+  <li>Go to File &gt; Import Appliances</li>
+  <li>Find the image (.ova) you downloaded.</li>
+  <li>Press Import and your done!</li>
+</ol>
+
+<p>Once you have your image imported, you can adjust the amount of RAM size etc. and start it up.</p>
+
+<p>Login with:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>		user: networking
+		password: networking
+</code></pre>
+</div>
+
+<p>NOTE that the GUI has been turned off by default to make the virtual OS lighter.</p>
+
+<p>If you need the GUI you can activate Ubuntu display manager server by</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo service lightdm start
+</code></pre>
+</div>
+<p>and then <code class="highlighter-rouge">Ctrl+Alt+F7</code> to switch to GUI terminal. 
+You can always <code class="highlighter-rouge">Ctrl+Alt+F1</code> to switch back to tty1 and turn the GUI off by</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo service lightdm stop
+</code></pre>
+</div>
+
+<p>I recommend having VirtualBox running in the background and working from the comfort of your 
+own hosting environment via SSH connection to the running VM.</p>
+
+<p>To SSH to the running VirtualBox VM from your hosting OS:</p>
+
+<ol>
+  <li>In VirtualBox Go to Ubuntu-VM -&gt; Settings -&gt; Network</li>
+  <li>Make sure Adapter 2 is set as an “Host-only Adapter”</li>
+  <li>Start the VM and execute
+    <div class="highlighter-rouge"><pre class="highlight"><code>$ ifconfig -a
+</code></pre>
+    </div>
+    <p>The IP of your VM should be displayed in “eth0” under “inet addr”</p>
+  </li>
+  <li>You can access the running VM from the terminal in your own machine by:
+    <div class="highlighter-rouge"><pre class="highlight"><code>$ ssh networking@IP
+</code></pre>
+    </div>
+    <p>(or use Putty in Windows)</p>
+  </li>
+</ol>
+
+<h3 id="build-essentials">Build essentials</h3>
+
+<p>Once you have an Ubuntu 14.04, type following to make it ready for Git and programming.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get install build-essential  
+sudo apt-get install git
+</code></pre>
+</div>
+
+<p>These has been already installed on the provided VM image. 
+Note that the GCC 4.8 installed by build-essentials is our reference C compiler for this course.</p>
+
+<h3 id="git-class-repositories-repos">git, class repositories (repos)</h3>
+
+<p>The main objective of this homework is to get you familiarized with the versioning system we will be using for homework turn-in, called git. Git is a decentralized revision control system. You will also get a quick introduction to network programming in C, which will be our main language in the course.</p>
+
+<p>Using your private key, check out the public course repository:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git clone cs450git@words.cs.uic.edu:cs450-f16/public.git
+</code></pre>
+</div>
+
+<p>Once you’ve cloned the public repo, you will have a directory <code class="highlighter-rouge">public</code> filled with useful files for all students. Some of those files will allow you to use IP version 6 on your virtual machine. You will first need to add some packages and prepare your VM for connecting to our IPv6 VPN. To prepare your new ubuntu install for class, run these commands from within the public repo you just cloned:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>cd public
+cd utils
+tar xzf bitsvpn.tgz
+cd bitsvpn
+sudo ./install.sh
+</code></pre>
+</div>
+
+<p>If all goes well, your virtual machine is now on the IPv6 Internet. You can verify this by trying the command:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ ping6 ipv6.google.com
+</code></pre>
+</div>
+
+<p>If that ping command works, you’re in business! Now you’re ready for the fun part.</p>
+
+<p>Refer to the discussion site if you have further questions.</p>
+
+<h3 id="your-personal-repository">your personal repository</h3>
+
+<p>You can also check out your personal repository:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git clone cs450git@words.cs.uic.edu:cs450-f16/YOURUSERNAME.git
+</code></pre>
+</div>
+
+<p>You will want to copy the skeleton code from the public direcotry to your new <code class="highlighter-rouge">YOURUSERNAME</code> directory. Here, my username is <code class="highlighter-rouge">bvamanan-student</code>. When you first clone the repository, it will be empty. Your first task is to copy the <code class="highlighter-rouge">hw1</code> skeleton code to your repository. If you’ve done that correctly, the <code class="highlighter-rouge">tree</code> program will print a graphical (ascii art) representation of the directories and files within the current directory:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>ubuntu@ip-10-143-165-210:~$ cd bvamanan-student
+ubuntu@ip-10-143-165-210:~/bvamanan-student$ tree
+.
+└── hw1
+    ├── hw1.c
+    ├── Makefile
+    └── SUBMISSION_COMMENTS.txt
+
+1 directory, 3 files
+</code></pre>
+</div>
+
+<p>Now, just to test things out, let’s add these files to the repository, commit them, and send the changes to the central server.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>ubuntu@ip-10-143-165-210:~/bvamanan-student$ git add hw1
+ubuntu@ip-10-143-165-210:~/bvamanan-student$ git commit -a -m'added hw1 skeleton'
+[master e66c87f] added hw1 skeleton
+ 3 files changed, 77 insertions(+)
+ create mode 100644 hw1/Makefile
+ create mode 100644 hw1/SUBMISSION_COMMENTS.txt
+ create mode 100644 hw1/hw1.c
+ubuntu@ip-10-143-165-210:~/bvamanan-student$ git push
+Counting objects: 7, done.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 1.13 KiB, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To git@git.uicbits.net:cs450-f15/bvamanan-student.git
+   4781aea..e66c87f  master -&gt; master
+ubuntu@ip-10-143-165-210:~/bvamanan-student$
+</code></pre>
+</div>
+
+<p><strong>Remember</strong>, if you don’t push, we don’t see it! We will be making copies of the repositories at each deadline (full credit, 10% off, etc), so do not leave this for the last minute. If you submit it one second too late, you’ll be in the next lateness bracket, no exceptions.</p>
+
+<h3 id="the-programming-part">The Programming Part!</h3>
+
+<p>For this week’s programming exercise, we will create a barebones web client (think <code class="highlighter-rouge">wget</code>). Based on the example tcp client code in the <code class="highlighter-rouge">hw1</code> in the public repository, and the HTTP example sessions shown in class, you will write a command-line program called <code class="highlighter-rouge">hw1</code> that takes a URL as its only parameter, retrieves the indicated file, and stores it in the local directory with the appropriate filename. If the URL does not end in a filename, your program should automatically request the file ‘index.html’. Make sure it works for both text and images by opening the stored file in a web browser.</p>
+
+<p>You may assume that the URL is on the form <a href="http://host/path">http://host/path</a>, where path may or may not be an empty string, may or may not contain multiple slashes (for subdirectories), and may or may not contain a file name. You may assume files to be no larger than one megabyte, and you are not expected to follow any HTTP redirect (3xx); your code can simply exit without saving any file.</p>
+
+<p>The hostname may be a name like www.google.com, but the example code requires an ip address (like 64:ff9b::83c1:201d). To look up the IP address of a given host name, use <code class="highlighter-rouge">getaddrinfo()</code>. <code class="highlighter-rouge">man 3 getaddrinfo</code> on the command line will give you the details, or use <a href="http://linux.die.net/man/3/gethostbyname">this link</a>, and see the <code class="highlighter-rouge">getaddrinfo.c</code> example.</p>
+
+<h3 id="template">Template</h3>
+
+<p>For this homework, there is a prepared skeleton directory that you may use located in the public git repository.</p>
+
+<h3 id="a-few-hints">A few hints</h3>
+
+<ul>
+  <li>Use http version 1.0. Version 1.1 can get a lot more complicated.</li>
+  <li>Good functions to use for handling filenames and text include <code class="highlighter-rouge">sprintf, sscanf, strstr, strchr</code>.</li>
+  <li>Section 2.2.2-2.2.3 in the book should also be helpful. Your book talks about the “request line” and “header lines” for an HTTP request. You will only need to use the <strong><em>*request line*</em></strong> and the <strong><em>*host line*</em></strong> of the header.</li>
+</ul>
+
+<p>Read more about these using the man pages. For example, try <code class="highlighter-rouge">man sprintf</code> on the command line.</p>
+
+<ul>
+  <li>
+    <p>A “newline” in http consists of two ascii characters: <code class="highlighter-rouge">\r\n</code>, not just <code class="highlighter-rouge">\n</code>.</p>
+  </li>
+  <li>
+    <p>Your program will be tested (at least) on these urls:</p>
+  </li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>http://www.google.com/
+http://www.google.com/intl/en_ALL/images/logo.gif
+http://www.google.com/thispagedoesnotexist
+http://www.thissitedoesnotexist1776.com 
+http://www.adorama.com/alc/0012691/article/Lenses-Product-Reviews-AdoramaTV
+</code></pre>
+</div>
+
+<ul>
+  <li>Make sure you handle all these cases gracefully. If you don’t send a host</li>
+  <li>
+    <p>header, the first should produce a file <code class="highlighter-rouge">index.html</code>, the second the google logo saved into the file <code class="highlighter-rouge">logo.gif</code>, and the rest should produce an error because they do not give you a <code class="highlighter-rouge">200 OK</code> response; you can thus quit your program by calling <code class="highlighter-rouge">exit(1)</code>. <a href="http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html">Beej’s Guide to Network Programming</a> is a great resource you may want to make use of.</p>
+  </li>
+  <li>
+    <p>If you’re curious, try firing up Wireshark, and then fetching the URL with <code class="highlighter-rouge">wget</code> or <code class="highlighter-rouge">curl</code>. You’ll find the request they sent (which may have a lot of additional parameters in it) in one of the packets with destination port 80.</p>
+  </li>
+  <li>Spend some time thinking about how to do the string manipulation. It does not have to be complicated. The complete program, including comments, error handling etc. can be written in about 100 leisurely lines.</li>
+</ul>
+
+<h3 id="turn-in-instructions">Turn-in instructions</h3>
+
+<p>For your turn-in, prepare a Makefile that compiles the hw1 target, and push your changes to your repository. To make sure your submission is complete, make sure your program works as follows:</p>
+
+<p>Try the following <em>in a temporary directory</em>, i.e. create and change into a temporary directory under the <code class="highlighter-rouge">/tmp</code> filesystem:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>mkdir /tmp/hw1-temp
+cd /tmp/hw1-temp
+git clone cs450git@words.cs.uic.edu:cs450-f16/MYUSERNAME.git
+cd hw1
+make
+./hw1 http://www.google.com/index.html 
+</code></pre>
+</div>
+
+<p>This process should produce a file called index.html in the current working directory, containing the source for the google front page.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>./hw1 http://www.google.com/intl/en_ALL/images/logo.gif 
+</code></pre>
+</div>
+
+<p>Running this line should produce a file called logo.gif, containing the google logo.</p>
+
+<h3 id="grading">Grading</h3>
+
+<p>Grading will be done automatically using a script. You can check your grade even before final submission using the script. The grading script is published at:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>public/grading_scripts
+</code></pre>
+</div>
+
+<p>You can check your solution by running the script as below. </p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>./hw1_score homework_directory output_file score_file
+</code></pre>
+</div>
+
+<p>The score file will look like below.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>[SUCCESS] code compiled [1.0]: 1.0
+[SUCCESS] index.html created for http://www.google.com? [1.0]: 1.0
+[SUCCESS] skype_logo.png created for http://www.skypeassets.com/i/images/logos/skype_logo.png? [1.0]: 1.0
+[SUCCESS] images_logo_lg.gif created for http://images.google.com/intl/en_ALL/images/logos/images_logo_lg.gif? [0.5]: 0.5
+[SUCCESS] biagioni-gis13.pdf created for http://biagioni.net/papers/biagioni-gis13.pdf? [0.5]: 0.5
+[SUCCESS] exit with error for http://www.google.com/thispagedoesnotexist? [0.5]: 0.5
+[SUCCESS] exit with error for http://www.thissitedoesnotexist1000.com? [0.5]: 0.5
+[SUCCESS] exit with error for http://www.skype.com? [0.5]: 0.5
+[SUCCESS] skype_logo.png size correct? [0.5]: 0.5
+[SUCCESS] images_logo_lg.gif size correct? [0.5]: 0.5
+[SUCCESS] biagioni-gis13.pdf size correct? [1.0]: 1.0
+[SUCCESS] skype_logo.png content correct? [0.5]: 0.5
+[SUCCESS] images_logo_lg.gif content correct? [0.5]: 0.5
+[SUCCESS] biagioni-gis13.pdf content correct? [1.0]: 1.0
+[SUCCESS] Lenses-Product-Reviews-AdoramaTV created for http://www.adorama.com/alc/0012691/article/Lenses-Product-Reviews-AdoramaTV? [0.5]: 0.5
+Total score: 10
+</code></pre>
+</div>
+
+<h3 id="due-date">Due Date</h3>
+
+<p>This assignment is due <strong>Wednesday, September 7, at 3 PM</strong>. See the syllabus for the late turnin policy. This assignment is worth just as much as every other homework, so getting as much credit on it as possible is important (don’t turn in late!).</p>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>
